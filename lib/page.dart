@@ -1,7 +1,11 @@
+import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:medan_hokkien_dictionary/dictionary.dart';
 import 'package:medan_hokkien_dictionary/main.dart';
+import 'package:medan_hokkien_dictionary/style.dart';
+import 'package:medan_hokkien_dictionary/util.dart';
 
 class DictionaryPage extends StatefulWidget {
   const DictionaryPage({super.key, required this.title});
@@ -14,7 +18,84 @@ class DictionaryPage extends StatefulWidget {
 
 class _DictionaryPageState extends State<DictionaryPage> {
   bool isEnglish = true;
+  bool showCenterText = true;
   final TextEditingController searchController = TextEditingController();
+  String prevInput = "";
+
+  List<Entry> dictEntries = List.empty(growable: true);
+  Timer? _debounce;
+
+  void onChangedLang() {
+    String input = prevInput;
+    prevInput = "";
+    onChangedText(input);
+  }
+
+  void onChangedText(String text) {
+    if (_debounce?.isActive ?? false) _debounce!.cancel();
+    _debounce = Timer(const Duration(milliseconds: 300), () {
+      String input = text.toLowerCase().trim();
+
+      if (input.isEmpty) {
+        dictEntries.clear();
+      } else {
+        if (prevInput.isNotEmpty && input.contains(prevInput)) {
+          if (isEnglish) {
+            var idx = 0;
+            while (idx < dictEntries.length) {
+              final entry = dictEntries[idx];
+
+              bool hasFound = false;
+              for (final def in entry.definitions) {
+                if (def.content.toLowerCase().contains(input)) {
+                  hasFound = true;
+                  break;
+                }
+              }
+
+              if (!hasFound) {
+                dictEntries.removeAt(idx);
+                continue;
+              }
+
+              idx++;
+            }
+          } else {
+            
+          }
+        } else {
+          dictEntries.clear();
+          
+          if (isEnglish) {
+            entryLoop2:
+            for (final entry in kEntries) {
+              for (final def in entry.definitions) {
+                if (def.content.toLowerCase().contains(input)) {
+                  dictEntries.add(entry);
+                  continue entryLoop2;
+                }
+              }
+            }
+          } else {
+
+          }
+        }
+      }
+
+      setState(() {
+        showCenterText = input.isEmpty;
+      });
+
+      prevInput = input;
+    });
+  }
+
+  @override
+  void dispose() {
+    _debounce?.cancel();
+    searchController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -44,7 +125,8 @@ class _DictionaryPageState extends State<DictionaryPage> {
                   // SEARCH BAR
                   SizedBox(
                     width: MediaQuery.of(context).size.width - 100,
-                    child: TopSearchBanner(isEnglish: isEnglish, searchController: searchController)
+                    height: 40.0,
+                    child: TopSearchBanner(isEnglish: isEnglish, searchController: searchController, onChangedText: onChangedText)
                   ),
                   Padding(padding: EdgeInsetsGeometry.all(10)),
                   // CHINESE/ENGLISH TOGGLE BUTTON
@@ -56,6 +138,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
                       onToggle: () {
                         setState(() {
                           isEnglish = !isEnglish;
+                          onChangedLang();
                         });
                       },
                     )
@@ -64,7 +147,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
               ],
             )
           ),
-          Expanded(
+          showCenterText ? Expanded(
             child: Center(
               child: Container(
                 padding: EdgeInsets.all(20.0),
@@ -78,7 +161,26 @@ class _DictionaryPageState extends State<DictionaryPage> {
                 ),
               ),
             ),
-          )
+          ) : Expanded(child: ListView.builder(
+            itemCount: dictEntries.length,
+            itemBuilder: (context, index) {
+              final entry = dictEntries[index];
+              return Padding(
+                padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 7.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(children: [
+                      Text(entry.hanziDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(30.0))),
+                      SizedBox(width: 20),
+                      Text(entry.pojDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(20.0)))
+                    ]),
+                    Text(entry.definitionsDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(20.0)))
+                  ]
+                )
+              );
+            }
+          ))
         ],
       )
     );
@@ -88,11 +190,13 @@ class _DictionaryPageState extends State<DictionaryPage> {
 class TopSearchBanner extends StatelessWidget {
   final TextEditingController searchController;
   final bool isEnglish;
+  final void Function(String) onChangedText;
   
   const TopSearchBanner({
     super.key,
     required this.isEnglish,
-    required this.searchController
+    required this.searchController,
+    required this.onChangedText
   });
 
   @override
@@ -121,11 +225,10 @@ class TopSearchBanner extends StatelessWidget {
             style: TextStyle(
               color: Colors.white,
               fontFamily: GoogleFonts.notoSans().fontFamily!,
-              fontWeight: FontWeight.bold
+              fontWeight: FontWeight.bold,
+              fontSize: minDouble(0.1 * MediaQuery.of(context).size.width, 13) // Search bar text font size
             ),
-            onChanged: (value) {
-              print("User typed: $value");
-            },
+            onChanged: onChangedText,
             decoration: InputDecoration(
               hintText: isEnglish ? "Search in English..." : "Search in Chinese or POJ...",
               hintStyle: const TextStyle(

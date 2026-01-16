@@ -1,7 +1,6 @@
-import 'dart:math';
-
 import 'package:flutter/foundation.dart' hide Category;
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:medan_hokkien_dictionary/dictionary.dart';
 import 'package:medan_hokkien_dictionary/page.dart';
 import 'package:medan_hokkien_dictionary/style.dart';
@@ -38,6 +37,8 @@ class LoadingPage extends StatefulWidget {
 
 class _LoadingPageState extends State<LoadingPage> {
   double progress = 0.0;
+
+  String progressText = "Initialising...";
 
   void getAllEntries() async {
     String dictionaryText = await loadDictionary();
@@ -99,9 +100,17 @@ class _LoadingPageState extends State<LoadingPage> {
   @override
   void initState() {
     super.initState();
+
+    GoogleFonts.getFont("Noto Sans SC");
+    GoogleFonts.getFont("Noto Sans TC");
     
+    progressText = "Loading dictionary...";
     initDictionary();
+    
+    progressText = "Compiling dictionary...";
     getAllEntries();
+    
+    progressText = "Loading fonts...";
   }
 
   @override
@@ -124,6 +133,10 @@ class _LoadingPageState extends State<LoadingPage> {
             Text(
               'Loading Dictionary: ${(progress * 100).toStringAsFixed(1)}%',
               style: kUITextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)
+            ),
+            SizedBox(height: 50),
+            Text(
+              progressText, style: kUITextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)
             ),
           ],
         ),

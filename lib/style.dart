@@ -22,6 +22,7 @@ final kCJKTextStyle = TextStyle(
   fontFamilyFallback: [
     GoogleFonts.notoSansTc().fontFamily!,
   ],
+  color: Colors.white
 );
 
 final kUITextStyle = TextStyle(

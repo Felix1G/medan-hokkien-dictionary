@@ -35,7 +35,7 @@ $verb to push
 =㧣㧣車:tu-tu-chhia
 $noun wheelchair
 =䆀:bái
-$adj (of a person) Ugly, bad
+$adj (of a person) ugly, bad
 =一:cēʳ
 $num one (1) (bef. noun/classifier)
 =一:chi̍t/it
@@ -43,9 +43,9 @@ $num one (1)
 =一下:cēʳ-èⁿ
 $advb (to do an action) for a while, quickly
 =一日風兩日雨:cēʳ-ji̍t hong nō͘-ji̍t hō͘
-$idiom (idiom) Today and tomorrow can be different
+$idiom today and tomorrow can be different
 =一羅匱兩盎:cēʳ-lô kiám nō͘-ón
-$idiom (idiom) (of a person, euphemistically) Insane, stupid, absurd
+$idiom (of a person, euphemistically) insane, stupid, absurd
 =七:chhit
 $num seven (7)
 =七十:chhiap
@@ -71,7 +71,7 @@ $noun new Year's Eve
 =三層:sam-chân
 $food pork belly
 =三角六角:saⁿ-kak la̍k-kak
-$idiom (idiom) Style of an arrogant person, behave arrogantly
+$idiom style of an arrogant person, behave arrogantly
 =上:téng
 $adj up, above
 =上個月:téng-ko-goe̍h
@@ -95,9 +95,7 @@ $noun below
 $noun under
 $noun underneath
 =不要緊:biàu-kín
-$phrase not a problem
-$phrase it's fine
-$phrase never mind about that
+$phrase not a problem, it's fine, never mind about that
 =世界:sì-kài
 $adj trending, getting popular, getting famous
 =世界:sè-kài
@@ -280,9 +278,8 @@ $verb to build a personality
 $verb to break, to be damaged
 =做好事:chò-hó-sū
 $verb to do good deeds
-=做家婆，無薪水:chò ke-pô
-$phrase bô sin-lô
-$phrase (idiom) It's not good to be kaypoh (overly curious on someone else's matter)
+=做家婆，無薪水:chò ke-pô, bô sin-lô
+$idiom it's not good to be kaypoh (overly curious on someone else's matter)
 =做工:chò-kang
 $verb to work (a job)
 =做斷:chò-tùi
@@ -377,7 +374,7 @@ $see 涼
 $explain
 Colder than 涼
 =冷厲到凉:léng-lì káu liâng
-$idiom (idiom) Air-conditioned, cooled air
+$phrase air-conditioned, cooled air
 =冷氣:lèng-khì
 $noun cold (or cool) air
 $noun air conditioning
@@ -473,7 +470,7 @@ $noun power
 $verb to add, to increase
 $verb to put in (in context of adding more objects)
 =加水加豆腐:keⁿ chúi keⁿ ta-hù
-$idiom (idiom) Conversation is going too long that it is becoming pointless.
+$idiom conversation is going too long that it is becoming pointless.
 =加油:chia-iôu
 $verb to cheer somebody on
 $etyCMN jiā yóu
@@ -483,7 +480,7 @@ $verb to touch
 $noun bag, sack
 $verb to wrap (something including food)
 =包沙包海:pau soa pau hái
-$idiom (idiom) To do everything, to do all the work
+$idiom to do everything, to do all the work
 =包甲了:pau-ka-liáu
 $verb to be comprehensive, complete, all-round
 =包裝:pau-chng
@@ -498,7 +495,7 @@ $num ten (10)
 =十一十二:cha̍p-it cha̍p-jī
 $phrase to be equal, to be the exact same
 =十三個月出生:cha̍p-saⁿ ko goe̍h chhut-sî
-$idiom (idiom) (sarcastic) To never want to be defeated, to never want to lose
+$idiom (sarcastic) to never want to be defeated, to never want to lose
 =十五暝:cha̍p-gō͘-mêⁿ
 $time [Event] Lantern Festival, cap Go Meh (A festival marking the end of the Chinese New Year period, celebrated on the 15th date of the 1st month in the lunar calendar)
 =十億:eⁿm
@@ -813,7 +810,7 @@ $verb mukbang
 =天:thi
 $noun sky
 =天低低:thi kēⁿ-kēⁿ
-$idiom (idiom) God knows (Used to tell someone lying that their words or the truth is also known by God)
+$idiom God knows (Used to tell someone lying that their words or the truth is also known by God)
 =天公:thi-kong
 $noun supreme Deity, lord of Heaven, ruler of Heaven, jade Emperor (according to Chinese folk religion and Taoism)
 =天公爐:thi-kong-lô/thi-kong-lô͘
@@ -836,7 +833,7 @@ $explain
 =好勢:hó-sè
 $verb to have finished, to have completed, to be done
 $adj perfect, excellent
-$adj (of a person's life) Successful
+$adj (of a person's life) successful
 =好命:hó-miâ
 $verb have a lucky fate, blessed with good fortune
 $verb (of life) Good, great
@@ -845,7 +842,7 @@ $verb (of a girl or woman) To make an effort to look pretty
 =好寶:hó-pôa
 $adj good value for money, good quality or product relative to the high price
 =好心無好保:hó-sim bô hó-pó
-$idiom (idiom) Being kind but unappreciated, kindness unrewarded
+$idiom being kind but unappreciated, kindness unrewarded
 =好料:hó-liāu
 $adj (of food) Delicious, yummy
 =好朋:hó-pêng
@@ -1181,7 +1178,7 @@ $noun meaning
 =愛:ái
 $verb to want
 =愛笑:ái-chhiò
-$adj (of a person) Unable to hold back a smile and burst into laughter
+$adj (of a person) unable to hold back a smile and burst into laughter
 =感謝:kám-siā
 $verb thank
 =慘:chhám
@@ -1420,8 +1417,8 @@ $verb to fold
 =摺紙:chih-chóa
 $verb to fold the paper
 =摻:chham-chéng
-$adj (of a person) To be bred with another race
-$adj (of plants) To be cross-bred with another plant, hybrid
+$adj (of a person) to be bred with another race
+$adj (of plants) to be cross-bred with another plant, hybrid
 =摻:chham
 $verb to mix
 $verb to mix in and be with (a group)
@@ -1487,8 +1484,7 @@ $verb to poo
 $verb to get off work, to finish work, to leave work
 =放心:pàng-sim
 $verb to calm down
-=放驚飛，捏驚死:pàng kiaⁿ poe
-$phrase tēⁿ kiaⁿ sí
+=放驚飛，捏驚死:pàng kiaⁿ poe, tēⁿ kiaⁿ sí
 $phrase insincere, unwilling
 =政府:chèng-hú
 $noun government
@@ -1535,7 +1531,7 @@ $loc Japan
 =日頭:ji̍t-thâu
 $noun sun
 =日頭旺旺:ji̍t-thâu ōng-ōng
-$idiom (idiom) Bright sun and clear sky
+$idiom bright sun and clear sky
 =早:cha
 $adj early
 =早暝:cha-mê
@@ -1601,9 +1597,8 @@ $verb to stay put, to not be boisterous, to not be busybody
 =會曉:ē-hiáu
 $verb can do
 $verb to know how to do
-=會狗，予蜜蜂叮:ē káu
-$phrase hō͘ bi̍k-phang teng
-$phrase (idiom) To be suffering but unable to talk about it
+=會狗，予蜜蜂叮:ē káu, hō͘ bi̍k-phang teng
+$idiom to be suffering but unable to talk about it
 =會記:ē-kì
 $verb to remember
 =會閒:ē-hù
@@ -1624,7 +1619,7 @@ $verb to be honest, to be truthful, to be sincere, to be frank
 =有力:ū-la̍t
 $verb to be strong, to be powerful, to have lots of strength
 =有年無月:ū nî bô goe̍h
-$idiom (idiom) To not be clear, unclear
+$idiom to not be clear, unclear
 =有影:ū-iáⁿ
 $verb to be true, to be real
 =有時:u-sî
@@ -1685,7 +1680,7 @@ $adj female
 $noun firewood, brushwood
 $noun wood, log, timber
 =柴頭:chhâ-thâu
-$adj (of a person) Dull, ignorant, lifeless
+$adj (of a person) dull, ignorant, lifeless
 =桌:toh
 $noun table
 =桌上:toh-téng
@@ -2118,7 +2113,7 @@ $verb to have no relationship (between some things), to have no connection
 =無頂真:bô-téng-chin
 $verb to lack focus, to be careful
 =無頭無尾:bô-thâu-bô-bóe
-$idiom (idiom) A story with no linkage
+$idiom a story with no linkage
 =無頭神:bô-thâu-sîn
 $verb to be forgetful, to be scatterbrained, to be absent-minded
 =無風:bô-hong
@@ -2220,7 +2215,7 @@ $adj capable of driving a car
 =狗:káu
 $animal dog
 =狗则吠:káu tòe pūi
-$idiom (idiom) To follow someone endlessly
+$idiom to follow someone endlessly
 =狗囝:káu-kiáⁿ
 $animal puppy
 =狗蟻:káu-hiā
@@ -2258,7 +2253,7 @@ $phrase thriving and prosperous business
 =生日:seⁿ-ji̍t
 $noun birthday
 =生活有時起有時落:seⁿ-oa̍h ū-sî khí ū-sî lo̍h
-$idiom (idiom) Life has ups and downs, everyone experiences a natural mix of good times and bad times including successes and failures.
+$idiom life has ups and downs, everyone experiences a natural mix of good times and bad times including successes and failures.
 =生痕:seⁿ-hûn
 $verb to leave a mark, to create a mark (on a surface), to have been scratched,
 =生目針:sèⁿ-ba̍k-chiam
@@ -2480,7 +2475,7 @@ $noun bamboo
 $verb to smile
 $verb to laugh
 =笑面:chhiò-bīn
-$adj (of a person) Often smiles, likes to smile
+$adj (of a person) often smiles, likes to smile
 =第:tē
 $num [Affix before numerals to form ordinal numbers]
 $explain
@@ -2498,7 +2493,7 @@ $verb to wait for a while
 $body tendon
 $body nerves
 =筋無直:kin bô ti̍t
-$phrase (of a person) To have bad mood
+$phrase (of a person) to have bad mood
 =箇來:kó-lâi
 $noun here, this place, this region, this location, this spot
 =算盤:sǹg-pôaⁿ
@@ -2813,11 +2808,8 @@ $noun flower
 =花水:hoa-chhúi
 $noun flowers in water (used primarily for blessings)
 =花無一百日紅:hoa bô cēʳ-pah-ji̍t âng
-$idiom (idiom) Even beautiful things
-$idiom people
-$idiom or situations can fade
-$idiom decline
-$idiom or come to an end, nothing beautiful lasts forever.
+$idiom even beautiful things, people, or situations can fade, decline, or come to an end
+$idiom nothing beautiful lasts forever.
 =花螺:hoa-lê
 $animal tiger snail
 =芳:phang
@@ -2861,7 +2853,7 @@ $verb to not want
 $explain
 Contraction of 毋愛
 =莫煞:mài-soah
-$phrase [A sharp, annoyed exclamation used when someone keeps saying no]
+$phrase [a sharp, annoyed exclamation used when someone keeps saying no]
 =菊花:kek-hoa
 $food chrysanthemum flower
 =菊花茶:kek-hoa-têⁿ
@@ -2996,7 +2988,7 @@ $noun candle
 =血:hoeh
 $body blood
 =血高:hoeh-koan
-$adj (figurative) (of a person) Quick-tempered, short-tempered, irascible, easily get mad
+$adj (figurative) (of a person) quick-tempered, short-tempered, irascible, easily get mad
 =血高:hoeh-koân
 $body hypertension, high blood pressure
 =行:kiâⁿ
@@ -3097,7 +3089,7 @@ $verb to leave (an argument) alone
 $verb to let (someone) be
 $verb to intentionally concede (an argument)
 =論去求財:lūn-khì kiû châi
-$idiom (idiom) To intentionally concede or let things go in order to attract luck or become successful
+$idiom To intentionally concede or let things go in order to attract luck or become successful
 =論盡:lun-chūn
 $verb to be clumsy, to be careless
 $etyYUE leon6 zeon6
@@ -3405,7 +3397,7 @@ $noun iron door, steel gate
 =長:tn̂g
 $adj long
 =長名:tn̂g-miâ
-$adj (of a person) Long-lived, longevity, elderly, very aged
+$adj (of a person) long-lived, longevity, elderly, very aged
 =長名雨:tn̂g-miâ-hō͘
 $noun persistent rain, constant rain, prolonged rainfall
 =長大:téng-tōa
@@ -3581,7 +3573,7 @@ $adj successful
 =順風:sūn-hong
 $phrase have a safe flight!
 =頇慢:ham-bān
-$adj (of a person) Slow, sluggish
+$adj (of a person) slow, sluggish
 =領夾必:lêng-kap-pit
 $noun luggage, baggage
 =頭:thâu
@@ -3658,10 +3650,8 @@ $verb to eat breakfast
 $verb to be vegetarian, to be vegan
 =飯:pūiⁿ/pn̄g
 $food cooked rice
-=飯食較濟，話匱講:pūiⁿ chia̍h khah-chè
-$phrase ōa kiám kóng
-$phrase (idiom) To talk less
-$phrase say more, to reduce pointless talk, to cut the unnecessary talk, to stick to the point
+=飯食較濟，話匱講:pūiⁿ chia̍h khah-chè, ōa kiám kóng
+$idiom to talk less, say more, to reduce pointless talk, to cut the unnecessary talk, to stick to the point
 =飲:lim
 $verb to drink
 $verb drinks (noun)
@@ -3670,9 +3660,9 @@ $verb to feed
 $verb to raise (a child)
 $verb to adopt and raise a pet
 =飼了米:chhī liau bí
-$idiom (idiom) To raise (a child or generation) for nothing
+$idiom to raise (a child or generation) for nothing
 =飼雞變鳥:chhī ke piàn chiáu
-$idiom (idiom) Ungrateful, unappreciative
+$idiom ungrateful, unappreciative
 =飽:pá
 $adj full (stomach)
 $opp 餓

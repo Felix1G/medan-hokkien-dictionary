@@ -56,8 +56,8 @@ enum Category {
 }
 
 class Definition {
-  List<Category> categories;
-  String content;
+  final List<Category> categories;
+  final String content;
 
   Definition({required this.categories, required this.content});
 
@@ -69,12 +69,28 @@ class Definition {
   }
 }
 
-class Entry {
-  List<String> hanzi;
-  List<String> poj;
-  List<Definition> definitions;
+List<Category> _nondescriptiveCategories = [
+  Category.explanation, Category.etymology, Category.etyIDN, Category.etyMSA, Category.etyIMA,
+  Category.etyENG, Category.etyFRA, Category.etyVNM, Category.etyYUE, Category.etyTEO,
+  Category.etyHAK, Category.etyCMN, Category.etyJPN, Category.etySAN, Category.see,
+  Category.opposite,
+];
 
-  Entry({required this.hanzi, required this.poj, required this.definitions});
+class Entry {
+  final List<String> hanzi;
+  final List<String> poj;
+  final List<Definition> definitions;
+
+  final String hanziDisplay;
+  final String pojDisplay;
+  final String definitionsDisplay;
+
+  Entry({required this.hanzi, required this.poj, required this.definitions}) :
+    hanziDisplay = hanzi.join(" / "), pojDisplay = poj.join(" / "),
+    definitionsDisplay = definitions
+      .where((e) => !e.categories.any((cat) => _nondescriptiveCategories.contains(cat)))
+      .map((e) => e.content.replaceAll(",", ";"))
+      .join(", ");
   
   @override
   String toString() {

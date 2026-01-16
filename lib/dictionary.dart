@@ -85,12 +85,36 @@ class Entry {
   final String pojDisplay;
   final String definitionsDisplay;
 
-  Entry({required this.hanzi, required this.poj, required this.definitions}) :
-    hanziDisplay = hanzi.join(" / "), pojDisplay = poj.join(" / "),
-    definitionsDisplay = definitions
+  final List<String> searchUp;
+
+  factory Entry(List<String> hanzi, List<String> poj, List<Definition> definitions) {
+    final definitionsDisplay = definitions
       .where((e) => !e.categories.any((cat) => _nondescriptiveCategories.contains(cat)))
       .map((e) => e.content.replaceAll(",", ";"))
       .join(", ");
+
+    return Entry._internal(
+      hanziDisplay: hanzi.join(" / "),
+      pojDisplay: poj.join(" / "),
+      definitionsDisplay: definitionsDisplay,
+      searchUp: definitionsDisplay
+          .replaceAll(";", ",") //remove non-alphanumeric characters but leave the whitespace
+          .toLowerCase()
+          .split(",")
+          .map((s) => s.trim())
+          .toList(), //split any whitespace, including instances of multiple whitespaces e.g. "a    a"
+      hanzi: hanzi,
+      poj: poj,
+      definitions: definitions
+    );
+  }
+
+  const Entry._internal({
+    required this.hanziDisplay,
+    required this.pojDisplay,
+    required this.definitionsDisplay,
+    required this.searchUp, required this.hanzi, required this.poj, required this.definitions,
+  });
   
   @override
   String toString() {
@@ -196,7 +220,7 @@ Entry? parseEntry(List<String> textLines) {
     definitions.add(Definition(categories: [Category.explanation], content: explainBuffer.toString().trim()));
   }
 
-  return Entry(hanzi: hanzi, poj: poj, definitions: definitions);
+  return Entry(hanzi, poj, definitions);
 }
 
 Future<String> loadDictionary() async {

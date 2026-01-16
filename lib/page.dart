@@ -16,24 +16,34 @@ class DictionaryPage extends StatefulWidget {
   State<DictionaryPage> createState() => _DictionaryPageState();
 }
 
+class EntryData {
+  final int index;
+  int score = 0;
+  Entry get entry => kEntries[index];
+
+  EntryData({required this.index});
+
+  
+}
+
 class _DictionaryPageState extends State<DictionaryPage> {
   bool isEnglish = true;
   bool showCenterText = true;
   final TextEditingController searchController = TextEditingController();
   String prevInput = "";
 
-  List<Entry> dictEntries = List.empty(growable: true);
+  List<EntryData> dictEntries = List.empty(growable: true);
   Timer? _debounce;
 
   void onChangedLang() {
     String input = prevInput;
     prevInput = "";
-    onChangedText(input);
+    onChangedText(input, 10);
   }
 
-  void onChangedText(String text) {
+  void onChangedText(String text, [int debounceTime = 300]) {
     if (_debounce?.isActive ?? false) _debounce!.cancel();
-    _debounce = Timer(const Duration(milliseconds: 300), () {
+    _debounce = Timer(Duration(milliseconds: debounceTime), () {
       String input = text.toLowerCase().trim();
 
       if (input.isEmpty) {
@@ -45,17 +55,34 @@ class _DictionaryPageState extends State<DictionaryPage> {
             while (idx < dictEntries.length) {
               final entry = dictEntries[idx];
 
-              bool hasFound = false;
-              for (final def in entry.definitions) {
-                if (def.content.toLowerCase().contains(input)) {
-                  hasFound = true;
-                  break;
+              int score = 1000000000;
+              for (final keyword in entry.entry.searchUp) {
+                int strIdx = keyword.indexOf(input);
+                if (strIdx == -1) continue;
+
+                int newScore = 0;
+                int bef = strIdx;
+                int aft = strIdx + input.length;
+
+                while (bef - 1 >= 0 && !" ()".contains(keyword[bef - 1])) {
+                  newScore += 50;
+                  bef--;
                 }
+
+                while (aft < keyword.length && !" ()".contains(keyword[aft])) {
+                  newScore += 20;
+                  aft++;
+                }
+
+                newScore += (bef + (keyword.length - aft)) * 2;
+                score = minInt(newScore, score);
               }
 
-              if (!hasFound) {
+              if (score == 1000000000) {
                 dictEntries.removeAt(idx);
                 continue;
+              } else {
+                dictEntries[idx].score = score;
               }
 
               idx++;
@@ -67,20 +94,48 @@ class _DictionaryPageState extends State<DictionaryPage> {
           dictEntries.clear();
           
           if (isEnglish) {
-            entryLoop2:
-            for (final entry in kEntries) {
-              for (final def in entry.definitions) {
-                if (def.content.toLowerCase().contains(input)) {
-                  dictEntries.add(entry);
-                  continue entryLoop2;
+            var index = 0;
+            while (index < kEntries.length) {
+              final entry = kEntries[index];
+              int score = 1000000000;
+              for (final keyword in entry.searchUp) {
+                int strIdx = keyword.indexOf(input);
+                if (strIdx == -1) continue;
+
+                int newScore = 0;
+                int bef = strIdx;
+                int aft = strIdx + input.length;
+
+                while (bef - 1 >= 0 && !" ()".contains(keyword[bef - 1])) {
+                  newScore += 50;
+                  bef--;
                 }
+
+                while (aft < keyword.length && !" ()".contains(keyword[aft])) {
+                  newScore += 20;
+                  aft++;
+                }
+
+                newScore += (bef + (keyword.length - aft)) * 2;
+                score = minInt(newScore, score);
               }
+
+              if (score != 1000000000) {
+                final data = EntryData(index: index);
+                data.score = score;
+                dictEntries.add(data);
+              }
+
+              index++;
             }
+
           } else {
 
           }
         }
       }
+      
+      dictEntries.sort((a, b) => a.score.compareTo(b.score));
 
       setState(() {
         showCenterText = input.isEmpty;
@@ -164,15 +219,16 @@ class _DictionaryPageState extends State<DictionaryPage> {
           ) : Expanded(child: ListView.builder(
             itemCount: dictEntries.length,
             itemBuilder: (context, index) {
-              final entry = dictEntries[index];
+              final entry = dictEntries[index].entry;
               return Padding(
                 padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 7.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(children: [
-                      Text(entry.hanziDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(30.0))),
-                      SizedBox(width: 20),
+                      entry.hanziDisplay.isEmpty ? SizedBox() : Text(entry.hanziDisplay,
+                        style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(30.0))),
+                      entry.hanziDisplay.isEmpty ? SizedBox() : SizedBox(width: 10),
                       Text(entry.pojDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(20.0)))
                     ]),
                     Text(entry.definitionsDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(20.0)))

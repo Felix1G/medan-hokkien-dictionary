@@ -2,7 +2,7 @@
 $verb to be able to withstand, to be able to handle
 $verb to be capable of, to be competent of
 =:chiá
-$adj (of taste) Plain, bland
+$adj (of taste) plain, bland
 =:mông-mông
 $adj drowsy, dizzy, confused
 =:la̍p
@@ -16,11 +16,11 @@ $noun tips, suggestions
 =:thà-má
 $time just now
 =:te-tiàm
-$time (of an action) Always, often
+$time (of an action) always, often
 =:pau-chhô
-$verb (To eat) Whatever, anything
+$verb (To eat) whatever, anything
 =:khiⁿ-khá
-$advb (To eat) Simply, of what is available
+$advb (To eat) simply, of what is available
 =:tò͘-mat
 $food tomato
 $etyIDN tomat
@@ -120,7 +120,7 @@ $adj (of a period of time) long
 =乖:koai
 $adj obedient, well-behaved (of a child)
 =乖龜:koai-ku
-$adj (of a child) Naughty, mischievous, cheeky
+$adj (of a child) naughty, mischievous, cheeky
 =九:káu
 $num nine (9)
 =九層粿:káu-teng-koe
@@ -260,7 +260,7 @@ $verb to depend on, to rely on, to lean on
 =借:chioh
 $verb to borrow
 =借路:chioh-lō͘
-$verb (polite) To get out of the way
+$verb (polite) to get out of the way
 $see 閃 (same definition, but ruder)
 =假:kéⁿ
 $adj fake
@@ -286,7 +286,7 @@ $verb to work (a job)
 $verb to snap
 $verb to break with a quick force
 =做焼:chò-sio
-$verb to warm (something) up, to make (something) hotter, (of food) To warm up
+$verb to warm (something) up, to make (something) hotter, (of food) to warm up
 =做生意:chò-seng-lí
 $verb to do business, to run the business
 =做生日:chò-seⁿ-ji̍t
@@ -562,7 +562,7 @@ $verb to order (food, etc)
 =叫菜:kiō-chhài
 $verb to order a meal (e.g. at a restaurant)
 =叮:teng
-$verb (of insects) To sting, to bite
+$verb (of insects) to sting, to bite
 =合艾:hap-chái
 $loc Hat Yai (A major city in Thailand)
 =吉靈子:kè-lêng-á
@@ -574,7 +574,7 @@ $noun cable car, gondola, ropeway
 =名:miâ
 $noun name
 =名牌:ming-pâi
-$adj (of products) Having a good brand name
+$adj (of products) having a good brand name
 $etyYUE ming4 paai4
 =向:hiáng
 $verb to face, to look (in a direction), to turn towards
@@ -583,7 +583,7 @@ $verb to swallow, to ingest
 =吞涎:thun-nōa
 $verb to swallow one's saliva
 =吠:pūi
-$verb (of a dog) To bark
+$verb (of a dog) to bark
 =吳:gô͘
 $surname go, goh, ng (surname)
 =吸:súk
@@ -764,22 +764,22 @@ $adj extraordinary, exceptional, remarkable, awesome
 =大:tōa
 $adj big, large
 =大件:tōa-ki
-$adj (of certain countable objects) Big, large
+$adj (of certain countable objects) big, large
 =大個:tōa-kâi
 $adj big, large
 =大只:tōa-chiah
-$adj (of animals) Big, large
+$adj (of animals) big, large
 =大囝:tōa-kiáⁿ
 $family eldest son
 =大坨:tōa-tè
-$adj (of portion) Big portion, large portion
+$adj (of portion) big portion, large portion
 =大孫:tōa-sun
 $family eldest son of eldest son
 $family eldest grandchild
 =大學:tōa-o̍h
 $noun university, college
 =大尾:tōa-bóe
-$adj (of fish) Big, large
+$adj (of fish) big, large
 =大概:ta-kèⁿ
 $adj around, approximate, roughly (number)
 =大海:tōa-hái
@@ -787,15 +787,15 @@ $noun ocean, large sea
 =大炮:tōa-phàu
 $verb to make things up, to be dramatic, to be a bit over the top
 =大班:tōa-pan
-$adj (Of a class in education) Large, big, many students
-$adj (of something) Luxurious, fancy, expensive
-$adj (of someone) Affluent, rich, lavish
+$adj (Of a class in education) large, big, many students
+$adj (of something) luxurious, fancy, expensive
+$adj (of someone) affluent, rich, lavish
 =大盤:tōa-pôaⁿ
-$adj (of a dish) Many, plenty, large
+$adj (of a dish) many, plenty, large
 =大粒:tōa-lúi
-$adj (of eyes, ears, etc) Big, large
+$adj (of eyes, ears, etc) big, large
 =大粒:tōa-lia̍p
-$adj (of granules, grain, or pellets) Big
+$adj (of granules, grain, or pellets) big
 =大聲:tōa-sia
 $adj loud, in a loud voice
 =大開:tōa-khai
@@ -803,7 +803,7 @@ $verb to spend a lot of money
 =大開大躉:tōa-khai tōa-bú
 $phrase going on a shopping spree, large-scale purchasing, extensive shopping
 =大間:tōa-keng
-$adj (of a building) Big, large
+$adj (of a building) big, large
 =大食:tōa-chia̍h
 $verb to eat a lot
 $verb mukbang
@@ -833,15 +833,15 @@ $adj perfect, excellent
 $adj (of a person's life) successful
 =好命:hó-miâ
 $verb have a lucky fate, blessed with good fortune
-$verb (of life) Good, great
+$verb (of life) good, great
 =好媠:hàu-súi
-$verb (of a girl or woman) To make an effort to look pretty
+$verb (of a girl or woman) to make an effort to look pretty
 =好寶:hó-pôa
 $adj good value for money, good quality or product relative to the high price
 =好心無好保:hó-sim bô hó-pó
 $idiom being kind but unappreciated, kindness unrewarded
 =好料:hó-liāu
-$adj (of food) Delicious, yummy
+$adj (of food) delicious, yummy
 =好朋:hó-pêng
 $noun good friend
 $noun best friend
@@ -859,10 +859,10 @@ $adj rich, wealthy
 =好額人:hó-gia̍k-lâng
 $noun rich person, wealthy person
 =好食:hó-chia̍h
-$adj (of food) Delicious
+$adj (of food) delicious
 $adj yummy
 =好飲:hó-lim
-$adj (of drinks) Delicious
+$adj (of drinks) delicious
 $adj yummy
 =好麗:hàu-lián
 $adj extravagant
@@ -908,7 +908,7 @@ $noun school
 =學生:ha̍p-seng
 $noun student
 =孽:gia̍t
-$adj (usually of a child) Naughty, mischievous, playful
+$adj (usually of a child) naughty, mischievous, playful
 =宜:gam
 $adj suitable
 $adj fitting
@@ -945,7 +945,7 @@ $adj correct
 =對面:túi-bīn
 $noun opposite side, across
 =對𣍐起:tòe-bē-khí
-$verb (honourific) To be sorry, to apologise
+$verb (honourific) to be sorry, to apologise
 =導郎:tō-long
 $verb to help, to assist
 $advb please
@@ -953,17 +953,17 @@ $etyIMA tolong
 =小:sè
 $adj small, tiny
 =小件:sè-ki
-$adj (of certain countable objects) Small, tiny
+$adj (of certain countable objects) small, tiny
 =小個:sè-kâi
 $adj small, tiny
 =小只:sè-chiah
-$adj (of animals) Small, tiny
+$adj (of animals) small, tiny
 =小坨:sè-tè
-$adj (of meat) Small portion, tiny portion
+$adj (of meat) small portion, tiny portion
 =小妹:sió-mōe
 $family little sister
 =小尾:sè-bóe
-$adj (of fish) Small, tiny
+$adj (of fish) small, tiny
 =小弟:sió-tī
 $family little brother
 =小影:siáu-éng/sió͘-éng
@@ -971,16 +971,16 @@ $noun photo, photograph
 =小心:sio-sim
 $verb to be careful
 =小班:sè-pan
-$adj (Of a class in education) Small, little students
+$adj (Of a class in education) small, little students
 =小盤:sè-pôaⁿ
-$adj (of a dish) Small, little, few
+$adj (of a dish) small, little, few
 =小粒:sè-lia̍p
-$adj (of grains, granules, pellets) Small
+$adj (of grains, granules, pellets) small
 =小聲:sè-sia
 $adj in a low voice, quietly
 $adj (Speak) in whispers
 =小間:sè-keng
-$adj (of a building) Small, tiny
+$adj (of a building) small, tiny
 =少:chio
 $adj few
 $adj little
@@ -1145,7 +1145,7 @@ $pron why (and how)
 =怕公:peⁿh-kong
 $family grandfather's elder brother
 =怪𡳞:koai-lān
-$vulgar (strange dick) Arrogant
+$vulgar (strange dick) arrogant
 $vulgar naughty
 =恬:tiām
 $verb to be quiet, to be silent
@@ -1240,7 +1240,7 @@ $adj talented, capable
 =扛:kng
 $verb to carry (something)
 =扣:khàu
-$verb (of money, points, etc) To subtract, to decrease, to reduce, to deduct
+$verb (of money, points, etc) to subtract, to decrease, to reduce, to deduct
 =扣分:khàu-hun
 $verb to deduct points
 =扣起:khàu-khí
@@ -1291,7 +1291,7 @@ $verb to play ball
 =拍針:phah-chiam
 $verb to give or receive an injection
 =拍開開:phah-khui-khui
-$verb (of a door, etc) To open widely
+$verb (of a door, etc) to open widely
 =拖:thû
 $verb to procrastinate, to delay
 $verb to drag on
@@ -1496,10 +1496,10 @@ $verb to make a phone call
 =數:sùiⁿ/sǹg
 $verb to count
 =數起來:sǹg khí-lâi
-$phrase (expression) Looking at the greater picture, after all, as a whole
+$phrase (expression) looking at the greater picture, after all, as a whole
 =料:liāu
 $food meal
-$food (of food) Ingredients
+$food (of food) ingredients
 =料理:liāu-lí
 $verb to handle, to manage, to arrange
 =斬:chám
@@ -1628,7 +1628,7 @@ $time sometimes, now and then, from time to time
 =有較細:ū-ka-sì
 $verb to be polite, to have manners
 =有銷:ū-siau
-$verb (of business) To have sales
+$verb (of business) to have sales
 =有閒:ū-êng
 $verb to have free time
 =有風:ū-hong
@@ -1661,7 +1661,7 @@ $fruit orange fruit
 =柑色:kam-sek
 $colour orange (colour)
 =柔:jûn
-$adj (of a food) Tender, flexible, soft
+$adj (of a food) tender, flexible, soft
 =柚:iū
 $fruit pomelo
 =查:châⁿ
@@ -1755,16 +1755,16 @@ $adj shy
 $adj [also as a saying] sorry, pardon me
 =歹命:pháiⁿ-miâ
 $adj have an unlucky fate, unlucky life
-$adj (of life) Bad, struggling
+$adj (of life) bad, struggling
 =歹囝:pháiⁿ-kiáⁿ
-$noun (derogatory) Bad boy, naughty boy, brat
-$noun (derogatory) Hooligan, troublemaker, rascal, scoundrel
+$noun (derogatory) bad boy, naughty boy, brat
+$noun (derogatory) hooligan, troublemaker, rascal, scoundrel
 =歹看:pháiⁿ-khòaⁿ
 $adj ugly, hideous
 =歹食:pháiⁿ-chia̍h
-$adj (of food) Distasteful, unappetising, unpalatable, not delicious
+$adj (of food) distasteful, unappetising, unpalatable, not delicious
 =歹飲:pháiⁿ-lim
-$adj (of drinks) Distasteful, unappetising, unpalatable, not delicious
+$adj (of drinks) distasteful, unappetising, unpalatable, not delicious
 =死:sí
 $verb to die
 $verb to unalive
@@ -1849,7 +1849,7 @@ $noun oil
 =油炸粿:iû-chā-kóe
 $food youtiao (a type of Chinese long deep-fried dough pastry fritter, usually salty and savory, often eaten with congee or coffee)
 =油肭肭:iû-leh-leh
-$adj (of bowls, plates, food, etc) Greasy, oily
+$adj (of bowls, plates, food, etc) greasy, oily
 =油菜:iū-chhài
 $food choy sum, bok choy, yu choy, chinese flowering cabbage
 =泡:phàu
@@ -1955,7 +1955,7 @@ $verb to get ready, to prepare
 =滷麵:ló͘-mī
 $food lo Mie noodles
 =滿:móa
-$adj (of liquid) Full, filled
+$adj (of liquid) full, filled
 $adj overflow
 =漆:cha̍t
 $verb to paint
@@ -1964,7 +1964,7 @@ $etyIMA cat
 =漏:lāu
 $verb to leak
 =漏風:lāu-hong
-$verb (food) To become stale or soft
+$verb (food) to become stale or soft
 =漿:ki̍t
 $adj (of soup, paste etc) thick
 =潮州粿:tiô-chiu-koe
@@ -2040,7 +2040,7 @@ $verb to suffocate (someone) to death
 $verb to not have
 $verb do not have
 =無代誌:bô tāi-chì
-$phrase (expression) No problem
+$phrase (expression) no problem
 =無佇:bô-tī
 $verb to be lost, to be missing, to be gone
 $opp 有佇
@@ -2065,7 +2065,7 @@ $verb to not be enough
 =無大無小:bô-tōa bô-sè
 $phrase impolite, rude, disrespectful, insolent
 =無客:bô-kheh
-$verb to have no customers, (of business) To be in a bad/unfavourable situation
+$verb to have no customers, (of business) to be in a bad/unfavourable situation
 =無工做:bô-kang-chò
 $verb to bored, to have nothing to do
 $etyIDN kurang kerjaan
@@ -2074,7 +2074,7 @@ Sometimes, it is also not used in the literal sense. It is used when someone has
 =無影:bô-iáⁿ
 $verb to be false, to be untrue, to be fake
 =無慣勢:bô-koàn-sì
-$verb to be not used to, (of an action) Not familiar
+$verb to be not used to, (of an action) not familiar
 =無插:bô-chhap
 $verb to not care (about something)
 =無正經:bô-chéng-keng
@@ -2102,7 +2102,7 @@ $verb to not make a profit, no profit
 =無較細:bô-ka-sì
 $verb to be impolite, to have improper manners
 =無銷:bô-siau
-$verb (of a business) To have little to no sales
+$verb (of a business) to have little to no sales
 =無閒:bô-êng
 $verb to have no free time
 =無關係:bô-koan-hēⁿ
@@ -2116,7 +2116,7 @@ $verb to be forgetful, to be scatterbrained, to be absent-minded
 =無風:bô-hong
 $verb to be unlucky, to have bad fortune
 =無鮮:bô-chhiⁿ
-$verb (of seafood) To be stale, to not be fresh
+$verb (of seafood) to be stale, to not be fresh
 =煎:chian
 $verb to fry
 =煙:hun
@@ -2131,13 +2131,13 @@ $verb to worry, to be anxious about
 $verb to cook
 =熄:sit
 $adj extinguished, put out
-$adj (of fire, light, etc) Go out, die out
+$adj (of fire, light, etc) go out, die out
 $adj turned off
 =熄火:sit-hóe
 $verb to turn off the lights or lamps
 $verb to extinguish the fire, to put out a fire,
 =熄電:sit-tiān
-$verb (of electricity) To blackout
+$verb (of electricity) to blackout
 =熔:iô͘
 $verb to melt
 =熟:se̍k
@@ -2172,7 +2172,7 @@ $family father, dad
 =爺爺:iêⁿ-iêⁿ
 $family grandfather (maternal), mother's father
 =爽:sóng
-$adj (of an action or place) Enjoyable
+$adj (of an action or place) enjoyable
 $adj pleasurable
 $adj cheerful
 $adj delightful
@@ -2256,7 +2256,7 @@ $verb to leave a mark, to create a mark (on a surface), to have been scratched,
 =生目針:sèⁿ-ba̍k-chiam
 $body to have a stye
 =生菇:seⁿ-ko͘
-$verb (of food) To become moldy, to be mildewed
+$verb (of food) to become moldy, to be mildewed
 =生虫:seⁿ-thâng
 $verb to be infested with worms
 =生費:so͘-hòe
@@ -2269,9 +2269,9 @@ $verb to use, to utilise
 $adj all, whole, totally, complete, everything
 =留:làu
 $verb to leave behind some (food) for later, to save (food) for later
-$verb (of food) To last, to stay fresh (for a certain amount of time)
+$verb (of food) to last, to stay fresh (for a certain amount of time)
 =番仔:hoān-á
-$noun (slightly derogatory) Aborigines
+$noun (slightly derogatory) aborigines
 $noun indigenous folks
 $noun malay person
 $noun pribumi
@@ -2294,7 +2294,7 @@ $adj painful
 =痟:siáu
 $adj crazy
 =痟婆:siáu-pô
-$noun (derogatory) Crazy woman, bitch
+$noun (derogatory) crazy woman, bitch
 =痟貪:siáu-tham
 $adj excessively greedy
 =痠:sng
@@ -2302,7 +2302,7 @@ $adj ache, sore, numb
 =瘦:sán
 $adj slim, slender
 =發:hoat
-$verb (of plants) To grow, to sprout, to germinate
+$verb (of plants) to grow, to sprout, to germinate
 $noun wealth, prosperity
 =發:kiàⁿ
 $verb to send
@@ -2350,7 +2350,7 @@ $adj straight
 =相信:siong-sìn
 $verb to trust, to believe (someone)
 =相戰:sio-chiàn
-$verb (of a nation) To go into war, to declare war
+$verb (of a nation) to go into war, to declare war
 =相拍:sio-phah
 $verb to fight each other
 =相挵:sio-lòng
@@ -2370,7 +2370,7 @@ $verb to watch a movie
 =看著:khòaⁿ-tio̍h
 $verb to have seen (someone or something)
 =看通書:khòaⁿ-thong-su
-$verb (figurative) To overthink, to overanalyse, to overcalculate
+$verb (figurative) to overthink, to overanalyse, to overcalculate
 =看開:khòaⁿ-khui
 $verb to be sincere, to be heartfelt, to be genuine
 =看𣍐起:khòaⁿ-bē-khí
@@ -2534,7 +2534,7 @@ $adj adhesive
 $food pyramid-shaped dumpling made of glutinous rice wrapped in bamboo or reed leaves (usu. eaten during the Dragon Boat Festival)
 =精神:cheng-sîn
 $adj conscious
-$adj (psychology) Mind, mental state
+$adj (psychology) mind, mental state
 =粿:kóe
 $food cake
 =糊塗:hô͘-tô͘
@@ -2737,7 +2737,7 @@ $vulgar vagina
 =膨:phòng
 $adj swollen, inflated
 $verb to swell, to inflate, to expand
-$verb (of noodles) To become soaky
+$verb (of noodles) to become soaky
 =膵:chhiok
 $body pancreas
 =膽:táⁿ
@@ -2759,7 +2759,7 @@ $adj smelly
 $adj foul
 $adj stinking
 =臭乾:chháu-ta
-$verb (of food) To be burnt, to be overcooked
+$verb (of food) to be burnt, to be overcooked
 =臭味:chhàu-bī
 $adj foul smell
 $adj stinky
@@ -2769,7 +2769,7 @@ $verb to smell like urine, to have a urinous odour
 =臭汗酸:chhàu-kòa-sui/chhàu-kòa-sng
 $verb to stink from sweat
 =臭酸:chháu-sui
-$verb (of food) To spoil, to go bad
+$verb (of food) to spoil, to go bad
 =臺灣:tâi-oân
 $loc Taiwan
 =舀:ió͘
@@ -2871,7 +2871,7 @@ $explain
 三萬 saⁿ bān 30000
 =落:lak
 $verb to fall off, to become loose
-$verb (adj.) Unstick
+$verb (adj.) unstick
 =落:lo̍h
 $verb to go down, to descend
 $verb to fall, to drop
@@ -2902,9 +2902,9 @@ $verb to choke (on food or fluid)
 $verb to be alarmed
 $verb to be surprised
 =著火:toh-hóe
-$verb to turn on the lights, (of electricity) To be on after a blackout
+$verb to turn on the lights, (of electricity) to be on after a blackout
 =著電:toh-tiān
-$verb (of electricity) To come back on (after a blackout)
+$verb (of electricity) to come back on (after a blackout)
 =葡萄:phû-tô
 $fruit grape
 =葡萄酒:phû-tô-chiú
@@ -3052,7 +3052,7 @@ $verb to kiss
 =親情:chhin-chiâⁿ
 $family relative, family member
 =觀音:koan-im
-$noun (Buddhism) Guanyin
+$noun (Buddhism) guanyin
 =觀音竹:koan-im-tek
 $noun lucky bamboo (Dracaena sanderiana) (often associated with Feng Shui practices and is believed to bring positive energy, good luck, and prosperity)
 =解:gâi
@@ -3094,7 +3094,7 @@ $etyYUE leon6 zeon6
 $verb to say, to speak, to talk
 =講共汝講:kóng-kā-lí-kóng
 $phrase to talk to you about (something)
-$phrase (expression) Anyway, wait a minute
+$phrase (expression) anyway, wait a minute
 =講故:kóng-kò͘
 $verb to converse, to chat, to be part of a conversation
 =講話:kóng-ōa
@@ -3106,7 +3106,7 @@ $verb to tell a lie
 =識:bat
 $verb to know (someone)
 =譚呆:tam-tai
-$adj (habitually) Lazy, sluggish, dazed, dull
+$adj (habitually) lazy, sluggish, dazed, dull
 =警察:kéng-chhat
 $noun police
 =警察厝:kéng-chhat-chhù
@@ -3203,7 +3203,7 @@ $verb to be promoted to the grade
 =起痟:khí-siáu
 $verb to go mad, to go crazy
 =起童:khí-tâng
-$verb (religion) To be possessed by spiritual entities and start dancing and prophesying (of a spirit medium)
+$verb (religion) to be possessed by spiritual entities and start dancing and prophesying (of a spirit medium)
 =趣味:chhù-bī
 $adj cute, adorable
 =跋:poàk/poa̍h
@@ -3288,7 +3288,7 @@ $pron each, every, per
 =逐擺:ta̍k-pái
 $advb [Used before a verb to indicate the every instance of the action done] Every time, each time
 =逐逐:ta̍k-ta̍k
-$advb (of noun or adj) Each, every
+$advb (of noun or adj) each, every
 =逐逐日:ta̍k-ta̍k-ji̍t
 $time every day
 =這爿:cheʳ-peng
@@ -3316,7 +3316,7 @@ $verb to cross the road
 =遠:hùi
 $adj far, distant
 =遮:chia
-$advb overly, excessively, (of an adjective) Far too
+$advb overly, excessively, (of an adjective) far too
 $explain
 More emphatic than 太
 =選:kéng
@@ -3408,7 +3408,7 @@ $etyYUE coeng4 hei3
 $noun door
 =閃:siám
 $verb to dodge, to evade
-$verb (slightly rude) To get out of the way
+$verb (slightly rude) to get out of the way
 =開:khai
 $verb to spend (money)
 =開:khui
@@ -3436,7 +3436,7 @@ $verb to close, to shut (in folding, shutting smth)
 $explain
 闔門 khàm mûiⁿ
 =闔家:hap-ke
-$noun (honourific) Entire family, whole family
+$noun (honourific) entire family, whole family
 =闔店:khàm-tiàm
 $verb to close up shop, to shut up shop
 =闔熄:khàm-sit
@@ -3563,7 +3563,7 @@ $adj careful, focused, serious, conscientious
 =項:hāng
 $class [Classifier for items, tasks, principles, clauses, and variety]
 =順路:sūn-lō͘
-$verb (of a destination) To be in the same path as the stop, along the same route
+$verb (of a destination) to be in the same path as the stop, along the same route
 =順順:sūn-sūn
 $adj (of a process) favourable, smooth, to go well
 $adj successful
@@ -3716,7 +3716,7 @@ $food fish bone
 =鮑魚:pau-hû
 $animal abalone
 =鮮:chhiⁿ
-$adj (of seafood) Fresh
+$adj (of seafood) fresh
 =鰇魚:jiû-hû
 $animal squid
 =鱉龜:pih-ku
@@ -3754,7 +3754,7 @@ $food noodles
 $food misua noodles
 =麻:bâ
 $adj numb, tingling
-$adj (figurative) Drunk
+$adj (figurative) drunk
 $verb to be numb, to tingle
 =麻油:môa-iû
 $food sesame oil
@@ -3807,7 +3807,7 @@ $phrase constantly complaining
 =𠢕拖:gâu-thû
 $verb to procrastinate, to delay
 =𠢕𠢕:gâu-gâu
-$advb (of an action) Know how to, capable, skilled
+$advb (of an action) know how to, capable, skilled
 =𡳞鳥:lān-chiáu
 $vulgar penis
 =𢼌:pa
@@ -3843,9 +3843,9 @@ $verb to play
 =𨶙脬:lān-pha
 $vulgar testicles
 =𩚨:khiū
-$adj (of food) Soft and pliable, chewy
+$adj (of food) soft and pliable, chewy
 =𩚨𩚨:khiū-khiū
-$adj (of food) Soft and pliable, chewy
+$adj (of food) soft and pliable, chewy
 =𬦰:pêⁿh
 $verb to climb
 =𬦰落:pêⁿh-lo̍h

@@ -22721,7 +22721,7 @@ return new A.EB(o,n,m)},
 ago(){var s=0,r=A.R(t.N),q
 var $async$ago=A.S(function(a,b){if(a===1)return A.O(b,r)
 for(;;)switch(s){case 0:s=3
-return A.T($.tf().adr("entries/dictionary.txt"),$async$ago)
+return A.T($.tf().adr("assets/entries/dictionary.txt"),$async$ago)
 case 3:q=b
 s=1
 break

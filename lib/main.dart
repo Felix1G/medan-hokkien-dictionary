@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 import 'package:flutter/foundation.dart' hide Category;
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -7,6 +9,8 @@ import 'package:medan_hokkien_dictionary/style.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
 
 List<Entry> kEntries = List.empty(growable: true);
+HashMap<String, int> kEntriesCharacter = HashMap();
+const kEntriesAmount = 1689;
 
 void main() {
   runApp(const MyApp());
@@ -55,7 +59,7 @@ class _LoadingPageState extends State<LoadingPage> {
         if (entry != null) kEntries.add(entry);
 
         setState(() {
-          progress += 1.0 / 1689.0;
+          progress += 1.0 / (kEntriesAmount + 1);
         });
         
         buffer.clear();
@@ -88,6 +92,18 @@ class _LoadingPageState extends State<LoadingPage> {
       // print(kEntries.join('\n'));
     }
 
+    progressText = "Finishing up...";
+
+    var entryIndex = 0;
+    for (final entry in kEntries) {
+      if (entry.hanzi[0].characters.length == 1) {
+        kEntriesCharacter[entry.hanzi[0]] = entryIndex;
+      }
+      entryIndex++;
+    }
+
+    progress += 1.0 / (kEntriesAmount + 1);
+    
     await Future.delayed(const Duration(milliseconds: 750));
 
     if (!mounted) return;

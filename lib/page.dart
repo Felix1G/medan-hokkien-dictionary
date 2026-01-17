@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:medan_hokkien_dictionary/dictionary.dart';
 import 'package:medan_hokkien_dictionary/main.dart';
 import 'package:medan_hokkien_dictionary/style.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
@@ -14,16 +13,6 @@ class DictionaryPage extends StatefulWidget {
 
   @override
   State<DictionaryPage> createState() => _DictionaryPageState();
-}
-
-class EntryData {
-  final int index;
-  int score = 0;
-  Entry get entry => kEntries[index];
-
-  EntryData({required this.index});
-
-  
 }
 
 class _DictionaryPageState extends State<DictionaryPage> {
@@ -49,14 +38,14 @@ class _DictionaryPageState extends State<DictionaryPage> {
       if (input.isEmpty) {
         dictEntries.clear();
       } else {
-        if (prevInput.isNotEmpty && input.contains(prevInput)) {
-          if (isEnglish) {
+        if (isEnglish) {
+          if (prevInput.isNotEmpty && input.contains(prevInput)) {
             var idx = 0;
             while (idx < dictEntries.length) {
               final entry = dictEntries[idx];
 
               int score = 1000000000;
-              for (final keyword in entry.entry.searchUp) {
+              for (final keyword in entry.entry.defSearchUp) {
                 int strIdx = keyword.indexOf(input);
                 if (strIdx == -1) continue;
 
@@ -64,17 +53,21 @@ class _DictionaryPageState extends State<DictionaryPage> {
                 int bef = strIdx;
                 int aft = strIdx + input.length;
 
-                while (bef - 1 >= 0 && !" ()".contains(keyword[bef - 1])) {
-                  newScore += 50;
+                while (bef - 1 >= 0 && !" ()[]{}".contains(keyword[bef - 1])) {
+                  newScore += 200;
                   bef--;
                 }
 
+                if (bef - 1 >= 0 && "()[]{}".contains(keyword[bef - 1])) bef = 0;
+
                 while (aft < keyword.length && !" ()".contains(keyword[aft])) {
-                  newScore += 20;
+                  newScore += 80;
                   aft++;
                 }
+                
+                if (aft < keyword.length && "()[]{}".contains(keyword[aft])) aft = 0;
 
-                newScore += (bef + (keyword.length - aft)) * 2;
+                newScore += (bef + (keyword.length - aft)) * 4 + entry.entry.definitionsDisplay.length;
                 score = minInt(newScore, score);
               }
 
@@ -88,17 +81,13 @@ class _DictionaryPageState extends State<DictionaryPage> {
               idx++;
             }
           } else {
-            
-          }
-        } else {
-          dictEntries.clear();
-          
-          if (isEnglish) {
+            dictEntries.clear();
+
             var index = 0;
             while (index < kEntries.length) {
               final entry = kEntries[index];
               int score = 1000000000;
-              for (final keyword in entry.searchUp) {
+              for (final keyword in entry.defSearchUp) {
                 int strIdx = keyword.indexOf(input);
                 if (strIdx == -1) continue;
 
@@ -106,17 +95,21 @@ class _DictionaryPageState extends State<DictionaryPage> {
                 int bef = strIdx;
                 int aft = strIdx + input.length;
 
-                while (bef - 1 >= 0 && !" ()".contains(keyword[bef - 1])) {
-                  newScore += 50;
+                while (bef - 1 >= 0 && !" ()[]{}".contains(keyword[bef - 1])) {
+                  newScore += 200;
                   bef--;
                 }
 
+                if (bef - 1 >= 0 && "()[]{}".contains(keyword[bef - 1])) bef = 0;
+
                 while (aft < keyword.length && !" ()".contains(keyword[aft])) {
-                  newScore += 20;
+                  newScore += 80;
                   aft++;
                 }
+                
+                if (aft < keyword.length && "()[]{}".contains(keyword[aft])) aft = 0;
 
-                newScore += (bef + (keyword.length - aft)) * 2;
+                newScore += (bef + (keyword.length - aft)) * 4 + entry.definitionsDisplay.length;
                 score = minInt(newScore, score);
               }
 
@@ -128,9 +121,102 @@ class _DictionaryPageState extends State<DictionaryPage> {
 
               index++;
             }
+          }
+        } else {
+          dictEntries.clear();
 
-          } else {
+          input = input.replaceAll('-', ' '); // ignore the dashes for searching
 
+          List<SearchToken> tokens = List.empty(growable: true);
+
+          // compute tokens
+          final buffer = StringBuffer();
+          for (final char in input.characters) {
+            // whitespace separates POJ words
+            if (char == ' ' && buffer.isNotEmpty) {
+              tokens.add(SearchToken(content: buffer.toString(), isHanzi: false));
+              buffer.clear();
+              continue;
+            }
+
+            if (isStrHanzi(char)) {
+              // there is a POJ word
+              if (buffer.isNotEmpty) {
+                tokens.add(SearchToken(content: buffer.toString(), isHanzi: false));
+                buffer.clear();
+              }
+
+              // every hanzi token is only one i.e. the hanzi itself
+              tokens.add(SearchToken(content: char, isHanzi: true));
+            } else if (char != ' ') {
+              buffer.write(char); // write POJ
+            }
+          }
+
+          if (buffer.isNotEmpty) { //remaining POJ word in the end of the search input
+            tokens.add(SearchToken(content: buffer.toString(), isHanzi: false));
+          }
+          
+          // remove unnecessary POJ (...[hanzi] [POJ]... | if POJ == hanzi then remove POJ)
+          if (tokens.length > 1) {
+            var index = 1; // 2-index window
+            while (index < tokens.length) {
+              if (!tokens[index].isHanzi && tokens[index - 1].isHanzi) { // check for hanzi POJ arrangement
+                int? entryIndex = kEntriesCharacter[tokens[index-1].content];
+                if (entryIndex != null) { // entry for character exists
+                  final poj = tokens[index].content;
+                  if (kEntries[entryIndex].chineseSearchUp.any((wordList) => wordList.any((word) => poj == word))) { // check for POJ match
+                    tokens.removeAt(index);
+                    continue;
+                  }
+                }
+              }
+              index++;
+            }
+          }
+          
+          // search for relevant entries (since words are short, brute force method is used)
+          var entryIndex = 0;
+          final tokenLength = tokens.length;
+          while (entryIndex < kEntries.length) {
+            final entry = kEntries[entryIndex];
+            final entryLength = entry.chineseSearchUp.length;
+
+            // amount of tokens is more than the length of the word
+            if (tokenLength > entryLength) {
+              entryIndex++;
+              continue;
+            }
+
+            var searchUpIndex = 0;
+            var fail = true;
+            chineseSearchUpLoop:
+            while (searchUpIndex <= entryLength - tokenLength) {
+              var tokenIdx = 0;
+              for (final token in tokens) {
+                // token does not match
+                if (!entry.chineseSearchUp.any((wordList) => wordList.any((word) => word.contains(token.content)))) break;
+
+                tokenIdx++;
+                if (tokenIdx == tokenLength) { // the entire token list is exhausted, match found
+                  fail = false;
+                  break chineseSearchUpLoop;
+                }
+              }
+              searchUpIndex++;
+            }
+
+            // no match
+            if (fail) {
+              entryIndex++;
+              continue;
+            }
+
+            final entryData = EntryData(index: entryIndex);
+            entryData.score = 2 * searchUpIndex + (entryLength - (searchUpIndex + tokenLength));
+            dictEntries.add(entryData);
+
+            entryIndex++;
           }
         }
       }
@@ -226,12 +312,16 @@ class _DictionaryPageState extends State<DictionaryPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(children: [
-                      entry.hanziDisplay.isEmpty ? SizedBox() : Text(entry.hanziDisplay,
-                        style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(30.0))),
+                      entry.hanziDisplay.isEmpty ? SizedBox() : ColoredText(
+                        text: entry.hanziDisplay,
+                        colors: entry.pojToneColours,
+                        style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(30.0))
+                      ),
                       entry.hanziDisplay.isEmpty ? SizedBox() : SizedBox(width: 10),
                       Text(entry.pojDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(20.0)))
                     ]),
-                    Text(entry.definitionsDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(20.0)))
+                    SizedBox(height: 10.0),
+                    Text(entry.definitionsDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(17.5)))
                   ]
                 )
               );

@@ -3,6 +3,7 @@ import 'dart:collection';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:medan_hokkien_dictionary/util.dart';
 
 enum Category {
   noun("\$noun"),
@@ -85,7 +86,10 @@ class Entry {
   final String pojDisplay;
   final String definitionsDisplay;
 
-  final List<String> searchUp;
+  final List<String> defSearchUp;
+  final List<Set<String>> chineseSearchUp;
+  
+  final List<Color> pojToneColours;
 
   factory Entry(List<String> hanzi, List<String> poj, List<Definition> definitions) {
     final definitionsDisplay = definitions
@@ -93,16 +97,54 @@ class Entry {
       .map((e) => e.content.replaceAll(",", ";"))
       .join(", ");
 
+    final pojSearchUp = poj
+      .map((words) => words // [kōe-lō͘]
+        .split(RegExp(r'[-\s]+')) // [kōe, lō͘]
+        .map((poj) => "${removeDiacritics(poj)}${getTone(poj)}").toList() // [koe7, loo7]
+      ).toList(); // [[koe7, loo7]]
+
+    final pojSearchUpToneless = pojSearchUp
+      .map((words) => words
+        .map((word) => word
+          .replaceAll(RegExp(r'[0-9]'), '')
+        ).toList()
+      ).toList();
+
+    final hanziSearchUp = hanzi.map((word) => word.split('').toList()).toList();
+
+    final allLists = [pojSearchUp, pojSearchUpToneless, hanziSearchUp];
+
+    final chineseSearchUp = List.generate(hanzi[0].length, (int index) {
+      final set = <String>{};
+
+      for (var listGroup in allLists) {
+        for (var list in listGroup) {
+          if (index < list.length) {
+            set.add(list[index]);
+          }
+        }
+      }
+
+      return set;
+    });
+
+    final pojToneColours = poj[0] // "kōe-lō͘"
+      .split(RegExp(r'[-\s]+')) // [kōe, lō͘]
+      .map((poj) => kToneColours[getTone(poj) - 1]) // [7, 7] => [colour of 7, colour of 7]
+      .toList();
+
     return Entry._internal(
       hanziDisplay: hanzi.join(" / "),
       pojDisplay: poj.join(" / "),
       definitionsDisplay: definitionsDisplay,
-      searchUp: definitionsDisplay
+      defSearchUp: definitionsDisplay
           .replaceAll(";", ",") //remove non-alphanumeric characters but leave the whitespace
           .toLowerCase()
           .split(",")
           .map((s) => s.trim())
           .toList(), //split any whitespace, including instances of multiple whitespaces e.g. "a    a"
+      chineseSearchUp: chineseSearchUp,
+      pojToneColours: pojToneColours,
       hanzi: hanzi,
       poj: poj,
       definitions: definitions
@@ -113,7 +155,10 @@ class Entry {
     required this.hanziDisplay,
     required this.pojDisplay,
     required this.definitionsDisplay,
-    required this.searchUp, required this.hanzi, required this.poj, required this.definitions,
+    required this.defSearchUp,
+    required this.chineseSearchUp,
+    required this.pojToneColours,
+    required this.hanzi, required this.poj, required this.definitions,
   });
   
   @override

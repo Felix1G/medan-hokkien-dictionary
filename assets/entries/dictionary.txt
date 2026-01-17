@@ -1200,7 +1200,7 @@ $pron i, me
 =我人:góa-lâng
 $pron we
 $pron us
-=我老(唉):wa-lâu-(e)
+=我老唉:wa-lâu-e
 $phrase exclamation of shock, walao
 =戲:hì
 $noun movie
@@ -1448,7 +1448,7 @@ $verb to carry (by hand)
 $prepo [Preposition to indicate an action is done on an object, object 攑來 verb]
 $explain
 gē is the short form from fast speech.
-=攕仔:-chhiám-á
+=攕仔:chhiám-á
 $noun fork
 =攬:lám
 $verb to hug
@@ -2179,7 +2179,7 @@ $adj delightful
 =牌:piau
 $noun brand, trademark
 =牙:gê
-$noun tooth, eeth
+$noun tooth, teeth
 =牙抿:gê-bín
 $noun toothbrush
 =牙膏:gê-ko
@@ -2482,7 +2482,7 @@ $explain
 =等:tán
 $time later, in a while
 $verb to wait
-=等久久:
+=等久久:tán-kú-kú
 $verb to wait very long or for a long time
 =等先:tán-seng
 $verb to wait for a while
@@ -2577,7 +2577,7 @@ $food red yeast rice
 $food red tortoise cakes
 =紙:chóa
 $noun paper
-=紡:páng
+=紡:pháng
 $verb to spin
 =紫菜:chí-chhài
 $food seaweed (general name for edible seaweed in the genera Porphyra and Pyropia)
@@ -3590,7 +3590,7 @@ $body hair
 $noun hair oil
 =頭痛:thâu-thiàⁿ
 $body headache
-=頷頸:ām-(o)-kún
+=頷頸:ām-kún
 $body neck
 =願:giàn
 $verb to desire
@@ -3632,7 +3632,7 @@ $verb to eat dinner
 $time [Event] Dragon Boat Festival (5th day of the 5th month in the lunar calendar)
 =食肉粽:chia̍h-bah-chàng
 $verb to eat Zongzi (during Dragon Boat Festival)
-=食臭:chiah-chhò͘
+=食臭:chia̍h-chhò͘
 $verb to be jealous (of someone)
 =食葷:chia̍h-chho
 $verb to eat meat, to be a meat-eater, to not be vegan

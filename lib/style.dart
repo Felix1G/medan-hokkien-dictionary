@@ -17,14 +17,11 @@ final ThemeData kAppTheme = ThemeData(
   )
 );
 
-final kCJKTextStyle = TextStyle(
-  fontFamily: GoogleFonts.notoSansSc().fontFamily,
+final kCJKTextStyle = GoogleFonts.notoSansSc().copyWith(
   fontFamilyFallback: [
     GoogleFonts.notoSansTc().fontFamily!,
   ],
   color: Colors.white
 );
 
-final kUITextStyle = TextStyle(
-  fontFamily: GoogleFonts.nunito().fontFamily,
-);
+final kUITextStyle = GoogleFonts.nunito();

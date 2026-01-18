@@ -17,6 +17,7 @@ enum Category {
   classifier("\$class"),
   number("\$num"),
   phrase("\$phrase"),
+  expression("\$express"),
   idiom("\$idiom"),
 
   food("\$food", true),
@@ -32,6 +33,7 @@ enum Category {
   event("\$event", true),
   vulgarity("\$vulgar", true),
   surname("\$surname", true),
+  figurative("\$figur", true),
 
   explanation("\$explain"),
 
@@ -83,14 +85,14 @@ class Entry {
   final List<String> poj;
   final List<Definition> definitions;
 
-  final String hanziDisplay;
-  final String pojDisplay;
-  final String definitionsDisplay;
+  final String hanziDisplay; // hanzi display in the search list
+  final String pojDisplay; // poj display in the search list
+  final String definitionsDisplay; // definition display in the search list
 
-  final List<String> defSearchUp;
-  final List<Set<String>> chineseSearchUp;
+  final List<String> defSearchUp; // a list of the definition split by ';' or ',' for English search up
+  final List<Set<String>> chineseSearchUp; // for chinese/POJ search up
   
-  final List<Color> pojToneColours;
+  final List<Color> pojToneColours; // colour of hanzi from poj tone
 
   factory Entry(List<String> hanzi, List<String> poj, List<Definition> definitions) {
     final definitionsDisplay = definitions
@@ -117,21 +119,25 @@ class Entry {
 
     final hanziSearchUp = hanzi.map((word) => word.split('').toList()).toList();
 
+    // putting into list to avoid code repetition at the loop below
     final allLists = [pojSearchUp, pojSearchUpToneless, hanziSearchUp, pojWordListIterable.toList()];
 
-    final chineseSearchUp = List.generate(hanzi[0].length, (int index) {
-      final set = <String>{};
+    final chineseSearchUp = List.generate(
+      maxInt(hanzi[0].length, pojWordListIterable.first.length), // either hanzi or poj is longer
+      (int index) {
+        final set = <String>{};
 
-      for (var listGroup in allLists) {
-        for (var list in listGroup) {
-          if (index < list.length) {
-            set.add(list[index]);
+        for (var listGroup in allLists) {
+          for (var list in listGroup) {
+            if (index < list.length) {
+              set.add(list[index]);
+            }
           }
         }
-      }
 
-      return set;
-    });
+        return set;
+      }
+    );
 
     final pojToneColours = poj[0] // "kōe-lō͘"
       .split(RegExp(r'[-\s]+')) // [kōe, lō͘]
@@ -143,11 +149,11 @@ class Entry {
       pojDisplay: poj.join(" / "),
       definitionsDisplay: definitionsDisplay,
       defSearchUp: definitionsDisplay
-          .replaceAll(";", ",") //remove non-alphanumeric characters but leave the whitespace
+          .replaceAll(";", ",")
           .toLowerCase()
           .split(",")
           .map((s) => s.trim())
-          .toList(), //split any whitespace, including instances of multiple whitespaces e.g. "a    a"
+          .toList(),
       chineseSearchUp: chineseSearchUp,
       pojToneColours: pojToneColours,
       hanzi: hanzi,
@@ -190,6 +196,7 @@ void initDictionary() {
 Entry? parseEntry(List<String> textLines) {
   if (textLines.isEmpty) return null;
 
+  // skip through the textLines until '=' is found
   var index = 0;
   while (index < textLines.length) {
     var characters = textLines[index].characters;
@@ -198,32 +205,40 @@ Entry? parseEntry(List<String> textLines) {
     index++;
   }
 
+  if (index >= textLines.length) return null; // the input contains no valid entry ('=' does not exist)
+
+  // acquire info on hanzi and poj
   List<String> names = textLines[index].substring(1).trimRight().split(":");
-  if (names.length != 2) {
+  if (names.length != 2) { // split by ':' should only have one, so 2 groups of strings
     if (kDebugMode) debugPrint("The entry '${textLines[index]}' could not be parsed. (There can only be one semicolon ':')");
     return null;
   }
   
-  final nameIndex = index;
+  // slash ('/') divides hanzi or poj varieties
+  final nameIndex = index; // saving this for debug info
   List<String> hanzi = names[0].split("/");
   List<String> poj = names[1].split("/");
+
+  // acquire definition info
   List<Definition> definitions = List.empty(growable: true);
 
+  // handling explanations which are multi-line
   bool isExplain = false;
   StringBuffer explainBuffer = StringBuffer();
-  index++;
+
+  index++; // step into the next line
   while (index < textLines.length) {
-    String description = "${textLines[index].trim()} ";
+    final description = "${textLines[index].trim()} "; // extra leading whitespace to ease processing below
     final chars = description.characters;
 
-    StringBuffer buffer = StringBuffer();
-    List<Category> categories = List.empty(growable: true);
-    int count = 0;
+    final buffer = StringBuffer(); // store the actual definition string
+    List<Category> categories = List.empty(growable: true); // storing category
+    int count = 0; // amount of characters processed below, used to skip chars to the actual definition string
     for (final char in chars) {
       count++;
-      if (char == ' ') {
+      if (char == ' ') { // whitespaces split words
         String word = buffer.toString();
-        if (word.startsWith("\$")) {
+        if (word.startsWith("\$")) { // category detected
           Category? category = _categories[word];
           if (category == null) {
             if (kDebugMode) debugPrint("The entry '${textLines[nameIndex]}' could not be parsed. Unknown category '$word'.");
@@ -231,14 +246,13 @@ Entry? parseEntry(List<String> textLines) {
           }
 
           categories.add(category);
-
           buffer.clear();
 
           isExplain = category == Category.explanation;
-          if (isExplain) break;
+          if (isExplain) break; // explanation BEGINS on the next line
 
           continue;
-        } else {
+        } else { // category detection has ended, the rest is definition
           buffer.write(char);
           break;
         }
@@ -252,27 +266,28 @@ Entry? parseEntry(List<String> textLines) {
       explainBuffer.write(chars.skip(count).toString());
       explainBuffer.write("\n");
     } else {
-      if (explainBuffer.isNotEmpty) {
+      if (explainBuffer.isNotEmpty) { // add remaining explanation
         definitions.add(Definition(categories: [Category.explanation], content: explainBuffer.toString().trim()));
         explainBuffer.clear();
       }
 
-      if (categories.isNotEmpty) {
+      if (categories.isNotEmpty) { // add new definition
         buffer.write(chars.skip(count).toString());
         definitions.add(Definition(categories: categories, content: buffer.toString().trim()));
       }
     }
 
-    index++;
+    index++; //textLines index
   }
 
-  if (explainBuffer.isNotEmpty) {
+  if (explainBuffer.isNotEmpty) { // add remaining explanation
     definitions.add(Definition(categories: [Category.explanation], content: explainBuffer.toString().trim()));
   }
 
   return Entry(hanzi, poj, definitions);
 }
 
+// path must start with "assets/"
 Future<String> loadDictionary() async {
   return await rootBundle.loadString('assets/entries/dictionary.txt');
 }

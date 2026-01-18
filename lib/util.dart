@@ -1,8 +1,4 @@
 // ignore_for_file: curly_braces_in_flow_control_structures
-
-import 'dart:collection';
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:medan_hokkien_dictionary/dictionary.dart';
 import 'package:medan_hokkien_dictionary/main.dart';
@@ -21,6 +17,10 @@ double minDouble(double a, double b) {
 
 int minInt(int a, int b) {
   return a < b ? a : b;
+}
+
+int maxInt(int a, int b) {
+  return a > b ? a : b;
 }
 
 final _kHanziRegex = RegExp(

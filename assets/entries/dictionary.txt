@@ -1,3 +1,8 @@
+This dictionary is licensed under CC BY 4.0. You must provide attribution when using it. See https://creativecommons.org/licenses/by/4.0/ for details.
+Author: Felix Kanardy Sujono
+Date: 1-18-2026
+Revision: 1
+
 =:chhèⁿ-tiâu
 $verb to be able to withstand, to be able to handle
 $verb to be capable of, to be competent of
@@ -9,7 +14,7 @@ $adj drowsy, dizzy, confused
 $verb to kick
 =:kàu-kùn
 $adj fragrant, flower-smelling
-=:siap
+=澀:siap
 $adj (of meat) tasteless, bland, flavourless
 =:chhau
 $noun tips, suggestions
@@ -50,6 +55,8 @@ $idiom (of a person, euphemistically) insane, stupid, absurd
 $num seven (7)
 =七十:chhiap
 $num seventy (70)
+$explain
+Only used for 71-79. Seventy (70) is still pronounced chhit cha̍p.
 =七月半:chhit-goe̍h-pòaⁿ
 $event Hungry Ghost Festival (7th month in the lunar calendar)
 =丈人公:tiò͘-lâng-kong
@@ -84,7 +91,7 @@ $time that time, last time
 $time yesterday
 =下:hèⁿ
 $verb to put down (something)
-=下午:ēⁿ-po͘
+=下晡:ēⁿ-po͘
 $time afternoon
 =下跤:ē-kha
 $noun below
@@ -103,7 +110,7 @@ $noun world
 $noun earth
 =中:tiong
 $adj middle, mid
-=中午:tiong-tàu
+=中晝:tiong-tàu
 $time noon, midday
 =中國:tiong-kok
 $loc China
@@ -164,6 +171,8 @@ $noun matter, thing, affair
 $num two (2)
 =二十:jiāp
 $num twenty (20)
+$explain
+Only used for 21-29. Twenty (20) is still pronounced jī cha̍p.
 =五:gō
 $num five (5)
 =交代:kau-tài
@@ -205,7 +214,7 @@ $noun position, location, spot
 =低:kēⁿ
 $adj low
 =何:hô
-$surname ho (surname)
+$surname Ho
 =何物:haⁿ-mih/haⁿ-meh
 $pron what
 =何物事:haⁿ-mih-sū/haⁿ-meh-sū
@@ -585,7 +594,7 @@ $verb to swallow one's saliva
 =吠:pūi
 $verb (of a dog) to bark
 =吳:gô͘
-$surname go, goh, ng (surname)
+$surname Go, Goh, Ng
 =吸:súk
 $verb to suck in
 =吸煙機:súk-hun-ki
@@ -641,9 +650,9 @@ $noun a person from Chinese origin or ethnicity
 =唐儂人:tê-nâng-lâng
 $noun a person from Chinese origin or ethnicity
 =唐儂字:tê-nâng-jī
-$noun hanzi, chinese characters
+$noun Hanzi, Chinese characters
 =唐儂節:tê-nâng-chia
-$event Chinese New Year (A 15-dsy festival starting on the 1st day of the 1st month in the Lunar Calendar)
+$event Chinese New Year (A 15-day festival starting on the 1st day of the 1st month in the Lunar Calendar)
 =唱:chhiòⁿ
 $verb to sing
 =唱歌:chhiòⁿ-koa
@@ -701,6 +710,8 @@ $verb to yell
 $num four (4)
 =四十:siap
 $num forty (40)
+$explain
+Only used for 41-49. Forty (40) is still pronounced sì cha̍p.
 =四四角角:sì-sì-kak-kak
 $adj squarish, like a box
 =四散:sì-sòaⁿ
@@ -905,7 +916,7 @@ $family grandchild
 $verb to learn
 =學堂:o̍h-tn̂g
 $noun school
-=學生:ha̍p-seng
+=學生:ha̍p-seng/ha̍k-seng
 $noun student
 =孽:gia̍t
 $adj (usually of a child) naughty, mischievous, playful
@@ -1071,7 +1082,7 @@ $time how many days?
 $time which month?
 =幾濟:kúi-chè
 $pron how much (is the price)?
-=幾號:kúi-hò
+=幾號:kúi-hō
 $time which date?
 =幾鐳:kúi-lui
 $pron how much (is the price)?
@@ -1089,7 +1100,7 @@ $noun degree (Celcius)
 =庵:am
 $noun temple
 =張:tio͘
-$surname teo, tio, zhang (surname)
+$surname Teo, Tio, Zhang
 =張:tioⁿ
 $class sheet of
 =强:ióng
@@ -1493,10 +1504,8 @@ $verb to teach, to educate
 $verb to call (someone) by phone
 =敲電話:kha-tiān-ōa
 $verb to make a phone call
-=數:sùiⁿ/sǹg
+=算:sùiⁿ/sǹg
 $verb to count
-=數起來:sǹg khí-lâi
-$phrase (expression) looking at the greater picture, after all, as a whole
 =料:liāu
 $food meal
 $food (of food) ingredients
@@ -1574,12 +1583,12 @@ $adj stressed (from a non-delightful event)
 =暗:àm
 $adj dark
 $adj late in the day
-=暗夜:àm-mê
+=暗暝:àm-mê
 $time night time
 =曬:phi
 $verb to dry in the sun
 =曾:chan
-$surname zeng, chan (surname)
+$surname Zeng, Chan
 =曾:pat
 $verb to have ever (in the past)
 =曾祖母:chó͘-má
@@ -1650,7 +1659,7 @@ $class [Classifier for cups or glass]
 =枕頭:chín-thâu
 $noun pillow
 =林:lîm
-$surname lim / Lin (surname)
+$surname Lim, Lin
 =果子:kóe-chí
 $fruit fruit
 =某:bó͘
@@ -1772,8 +1781,6 @@ $noun life and death
 $advb no
 $advb not
 $advb [used as negation]
-=毋对:m̄-tio̍h
-$adj incorrect
 =毋愛睬:mài-chhái
 $verb to ignore, to not pay attention to (someone), to neglect (someone)
 =毋曾:m̄-pat
@@ -1783,7 +1790,7 @@ $verb to not know
 =毋識:m̄-bat
 $verb to not know (someone)
 =毋通:m̄-thang
-$advb (expression) it's bad if, do not
+$advb [used to indicate that such action should not be done] it's bad if, do not
 =毒:tok
 $adj poisonous
 $adj toxic
@@ -1813,7 +1820,7 @@ $noun bathroom
 =水紅色:chúi-âng-sek
 $colour pink
 =水罐:chúi-koan
-$noun water Bottle
+$noun water bottle
 =水龍車:chúi-lêng-chhia
 $noun fire truck
 =汆鍋:sang-o
@@ -1849,7 +1856,7 @@ $food youtiao (a type of Chinese long deep-fried dough pastry fritter, usually s
 =油肭肭:iû-leh-leh
 $adj (of bowls, plates, food, etc) greasy, oily
 =油菜:iū-chhài
-$food choy sum, bok choy, yu choy, chinese flowering cabbage
+$food choy sum, bok choy, yu choy, Chinese flowering cabbage
 =泡:phàu
 $verb to pour boiling water into (tea, instant soup, etc)
 =泡茶:phàu-têⁿ
@@ -1874,7 +1881,7 @@ $verb to take a bath
 =洗鐳:sé-lui
 $verb to launder money
 =洪:âng
-$surname ang, hong (surname)
+$surname Ang, Hong
 =活:oa̍h
 $adj alive
 =流:lâu
@@ -2038,7 +2045,7 @@ $verb to suffocate (someone) to death
 $verb to not have
 $verb do not have
 =無代誌:bô tāi-chì
-$phrase (expression) no problem
+$express no problem
 =無佇:bô-tī
 $verb to be lost, to be missing, to be gone
 $opp 有佇
@@ -2145,7 +2152,7 @@ $verb to simmer, to stew (vegetables, etc.) in water
 =熱:joa̍h
 $adj hot (weather)
 =燈籠:teng-lông
-$noun chinese paper lantern
+$noun Chinese paper lantern
 =燒賣:sio-māi
 $food shumai
 $food a traditional steamed Chinese dumpling
@@ -2218,7 +2225,7 @@ $animal ants
 =獅:sai
 $animal lion
 =王:ông
-$surname ong, ang (surname)
+$surname Ong, Ang
 $noun king
 =玩:lí
 $verb to play
@@ -2234,7 +2241,9 @@ $noun ball
 $food sunflower seeds
 $etyIDN kuaci
 =甘:kam
-$surname kam, gan (surname)
+$advb willingly, voluntarily, readily, of one's own accord
+$adj brave, bold, daring
+$surname Kam, Gan
 =甜:tiⁿ
 $adj sweet
 =甜尿:tiⁿ-jō
@@ -2307,7 +2316,7 @@ $verb to send
 =發燒:hoat-sio
 $noun fever
 =發粿:hoat-kóe
-$food chinese prosperity cakes, moho cakes (similar Indonesian traditional cake)
+$food Chinese prosperity cakes, Moho cakes (similar Indonesian traditional cake)
 =發貨:kiàⁿ-hòe
 $verb to send goods, to distribute goods
 =白糖糕:pak-thòng-ko
@@ -2368,7 +2377,7 @@ $verb to watch a movie
 =看著:khòaⁿ-tio̍h
 $verb to have seen (someone or something)
 =看通書:khòaⁿ-thong-su
-$verb (figurative) to overthink, to overanalyse, to overcalculate
+$verb $figur to overthink, to overanalyse, to overcalculate
 =看開:khòaⁿ-khui
 $verb to be sincere, to be heartfelt, to be genuine
 =看𣍐起:khòaⁿ-bē-khí
@@ -2671,7 +2680,7 @@ $food meat
 =肉丸:bah-oan
 $food vegetable fritters, bakwan (Indonesian)
 =肉乾:bah-koaⁿ
-$food bakkwa, chinese pork jerky (Chinese salty-sweet dried meat product similar to jerky, usually made with pork)
+$food bakkwa, Chinese pork jerky (Chinese salty-sweet dried meat product similar to jerky, usually made with pork)
 =肉包:bah-pau
 $food bao, baozi, bakpao (Indonesian)
 =肉拊:bah-hú
@@ -2886,7 +2895,7 @@ $verb to rain
 =落雨點:lo̍͘h-hō͘-tiám
 $verb to drizzle
 =葉:ia̍p
-$surname yap (surname)
+$surname Yap
 =葉:hio̍h
 $noun leaf
 =著:tio̍h
@@ -2909,10 +2918,10 @@ $fruit grape
 $drink grape wine
 =葬:kám
 $verb to bury (a body specified by local tradition)
-=蒼蠅:hô-sîn
+=胡蠅:hô-sîn
 $animal housefly
 =蔡:chhòa
-$surname chua (surname)
+$surname Chua
 =蔥:chhang
 $food scallion, green onion
 =蔥頭:chhang-thâu
@@ -2940,7 +2949,7 @@ $noun pharmacy
 $noun a shop that sells traditional medicines and herbs
 =蘋果:phêng-kó͘
 $fruit apple
-=號:hò
+=號:hō
 $time date
 $explain
 二號 the 2nd
@@ -2961,7 +2970,7 @@ $animal snake
 =蜜糖:bi̍k-thn̂g
 $drink honey
 =蜜蜂:bi̍k-phang
-$animal honeybee
+$animal bee, honeybee
 =蝕本:si̍h-pún
 $verb to lose money, to lose one's capital
 =蝦:hêⁿ
@@ -2983,7 +2992,7 @@ $noun candle
 =血:hoeh
 $body blood
 =血高:hoeh-koan
-$adj (figurative) (of a person) quick-tempered, short-tempered, irascible, easily get mad
+$adj $figur (of a person) quick-tempered, short-tempered, irascible, easily get mad
 =血高:hoeh-koân
 $body hypertension, high blood pressure
 =行:kiâⁿ
@@ -3068,7 +3077,7 @@ $noun reporter, journalist
 =話:ōa
 $noun language, talk
 =詹:cham
-$surname chan, zhan (surname)
+$surname Chan, Zhan
 =認:jìn
 $verb to recognise, to identify, to make out, to know
 =誠:chiâⁿ
@@ -3092,7 +3101,7 @@ $etyYUE leon6 zeon6
 $verb to say, to speak, to talk
 =講共汝講:kóng-kā-lí-kóng
 $phrase to talk to you about (something)
-$phrase (expression) anyway, wait a minute
+$express anyway, wait a minute
 =講故:kóng-kò͘
 $verb to converse, to chat, to be part of a conversation
 =講話:kóng-ōa
@@ -3325,9 +3334,9 @@ $noun small grocery store, mama shop, mom-and-pop store, neighbourhood store, to
 $noun side
 $noun edge
 =邱:khu
-$surname khoo (surname)
+$surname Khoo
 =鄭:tēng
-$surname tee, theng (surname)
+$surname Tee, Theng
 =酒:chiú
 $drink alcoholic beverage
 $drink beer
@@ -3463,7 +3472,7 @@ $family father's elder brother
 =阿舅:a-kū
 $family mother's brother
 =陳:tân
-$surname tan / Tang (surname)
+$surname Tan, Tang
 =隔壁:keh-piah
 $noun next door
 =隨便:chin-chhái
@@ -3501,7 +3510,7 @@ $food wonton
 =雲吞麵:oān-than-mī
 $food wonton noodles
 =雷:lûi
-$surname lui, lei (surname)
+$surname Lui, Lei
 =電:tiān
 $noun electricity
 =電器店:tiān-khí-tiàm
@@ -3620,7 +3629,7 @@ $noun airport
 =食:chia̍h
 $food food
 $verb to eat
-=食中午:chia̍h-tiong-tàu
+=食中晝:chia̍h-tiong-tàu
 $verb to eat lunch
 =食店:chia̍h-tiàm
 $noun eatery, diner
@@ -3752,7 +3761,7 @@ $food noodles
 $food misua noodles
 =麻:bâ
 $adj numb, tingling
-$adj (figurative) drunk
+$adj $figur drunk
 $verb to be numb, to tingle
 =麻油:môa-iû
 $food sesame oil
@@ -3762,7 +3771,7 @@ $adj inconvenient
 =麻麻:bâ-bâ
 $verb tingling
 =黃:n̂g
-$surname ng, wee, ooi (surname)
+$surname Ng, Wee, Ooi
 =黃色:ûi-sek
 $colour yellow
 =黑胡椒:o͘-hô͘-chio
@@ -3856,3 +3865,120 @@ $phrase to climb up and down (especially stairs)
 $time for once, rarely
 $explain
 伊一步擺来 He rarely comes/For once, he comes
+=功夫:kang-hu
+$time time (to do something)
+$noun (especially in martial arts) skill, art, workmanship
+$noun Chinese martial arts (kung fu)
+=早年頭:chá-nî-thâu
+$time last year, previous year
+$explain
+早三年頭 Last three years
+早十年頭 Last ten years
+=普通:pó͘-thōng
+$adj normal, usual, typical, common, ordinary
+=歲數:hóe-sia
+$noun age (of a person)
+=比賽:pí-sài
+$noun competition, tournament, match
+=環境:hoân-kéng
+$noun environment, surrounding
+$noun circumstances
+=算數:sǹg-siàu
+$verb to count numbers
+$verb to perform simple calculations (such as addition, subtraction, multiplication, division, etc.)
+=算起來:sǹg-khí-lâi
+$express looking at the greater picture, after all, as a whole
+=臘腸:la̍p-chhiông
+$food Chinese sausage, lap cheong
+=英文:eng-bûn
+$lang English
+=衝:chhiong
+$verb to dash ahead, to charge, to rush
+=跤囝:kha-kiáⁿ
+$noun employee
+$noun worker (working under oneself)
+$noun branch of a business
+=遛皮:luh-phôe
+$verb (of a surface or outer layer) to detach, peel away, or be cast off
+$verb to shed skin, to peel off a layer of skin (especially in an injury)
+=開球:khui-kiû
+$verb to serve, to start a match (usually on games with balls)
+=集:kiap
+$class [classifier for episode (TV shows, series, etc.)]
+$explain
+第一集 first (1st) episode
+兩集 two (2) episodes
+=青青:chheⁿ-chheⁿ
+$adj (of fruit) unripe, green
+=風湧:hong-éng
+$noun stormy waves
+=咳啾:hat-chhiùⁿ
+$verb to sneeze, hachoo, achoo, atchoo
+=盒:a̍h
+$noun box, case (generally small, with a lid)
+$class [classifier for boxes or cases]
+=色水:sek-chúi
+$noun colour, hue
+=汽水:khì-chúi
+$drink aerated water, soft drink, soda water
+$drink sodapop, carbonated drinks
+=𠕇:tēng
+$adj hard, solid
+$adj difficult to chew (especially due to hardness)
+=較羨:khah-siān
+$verb to pity, to feel pity for
+$verb to sympathise with, to feel sorry for
+=:hu̍t
+$class [classifier for a hand-size portion of a food e.g. durian seeds]
+=好彩:hó-chhái
+$advb luckily, fortunately
+$express luckily, fortunately, fortuitously (avoiding a bad outcome purely by chance, despite risk or lack of control)
+=〇/空:khòng
+$num zero (0)
+=拜一到拜五:pài-it kàu pài-gō͘
+$time weekday
+=拜六禮拜:pài-la̍k lé-pài
+$time weekend
+=半暝:pòaⁿ-mê
+$time midnight
+=今暝:kin-mê
+$time tonight, this evening
+=拜幾:pài-kúi
+$time what day? (as in Monday, Tuesday, etc.)
+=最近:chòe-kìn
+$advb recently, lately, of late
+$noun in the near future, soon
+=聰明:chhong-bêng
+$adj intelligent, bright, clever
+=毋對:m-tio̍h
+$adj incorrect; wrong
+$adj [alone to express disagreement] no
+=腹肚餓:pak-tó͘-iau
+$verb to be hungry
+$adj hungry
+=拍無:phah-bô
+$verb to lose (something)
+$adj to be lost, to be missing
+=滷:ló͘
+$verb to hate, to despise (someone)
+=滷死:ló͘-sí
+$verb angry to death, outraged, furious
+=菜圍人:chhài-hûi-lâng
+$adj (of a person) reflecting a modest, rural lifestyle or aesthetic
+$adj (of a person) plain and unpretentious in dress, behavior, or manner.
+=排隊:pâi-tūi
+$verb to queue up, to line up
+=滑:ku̍t
+$adj slippery, slick
+=折:chi̍h
+$verb to break off; to snap; to pluck off
+=四面佛:sì-bīn-hu̍t
+$noun (buddhism) Phra Phrom (Thai representation of the Hindu god Brahma)
+=甘講:kam-kóng
+$verb to speak with courage, to dare to speak up, to communicate boldly
+=抖:tūn
+$verb to tremor, to tremble, to shake
+$adj $figur scared, terrified, frightened, afraid
+=迫促:pek-chhek
+$adj pressing, urgent
+$verb to urge, to press, to hurry

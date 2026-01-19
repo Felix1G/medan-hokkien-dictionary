@@ -170,9 +170,8 @@ class Entry {
 
     // putting into list to avoid code repetition at the loop below
     final allLists = [pojSearchUp, pojSearchUpToneless, hanziSearchUp, pojWordListIterable.toList()];
-
     final chineseSearchUp = List.generate(
-      maxInt(hanzi[0].length, pojWordListIterable.first.length), // either hanzi or poj is longer
+      maxInt(hanzi.isEmpty ? 0 : hanzi[0].length, pojWordListIterable.first.length), // either hanzi or poj is longer
       (int index) {
         final set = <String>{};
 
@@ -249,7 +248,7 @@ Entry? parseEntry(List<String> textLines) {
   var index = 0;
   while (index < textLines.length) {
     var characters = textLines[index].characters;
-    if (characters.first == "=") break;
+    if (characters.isNotEmpty && characters.first == "=") break;
 
     index++;
   }

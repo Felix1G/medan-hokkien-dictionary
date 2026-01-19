@@ -13,6 +13,16 @@ HashMap<String, int> kEntriesCharacter = HashMap();
 const kEntriesAmount = 1733;
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  
+  FlutterError.onError = (FlutterErrorDetails details) {
+    FlutterError.dumpErrorToConsole(details);
+    // Crash immediately in debug
+    if (kDebugMode) {
+      assert(false);
+    }
+  };
+
   runApp(const MyApp());
 }
 
@@ -45,7 +55,7 @@ class _LoadingPageState extends State<LoadingPage> {
 
   void getAllEntries() async {
     // split the dictionary text by lines
-    progressText = "Loading dictionary...";
+    setState(() => progressText = "Loading dictionary...");
     String dictionaryText = await loadDictionary();
     final dictionarySections = dictionaryText.split("\n");
     final sections = dictionarySections.length;
@@ -54,7 +64,7 @@ class _LoadingPageState extends State<LoadingPage> {
     List<String> buffer = List.empty(growable: true);
 
     // loop through each line
-    progressText = "Compiling dictionary...";
+    setState(() => progressText = "Compiling dictionary...");
     var index = 0;
     while (index < sections) {
       final section = dictionarySections[index];
@@ -99,7 +109,7 @@ class _LoadingPageState extends State<LoadingPage> {
       // print(kEntries.join('\n'));
     }
 
-    progressText = "Finishing up...";
+    setState(() => progressText = "Finishing up...");
 
     // mapping individual characters to entries
     var entryIndex = 0;
@@ -113,7 +123,7 @@ class _LoadingPageState extends State<LoadingPage> {
     progress += 1.0 / (kEntriesAmount + 1); //update progress bar
     
     // REDIRECT TO DICTIONARY PAGE
-    progressText = "Redirecting...";
+    setState(() => progressText = "Redirecting...");
     await Future.delayed(const Duration(milliseconds: 750));
 
     if (!mounted) return;
@@ -131,7 +141,7 @@ class _LoadingPageState extends State<LoadingPage> {
     GoogleFonts.getFont("Noto Sans SC");
     GoogleFonts.getFont("Noto Sans TC");
     
-    progressText = "Initialising dictionary...";
+    setState(() => progressText = "Initialising dictionary...");
     initDictionary();
     
     getAllEntries();

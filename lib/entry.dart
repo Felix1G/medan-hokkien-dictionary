@@ -313,68 +313,73 @@ class _EntryPageState extends State<EntryPage> {
             ),
           ),
 
-          // HANZI AND POJ
-          SizedBox(
+          // background colour of top elements
+          Container(
             width: double.infinity,
+            color: Color.fromRGBO(30, 30, 30, 1.0),
             child: Column(children: [
-              if (hanziWidgets.isNotEmpty) SizedBox(height: 30.0),
-              if (hanziWidgets.isNotEmpty) Center(child: 
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                  child: Wrap(
-                    alignment: WrapAlignment.center,
-                    spacing: 4.0,
-                    runSpacing: 4.0,
-                    children: hanziWidgets,
+              // HANZI AND POJ
+              SizedBox(
+                width: double.infinity,
+                child: Column(children: [
+                  if (hanziWidgets.isNotEmpty) SizedBox(height: 30.0),
+                  if (hanziWidgets.isNotEmpty) Center(child: 
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                      child: Wrap(
+                        alignment: WrapAlignment.center,
+                        spacing: 4.0,
+                        runSpacing: 4.0,
+                        children: hanziWidgets,
+                      ),
+                    )
                   ),
-                )
+                  SizedBox(height: 20.0),
+                  Center(child: 
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                      child: Wrap(
+                        alignment: WrapAlignment.center,
+                        spacing: 4.0,
+                        runSpacing: 4.0,
+                        children: pojWidgets,
+                      ),
+                    )
+                  )
+                ])
               ),
-              SizedBox(height: 20.0),
-              Center(child: 
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                  child: Wrap(
-                    alignment: WrapAlignment.center,
-                    spacing: 4.0,
-                    runSpacing: 4.0,
-                    children: pojWidgets,
-                  ),
-                )
-              )
-            ])
-          ),
           
-          SizedBox(height: 10.0),
+              SizedBox(height: 10.0),
 
-          // NAVIGATION BUTTONS
-          Row(
-            children: [
-              entryPageButton('DICT', selectedPage == 0, () {
-                setState(() { selectedPage = 0; });
-              }),
-              if (charWidgets.isNotEmpty)
-                entryPageButton('CHARS', selectedPage == 1, () {
-                  setState(() { selectedPage = 1; });
-                }),
-              if (wordWidgets.isNotEmpty)
-                entryPageButton('WORDS', selectedPage == 2, () {
-                  setState(() { selectedPage = 2; });
-                }),
-            ],
-          ),
-
-          SizedBox(height: 40.0),
+              // NAVIGATION BUTTONS
+              Row(
+                children: [
+                  entryPageButton('DICT', selectedPage == 0, () {
+                    setState(() { selectedPage = 0; });
+                  }),
+                  if (charWidgets.isNotEmpty)
+                    entryPageButton('CHARS', selectedPage == 1, () {
+                      setState(() { selectedPage = 1; });
+                    }),
+                  if (wordWidgets.isNotEmpty)
+                    entryPageButton('WORDS', selectedPage == 2, () {
+                      setState(() { selectedPage = 2; });
+                    }),
+                ],
+              ),
+            ]
+          )),
 
           // SUBPAGES
           if (selectedPage == 0)
-            Padding(
-              padding: EdgeInsetsGeometry.symmetric(horizontal: 20),
+            Expanded(child: SingleChildScrollView(child: Padding(
+              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
               child: Column(
                 spacing: 5.0,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: dictWidgets
               )
-            )
+            )))
           else
             Expanded(child: ListView.separated(
               itemCount: (selectedPage == 1 ? charWidgets : wordWidgets).length,

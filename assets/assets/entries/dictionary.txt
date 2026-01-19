@@ -1,16 +1,3 @@
-This dictionary is licensed under CC BY 4.0. You must provide attribution when using it. See https://creativecommons.org/licenses/by/4.0/ for details.
-Author: Felix Kanardy Sujono
-Date: 1-18-2026
-Revision: 2
-
-Notes:
-1. Order of definitions will be the same.
-> example: [advb A, adj B] will remain as adverb first then adjective second.
-2. Definitions may be swapped to be grouped to the categories, but initial category order will be the same.
-> example: [advb A, adj B, advb C] => [advb A, advb C, adj B] B and C will be swapped to group adverbs into one category.
-3. Hashtag (#) must never be part of the definition.
-> Hashtag is used as category specifiers in definitionDisplay.
-
 =:chhèⁿ-tiâu
 $verb to be able to withstand, to be able to handle
 $verb to be capable of, to be competent of

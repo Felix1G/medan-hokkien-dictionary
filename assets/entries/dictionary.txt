@@ -1,5 +1,8 @@
-This dictionary is licensed under CC BY 4.0. You must provide attribution when using it. See https://creativecommons.org/licenses/by/4.0/ for details.
-Author: Felix Kanardy Sujono
+© 2026 Felix Kanardy Sujono
+
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+
 Date: 1-19-2026
 Revision: 4
 

@@ -3,6 +3,7 @@ import 'dart:collection';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:medan_hokkien_dictionary/main.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
 
 enum Category {
@@ -235,6 +236,13 @@ ${definitions.map((d) => '    $d').join('\n')}
 )
 ''';
   }
+}
+
+int obtainHanziPOJHash(Entry entry) {
+  return Object.hash(
+    Object.hashAll(entry.hanzi),
+    Object.hashAll(entry.poj),
+  );
 }
 
 HashMap<String, Category> _categories = HashMap();

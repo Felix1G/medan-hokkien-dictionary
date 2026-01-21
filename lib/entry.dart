@@ -61,7 +61,7 @@ Widget condensedEntryWidget(BuildContext context, Entry entry) {
           ]
         ),
 
-        SizedBox(height: 10.0),
+        const SizedBox(height: 10.0),
 
         // DEFINITION
         definitionDisplayText(entry.definitionsDisplay, normalSize: MediaQuery.textScalerOf(context).scale(17.5))
@@ -101,9 +101,9 @@ Widget entryPageButton(String text, bool selected, VoidCallback onPressed) {
           ),
         overlayColor: WidgetStateProperty.all(Colors.transparent), // no splash
         shadowColor: WidgetStateProperty.all(Colors.transparent),
-        shape: WidgetStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.zero)), 
+        shape: WidgetStateProperty.all(const RoundedRectangleBorder(borderRadius: BorderRadius.zero)), 
         // 8 is a magic number that works, > 8 and the hover overlay goes below the bottom underline
-        padding: WidgetStateProperty.all(EdgeInsets.symmetric(vertical: 8)),
+        padding: WidgetStateProperty.all(const EdgeInsets.symmetric(vertical: 8)),
       ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -190,7 +190,7 @@ class _EntryPageState extends State<EntryPage> {
       final firstCategory = definitions[idx].categories.first;
       if (firstCategory.redirect) {
         if (parentCategory != null) {
-          dictWidgets.add(SizedBox(height: 20));
+          dictWidgets.add(const SizedBox(height: 20));
         }
 
         final redirectContent = definitions[idx].content;
@@ -232,7 +232,7 @@ class _EntryPageState extends State<EntryPage> {
       if (firstCategory != parentCategory || firstCategory.redirect) {
         // only apply top padding for subsequent categories
         if (parentCategory != null) {
-          dictWidgets.add(SizedBox(height: 20));
+          dictWidgets.add(const SizedBox(height: 20));
         }
 
         dictWidgets.add(Text.rich(definitionText(firstCategory.name, normalSize: dictFontSize, tagSizeScale: 1.0))); // main category name
@@ -258,7 +258,7 @@ class _EntryPageState extends State<EntryPage> {
 
       // add the widget on this definition number
       dictWidgets.add(Padding(
-        padding: EdgeInsetsGeometry.symmetric(horizontal: 5),
+        padding: const EdgeInsetsGeometry.symmetric(horizontal: 5),
         child: Row(
           spacing: 5.0,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -340,7 +340,7 @@ class _EntryPageState extends State<EntryPage> {
             height: 60.0,
             width: double.infinity,
             color: Colors.red,
-            padding: EdgeInsets.symmetric(horizontal: 10.0),
+            padding: const EdgeInsets.symmetric(horizontal: 10.0),
             child: Row(
               children: [
                 // BACK BUTTON
@@ -393,7 +393,7 @@ class _EntryPageState extends State<EntryPage> {
                             child: Column(
                               children: [
                                 // HANZI
-                                if (hanziWidgets.isNotEmpty) SizedBox(height: 30),
+                                if (hanziWidgets.isNotEmpty) const SizedBox(height: 30),
                                 if (hanziWidgets.isNotEmpty)
                                   Center(child: Padding(
                                     padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -405,7 +405,7 @@ class _EntryPageState extends State<EntryPage> {
                                     ),
                                   )),
 
-                                SizedBox(height: 20),
+                                const SizedBox(height: 20),
 
                                 // POJ
                                 Center(child: Padding(
@@ -418,7 +418,7 @@ class _EntryPageState extends State<EntryPage> {
                                   ),
                                 )),
 
-                                SizedBox(height: 10),
+                                const SizedBox(height: 10),
                               ],
                             ),
                           ),
@@ -467,7 +467,7 @@ class _EntryPageState extends State<EntryPage> {
                                   color: const Color.fromARGB(255, 57, 72, 80),
                                   thickness: 1,
                                   height: 0,
-                                ) : SizedBox();
+                                ) : const SizedBox();
                               return Column(
                                 mainAxisAlignment: MainAxisAlignment.start,
                                 children: [
@@ -550,7 +550,7 @@ class EntryCopyableText extends StatelessWidget {
               Text(text, style: style, softWrap: true, overflow: TextOverflow.visible)
             ),
 
-            SizedBox(width: 2.0),
+            const SizedBox(width: 2.0),
 
             // COPY PASTE ICON
             Padding(

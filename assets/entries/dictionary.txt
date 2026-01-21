@@ -3,8 +3,8 @@
 This work is licensed under the Creative Commons Attribution 4.0 International License.
 To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
 
-Date: 1-20-2026
-Revision: 5
+Date: 1-21-2026
+Revision: 6
 
 Notes:
 1. Order of definitions will be the same.
@@ -286,8 +286,9 @@ $explain
 More polite and softer than 閃
 $see 閃
 =假:kéⁿ
-$adj fake
-$adj false
+$adj fake, false
+=假勥:kéⁿ-khiàng
+$adj to be a smartass, to overestimate one's cleverness and act unwisely
 =做:chò
 $verb to do, to execute (an action)
 $verb to work as (a job)
@@ -520,7 +521,7 @@ $num ten (10)
 $phrase to be equal, to be the exact same
 =十三個月出生:cha̍p-saⁿ ko goe̍h chhut-sî
 $idiom (sarcastic) to never want to be defeated, to never want to lose
-=十五暝:cha̍p-gō͘-mêⁿ
+=十五暝:cha̍p-gō͘-mê
 $noun $event Lantern Festival, Cap Go Meh
 $explain
 A festival marking the end of the Chinese New Year period, celebrated on the 15th date of the 1st month in the lunar calendar.
@@ -592,9 +593,15 @@ $verb (of insects) to sting, to bite
 =合艾:hap-chái
 $noun $loc Hat Yai (A major city in Thailand)
 =吉靈子:kè-lêng-á
-$noun (extremely derogatory) Indians
+$noun $derago Indians
 $etyMSA keling
-$etySAN kalinga (an Ancient kingdom in India)
+$etySAN कलिङ्ग (kaliṅga)
+$explain
+Kalinga is an ancient kingdom in India. 
+=烏種人:o͘-chéng-lâng
+$noun a person with dark skin, a Black person
+$explain
+This word is used descriptively without hostile intent. However, it can be perceived as racist or offensive outside the dialectal context.
 =吊車:tiáu-chhia
 $noun cable car, gondola, ropeway
 =名:miâ
@@ -892,9 +899,7 @@ $adj yummy
 $adj (of drinks) delicious
 $adj yummy
 =好麗:háu-lián
-$adj extravagant
-$adj arrogant
-$adj flashy
+$adj ostentatious, flashy, flaunting, flexing
 =妗婆:kīm-pô
 $noun $family grandmother's brother's wife
 =姆婆:ḿ-pô
@@ -1419,7 +1424,7 @@ $verb to sway, to rock
 $verb to swing, to wag
 =搬:poa
 $verb to move, to relocate, to shift
-=搶:chhió͘ⁿ
+=搶:chhió͘
 $verb to snatch
 $verb to confiscate
 $verb to grab
@@ -1579,6 +1584,8 @@ $prepo [used as "be" before nouns and pronouns to identify or describe the subje
 $auxi [at the end of the question to ask if the statement is true, kind of like "isn't it?"]
 =是才:sī-chài
 $advb actually, in fact, as a matter of fact
+=時:sî
+$noun time, fixed time
 =時鐘:sî-cheng
 $noun clock
 =時間:sî-kaⁿn
@@ -1594,6 +1601,9 @@ $adj $figur stressed (from a non-delightful event)
 =暗:àm
 $adj dark
 $adj late in the day
+=暝:mê
+$noun $time nighttime (obsolete on its own)
+$see 暗暝
 =暗暝:àm-mê
 $noun $time nighttime
 =曬:phi
@@ -1617,8 +1627,8 @@ $verb to know how to do
 $idiom to be suffering but unable to talk about it
 =會記:ē-kì
 $verb to remember
-=會閒:ē-hù
-$verb to have time (to meet some deadline)
+=會赴:ē-hù
+$verb to (be able to) make it; to do something on time
 =月娘:goe̍h-niô
 $noun moon
 =有:ū
@@ -2314,7 +2324,7 @@ $adj all, whole, totally, complete, everything
 $verb to leave behind some (food) for later, to save (food) for later
 $verb (of food) to last, to stay fresh (for a certain amount of time)
 =番仔:hoān-á
-$noun (slightly derogatory) aborigines
+$noun $derago aborigines
 $noun indigenous folks
 $noun malay person
 $noun pribumi
@@ -2966,7 +2976,7 @@ $noun $food garlic
 $adj thin and soft (material)
 =薄餅:po̍h-piáⁿ
 $noun $food popiah (Hokkien and Teochew-style spring roll)
-=薑:kio͘ⁿ
+=薑:kio͘
 $noun $food ginger
 =薟椒囝:hiām-chio-kiáⁿ
 $noun $food cayenne pepper, chili
@@ -3462,6 +3472,8 @@ $verb to open
 $verb to speak more clearly or loudly (by opening the mouth more widely)
 =開店:khui-tiàm
 $verb to open up shop, to set up shop
+=開頭:khui-thâu
+$adj arrogant, haughty, supercilious, condescending
 =開水:kún-chúi
 $noun boiled water
 $noun boiling water
@@ -3657,8 +3669,9 @@ $noun fan
 $noun view, scenery, sight, scene, landscape
 =風水:hong-súi
 $noun feng shui
+$noun aesthetics (of a location or place)
 $explain
-An ancient Chinese system of designing buildings and space arrangement according to special rules about the flow of energy, aimed at achieving harmony with the environment
+A Chinese system of geomancy about the ideal topography, geography, and spatial arrangement of things at a place.
 =風車:hong-chhia
 $noun bicycle
 =風濕:hong-sip
@@ -3669,7 +3682,7 @@ $verb to fly
 $verb to fly away
 =飛機:poe-ki
 $noun airplane
-=飛機場:poe-ki-tiô͘ⁿ
+=飛機場:poe-ki-tiô͘
 $noun airport
 =食:chia̍h
 $noun $food food
@@ -3881,9 +3894,9 @@ $verb cannot do, to not know how to do
 $verb to forget
 =𣍐認:bē-jìn
 $verb unable to recognise, unable to identify
-=𣍐閒:bē-hù
-$verb to not have enough time
-$verb to be late
+=𣍐赴:bē-hù
+$verb to not to (be able to) make it; to not be able to do something on time
+$verb to not have enough time; to be too late
 =𤆤:tīm
 $verb to braise, to stew, to heat up by steeping in hot water
 =𤺪:siān
@@ -4027,3 +4040,6 @@ $verb to urge, to press, to hurry
 =蹛:tòa
 $verb to live, to reside (somewhere)
 $verb to stay (at a location overnight in a hospital, hotel, etc.)
+=釋迦牟尼:seʳ-chià-mû-nî
+$noun (Buddhism) Śākyamuni, Gautama Buddha
+$etySAN शाक्यमुनि (Śākyamuni, “sage of the Śākyas”)

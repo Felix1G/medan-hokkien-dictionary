@@ -55,6 +55,7 @@ class _LoadingPageState extends State<LoadingPage> {
     setState(() => progressText = "Loading dictionary...");
     String dictionaryText = await loadDictionary();
     final dictionarySections = dictionaryText.split("\n");
+    dictionarySections.add("="); // allows the last entry to be added in the while loop 
     final sections = dictionarySections.length;
 
     // buffer to store individual entry info
@@ -63,17 +64,28 @@ class _LoadingPageState extends State<LoadingPage> {
     // loop through each line
     setState(() => progressText = "Compiling dictionary...");
     var index = 0;
+    final entryHashList = HashSet<int>(); // call out double entries
     while (index < sections) {
       final section = dictionarySections[index];
       if (section.isNotEmpty && charAtUni(section, 0) == '=') { // entries always start with '='
         // parse and add the PREVIOUS entry
         Entry? entry = parseEntry(buffer);
-        if (entry != null) kEntries.add(entry);
+        if (entry != null) {
+          int entryHash = obtainHanziPOJHash(entry);
+          if (entryHashList.contains(entryHash)) {
+            if (kDebugMode) {
+              debugPrint("WARNING: the entry '${entry.hanzi.join("/")}:${entry.poj.join("/")}' has a duplicate.");
+            }
+          } else {    
+            // update progress bar
+            setState(() {
+              progress += 1.0 / (kEntriesAmount + 1);
+            });
 
-        // update progress bar
-        setState(() {
-          progress += 1.0 / (kEntriesAmount + 1);
-        });
+            kEntries.add(entry);
+            entryHashList.add(entryHash);
+          }
+        }
         
         buffer.clear();
       }
@@ -82,10 +94,6 @@ class _LoadingPageState extends State<LoadingPage> {
       
       index++;
     }
-    
-    // parse and add the last entry
-    Entry? entry = parseEntry(buffer);
-    if (entry != null) kEntries.add(entry);
 
     if (kDebugMode) {
       // final explainEntries = List<Entry>.empty(growable: true);
@@ -155,7 +163,6 @@ class _LoadingPageState extends State<LoadingPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-
             // PROGRESS BAR
             SizedBox(width: 0.6 * MediaQuery.of(context).size.width, child:
               LinearProgressIndicator(
@@ -167,14 +174,14 @@ class _LoadingPageState extends State<LoadingPage> {
               ),
             ),
 
-            SizedBox(height: 50),
+            const SizedBox(height: 50),
 
             // INFORMATION TEXTS
             Text(
               'Loading Dictionary: ${(progress * 100).toStringAsFixed(1)}%',
               style: kUITextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)
             ),
-            SizedBox(height: 50),
+            const SizedBox(height: 50),
             Text(
               progressText, style: kUITextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)
             ),

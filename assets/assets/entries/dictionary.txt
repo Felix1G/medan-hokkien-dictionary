@@ -3,7 +3,7 @@
 This work is licensed under the Creative Commons Attribution 4.0 International License.
 To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
 
-Date: 1-21-2026
+Date: 1-22-2026
 Revision: 6
 
 Notes:
@@ -76,14 +76,18 @@ $noun $event Hungry Ghost Festival (7th month in the lunar calendar)
 $noun $family grandfather-in-law (wife's grandfather)
 =丈人婆:tiò͘-lâng-pô
 $noun $family mother-in-law (wife's mother)
-=丈人怕:tiò͘-lâng-peh
+=丈人怕:tiò͘-lâng-peⁿk
 $noun $family father-in-law (wife's father)
-=丈人怕丈人母:tiò͘-lâng-peh-tiò͘-lâng-bù
+=丈人怕丈人母:tiò͘-lâng-peⁿk tiò͘-lâng-bù
 $noun $family in-laws
 =丈人母:tiò͘-lâng-bù
 $noun $family mother-in-law (wife's mother)
 =丈公:tiò͘-kong
 $noun $family grandparents' sister's husband
+=母:bù
+$noun $family $honor mother, mum
+=怕母:peⁿk-bù
+$noun $family $honor parents, father and mother, mum and dad
 =三:saⁿ
 $num three (3)
 =三十暝:saⁿ-cha̍p-mêⁿ
@@ -169,6 +173,9 @@ $auxi [at the end of the sentence to express uncertainty, slight questioning]
 =了:liáu
 $adj finished, emptied
 $auxi [at the end of the sentence to indicate completion of action]
+=了鐳:liáu-lui
+$verb to waste money
+$verb to lose money
 =了水:liáu-chúi
 $verb to waste water
 =予:hō͘
@@ -240,6 +247,12 @@ $advb together, in company
 $noun $family nephew, niece
 =來:lâi
 $verb to come
+=來去:lâi-khì/lâi-hòe
+$verb to make a round trip; to come and go
+$etyYUE (for lâi-hòe) loi4 heoi3
+=來紅:lâi-âng
+$verb menstruating
+$noun menstruation, a period
 =來過來:lâi-kòe-lâi
 $verb to come here
 =信用:sìn-iōng
@@ -377,6 +390,7 @@ $num six (6)
 $conj and
 $conj [indicate relationship]
 $conj [express comparison] as, from
+$conj [express accompaniment or association] with
 =共...講:kah-...-kóng
 $verb to tell, to inform (someone)
 $explain
@@ -439,7 +453,7 @@ $explain
 四十個分鐘 40 minutes
 五十九個分鐘 59 minutes
 =切:chhiat
-$verb to slice, to chap
+$verb to slice, to cut into slices
 =则:tòe
 $verb to follow
 $verb to imitate
@@ -580,7 +594,7 @@ $noun $time very long ago, ancient times
 $advb separately
 $advb additionally, another
 $adj separate, apart, not together with the others
-=叩門:khok-mûiⁿ/khok-mn̂g
+=硞門:khok-mûiⁿ/khok-mn̂g
 $verb to knock the door
 =只:chiah
 $class [classifier for animals]
@@ -604,7 +618,7 @@ Kalinga is an ancient kingdom in India.
 $noun a person with dark skin, a Black person
 $explain
 This word is used descriptively without hostile intent. However, it can be perceived as racist or offensive outside the dialectal context.
-=吊車:tiáu-chhia
+=吊車:tiàu-chhia
 $noun cable car, gondola, ropeway
 =名:miâ
 $noun name
@@ -742,9 +756,9 @@ Only used for 41-49. Forty (40) is still pronounced sì cha̍p.
 =四四角角:sì-sì-kak-kak
 $adj squarish, like a box
 =四散:sì-sòaⁿ
-$advb carelessly, casually, at random, anyhow
+$advb anyhow, randomly, in a random manner
 =四散來:sì-sòaⁿ-lâi
-$advb carelessly, casually, at random, anyhow
+$advb anyhow, randomly, in a random manner
 =囝:kiáⁿ
 $noun $family child
 $noun $family son
@@ -778,8 +792,12 @@ $noun floor
 $prepo [preposition to indicate position] at (a place)
 =地:tē
 $noun land, field
+=地獄:tē-ga̍k
+$noun hell, underworld, inferno
 =地址:tē-chí
 $noun address (such as a home or business), location
+=買地:bé-tē
+$verb to buy land (as property)
 =坐:chē
 $verb to sit
 =坐車:chē-chhia
@@ -979,7 +997,7 @@ $adj correct
 =對面:túi-bīn
 $noun opposite side, across
 =對𣍐起:tòe-bē-khí
-$verb (honourific) to be sorry, to apologise
+$verb $honor to be sorry, to apologise
 =導郎:tō͘-long
 $verb to help, to assist
 $advb please
@@ -1168,7 +1186,7 @@ $pron what is one doing
 $pron what are you doing
 =怎麼事:chóa-mih-sū/chóa-meh-sū
 $pron why (and how)
-=怕公:peⁿh-kong
+=怕公:peⁿk-kong
 $noun $family grandfather's elder brother
 =怪𡳞:koai-lān
 $noun $vulgar (strange dick) arrogant
@@ -1198,8 +1216,15 @@ $explain
 =意思:ì-sù
 $noun definition
 $noun meaning
+=思甲:su-kak/su-kah
+$verb to like, to enjoy
+$verb to be fond of, to love (casual)
+$etyIDN suka
 =愛:ái
-$verb to want, to desire
+$verb to want, to desire,
+$verb to love
+=愛人:ái-lâng
+$noun girlfriend, boyfriend
 =愛笑:ái-chhiò
 $adj (of a person) unable to hold back a smile and burst into laughter
 =感謝:kám-siā
@@ -1302,6 +1327,8 @@ $verb to hit
 $verb to play (a sport)
 $explain
 拍毛球 play badminton
+=拍搶:phah-chhió͘
+$verb to rob, to commit robbery
 =拍人:phah-lâng
 $verb to hit someone
 =拍呃:phah-eʳh
@@ -1409,7 +1436,11 @@ $verb to apply by rubbing in a circle (commonly ointment, medicine, etc)
 =揍:bok
 $verb to smash, to punch
 =揍人:bok-lâng
-$verb to punch someone
+$verb to beat up someone, to punch someone
+=舂:cheng
+$verb to punch, to hit with a fist
+=舂人:cheng-lâng
+$verb to punch someone, to hit someone with the fist
 =插:chhap
 $verb to care (about something)
 =插潲:chhap-siâu
@@ -1639,9 +1670,21 @@ $verb to (be able to) make it; to do something on time
 $noun moon
 $noun month
 $explain
-Obsolete on its own.
-=月娘:goe̍h-niô
+On its own, 月 means moon.
+$see 個月
+=月娘:goe̍h-niô͘
 $noun moon
+$explain
+娘 may refer to the Chinese goddess of the moon Chang'e (嫦娥).
+=娘:niô͘
+$noun $family parents of one's wife or husband
+$noun elderly lady
+=新娘:sin-niô͘
+$noun bride
+=新娘房:sin-niô͘-pâng
+$noun bridal chamber
+$explain
+In Chinese tradition, it is a special room for newlyweds that is symbolically arranged to represent happiness, harmony, and good fortune in married life.
 =有:ū
 $verb to have
 =有佇:ū-tī
@@ -1686,6 +1729,7 @@ $class [classifier for books]
 =条:tiâu
 $class [classifier for lothing]
 =杯:poe
+$noun cups, glass
 $class [classifier for cups or glass]
 =枕頭:chín-thâu
 $noun pillow
@@ -1695,6 +1739,8 @@ $surname Lim, Lin
 $noun $fruit fruit
 =某:bó͘
 $noun $family wife
+=挈某:chhōa-bó͘
+$verb to have a wife
 =柑:kam
 $noun $fruit tangerine
 $noun $fruit orange fruit
@@ -1741,10 +1787,10 @@ $noun $drink coconut milk
 $verb to bribe, to offer a bribe
 =樓:lâu
 $noun storey, floor
-=樓梯:làu-thui
+=樓梯:lâu-thui
 $noun stairs
 $noun ladders
-=樓頂:làu-téng
+=樓頂:lâu-téng
 $noun upstairs
 =樹叢:chhiū-châng
 $noun tree
@@ -1869,6 +1915,8 @@ $pron you
 $pron you (Plural)
 =江:káng
 $noun river
+=江邊:káng-pi
+$noun river bank, riverside
 =江珧柱:káng-liàu-chû
 $noun $food conpoy (dried scallops)
 =沁:sī
@@ -1937,6 +1985,8 @@ $noun $body runny nose
 $noun $body nose bleed
 =海:hái
 $noun sea
+=海風:hái-hong
+$noun sea breeze, winds from the sea or ocean
 =海參:hái-som
 $noun $animal sea cucumber
 =海帶:hái-tāi
@@ -2218,7 +2268,7 @@ $verb to explode, to blow up, to detonate
 $adj soft, mushy
 =爬:pê
 $verb to crawl
-=父:peⁿk
+=怕:peⁿk
 $noun $family father
 =爸爸:pa-pa
 $noun $family father (colloquial)
@@ -2238,9 +2288,9 @@ $noun toothbrush
 $noun toothpaste
 =牙風:gê-hong
 $noun breath from the mouth
-=膏:ko͘
+=膏:ko
 $noun paste; cream; ointment; poultice
-=膏藥:ko͘-io̍h
+=膏藥:ko-io̍h
 $noun (traditional Chinese medicine) herbal plaster; medicated patch; poultice
 =膩:neʳk
 $adj overly rich, cloying, or greasy (often describing taste or smell)
@@ -2387,6 +2437,8 @@ $noun $food Chinese prosperity cakes, Moho cakes (similar Indonesian traditional
 $verb to send goods, to distribute goods
 =白:pe̍ⁿh
 $noun $colour white
+=白蟻:pe̍ⁿh-hiā
+$noun $animal termites
 =白糖糕:pak-thòng-ko
 $noun $food white sugar cakes
 $etyYUE baak6tong4 gou1
@@ -2544,6 +2596,8 @@ $verb to stand
 $verb to stand up
 =竹:tek
 $noun bamboo
+=竹篙:tek-ko
+$noun bamboo pole
 =笑:chhiò
 $verb to smile
 $verb to laugh
@@ -2598,10 +2652,11 @@ $class [classifier for granules, grain, or pellets]
 $adj very many, very much so
 =粗魯:chhō͘-ló͘
 $adj rough, rude (attitude)
-=粘:liâm
+=黏:niâm/liâm
 $adj sticky, adhesive, glutinous
 $verb to stick, to adhere
-=粘粘:liâm-liâm
+$etyHAK ngiàm (possible influence for niâm; liâm is Hokkien)
+=黏黏:niâm-niâm/liâm-liâm
 $adj sticky
 $adj adhesive
 =粽:chàng
@@ -2654,6 +2709,10 @@ $noun $food red yeast rice
 $noun $food red tortoise cakes
 =紙:chóa
 $noun paper
+=紙皮:chóa-phôe
+$noun cardboard, corrugated fiberboard
+=紙鐳:chóa-lui
+$noun paper money, banknote, bill
 =報紙:pò-chóa
 $noun newspaper
 =紡:pháng
@@ -2715,6 +2774,10 @@ $noun camera
 $verb to take a photo
 =老:làu
 $adj old
+=老人:làu-lâng
+$noun $family parents
+$noun old person
+$etyIDN (for parents) orang tua (literally old person)
 =老君:ló-kun/lú-kun
 $noun doctor
 $etyIMA dukun
@@ -2722,7 +2785,7 @@ $etyIMA dukun
 $noun hospital
 =老師:làu-seʳ
 $noun teacher
-=老父:làu-peⁿk
+=老怕:làu-peⁿk
 $noun $family father
 =老猴:làu-kâu
 $noun $animal monkey
@@ -2750,6 +2813,9 @@ $verb to be told
 $verb to hear off
 =肉:bah
 $noun $food meat
+$noun $food pork
+$explain
+Without context, 肉 is usually meant as pork. Otherwise, it would be meat.
 =肉丸:bah-oan
 $noun $food vegetable fritters, bakwan (Indonesian)
 =肉乾:bah-koaⁿ
@@ -2844,7 +2910,7 @@ $verb (of food) to be burnt, to be overcooked
 $adj foul smell
 $adj stinky
 $adj smelly
-=臭尿辣:chháu-jō-hiām
+=臭尿薟:chháu-jō-hiām
 $verb to smell like urine, to have a urinous odour
 =臭汗酸:chháu-kòa-sui/chháu-kòa-sng
 $verb to stink from sweat
@@ -2913,11 +2979,13 @@ $noun $colour purple
 $noun $colour purple
 =茶:têⁿ
 $noun $drink tea
+=茶甌:têⁿ-au
+$noun teacup
 =茶杯:tê-poe
 $noun cups (in general)
 =茶湯:têⁿ-tong
 $noun $drink tea (without sugar), plain tea, unsweetened tea
-=茶鈷:tê-kó͘
+=茶鈷:tê-kó͘/têⁿ-kó͘
 $noun teapot
 =草:chho͘
 $adj rough (surface)
@@ -2939,6 +3007,8 @@ $noun $food chrysanthemum flower
 $noun $drink chrysanthemum tea
 =菜:chhài
 $noun $food vegetable
+=菜豆:chhài-tāu
+$noun $food cowpeas, black-eyed peas
 =菜頭:chhài-thâu
 $noun $food carrot
 =菜館:chhài-koán
@@ -3090,8 +3160,10 @@ $noun street side
 =衫:saⁿ
 $noun shirt
 $noun T-shirt
+=衫櫥:saⁿ-tû
+$noun wardrobe, closet
 =衫褲:saⁿ-khò͘
-$noun clothes
+$noun clothes, garments, attire
 =熨衫:ut-saⁿ
 $verb to iron (for pressing clothes)
 =衰:soe
@@ -3211,6 +3283,7 @@ $verb to change, to become different
 $verb to change into, to become
 $verb to transform, to change, to alter
 =豆:tāu
+$noun $food beans
 $noun pod-bearing plant or its seeds, bean, pea
 $noun bean-shaped object
 =豆沙:tāu-sa
@@ -3366,9 +3439,10 @@ $verb to run a tool or pointed object with steady pressure on a surface (e.g. on
 $verb to return home, to go home
 =轉來:túi-lâi
 $verb to return home, to come home
-=辣:hiām
+=薟:hiām
 $adj spicy
-=辣椒:hiām-chio
+$adj pungent
+=薟椒:hiām-chio
 $noun $food chili
 =近:kìn
 $adj close, near
@@ -3376,6 +3450,7 @@ $adj close, near
 $verb to chase after, to pursue (someone)
 =送:sàng
 $verb to deliver
+$verb to give as a gift
 =送日:sàng-ji̍t
 $noun a traditional Chinese wedding engagement or betrothal rite (practiced by Chinese Indonesians involving the exchange of gifts)
 =逐:ta̍k
@@ -3419,6 +3494,9 @@ More emphatic than 太
 $verb to choose
 =邀貨店:io-hòe-tiàm
 $noun small grocery store, mama shop, mom-and-pop store, neighbourhood store, toko kelontong (Indonesian)
+=邊:pi
+$noun side, margin, edge, brim, rim
+$noun side (of a geometrical figure)
 =邊仔:pih-iá
 $noun side, edge
 =邱:khu
@@ -3431,15 +3509,19 @@ $noun $drink beer
 $noun $drink wine
 =酱:chiô
 $noun $food sauce
-=酸:sui
+=酸:sui/sng
 $adj sour
+=酸柑:sng-kam
+$noun $food key lime
+$noun $food calamansi
 =醃:sīⁿ
 $verb to marinate, to pickle
 =醒:seh
 $adj clever, wise, sharp, flexible-minded
 =醒:chhéⁿ
-$verb to wake up
-$verb to get up
+$verb to wake up, to get up
+=醒起來:chhéⁿ-khí-lâi
+$verb to wake up, to get up
 =醬清:chiò-chheng/choh-chheng
 $noun $food (Light) soy sauce
 =重:tàng
@@ -3534,7 +3616,7 @@ $verb to close, to shut (in folding, shutting smth)
 $explain
 闔門 khàm mûiⁿ
 =闔家:hap-ke
-$noun (honourific) entire family, whole family
+$noun $honor entire family, whole family
 =闔店:khàm-tiàm
 $verb to close up shop, to shut up shop
 =闔熄:khàm-sit
@@ -3558,7 +3640,7 @@ $pron [used to call someone older than one] Mrs
 $noun $family mother's sister
 =阿嬸:a-chím
 $noun $family father's younger brother's wife
-=阿怕:a-peⁿh
+=阿怕:a-peⁿk
 $noun $family father's elder brother
 =阿舅:a-kū
 $noun $family mother's brother
@@ -3585,13 +3667,16 @@ $noun $food chicken Rice
 =雞飯:ke-pūiⁿ/ke-pn̄g
 $noun $food chicken Rice
 =雨:hō͘
-$noun rain
+$noun rain, drizzle
+$noun a downward fall of water droplets (in general)
 =雨傘:hō͘-sòaⁿ
 $noun umbrella
 =雨止:hō͘-thè
 $verb to stop raining
 =雨水:hō͘-chhúi
 $noun rainwater
+=雨天:hō͘-thi
+$noun rain (weather)
 =雪文:sap-bûn
 $noun soap
 $etyIMA sabun
@@ -3611,13 +3696,18 @@ $noun television
 $noun tV
 =電話:tiān-ōa
 $noun telephone
+=硞:khok
+$noun rock, stone
+$noun the sound of knocking something hard (such as when a stone is struck)
 =霜:sng
 $noun ice
+=霜硞:sng-khok
+$noun ice cubes
 =霜櫥:sng-tû
 $noun fridge, refrigerator
 =霜水:sng-chhúi
 $noun $drink ice-chilled water, cold water
-=霜糕:sng-ko
+=霜膏:sng-ko
 $noun $food ice cream
 =霜風:siōng-hong
 $noun common cold
@@ -3729,6 +3819,8 @@ $noun airport
 =食:chia̍h
 $noun $food food
 $verb to eat
+=食肉:chia̍h-bah
+$verb to eat pork
 =食中晝:chia̍h-tiong-tàu
 $verb to eat lunch
 =食店:chia̍h-tiàm
@@ -3739,6 +3831,7 @@ $verb to eat dinner
 $noun $event Dragon Boat Festival (5th day of the 5th month in the lunar calendar)
 =食肉粽:chia̍h-bah-chàng
 $verb to eat Zongzi (during Dragon Boat Festival)
+$see 粽
 =食臭:chia̍h-chhò͘
 $verb to be jealous (of someone)
 =食葷:chia̍h-chho
@@ -4102,3 +4195,7 @@ $prepo for the sake of
 $prepo for, due to, because of
 =芫荽:ian-sui
 $noun $food coriander
+=吊:tiàu
+$verb to hang, to suspend
+=星:chheⁿ
+$noun star (celestial body)

@@ -168,7 +168,7 @@ $noun alarm clock
 =亂青踖:lòan-chhiⁿ-chhà
 $verb to be in a panic, to overreact
 $verb to complain, to protest
-=了:le
+=咧:le
 $auxi [at the end of the sentence to express uncertainty, slight questioning]
 =了:liáu
 $adj finished, emptied
@@ -367,9 +367,11 @@ $advb [used as negation]
 $noun $animal rabbit, hare, bunny
 =入/進:ji̍p
 $verb to enter, to get in
+=內:lāi
+$adj inside, interior, internal, inner 
 =內衣:néh-i
 $noun bra
-=內面:lā-bīn
+=內面:lāi-bīn
 $noun inside, interior
 =兩:nō͘/nn̄g
 $num two (2) (bef. noun/classifier)
@@ -395,7 +397,7 @@ $conj [express accompaniment or association] with
 $verb to tell, to inform (someone)
 $explain
 Fill the blanks (...) with a pronoun
-=内孫:lài-sun
+=內孫:lāi-sun
 $noun $family grandson in the direct line
 =冊:chheⁿh
 $noun book
@@ -566,8 +568,10 @@ $noun $loc Indonesia
 $noun $loc India
 =危險:gûi-hiám
 $adj dangerous, precarious
-=卵:nn̄g
+=卵:nūi/nn̄g
 $noun $food egg
+=卵包:nūi-pau/nn̄g-pau
+$noun $food sunny-side-up egg
 =厚:kāu
 $adj thick
 =厝:chhù
@@ -1055,6 +1059,7 @@ $noun poop, faeces, shit
 =層:chàn
 $noun storey, floor
 $noun layer, stratum
+$see 樓
 =屬/相/肖:sioⁿ
 $verb zodiac, to be born in the year of one of the twelve animals
 $explain
@@ -1277,6 +1282,13 @@ Usually either Indonesian pangsit is used more often or see 雲吞
 $verb to lock up, to lock (by sliding), to bolt (a door)
 =手:chhiú
 $noun $body hand
+=手跤:chhiú-kha
+$noun $body hand and feet
+=手電:chhiú-tiān
+$noun phone, handphone
+$see 機
+=手指:chhiú-chái
+$noun $body fingers
 =手指:chhiú-chí
 $noun finger ring
 =手痛:chhiú-thiàⁿ
@@ -1603,6 +1615,8 @@ $noun flourish
 $noun wealth
 =旺來:ōng-lâi
 $noun $fruit pineapple
+=旺來粿:ōng-lâi-kóe
+$noun $food pineapple tart
 =明:bêng
 $adj clear, transparent
 =明仔載:mî-a-chài/mâ-chài
@@ -1676,6 +1690,8 @@ $see 個月
 $noun moon
 $explain
 娘 may refer to the Chinese goddess of the moon Chang'e (嫦娥).
+=月面:goe̍h-bīn
+$noun face of the moon
 =娘:niô͘
 $noun $family parents of one's wife or husband
 $noun elderly lady
@@ -1787,6 +1803,7 @@ $noun $drink coconut milk
 $verb to bribe, to offer a bribe
 =樓:lâu
 $noun storey, floor
+$see 層
 =樓梯:lâu-thui
 $noun stairs
 $noun ladders
@@ -1797,7 +1814,8 @@ $noun tree
 =橋:kiô
 $noun bridge
 =機:ki
-$noun phone
+$noun phone, handphone
+$see 手電
 =檨仔:suāi-á
 $noun $fruit mango
 $explain
@@ -2082,6 +2100,10 @@ $adj talkative, long-winded (slightly insulting)
 $adj talkative, long-winded
 =濟顧:chèⁿ-kō͘
 $verb to be careful
+=真濟:chin-chèⁿ
+$adj very many, a lot of, numerous
+=真正濟:chin-chiàⁿ-chèⁿ
+$adj very many, a lot of, numerous
 =灇:châng
 $verb to shower, to bathe
 =灇水:châng-chúi
@@ -2096,14 +2118,20 @@ $verb to shower in the rain, to bathe in the rain, to play in the rain
 =火:hóe
 $noun fire
 $noun light
+=火焼:hóe-sio
+$verb to go on fire, to be ablaze, to be burning
 =火車:hóe-chhia
 $noun train
 =火車站:hóe-chhia-chām
 $noun train station
 =炒:chhá
 $verb to fry, to stir-fry
+=焼:sio
+$adj hot (of an object)
 =炒焼:chhá-sio
 $verb to roast
+=焼肉:sio-bah
+$noun $food roasted pork
 =炒焼肉:chhá-sio-bah
 $noun $food roasted pork
 =炒菜:chhá-chhài
@@ -2158,6 +2186,9 @@ $phrase tasteless, flavourless
 $verb to be odourless, to have no smell
 =無夠:bô-kàu
 $verb to not be enough
+$adj not enough
+=無夠濟:bô-kàu-chè
+$adj not enough (of the amount of items)
 =無大無小:bô-tōa bô-sè
 $phrase impolite, rude, disrespectful, insolent
 =無客:bô-kheh
@@ -2610,6 +2641,8 @@ $explain
 第一 first
 第二 second
 第三 third
+=第少:tē-chio
+$advb at (the) least
 =等:tán
 $advb $time later, in a while
 $verb to wait
@@ -2867,9 +2900,9 @@ $noun $body brain
 $noun $body waist
 =腸:tn̂g
 $noun $body intestines
-=腹内:pak-lâi
+=腹內:pak-lāi
 $noun $food edible innards, internal organs (Intestines, Liver, Stomach, Kidney, Lungs)
-=腹内熱:pak-lâi-joa̍h
+=腹內熱:pak-lāi-joa̍h
 $verb to feel unwell
 $etyIDN panas dalam
 =腹肚:pak-tó͘
@@ -3188,13 +3221,17 @@ $verb to set up (devices)
 $verb to fit parts
 =複雜:hok-cha̍p
 $adj complex, complicated
-=褒:pho͘
+=褒:phō͘
 $verb to praise, to honour, to commend (someone)
+=呵咾:o-ló
+$verb to commend, to praise
 =褪:tháu
 $verb to take off (clothes)
 =褲:khò͘
 $noun pants
 $noun trousers
+=褲帶:khò͘-tòa
+$noun belt (clothing)
 =襪:goe̍h
 $noun socks
 =西洋:a-mô͘i
@@ -3416,6 +3453,8 @@ $noun (to have smth.) on one
 $noun car
 =車夫:chhia-hu
 $noun driver
+=車站:chhia-chām
+$noun ground transport station, bus station, bus stop
 =軍隊:kun-tūi
 $noun army, troops, forces, soldiers
 =較:khah
@@ -3477,6 +3516,8 @@ $advb [indicates an action has been done]
 $verb to pass
 $verb to cross
 $verb to go (over the limit)
+=過頭:kòe-thâu
+$verb to have passed and missed
 =過來:kòe-lâi
 $verb to come over
 =過時:kòe-sî
@@ -3689,6 +3730,8 @@ $noun $food wonton noodles
 $surname Lui, Lei
 =電:tiān
 $noun electricity
+=電機:tiān-ki
+$noun electric appliances
 =電器店:tiān-khí-tiàm
 $noun shop that sells electrical appliances
 =電視:tiān-sé
@@ -3733,6 +3776,9 @@ $adj deserted
 $noun $loc Africa
 =面:bīn
 $noun $body face
+=面色:bīn-sek
+$noun $body facial expression; look (on someone's face)
+$noun $body complexion; colour of the face
 =面前:bīn-chêng
 $noun in front of the face, face front
 =面嘟嘟:bīn-tu-tu
@@ -3895,6 +3941,10 @@ $verb to be afraid of losing
 $noun $body bone
 =骨頭痛:kut-thâu-thiàⁿ
 $noun $body body ache
+=排骨:pâi-kut
+$noun $food ribs, spareribs
+=骨灰:kut-hu
+$noun ashes (human remains after cremation)
 =骯髒:lah-sam
 $adj dirty, filthy
 =骹腿:kha-thûi
@@ -3991,6 +4041,8 @@ $explain
 $verb to light and place an incense/joss stick
 =鼎:tiáⁿ
 $noun wok
+=鼻:phīⁿ
+$noun $body nose
 =鼻空:phīⁿ-khang
 $noun $body nose
 =鼻空屎:phīⁿ-khang-sái
@@ -4134,8 +4186,16 @@ $class [classifier for a hand-size portion of a food e.g. durian seeds]
 =好彩:hó-chhái
 $advb luckily, fortunately
 $express luckily, fortunately, fortuitously (avoiding a bad outcome purely by chance, despite risk or lack of control)
-=〇/空:khòng
+=空/〇:khòng
 $num zero (0)
+$explain
+Used in reciting a number e.g. phone numbers.
+$see 零
+=零:lêng
+$num zero (0)
+$explain
+Used purely as a number e.g. before decimals. (0.1, 0.001, etc.)
+$see 空
 =拜一到拜五:pài-it kàu pài-gō͘
 $noun $time weekday
 =拜六禮拜:pài-la̍k lé-pài
@@ -4199,3 +4259,7 @@ $noun $food coriander
 $verb to hang, to suspend
 =星:chheⁿ
 $noun star (celestial body)
+=趕:kóaⁿ
+$verb to kick out, to make leave
+=趕走:kóaⁿ-cháu
+$verb to kick out, to make leave, to chase away, to drive away

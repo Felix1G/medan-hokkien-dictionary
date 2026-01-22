@@ -1,1 +1,1 @@
-flutter build web --tree-shake-icons --release --dart-define=FLUTTER_WEB_USE_SKIA=true
+flutter build web --tree-shake-icons --release --dart-define=FLUTTER_WEB_USE_SKIA=true --web-renderer canvaskit

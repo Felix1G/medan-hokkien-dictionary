@@ -86,7 +86,7 @@ $noun $family mother-in-law (wife's mother)
 $noun $family grandparents' sister's husband
 =三:saⁿ
 $num three (3)
-=三十暝:saⁿ-cha̍p-mê
+=三十暝:saⁿ-cha̍p-mêⁿ
 $noun New Year's Eve
 =三層:sam-chân
 $noun $food pork belly
@@ -143,7 +143,7 @@ $adj obedient, well-behaved (of a child)
 $adj (of a child) naughty, mischievous, cheeky
 =九:káu
 $num nine (9)
-=九層粿:káu-teng-koe
+=九層粿:káu-teng-kóe
 $noun $food kuih lapis, thousand layer cakes
 =也:ià
 $advb also, too, as well
@@ -240,7 +240,7 @@ $advb together, in company
 $noun $family nephew, niece
 =來:lâi
 $verb to come
-=來過來:lâi-kōe-lâi
+=來過來:lâi-kòe-lâi
 $verb to come here
 =信用:sìn-iōng
 $noun trustworthiness, creditworthiness, honesty
@@ -358,8 +358,10 @@ $verb to enter, to get in
 $noun bra
 =內面:lā-bīn
 $noun inside, interior
-=兩:nō͘
+=兩:nō͘/nn̄g
 $num two (2) (bef. noun/classifier)
+$explain
+The pronunciation "nō͘" is more commonly used.
 =八:peh
 $num eight (8)
 =八月半:peh-goe̍h-pòaⁿ
@@ -521,7 +523,7 @@ $num ten (10)
 $phrase to be equal, to be the exact same
 =十三個月出生:cha̍p-saⁿ ko goe̍h chhut-sî
 $idiom (sarcastic) to never want to be defeated, to never want to lose
-=十五暝:cha̍p-gō͘-mê
+=十五暝:cha̍p-gō͘-mêⁿ
 $noun $event Lantern Festival, Cap Go Meh
 $explain
 A festival marking the end of the Chinese New Year period, celebrated on the 15th date of the 1st month in the lunar calendar.
@@ -536,7 +538,7 @@ $explain
 三千 saⁿ chheng 3000
 =半:pòaⁿ
 $num half
-=半死:poaⁿ-sí
+=半死:pòaⁿ-sí
 $adj extremely difficult, challenging
 $adj brutal
 $adj pushed to the limit
@@ -1410,6 +1412,10 @@ $verb to smash, to punch
 $verb to punch someone
 =插:chhap
 $verb to care (about something)
+=插潲:chhap-siâu
+$verb $vulgar to heed, to pay attention to (usually in the negative)
+=莫起插潲:mái khí chhap-siâu
+$express Do not care about (someone), Do not respond to (someone)
 =揕:tìm
 $verb to throw, to toss, to hurl, to fling
 =換:ōa
@@ -1556,7 +1562,7 @@ $noun sun
 $idiom bright sun and clear sky
 =早:cha
 $adj early
-=早暝:cha-mê
+=早暝:cha-mêⁿ
 $noun $time yesterday
 =早起:cha-khí
 $noun $time morning
@@ -1601,10 +1607,10 @@ $adj $figur stressed (from a non-delightful event)
 =暗:àm
 $adj dark
 $adj late in the day
-=暝:mê
+=暝:mêⁿ
 $noun $time nighttime (obsolete on its own)
 $see 暗暝
-=暗暝:àm-mê
+=暗暝:àm-mêⁿ
 $noun $time nighttime
 =曬:phi
 $verb to dry in the sun
@@ -1612,7 +1618,7 @@ $verb to dry in the sun
 $surname Zeng, Chan
 =曾:pat
 $verb to have ever (in the past)
-=曾祖母:chó͘-má
+=祖媽:chó͘-má
 $noun $family great grandmother
 =會:ē
 $verb can, to be able to, to be capable of
@@ -1629,6 +1635,11 @@ $idiom to be suffering but unable to talk about it
 $verb to remember
 =會赴:ē-hù
 $verb to (be able to) make it; to do something on time
+=月:goe̍h
+$noun moon
+$noun month
+$explain
+Obsolete on its own.
 =月娘:goe̍h-niô
 $noun moon
 =有:ū
@@ -1757,7 +1768,7 @@ $explain
 =款:khoán
 $noun attitude
 $noun type (of person)
-=歇暝:hiah-mê
+=歇暝:hiah-mêⁿ
 $verb to stay the night, to sleep over
 $etyTEO hiah4 mê5
 =歇鬆:siang-só
@@ -2002,7 +2013,7 @@ $verb to leak
 $verb (food) to become stale or soft
 =漿:ki̍t
 $adj (of soup, paste etc) thick
-=潮州粿:tiô-chiu-koe
+=潮州粿:tiô-chiu-kóe
 $noun $food red peach cakes
 =澳洲:au-chiu
 $noun $loc Australia
@@ -2154,6 +2165,10 @@ $verb to be unlucky, to have bad fortune
 $verb (of seafood) to be stale, to not be fresh
 =煎:chian
 $verb to fry, to deep-fry
+=煎雞:chian-ke
+$noun $food fried chicken
+=煎魚:chian-hû
+$noun $food fried fish
 =煙:hun
 $noun smoke
 =煙機:hun-ki
@@ -2381,6 +2396,8 @@ $noun $colour white
 $noun $food soybean
 =白飯:pe̍ⁿh-pūiⁿ/pe̍ⁿh-pn̄g
 $noun $food white rice
+=白斬雞:pe̍ⁿh-chám-ke
+$noun $food a style of poached whole chicken with pale skin and tender meat, usually chopped and served with ginger-scallion or soy-based sauce. Usually found in Hainanese Chicken Rice.
 =百:pah
 $num hundred
 $explain
@@ -2489,9 +2506,9 @@ $etyTEO kiao¹
 =礣砥:bá-tû
 $noun rock, stone
 $etyIMA batu
-=祖公:a-kong
+=阿公:a-kong
 $noun $family grandfather (paternal), father's father
-=祖媽:a-má
+=阿媽:a-má
 $noun $family grandmother (paternal), father's mother
 =神:sîn
 $noun god, deity
@@ -2534,6 +2551,7 @@ $verb to laugh
 $adj (of a person) often smiles, likes to smile
 =第:tē
 $num [affix before numerals to form ordinal numbers]
+$advb [in front of an adjective or a verb] most; -est
 $explain
 第一 first
 第二 second
@@ -2632,7 +2650,7 @@ $noun $drink red wine
 $noun traffic lights
 =紅麴/紅粬:âng-khak
 $noun $food red yeast rice
-=紅龜粿:âng-ku-koe
+=紅龜粿:âng-ku-kóe
 $noun $food red tortoise cakes
 =紙:chóa
 $noun paper
@@ -2784,7 +2802,7 @@ $noun $body waist
 =腸:tn̂g
 $noun $body intestines
 =腹内:pak-lâi
-$noun $food edible Innards, internal organs (Intestines, Liver, Stomach, Kidney, Lungs)
+$noun $food edible innards, internal organs (Intestines, Liver, Stomach, Kidney, Lungs)
 =腹内熱:pak-lâi-joa̍h
 $verb to feel unwell
 $etyIDN panas dalam
@@ -3089,6 +3107,9 @@ $noun dress
 $verb to nourish
 =補身軀:pó͘-sìn-ku
 $verb to nourish the body
+=補習:pó͘-si̍p
+$verb to take supplementary classes (after school or work)
+$noun tuition
 =裝:tàu
 $verb to install (equipment)
 $verb to set up (devices)
@@ -3189,6 +3210,9 @@ $adj to have changed, to have become different
 $verb to change, to become different
 $verb to change into, to become
 $verb to transform, to change, to alter
+=豆:tāu
+$noun pod-bearing plant or its seeds, bean, pea
+$noun bean-shaped object
 =豆沙:tāu-sa
 $noun $food bean paste
 =豆腐:tā-hù
@@ -3373,17 +3397,17 @@ $noun $disease common cold
 $etyIDN masuk angin
 =運動:in-tong
 $verb to exercise (sports)
-=過:kōe
+=過:kòe
 $advb [indicates an action has been done]
 $verb to pass
 $verb to cross
 $verb to go (over the limit)
-=過來:kōe-lâi
+=過來:kòe-lâi
 $verb to come over
-=過時:kōe-sî
+=過時:kòe-sî
 $verb to pass the expiration date
 $verb to become aged, to wear from age
-=過路:kōe-lō͘
+=過路:kòe-lō͘
 $verb to cross the road
 =遠:hùi
 $adj far, distant
@@ -3709,7 +3733,7 @@ $verb to eat
 $verb to eat lunch
 =食店:chia̍h-tiàm
 $noun eatery, diner
-=食暗暝:chia̍h-àm-mê
+=食暗暝:chia̍h-àm-mêⁿ
 $verb to eat dinner
 =食粽:chia̍h-chàng
 $noun $event Dragon Boat Festival (5th day of the 5th month in the lunar calendar)
@@ -3721,8 +3745,7 @@ $verb to be jealous (of someone)
 $verb to eat meat, to be a meat-eater, to not be vegan
 =食鐳:chia̍h-lui
 $verb to be fond of accepting bribes
-=食雞倚雞，食鴨倚鴨:chia̍h ke óa ke
-$phrase chia̍h ah óa ah
+=食雞倚雞，食鴨倚鴨:chia̍h ke óa ke, chia̍h ah óa ah
 $phrase to favor those who bring benefits
 =食點心:chia̍h-tiàm-sim
 $verb to eat breakfast
@@ -3798,6 +3821,8 @@ $noun ghost
 $noun $animal fish
 =魚刺:hû-chhì
 $noun $food fish bone
+=魚餅:hû-piáⁿ
+$noun $food Chinese fish cakes
 =鮑魚:pau-hû
 $noun $animal abalone
 =鮮:chhiⁿ
@@ -3894,8 +3919,10 @@ $phrase constantly complaining
 $verb to procrastinate, to delay
 =𠢕𠢕:gâu-gâu
 $advb (of an action) know how to, capable, skilled
+=𡳞:lān
+$noun $vulgar penis, dick
 =𡳞鳥:lān-chiáu
-$noun $vulgar penis
+$noun $vulgar penis, dick
 =𢼌:pa
 $verb to slap
 =𢼌人:pa-lâng
@@ -4020,9 +4047,9 @@ $num zero (0)
 $noun $time weekday
 =拜六禮拜:pài-la̍k lé-pài
 $noun $time weekend
-=半暝:pòaⁿ-mê
+=半暝:pòaⁿ-mêⁿ
 $noun $time midnight
-=今暝:kin-mê
+=今暝:kin-mêⁿ
 $noun $time tonight, this evening
 =最近:chòe-kìn
 $advb recently, lately, of late
@@ -4067,3 +4094,11 @@ $verb to stay (at a location overnight in a hospital, hotel, etc.)
 =釋迦牟尼:seʳ-chià-mû-nî
 $noun (Buddhism) Śākyamuni, Gautama Buddha
 $etySAN शाक्यमुनि (Śākyamuni, “sage of the Śākyas”)
+=為:ūi
+$prepo for
+$prepo because of
+$prepo for the sake of
+=為了:ūi-liáu
+$prepo for, due to, because of
+=芫荽:ian-sui
+$noun $food coriander

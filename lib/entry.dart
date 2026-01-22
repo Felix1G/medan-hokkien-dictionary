@@ -13,7 +13,7 @@ TextSpan definitionText(String word, {double normalSize = 16, double tagSizeScal
   final isTag = word.startsWith('#');
   return TextSpan(
         text: isTag ? '${word.substring(1)} ' : '$word ',
-        style: (isTag ? TextStyle(fontFamily: 'ThickFont') : kCJKTextStyle).copyWith(
+        style: (isTag ? kCategoryTextStyle : kCJKTextStyle).copyWith(
           fontSize: isTag ? tagSizeScale * normalSize : normalSize,
           fontWeight: isTag ? FontWeight.w900 : FontWeight.w200,
           letterSpacing: isTag ? 1.5 : null,
@@ -355,8 +355,8 @@ class _EntryPageState extends State<EntryPage> {
 
                 // ENTRY NUMBER
                 Expanded(child: Text(
-                  'Entry ${entryData.index + 1}',
-                  style: const TextStyle(
+                  'Entry #${entryData.index + 1}',
+                  style: kUITextStyle.copyWith(
                     color: Colors.white,
                     fontSize: 18,
                     fontWeight: FontWeight.w600,

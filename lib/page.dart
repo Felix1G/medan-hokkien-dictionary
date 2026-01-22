@@ -24,6 +24,8 @@ class _DictionaryPageState extends State<DictionaryPage> {
 
   List<EntryData> dictEntries = List.empty(growable: true);
   Timer? _debounce;
+
+  bool _isAdvancedOpen = false;
   
   final _entryNumTextController = TextEditingController();
 
@@ -326,15 +328,16 @@ class _DictionaryPageState extends State<DictionaryPage> {
 
           // TOP BAR
           Container(
-            height: 60.0,
             width: double.infinity,
             decoration: BoxDecoration(
               color: Colors.red
             ),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.start,
               children: [
+                const SizedBox(height: 8),
+
                 Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                   // SEARCH BAR
                   SizedBox(
@@ -363,7 +366,99 @@ class _DictionaryPageState extends State<DictionaryPage> {
                       },
                     )
                   )
-                ])
+                ]),
+
+                // ADVANCED SEARCH DROPDOWN TEXT
+                MouseRegion(
+                  cursor: SystemMouseCursors.click,
+                  child: GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        _isAdvancedOpen = !_isAdvancedOpen;
+                      });
+                    },
+                    child: Padding(
+                      padding: EdgeInsetsGeometry.symmetric(horizontal: 30, vertical: 5),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(
+                            'Advanced Search',
+                            style: kUITextStyle.copyWith(
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold
+                            )
+                          ),
+                          const SizedBox(width: 4),
+                          Icon(_isAdvancedOpen ? Icons.keyboard_arrow_up : Icons.keyboard_arrow_down)
+                        ],
+                      )
+                    ),
+                  ),
+                ),
+
+                AnimatedSize(
+                  duration: const Duration(milliseconds: 250),
+                  curve: Curves.ease,
+                  child: _isAdvancedOpen ? Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 4),
+                    child: Row(
+                      children: [
+                        Text("Open Entry #", style: kDefaultTextStyle.copyWith(color: Colors.white)),
+
+                        // SEARCH BAR
+                        SizedBox(
+                          width: 100.0,
+                          height: 30.0,
+                          child: TextField(
+                            controller: _entryNumTextController,
+                            keyboardType: TextInputType.number,
+                            inputFormatters: [
+                              FilteringTextInputFormatter.digitsOnly, // allow only numbers
+                              LengthLimitingTextInputFormatter(4), //up to 4 digit numbers
+                            ],
+                            decoration: InputDecoration(
+                              hintText: 'Entry ID',
+                              hintStyle: kUITextStyle.copyWith(fontSize: 13.0),
+                              border: const OutlineInputBorder(),
+                            ),
+                          )
+                        ),
+
+                        const SizedBox(width: 12),
+
+                        // SEARCH BUTTON
+                        TextButton(
+                          onPressed: () {
+                            int? entryIndex = int.tryParse(_entryNumTextController.text);
+                            if (entryIndex != null) {
+                              entryIndex--; // entry number index shown in the app is 1-indexed
+                              if (entryIndex < kEntries.length && entryIndex >= 0) {
+                                Navigator.of(context).push(
+                                  MaterialPageRoute(
+                                    builder: (_) => EntryPage(entryData: EntryData(index: entryIndex!)),
+                                  ),
+                                );
+                              } else {
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  const SnackBar(content: Text('Sorry, no entry was found.')),
+                                );
+                              }
+                            }
+                          },
+                          style: TextButton.styleFrom(
+                            shadowColor: Colors.transparent,
+                            backgroundColor: const Color.fromARGB(255, 153, 41, 33)
+                          ),
+                          child: Text('Search', style: kUITextStyle.copyWith(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold
+                          )),
+                        ),
+                      ],
+                    )  
+                  ) : const SizedBox.shrink()
+                )
               ],
             )
           ),
@@ -372,80 +467,18 @@ class _DictionaryPageState extends State<DictionaryPage> {
             Expanded(child: Center(
               child: Padding(
                 padding: const EdgeInsets.all(20),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    // CENTER TEXT
-                    Text(inputEmpty ?
-                      'Welcome to the Medan Hokkien dictionary.\nCurrently, there are ${kEntries.length} entries.\n\nTap the icon on the top right to toggle between English and Chinese/POJ search.\n\nYou can also search an entry by its ID here:' :
-                      'Sorry, no entry was found.',
-                      style: TextStyle(fontFamily: 'DefaultFont').copyWith(
-                        color: Colors.grey,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18.0
-                      ),
-                      textAlign: TextAlign.center,
+                child: 
+                  // CENTER TEXT
+                  Text(inputEmpty ?
+                    'Welcome to the Medan Hokkien dictionary.\nCurrently, there are ${kEntries.length} entries.\n\nTap the icon on the top right to toggle between English and Chinese/POJ search.' :
+                    'Sorry, no entry was found.',
+                    style: kDefaultTextStyle.copyWith(
+                      color: Colors.grey,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18.0
                     ),
-
-                    const SizedBox(height: 20.0),
-
-                    // INDIVIDUAL ENTRY SEARCH
-                    if (inputEmpty)
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          // SEARCH BAR
-                          SizedBox(
-                            width: 150.0,
-                            child: TextField(
-                              controller: _entryNumTextController,
-                              keyboardType: TextInputType.number,
-                              inputFormatters: [
-                                FilteringTextInputFormatter.digitsOnly, // allow only numbers
-                                LengthLimitingTextInputFormatter(4), //up to 4 digit numbers
-                              ],
-                              decoration: InputDecoration(
-                                hintText: 'Enter Entry ID...',
-                                hintStyle: kUITextStyle.copyWith(fontSize: 13.0),
-                                border: const OutlineInputBorder(),
-                              ),
-                            )
-                          ),
-
-                          const SizedBox(width: 12),
-
-                          // SEARCH BUTTON
-                          TextButton(
-                            onPressed: () {
-                              int? entryIndex = int.tryParse(_entryNumTextController.text);
-                              if (entryIndex != null) {
-                                entryIndex--; // entry number index shown in the app is 1-indexed
-                                if (entryIndex < kEntries.length) {
-                                  Navigator.of(context).push(
-                                    MaterialPageRoute(
-                                      builder: (_) => EntryPage(entryData: EntryData(index: entryIndex!)),
-                                    ),
-                                  );
-                                } else {
-                                  ScaffoldMessenger.of(context).showSnackBar(
-                                    const SnackBar(content: Text('Sorry, no entry was found.')),
-                                  );
-                                }
-                              }
-                            },
-                            style: TextButton.styleFrom(
-                              shadowColor: Colors.transparent,
-                              backgroundColor: const Color.fromARGB(255, 153, 41, 33)
-                            ),
-                            child: Text('Search', style: kUITextStyle.copyWith(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold
-                            )),
-                          ),
-                        ],
-                      )
-                  ]
-                ),
+                    textAlign: TextAlign.center,
+                  )
               ),
             ))
           else
@@ -512,7 +545,7 @@ class TopSearchBanner extends StatelessWidget {
             onChanged: onChangedText,
             decoration: InputDecoration(
               hintText: isEnglish ? "Search in English..." : "Search in Chinese or POJ...",
-              hintStyle: const TextStyle(color: Colors.white),
+              hintStyle: kDefaultTextStyle.copyWith(color: Colors.white),
               prefixIcon: const Icon(Icons.search),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(16),
@@ -568,9 +601,8 @@ class ToggleLangIcon extends StatelessWidget {
           ),
           child: Text(
             isEnglish ? 'E' : 'C',
-            style: const TextStyle(
+            style: kDefaultTextStyle.copyWith(
               color: Colors.red,
-              fontFamily: 'DefaultFont',
               fontSize: 15,
               fontWeight: FontWeight.bold,
             ),

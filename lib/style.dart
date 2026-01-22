@@ -4,6 +4,10 @@ import 'package:flutter/material.dart';
 const kBackgroundColor = Color.fromRGBO(35, 35, 35, 1.0);
 
 final ThemeData kAppTheme = ThemeData(
+  fontFamily: 'DefaultFont',
+  textTheme: ThemeData.dark().textTheme.apply(
+    fontFamily: 'DefaultFont'
+  ),
   brightness: Brightness.dark,
   primarySwatch: Colors.red,
   primaryColor: Colors.red.shade500,
@@ -28,6 +32,10 @@ final ThemeData kAppTheme = ThemeData(
   )
 );
 
+final kDefaultTextStyle = TextStyle(
+  fontFamily: 'DefaultFont'
+);
+
 final kCJKTextStyle = TextStyle(
   fontFamily: 'DefaultFont'
 ).copyWith(
@@ -37,6 +45,10 @@ final kCJKTextStyle = TextStyle(
 
 final kUITextStyle = TextStyle(
   fontFamily: 'NunitoFont'
+);
+
+final kCategoryTextStyle = TextStyle(
+  fontFamily: 'ThickFont'
 );
 
 class AppPageTransitionBuilder extends PageTransitionsBuilder {

@@ -9,7 +9,7 @@ import 'package:medan_hokkien_dictionary/util.dart';
 
 List<Entry> kEntries = List.empty(growable: true);
 HashMap<String, List<int>> kEntriesCharacter = HashMap();
-const kEntriesAmount = 1764;
+const kEntriesAmount = 1777;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

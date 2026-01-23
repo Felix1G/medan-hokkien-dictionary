@@ -43,7 +43,7 @@ $advb always, often
 =:pau-chhô
 $verb (To eat) whatever, anything
 =:khiⁿ-khá
-$advb (To eat) simply, of what is available
+$advb (to eat) light food, something light
 =:tò͘-mat
 $noun $food tomato
 $etyIDN tomat
@@ -339,7 +339,7 @@ $verb to do business, to run the business
 $verb to throw a birthday party
 =做破:chò-phòa
 $verb to break, to puncture, to tear
-=做著:chò-to̍h
+=做啟:chò-toh
 $verb to turn on, to light, to activate
 =做骯髒:chò-lah-sam
 $verb to dirty, to make something filthy
@@ -1019,11 +1019,14 @@ $noun favourite child, darling, honey
 $etyCMN bǎo bèi
 =射:sēⁿ
 $verb to shoot
-=對:tio̍h
-$adj correct
-=對面:túi-bīn
+=對:tùi
+$adj correct, true, right
+$adj opposite, opposing
+$explain
+Rarely used on its own.
+=對面:tùi-bīn
 $noun opposite side, across
-=對𣍐起:tòe-bē-khí
+=對𣍐起:tùi-bē-khí
 $verb $honor to be sorry, to apologise
 =導郎:tō͘-long
 $verb to help, to assist
@@ -1079,6 +1082,7 @@ $etyCMN niào suān
 $noun fart
 =屎:sái
 $noun poop, faeces, shit
+$express $derago bullshit!
 =層:chàn
 $noun storey, floor
 $noun layer, stratum
@@ -1262,7 +1266,7 @@ $pron why (and how)
 $noun $family grandfather's elder brother
 =怪𡳞:koai-lān
 $noun $vulgar (strange dick) arrogant
-$adj $vulgar naughty
+$adj $vulgar abnormal, weird, fucked up
 =恬:tiām
 $verb to be quiet, to be silent
 =恬恬:tiām-tiām
@@ -1275,6 +1279,9 @@ People usually only say 恭喜 to others. This shorter form is also used general
 $adj stifling, airtight, stuffy
 =惜:sèng
 $verb to care tenderly (for a child)
+$explain
+This often extends to spoiling the child, especially with 太惜.
+$see 太
 =想:siò͘
 $verb to think
 =想法:siò͘-hoat
@@ -2355,7 +2362,7 @@ $verb to be impolite, to have improper manners
 =無銷:bô-siau
 $verb (of a business) to have little to no sales
 =無閒:bô-êng
-$verb to have no free time
+$verb to have no free time, busy
 =無關係:bô-koan-hēⁿ
 $verb to have no relationship (between some things), to have no connection
 =無頂真:bô-téng-chin
@@ -3227,7 +3234,8 @@ $noun leaf
 =著:tio̍h
 $advb [used after a verb to denote the action has been done]
 $verb to be affected by
-=著:to̍h
+$adj correct, right, true
+=啟:toh
 $adj turned on, lighted, activated
 =著哽:tio̍h-kéⁿ
 $verb to choke (on food or fluid)
@@ -3723,8 +3731,11 @@ $noun $food key lime
 $noun $food calamansi
 =醃:sīⁿ
 $verb to marinate, to pickle
-=醒:seh
-$adj clever, wise, sharp, flexible-minded
+=聖:seh
+$adj clever, shrewd, quick-witted
+$adj resourceful and skillful in thinking or acting
+$explain
+This goes beyond being "book-smart".
 =醒:chhéⁿ
 $verb to wake up, to get up
 =醒起來:chhéⁿ-khí-lâi
@@ -3797,6 +3808,7 @@ $verb (slightly rude) to get out of the way
 $verb to spend (money)
 =開:khui
 $verb to open
+$verb to switch on (e.g. lamp, car, etc.)
 =開喙:khui-chhùi
 $verb to speak more clearly or loudly (by opening the mouth more widely)
 =開店:khui-tiàm
@@ -3918,7 +3930,7 @@ $noun fridge, refrigerator
 $noun $drink ice-chilled water, cold water
 =霜膏:sng-ko
 $noun $food ice cream
-=霜風:siōng-hong
+=常風:siông-hong
 $noun common cold
 =霧:ù
 $noun fog
@@ -4174,7 +4186,8 @@ $noun $animal bird
 =鳥囝:chiáu-kiáⁿ
 $noun $animal chick, hatchling, nestling, little bird
 =鳥牙:chiáu-gê
-$adj smooth talker, silver tongue, polite, friendly, amiable
+$noun (literally) bird teeth
+$adj $figur smooth talker, silver tongue, polite, friendly, amiable
 =鳥鼠:niáu-chhú
 $noun $animal mouse, rat
 =鴉片:a-phiàn
@@ -4261,11 +4274,12 @@ $advb (of an action) know how to, capable, skilled
 $noun $vulgar penis, dick
 =𡳞鳥:lān-chiáu
 $noun $vulgar penis, dick
-=𡳞脬:lān-pha
+=𡳞脬:lām-pha
 $noun $vulgar scrotum
 $adj $figur courage, guts, balls
-=扶𡳞脬:phô͘-lān-pha
+=扶𡳞脬:phô͘-lām-pha
 $verb $vulgar to brownnose, to suck up, to lick someone's balls, to kiss someone's ass
+$verb $figur to do good for others mainly to gain praise or boost one’s reputation
 =𢼌:pa
 $verb to slap
 =𢼌人:pa-lâng
@@ -4379,7 +4393,7 @@ $adj difficult to chew (especially due to hardness)
 =較羨:khah-siān
 $verb to pity, to feel pity for
 $verb to sympathise with, to feel sorry for
-=:hu̍t
+=核:hu̍t
 $class [classifier for a hand-size portion of a food e.g. durian seeds]
 =好彩:hó-chhái
 $advb luckily, fortunately
@@ -4407,7 +4421,7 @@ $advb recently, lately, of late
 $noun in the near future, soon
 =聰明:chhong-bêng
 $adj intelligent, bright, clever
-=毋對:m-tio̍h
+=毋著:m-tio̍h
 $adj incorrect; wrong
 $adj [alone to express disagreement] no
 =腹肚枵:pak-tó͘-iau
@@ -4491,3 +4505,60 @@ $noun something regarded as principal, doctrinal or classical
 =念經:liām-keng
 $verb (Buddhism) to chant or recite sutras
 $verb $figur to keep harping on, to speak or sing in a repetitive and monotone manner
+=貧惰款:pîn-tōaⁿ-khoán
+$noun laziness
+=有勢:ū-sè
+$adj $vulgar (of a person’s wrongdoing) forgiven too often or tolerated for too long; insufficiently punished, resulting in spoiled or unchecked behaviour.
+$adj $vulgar having too much leeway, being allowed to get away with too many things
+=閒:êng
+$noun leisure, free time, spare time
+=鳥屎:chiáu-sái
+$noun bird poop
+=稅:sòe
+$verb to rent
+=稅厝:sòe-chhù
+$verb to rent a house
+=稅車:sòe-chhia
+$verb to rent a car
+=稅位:sòe-ūi
+$verb to rent a spot, to rent a place
+=稅船:sòe-chûn
+$verb to rent a ship, to rent a boat
+=搵:ùn
+$verb to dip in, to submerge in (sauce, ink, etc.)
+=訂:tiāⁿ
+$verb to order (a menu, a reservation, etc.)
+=訂菜:tiāⁿ-chhài
+$verb to order food, to order dishes
+=訂位:tiāⁿ-ūi
+$verb to reserve a seat or table
+=師公:sai-kong
+$noun a type of Taoist priest, ritual specialist
+$explain
+Used in religious ceremonies, funerals, and temple rituals in Hokkien communities.
+=德司:tak-si
+$noun taxi
+$etyIDN taksi
+=姦:kàn
+$verb $vulgar to fuck
+=臭膣屄:chhàu chi-bai
+$adj $vulgar smelly vagina
+=𡳞核:lān-hu̍t
+$noun $vulgar testes
+=飯核:png-hu̍t
+$noun rice grain
+=拼:piàⁿ
+$verb to be ready to risk one's life, to go all out, to disregard
+$verb to work hard 
+=打拼:phah-piàⁿ
+$verb to work diligently, to strive, to work hard
+=才:chiàⁿ
+$advb [preceded by an expression of reason or condition] not unless, not until, then and only then, for no other reason
+=稻草人:tiū-chháu-lâng
+$noun scarecrow
+=運:ūn
+$noun fortune, luck, fate
+=好運:hó-ūn
+$noun good luck, good fortune
+=歹運:pháiⁿ-ūn
+$noun bad luck, unlucky, bad fortune

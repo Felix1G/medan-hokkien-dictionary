@@ -34,7 +34,7 @@ enum Category {
   disease("\$disease", "#DISEASE", semantic: true),
   time("\$time", "#TIME", semantic: true),
   event("\$event", "#EVENT", semantic: true),
-  vulgarity("\$vulgar", "#VULGARITY", semantic: true),
+  vulgarity("\$vulgar", "#VULGAR", semantic: true),
   figurative("\$figur", "#FIGURATIVE", semantic: true),
   derogatory("\$derago", "#DEROGATORY", semantic: true),
   honourific("\$honor", "#HONOURIFIC", semantic: true),

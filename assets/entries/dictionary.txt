@@ -3,8 +3,8 @@
 This work is licensed under the Creative Commons Attribution 4.0 International License.
 To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
 
-Date: 1-22-2026
-Revision: 6
+Date: 1-23-2026
+Revision: 7
 
 Notes:
 1. Order of definitions will be the same.
@@ -21,6 +21,11 @@ $verb to be able to withstand, to be able to handle
 $verb to be capable of, to be competent of
 =:chiá
 $adj (of taste) plain, bland
+=:jû
+$verb to mop (the floor)
+=:gâ-tái
+$adj itchy, scratchy
+$etyMSA (Kedah) gatai (in malay/indo gatal)
 =:mông-mông
 $adj drowsy, dizzy, confused
 =:la̍p
@@ -97,7 +102,9 @@ $noun $food pork belly
 =三角六角:saⁿ-kak la̍k-kak
 $idiom style of an arrogant person, behave arrogantly
 =上:téng
-$adj up, above
+$adj upper, uppermost, top (general, relative position)
+$noun top, above, upper part
+$see 頂
 =上個月:téng-ko-goe̍h
 $noun $time last month
 =上年:téng-nî
@@ -108,6 +115,8 @@ $noun $time that time, last time
 $noun $time yesterday
 =下:hèⁿ
 $verb to put down (something)
+=下:ē
+$adj down, below, under, lower part
 =下晡:ēⁿ-po͘
 $noun $time afternoon
 =下跤:ē-kha
@@ -282,7 +291,7 @@ $explain
 两個月 2 months
 三個月 3 months
 =倒:tò
-$verb to pour (liquids)
+$verb to pour out (liquids)
 =倒:tó
 $verb to fall
 $verb to collapse
@@ -322,7 +331,7 @@ $verb to work (a job)
 =做斷:chò-tùi
 $verb to snap
 $verb to break with a quick force
-=做焼:chò-sio
+=做燒:chò-sio
 $verb to warm (something) up, to make (something) hotter, (of food) to warm up
 =做生意:chò-seng-lí
 $verb to do business, to run the business
@@ -578,6 +587,8 @@ $adj thick
 $noun house
 =厝頂:chhù-téng
 $noun roof, housetop
+=厝瓦:chhù-hiā
+$noun roof tiles
 =厲害:lī-hāi
 $adj (of a person) shrewd, sharp
 =去:khì
@@ -649,6 +660,9 @@ $noun cupping therapy
 $noun (slang) [friendly term of address for a male] Bro, dude
 $etyHAK chhôi
 $etyIDN coy
+=吹:chhoe
+$verb to blow, to puff
+$verb (of wind) to blow
 =吼:háu
 $verb to cry
 =呆佬:tai-lô
@@ -783,14 +797,20 @@ $verb to wake up, to get up
 =國家:kok-ke
 $noun country
 =圓:îⁿ
-$adj circular, round
+$adj circular, round, spherical
+$noun $food tangyuan or tanguan
+$explain
+Tangyuan or tanguan is a traditional Chinese dessert made of glutinous rice shaped into balls that are served in a hot broth or syrup.
 =圓圓:îⁿ-îⁿ
-$adj circular, round
-=土:thô͘
-$noun soil, dirt
-=土塵:thô͘-hún
+$adj circular, round, spherical
+=丸:oân
+$noun small round object, ball, pellet
+=塗:thô͘
+$noun soil, dirt, earth
+$noun mud
+=塗塵:thô͘-hún
 $noun dust (in general)
-=土跤:thô͘-kha
+=塗跤:thô͘-kha
 $noun floor
 =在:khí
 $prepo [preposition to indicate position] at (a place)
@@ -822,6 +842,9 @@ $adj enough
 $adj extraordinary, exceptional, remarkable, awesome
 =大:tōa
 $adj big, large
+=大喙:tōa-chhùi
+$noun (literally) big mouth
+$adj $figur (of a person) loves to boast or brag, talks too much
 =大件:tōa-ki
 $adj (of certain countable objects) big, large
 =大個:tōa-kâi
@@ -1059,11 +1082,45 @@ $noun poop, faeces, shit
 =層:chàn
 $noun storey, floor
 $noun layer, stratum
+$explain
+Similar usage to 樓 but broader, such as:
+三層厝 3-storey house (Here, 樓 cannot be used)
 $see 樓
 =屬/相/肖:sioⁿ
-$verb zodiac, to be born in the year of one of the twelve animals
-$explain
-屬馬 horse zodiac
+$noun zodiac
+$verb to be born in the year of one of the twelve animals
+=十二生屬:cha̍p-jī-seⁿ-sioⁿ
+$noun The 12 Chinese Zodiacs
+=屬鼠:sioⁿ-chhú
+$noun mouse zodiac
+=屬鳥鼠:sioⁿ-niáu-chhú
+$noun mouse zodiac
+=屬牛:sioⁿ-gû
+$noun ox zodiac
+=屬老虎:sioⁿ-làu-hó͘
+$noun tiger zodiac
+=屬兔:sioⁿ-thò͘
+$noun rabbit zodiac
+=屬白兔:sioⁿ-pe̍ⁿh-thò͘
+$noun rabbit zodiac
+=屬龍:sioⁿ-lêng
+$noun dragon zodiac
+=屬蛇:sioⁿ-chôa
+$noun snake zodiac
+=屬馬:sioⁿ-béⁿ
+$noun horse zodiac
+=屬羊:sioⁿ-iôⁿ
+$noun goat zodiac
+=屬猴:sioⁿ-kâu
+$noun monkey zodiac
+=屬老猴:sioⁿ-làu-kâu
+$noun monkey zodiac
+=屬雞:sioⁿ-ke
+$noun rooster zodiac
+=屬狗:sioⁿ-káu
+$noun dog zodiac
+=屬豬:sioⁿ-tu
+$noun pig zodiac
 =山:soaⁿ
 $noun mountain
 $noun hill
@@ -1078,6 +1135,7 @@ $etyIMA buaya
 $noun $loc Bali (An island in Indonesia)
 =峇厘柚:bâ-lî-iū
 $noun $fruit pomelo, grapefruit
+$etyIDN jeruk bali (literally bali orange)
 =峇搭:ba-tah
 $noun batak (A major ethnic group in North Sumatra)
 =峇搭山:ba-tah-soaⁿ
@@ -1152,12 +1210,14 @@ $class sheet (of paper, of tissue, etc.)
 $adj strong, powerful
 =彎:oai
 $adj curved, arched, bent, crooked
-=彎:oan
-$adj to turn (left or right)
 =彎彎:oai-oai
 $adj curved, arched, bent, crooked
-=彼爿:hit-peng/hie-peng/ie-peng
+=彎:oan
+$verb to turn (left or right)
+=彼爿:hit-peng/hé-peng/ié-peng
 $pron over there
+=彼個:hé-le/héʳ-le
+$pron that, that one
 =律師:le̍k-sù
 $noun prosecutor
 =後個:āu-kâi
@@ -1171,6 +1231,8 @@ $noun back
 $advb next time, in another time
 =後日:āu-ji̍t
 $noun $time the day after tomorrow
+=後年:āu-nî
+$noun $time next year
 =後生:hāu-seⁿ
 $adj young, youthful
 =得:thān
@@ -1179,6 +1241,11 @@ $verb to receive, to obtain, to acquire, to get
 $noun $loc Germany
 =心:sim
 $noun heart, mind, intention, feeling
+=心臟:sim-chōng
+$noun $body heart
+=心臟病:sim-chōng-pēⁿ
+$noun $disease heart disease, cardiopathy
+$noun $disease coronary heart disease, ischaemic heart disease, acute coronary syndrome
 =心不爽:sim-bô-sóng
 $verb to feel guilty
 $verb to feel something is wrong
@@ -1297,6 +1364,8 @@ $noun $body hand pain
 $adj agile, nimble, quick
 =手錶:chhiú-pió
 $noun watch
+=手賤:chhiú-chiān
+$adj having a habitually overactive pair of hands which often touch and play with things at inappropriate times, and accidentally break them or otherwise cause trouble
 =才:chài
 $adj talented, capable
 =扛:kng
@@ -1307,6 +1376,8 @@ $verb (of money, points, etc) to subtract, to decrease, to reduce, to deduct
 $verb to deduct points
 =扣起:khàu-khí
 $verb to subtract, to minus
+=扣價:khàu-kèⁿ
+$verb to go on a discount, to be on sale
 =扲:gīm
 $verb to hold, to grasp, to take in the hand
 =找:chhōe
@@ -1356,15 +1427,15 @@ $verb to play ball
 $verb to give or receive an injection
 =拍開開:phah-khui-khui
 $verb (of a door, etc) to open widely
-=拖:thû
+=拍手:phah-chhiú
+$verb to clap hands
+=躇:thû
 $verb to procrastinate, to delay
-$verb to drag on
+$verb to move slowly, to dawdle, to dillydally
 =拖:thoa
 $verb to pull
 $verb to drag, to tow, to haul
-=拖:jû
-$verb to mop (the floor)
-=拖死:tū-sí
+=除死:tû-sí
 $verb to wear someone out, to exhaust someone through continual trouble or strain
 =拗蠻:áu-bân
 $adj stubborn and unreasonable, obstinate
@@ -1375,6 +1446,9 @@ $explain
 拜一 Monday
 拜二 Tuesday
 拜六 Saturday
+=拜年:pài-nî
+$verb to exchange (Chinese) New Year's greetings
+$verb to pay someone a visit on Chinese New Year's Day
 =拜拜:pài-pài
 $verb to pray
 =拜神:pài-sîn
@@ -1387,15 +1461,19 @@ $verb to wipe (clean)
 $verb to pack up, to gather, to collect, to tidy up
 =指甲:chéng-kah
 $noun $body nails
-=挈:chhōa
-$verb to bring/take along (someone) to somewhere
-=挈:cha̍h
-$verb to have brought along
-$verb to bring along (something)
-=挈轉:chhōa-túi
+=紮:cha̍h
+$verb to bring along (something), to carry
+=紮鐳:cha̍h-lui
+$verb to have brought money (e.g. for shopping, etc.)
+=𤆬:chhōa
+$verb to bring along or take along (someone) to somewhere
+$verb to lead, to guide (someone)
+=𤆬轉:chhōa-túi
 $verb to bring (someone) home
 $explain
-挈伊回 To bring him/her home
+𤆬伊回 To bring him/her home
+=𤆬某:chhōa-bó͘
+$verb to have a wife
 =按呢:an-neⁿ
 $advb very, rather, quite
 $advb extremely
@@ -1411,6 +1489,10 @@ $verb (of electricity) to trip
 $verb to shake off (something wet)
 =挲:so
 $verb to rub the surface, to wipe over the surface (with the hands)
+=挲圓:so-îⁿ
+$verb to make tangyuan or tanguan
+$noun the process of making tangyuan or tanguan
+$see 圓
 =挵:lòng
 $verb to collide, to crash into
 =挵著:lòng-tio̍h
@@ -1437,7 +1519,7 @@ $verb to whip
 $verb to whip someone
 =掃:sàu
 $verb to clean with a broom, to sweep clean
-=掃土跤:sàu-thô͘-kha
+=掃塗跤:sàu-thô͘-kha
 $verb to sweep the floor
 =掠:lia̍h
 $verb to catch, to capture, to arrest
@@ -1579,6 +1661,16 @@ $verb to handle, to manage, to arrange
 =斬:chám
 $verb to amputate
 $verb to sever, to chop, to cut (foods together with bones or shells) into large and rough parts forcefully
+$explain
+鏨 is used more generally for chopping.
+$see 鏨
+=鏨:chām
+$verb to chop
+$explain
+鏨 is to chop in general. For food, use 斬.
+$see 斬
+=鏨死:chām-sí
+$verb to chop to death
 =新:sin
 $adj new, latest
 =新加坡:sin-ngā-po
@@ -1605,10 +1697,13 @@ $noun sun
 $idiom bright sun and clear sky
 =早:cha
 $adj early
+$express good morning!
 =早暝:cha-mêⁿ
 $noun $time yesterday
 =早起:cha-khí
 $noun $time morning
+=早慢:chá-bān
+$adj sooner or later, eventually
 =旺:ōng
 $noun prosperity
 $noun flourish
@@ -1652,6 +1747,10 @@ $adj $figur stressed (from a non-delightful event)
 =暗:àm
 $adj dark
 $adj late in the day
+=暗傷:àm-siong
+$adj internal or invisible injury
+$adj indiscernible damage
+$etyHAK am-sông
 =暝:mêⁿ
 $noun $time nighttime (obsolete on its own)
 $see 暗暝
@@ -1690,6 +1789,8 @@ $see 個月
 $noun moon
 $explain
 娘 may refer to the Chinese goddess of the moon Chang'e (嫦娥).
+=月光:goe̍h-kng
+$noun moonlight
 =月面:goe̍h-bīn
 $noun face of the moon
 =娘:niô͘
@@ -1742,6 +1843,11 @@ $auxi [at the end of the sentence to indicate if the action has or has not been 
 $adj not yet ripe
 =本:pún
 $class [classifier for books]
+=本地:pún-tē
+$adj local, native
+$adj national, in the country
+$explain
+As in a national product, national anthem, etc.
 =条:tiâu
 $class [classifier for lothing]
 =杯:poe
@@ -1755,8 +1861,6 @@ $surname Lim, Lin
 $noun $fruit fruit
 =某:bó͘
 $noun $family wife
-=挈某:chhōa-bó͘
-$verb to have a wife
 =柑:kam
 $noun $fruit tangerine
 $noun $fruit orange fruit
@@ -1803,12 +1907,24 @@ $noun $drink coconut milk
 $verb to bribe, to offer a bribe
 =樓:lâu
 $noun storey, floor
+$explain
+This would be used like
+第一樓 first storey
+第二樓 second storey
+第三樓 third storey
 $see 層
 =樓梯:lâu-thui
 $noun stairs
 $noun ladders
 =樓頂:lâu-téng
 $noun upstairs
+$see 頭頂
+=樓跤:lâu-kha
+$noun downstairs
+=頭頂:thâu-téng
+$noun upstairs
+$noun above, on top, at a higher position
+$see 樓頂
 =樹叢:chhiū-châng
 $noun tree
 =橋:kiô
@@ -1896,7 +2012,11 @@ $conj [used as comparison]
 =毛:mô͘
 $noun fur
 $noun hair
+=巾:kin
+$noun a square item of cloth
 =毛巾:mô͘-kin
+$noun towel
+=水巾:chúi-kin
 $noun towel
 =毛球:mô-kiû
 $noun badminton
@@ -1925,7 +2045,7 @@ $noun fire truck
 =汆鍋:sang-o
 $noun hotpot
 $noun steamboat
-=汗:kòa
+=汗:kōaⁿ
 $noun sweat
 =汝:lú
 $pron you
@@ -1989,7 +2109,7 @@ $surname Ang, Hong
 $adj alive
 =流:lâu
 $verb to flow
-=流汗:làu-kòa
+=流汗:làu-kōaⁿ
 $verb to sweat
 =流涎:lâu-nōa
 $verb to drool
@@ -2003,6 +2123,10 @@ $noun $body runny nose
 $noun $body nose bleed
 =海:hái
 $noun sea
+=海水:hái-chúi
+$noun seawater
+=海邊:hái-pi
+$noun shore, coast, seashore
 =海風:hái-hong
 $noun sea breeze, winds from the sea or ocean
 =海參:hái-som
@@ -2118,7 +2242,7 @@ $verb to shower in the rain, to bathe in the rain, to play in the rain
 =火:hóe
 $noun fire
 $noun light
-=火焼:hóe-sio
+=火燒:hóe-sio
 $verb to go on fire, to be ablaze, to be burning
 =火車:hóe-chhia
 $noun train
@@ -2126,13 +2250,13 @@ $noun train
 $noun train station
 =炒:chhá
 $verb to fry, to stir-fry
-=焼:sio
+=燒:sio
 $adj hot (of an object)
-=炒焼:chhá-sio
+=炒燒:chhá-sio
 $verb to roast
-=焼肉:sio-bah
+=燒肉:sio-bah
 $noun $food roasted pork
-=炒焼肉:chhá-sio-bah
+=炒燒肉:chhá-sio-bah
 $noun $food roasted pork
 =炒菜:chhá-chhài
 $noun $food cook a meal
@@ -2289,8 +2413,10 @@ $noun Chinese paper lantern
 $noun $food shumai (a traditional steamed Chinese dumpling)
 =燕窩:iàn-o
 $noun $food edible bird's nest (can also be made as a drink)
+=燕:iàn
+$noun $animal swallows (Hirundinidae genus) and swifts (Apodidae family)
 =燕鳥:iàn-chiáu
-$noun $animal swallows (Hirundinidae genus) and Swifts (Apodidae family)
+$noun $animal swallows (Hirundinidae genus) and swifts (Apodidae family)
 =燙:thǹg
 $verb to scald, to hit (something) with hot or boiling water
 =爆炸:pàu-cha
@@ -2398,6 +2524,9 @@ $adj sweet
 $noun $disease diabetes
 =生:seⁿ
 $verb to give birth
+=生活:seⁿ-oa̍h
+$noun life
+$noun livelihood
 =生意:seng-lí
 $noun business
 =生意興隆:seng-lí heng-liông
@@ -2440,7 +2569,7 @@ $noun $time now, at present, current
 =當時:tang-sî
 $advb $time sometimes, occasionally, from time to time, once in a while
 =病:pēⁿ
-$noun illness
+$noun illness, disease
 =痕:hûn
 $noun mark, trace
 =痛:thiàⁿ
@@ -2455,7 +2584,7 @@ $adj excessively greedy
 $adj ache, sore, numb
 =瘦:sán
 $adj slim, slender
-=發:hoat
+=暴:hoat
 $verb (of plants) to grow, to sprout, to germinate
 $noun wealth, prosperity
 =發:kiàⁿ
@@ -2468,6 +2597,11 @@ $noun $food Chinese prosperity cakes, Moho cakes (similar Indonesian traditional
 $verb to send goods, to distribute goods
 =白:pe̍ⁿh
 $noun $colour white
+=白菜:pe̍ⁿh-chhài
+$noun $food napa cabbage
+$noun $food bok choy
+$explain
+Fun fact: in Mandarin, 白菜 is pronounced very similar to 百財 (a hundred prosperity), so this vegetable is commonly portrayed as a symbol of wealth and good fortune. 
 =白蟻:pe̍ⁿh-hiā
 $noun $animal termites
 =白糖糕:pak-thòng-ko
@@ -2537,8 +2671,13 @@ $verb to be sincere, to be heartfelt, to be genuine
 $verb to underestimate (someone), to belittle, to disparage
 =真:chin
 $advb really, truly, very, quite
-=真:chiâ
+$see 正
+=正:chiàⁿ
 $adj true, real
+$advb really, truly, very, quite
+$explain
+Slightly more emphatic than 真.
+$see 真
 =真正:chin-chiàⁿ
 $advb genuinely, truly, really, very
 =真真:chīn-chīn
@@ -2791,8 +2930,8 @@ $noun $food bread
 $etyIMA roti
 =半羅:pòaⁿ-lô
 $noun half a kilogram (0.5kg)
-=羊:iâng
-$noun $animal goat
+=羊:iôⁿ
+$noun $animal goat, lamb
 =美國:bí-kok
 $noun $loc United States of America
 =美國話:bí-kok-ōa
@@ -2828,9 +2967,9 @@ $noun $animal tiger
 $noun liar, fibber, someone who likes to lie
 =考冊:khóⁿ-chheⁿh
 $verb to sit an examination, to take test, to have an exam
-=耳仔:hīⁿ-á
+=耳仔:hīⁿ-iá
 $noun $body ear
-=耳仔屎:hīⁿ-a-sái
+=耳仔屎:hīⁿ-ia-sái
 $noun $body ear wax
 =聲:sia
 $noun sound
@@ -2874,6 +3013,18 @@ $noun $food bak kut teh
 $noun $food herbal pork rib soup
 =肉麵:bah-mī
 $noun $food bakmie noodles
+=豬肉:tu-bah
+$noun pork
+=雞肉:ke-bah
+$noun chicken meat
+=牛肉:gû-bah
+$noun beef
+=羊肉:iôⁿ-bah
+$noun mutton
+=魚肉:hû-bah
+$noun fish meat
+=鴨肉:ah-bah
+$noun duck meat
 =肚臍:tó͘-châi
 $noun $body navel, belly button
 =肝:koaⁿ
@@ -2931,23 +3082,20 @@ $noun $food paracetamol
 $verb to lie down and rest
 =自私:chīr-sir
 $adj selfish
-=臭:chháu
-$verb to smell like
 =臭:chhàu
-$adj smelly
-$adj foul
-$adj stinking
-=臭乾:chháu-ta
+$verb to smell like
+$adj smelly, foul, stinking
+=臭乾:chhàu-ta
 $verb (of food) to be burnt, to be overcooked
-=臭味:chháu-bī
+=臭味:chhàu-bī
 $adj foul smell
 $adj stinky
 $adj smelly
-=臭尿薟:chháu-jō-hiām
+=臭尿薟:chhàu-jō-hiām
 $verb to smell like urine, to have a urinous odour
-=臭汗酸:chháu-kòa-sui/chháu-kòa-sng
+=臭汗酸:chhàu-kōaⁿ-sui/chhàu-kōaⁿ-sng
 $verb to stink from sweat
-=臭酸:chháu-sui
+=臭酸:chhàu-sui
 $verb (of food) to spoil, to go bad
 =臺灣:tâi-oân
 $noun $loc Taiwan
@@ -3020,7 +3168,7 @@ $noun cups (in general)
 $noun $drink tea (without sugar), plain tea, unsweetened tea
 =茶鈷:tê-kó͘/têⁿ-kó͘
 $noun teapot
-=草:chho͘
+=粗:chho͘
 $adj rough (surface)
 =草:chháu
 $noun grass
@@ -3055,8 +3203,8 @@ $num ten thousand (10000)
 $explain
 三萬 saⁿ bān 30000
 =落:lak
-$verb to fall off, to become loose
-$verb (adj.) unstick
+$verb to fall off (from unsticking to a surface)
+$verb to become loose, to unstick
 =落:lo̍h
 $verb to go down, to descend
 $verb to fall, to drop
@@ -3096,7 +3244,7 @@ $noun $fruit grape
 $noun $drink grape wine
 =葬:kám
 $verb to bury (a body specified by local tradition)
-=胡蠅:hô-sîn
+=胡蠅:hô͘-sîn
 $noun $animal housefly
 =蔡:chhòa
 $surname Chua
@@ -3197,6 +3345,8 @@ $noun T-shirt
 $noun wardrobe, closet
 =衫褲:saⁿ-khò͘
 $noun clothes, garments, attire
+=熨:ut
+$verb to iron (for pressing clothes)
 =熨衫:ut-saⁿ
 $verb to iron (for pressing clothes)
 =衰:soe
@@ -3244,16 +3394,18 @@ $adj important, significant, major
 $verb to be ashamed, to be embarrassed, to be shy
 =規日:kui-ji̍t
 $advb $time all day long, the whole day
+=唚:chim
+$verb to kiss
 =親:chhin
 $adj close, intimate, dear
-=親:chim
-$verb to kiss
 =親情:chhin-chiâⁿ
 $noun $family relative, family member
 =觀音:koan-im
 $noun (Buddhism) Guanyin
 =觀音竹:koan-im-tek
-$noun lucky bamboo (Dracaena sanderiana) (often associated with Feng Shui practices and is believed to bring positive energy, good luck, and prosperity)
+$noun lucky bamboo (Dracaena sanderiana)
+$explain
+Often associated with Feng Shui practices and is believed to bring positive energy, good luck, and prosperity.
 =解:gâi
 $adj effective, workinh
 =計較:kia̍t-kàu
@@ -3337,6 +3489,8 @@ $noun $food dried tofu skin, yuba
 $noun $food bean sprouts
 =豆醬:tau-chóⁿ
 $noun $food tauco, taucu, tauchu (A type of fermented yellow soy bean paste)
+=綠豆:le̍k-tāu
+$noun $food mung bean
 =豬:tu
 $noun $animal pig
 =豬囝:tu-kiáⁿ
@@ -3464,6 +3618,16 @@ $advb even more
 $adj further out
 =較拙:khah-choah
 $adj better than nothing, acceptable despite being poor, passable
+=較加:khah-keⁿ
+$advb (after a number) greater than, exceeding, in addition to a stated amount
+$explain
+兩羅較加 more than 2kg
+$opp 較小
+=較小:khah-sè
+$advb (after a number) less than, below, not reaching a stated amount or limit
+$explain
+兩羅較小 less than 2kg
+$opp 較加
 =載:chài
 $verb to transport someone (by vehicle)
 =輕:khin
@@ -3500,8 +3664,10 @@ $advb [used before a verb to indicate the every instance of the action done] Eve
 $advb (of noun or adj) each, every
 =逐逐日:ta̍k-ta̍k-ji̍t
 $advb $time every day
-=這爿:cheʳ-peng
+=這爿:chéʳ-peng
 $pron over here
+=這個:chéʳ-le
+$pron this, this one
 =通書:thong-su
 $noun almanac, ephemerism
 =通知:thong-ti
@@ -3586,7 +3752,7 @@ $noun pencil
 $noun bank
 =銷:siau
 $noun business sales
-=錢/鐳:lui
+=鐳:lui
 $noun money
 $etyIMA duit
 =鎖:só
@@ -3704,9 +3870,9 @@ $noun $food bolu, kue bolu, bolu cakes
 =雞囝:ke-kiáⁿ
 $noun $animal chick
 =雞肉飯:ke-bah-pūiⁿ/ke-bah-pn̄g
-$noun $food chicken Rice
+$noun $food chicken rice
 =雞飯:ke-pūiⁿ/ke-pn̄g
-$noun $food chicken Rice
+$noun $food chicken rice
 =雨:hō͘
 $noun rain, drizzle
 $noun a downward fall of water droplets (in general)
@@ -3784,8 +3950,12 @@ $noun in front of the face, face front
 =面嘟嘟:bīn-tu-tu
 $noun dull face, unexcited face, flat and spiritless face
 $verb to make a poker face
+=索:soh/sok
+$noun rope, cable
 =鞋:ê
 $noun shoes
+=鞋索:ê-soh/ê-sok
+$noun shoelace
 =鞋抿:ê-bín
 $noun shoe brush
 =鞭炮:phong-phàu
@@ -3793,6 +3963,11 @@ $noun fireworks
 =響:hiáng
 $verb to ring, to make a sound, to emit a sound
 =頂:téng
+$adj the very top, peak, summit, pinnacle
+$noun the very top, summit, top, apex, crown
+$explain
+Stronger emphasis on the absolute top than 上.
+$see 上
 $class [used for vehicles]
 =頂真:téng-chin
 $adj careful, focused, serious, conscientious
@@ -3826,6 +4001,8 @@ $noun $body hair
 $noun hair oil
 =頭痛:thâu-thiàⁿ
 $noun $body headache
+=頭茅苟:thâu-môi-ko
+$noun wild grass
 =頷頸:ām-kún
 $noun $body neck
 =願:giàn
@@ -3890,6 +4067,11 @@ $phrase to favor those who bring benefits
 $verb to eat breakfast
 =食齋:chia̍h-che
 $verb to be vegetarian, to be vegan
+=食好料:chia̍h-hó-liāu
+$verb to eat delicious food, to savor a meal
+=食圓:chia̍h-îⁿ
+$verb to eat tangyuan or tanguan
+$see 圓
 =飯:pūiⁿ/pn̄g
 $noun $food cooked rice
 =飯食較濟，話匱講:pūiⁿ chia̍h khah-chè, ōa kiám kóng
@@ -3907,12 +4089,17 @@ $idiom to raise (a child or generation) for nothing
 $idiom ungrateful, unappreciative
 =飽:pá
 $adj full (stomach)
-$opp 餓
+$opp 枵
 =餅:piáⁿ
 $noun $food cookies, biscuits
-=餓:iau
+=枵:iau
 $adj hungry
 $opp 飽
+$see 餓
+=餓:gō
+$adj starving, very hungry
+$verb to starve someone
+$see 枵
 =香:hio͘
 $noun incense, joss stick
 =香港:hiang-káng
@@ -3928,8 +4115,12 @@ $noun $animal horse
 =馬車:bèⁿ-ca̍k
 $noun cycle rickshaw, trishaw
 $etyIDN becak
+=騙:phiàn
+$verb to deceive
+$verb to scam
 =騙話:phiàn-ōa
 $noun lie, untruth, falsehood
+$verb to tell a lie
 =驚:kiaⁿ
 $verb to be scared
 $verb to be frightened
@@ -3966,6 +4157,8 @@ $noun $animal fish
 $noun $food fish bone
 =魚餅:hû-piáⁿ
 $noun $food Chinese fish cakes
+=魚丸:hû-oân
+$noun $food fishballs, meatballs made out of fish
 =鮑魚:pau-hû
 $noun $animal abalone
 =鮮:chhiⁿ
@@ -3975,7 +4168,7 @@ $noun $animal squid
 =鱉龜:pih-ku
 $noun $animal sea turtle
 =鳢魚:lê-hû
-$noun $animal snakehead Murrel
+$noun $animal snakehead murrel
 =鳥:chiáu
 $noun $animal bird
 =鳥囝:chiáu-kiáⁿ
@@ -4060,20 +4253,27 @@ $adj (only for certain actions) frequently, often (adverb)
 $verb to often complain
 =𠢕呻𣍐死:gâu-chhan bē-sí
 $phrase constantly complaining
-=𠢕拖:gâu-thû
-$verb to procrastinate, to delay
+=𠢕躇:gâu-thû
+$verb to often procrastinate, to often dillidally or dawdle
 =𠢕𠢕:gâu-gâu
 $advb (of an action) know how to, capable, skilled
 =𡳞:lān
 $noun $vulgar penis, dick
 =𡳞鳥:lān-chiáu
 $noun $vulgar penis, dick
+=𡳞脬:lān-pha
+$noun $vulgar scrotum
+$adj $figur courage, guts, balls
+=扶𡳞脬:phô͘-lān-pha
+$verb $vulgar to brownnose, to suck up, to lick someone's balls, to kiss someone's ass
 =𢼌:pa
 $verb to slap
 =𢼌人:pa-lâng
 $verb to slap someone
 =𣍐:bē
 $verb cannot, unable to
+=𣍐歹:bē-pháiⁿ
+$adj not bad, pretty good
 =𣍐䆀:bē-bái
 $adj not bad, pretty good
 =𣍐使:bē-sái
@@ -4096,8 +4296,6 @@ $adj bored, finding something monotonous
 $adj becoming ill
 =𨑨迌:thit-thô
 $verb to play
-=𨶙脬:lān-pha
-$noun $vulgar testicles
 =𩚨:khiū
 $adj (of food) soft and pliable, chewy
 =𩚨𩚨:khiū-khiū
@@ -4212,7 +4410,7 @@ $adj intelligent, bright, clever
 =毋對:m-tio̍h
 $adj incorrect; wrong
 $adj [alone to express disagreement] no
-=腹肚餓:pak-tó͘-iau
+=腹肚枵:pak-tó͘-iau
 $verb to be hungry
 $adj hungry
 =拍無:phah-bô
@@ -4263,3 +4461,33 @@ $noun star (celestial body)
 $verb to kick out, to make leave
 =趕走:kóaⁿ-cháu
 $verb to kick out, to make leave, to chase away, to drive away
+=䖙:the
+$verb to lie down
+$verb to recline and rest
+=帽:bō
+$noun hat, cap
+=秤:chhìn
+$verb to weigh, to measure the weight (of an object)
+=禽獸:khîm-siù
+$noun birds and animals
+$noun beast, animal, creature
+=殼:khak
+$noun shell, husk, hull, skin, casing
+=卵殼:nūi-khak/nn̄g-khak
+$noun eggshell
+=拉圇燒:lâ-lûn-sio
+$adj lukewarm
+=摀:óe
+$verb to dig, to excavate, to grub
+=淹:chim
+$verb to soak, to submerge
+=淹水:chim-chúi
+$verb to soak in water, to submerge in water
+=念:liām
+$verb to chant or recite (sacred texts, sutras, etc.)
+=經:keng
+$noun sacred texts or books
+$noun something regarded as principal, doctrinal or classical
+=念經:liām-keng
+$verb (Buddhism) to chant or recite sutras
+$verb $figur to keep harping on, to speak or sing in a repetitive and monotone manner

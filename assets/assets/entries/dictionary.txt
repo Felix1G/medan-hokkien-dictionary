@@ -101,6 +101,8 @@ $noun New Year's Eve
 $noun $food pork belly
 =三角六角:saⁿ-kak la̍k-kak
 $idiom style of an arrogant person, behave arrogantly
+=三角:saⁿ-kak
+$noun triangle
 =上:téng
 $adj upper, uppermost, top (general, relative position)
 $noun top, above, upper part
@@ -172,6 +174,7 @@ $noun $food cookies, biscuits
 $noun $food dry cakes (Traditional Indonesian cakes)
 =亂:lòan
 $adj noisy, making a fuss
+$verb to badger, to pester, to ask repeatedly and being noisy or annoying
 =亂鐘:loan-cheng
 $noun alarm clock
 =亂青踖:lòan-chhiⁿ-chhà
@@ -350,7 +353,8 @@ $verb to have a break
 $verb to kidnap
 =偷攑:thâu-giâⁿ
 $verb to steal, to pilfer
-=像:siâng
+=像:siāng
+$verb to be the same as, to resemble like
 $adj same, equal
 =價錢:kè-chîⁿ
 $noun price
@@ -429,6 +433,8 @@ $phrase air-conditioned, cooled air
 =冷氣:lèng-khì
 $noun cold (or cool) air
 $noun air conditioning (AC)
+=冷天:léng-thiⁿ
+$noun cold weather, cold climate
 =凊彩:chhìn-chhái
 $verb to let the decision be made by someone else, up to (someone), anything, whatever
 =凊彩啦:chhìn-chhái la
@@ -642,6 +648,8 @@ $noun name
 =名牌:ming-phâi
 $adj (of products) having a good brand name
 $etyYUE ming4 paai4
+=名聲:miâ-siaⁿ
+$noun fame, reputation, name
 =向:hiáng
 $verb to face, to look (in a direction), to turn towards
 =吞:thun
@@ -684,7 +692,10 @@ $noun smell, aroma, odour
 $verb to groan, to moan
 =呼吸:chhoán-khùi
 $verb to breathe
-=命水:miaⁿ-chúi
+=命:miā
+$noun life, existence, state of living
+$noun life expectancy
+=命水:miā-chúi
 $noun fate, destiny
 $adj lucky, having good fortune
 =咖啡:ko-pi
@@ -756,7 +767,7 @@ As conjunction,
 =噴:phùn
 $verb to spurt, to gush, to jet out
 $explain
-油噴在手 iû phùn khí chhiúⁿ Oil had spurted at my hand (e.g. from cooking)
+油噴起手 iû phùn khí chhiúⁿ Oil had spurted at my hand (e.g. from cooking)
 =嚨喉:nâ-âu/nâ-ôa/nâ-ô͘
 $noun $body throat
 =嚨喉乾:nâ-âu-ta/nâ-ôa-ta
@@ -814,8 +825,6 @@ $noun mud
 $noun dust (in general)
 =塗跤:thô͘-kha
 $noun floor
-=在:khí
-$prepo [preposition to indicate position] at (a place)
 =地:tē
 $noun land, field
 =地獄:tē-ga̍k
@@ -880,7 +889,7 @@ $adj (of a dish) many, plenty, large
 $adj (of eyes, ears, etc) big, large
 =大粒:tōa-lia̍p
 $adj (of granules, grain, or pellets) big
-=大聲:tōa-sia
+=大聲:tōa-siaⁿ
 $adj loud, in a loud voice
 =大開:tōa-khai
 $verb to spend a lot of money
@@ -891,14 +900,16 @@ $adj (of a building) big, large
 =大食:tōa-chia̍h
 $verb to eat a lot
 $verb mukbang
-=天:thi
+=天:thiⁿ
 $noun sky
-=天低低:thi kēⁿ-kēⁿ
+=天低低:thiⁿ kēⁿ-kēⁿ
 $idiom God knows (used to tell someone lying that their words or the truth is also known by God)
-=天公:thi-kong
+=天公:thiⁿ-kong
 $noun Supreme Deity, Lord of Heaven, Ruler of Heaven, Jade Emperor (according to Chinese folk religion and Taoism)
-=天公爐:thi-kong-lô/thi-kong-lô͘
+=天公爐:thiⁿ-kong-lô/thiⁿ-kong-lô͘
 $noun altar (used to pray for 天公)
+=天時:thiⁿ-sî
+$noun weather, climate
 =太:thái
 $advb too, excessively, over
 =夾:ngeⁿh
@@ -914,7 +925,7 @@ $explain
 $verb to have finished, to have completed, to be done
 $adj perfect, excellent
 $adj (of a person's life) successful
-=好命:hó-miâ
+=好命:hó-miā
 $verb have a lucky fate, blessed with good fortune
 $verb (of life) good, great
 =好媠:hàu-súi
@@ -949,6 +960,9 @@ $adj (of drinks) delicious
 $adj yummy
 =好麗:háu-lián
 $adj ostentatious, flashy, flaunting, flexing
+=好風:hó-hong
+$verb to have good mood
+$noun good mood
 =妗婆:kīm-pô
 $noun $family grandmother's brother's wife
 =姆婆:ḿ-pô
@@ -1063,7 +1077,7 @@ $adj (of a class in education) small, little students
 $adj (of a dish) small, little, few
 =小粒:sè-lia̍p
 $adj (of grains, granules, pellets) small
-=小聲:sè-sia
+=小聲:sè-siaⁿ
 $adj in a low voice, quietly
 $adj (to speak) in whispers
 =小間:sè-keng
@@ -1072,6 +1086,10 @@ $adj (of a building) small, tiny
 $adj few, little
 =尖:chiam
 $adj pointy (of a needle), sharp
+=針:chiam
+$noun needle
+$noun needle-like object, pin
+$noun hand (of a clock)
 =尻川:khà-chhng
 $noun $body buttocks
 =尻川孔:khà-chhng-khang
@@ -1187,6 +1205,9 @@ $verb to dream
 $verb to hallucinate
 =幾:kúi
 $num how many
+$num (after a number) -something, approximation
+$explain
+六十幾 60-something
 =幾個月:kúi-ko-goe̍h
 $pron $time how many months?
 =幾日:kúi-ji̍t
@@ -1206,7 +1227,7 @@ $see 幾濟
 $pron $time what time
 =拜幾:pài-kúi
 $pron $time what day? (as in Monday, Tuesday, etc.)
-=底時:ti-sî
+=底時:tī-sî
 $pron $time when
 =店:tiàm
 $noun shop, store
@@ -1311,6 +1332,7 @@ $verb to want, to desire,
 $verb to love
 =愛人:ái-lâng
 $noun girlfriend, boyfriend
+$noun sweetheart, lover
 =愛笑:ái-chhiò
 $adj (of a person) unable to hold back a smile and burst into laughter
 =感謝:kám-siā
@@ -1396,6 +1418,8 @@ $verb to subtract, to minus
 $verb to go on a discount, to be on sale
 =扲:gīm
 $verb to hold, to grasp, to take in the hand
+=扲銷:gīm-siau
+$verb to handle the sales
 =找:chhōe
 $verb to find, to search
 =找工:chhōe-kang
@@ -1477,7 +1501,7 @@ $verb to arrange (an event, a schedule, a plan)
 $verb to wipe (clean)
 =拾:khioh
 $verb to pack up, to gather, to collect, to tidy up
-=指甲:chéng-kah
+=掌甲:chéng-kah
 $noun $body nails
 =紮:cha̍h
 $verb to bring along (something), to carry
@@ -1492,6 +1516,8 @@ $explain
 𤆬伊回 To bring him/her home
 =𤆬某:chhōa-bó͘
 $verb to have a wife
+=𤆬路:chhōa-lō͘
+$verb to guide through a path or road
 =按呢:an-neⁿ
 $advb very, rather, quite
 $advb extremely
@@ -1515,6 +1541,8 @@ $see 圓
 $verb to collide, to crash into
 =挵著:lòng-tio̍h
 $verb to be crashed into, to be collided with
+=捀:phâng
+$verb serve with both hands, offer respectfully
 =捀茶:phâng-tê
 $noun Tea Ceremony (Tea Pai)
 $explain
@@ -1555,6 +1583,8 @@ $verb to punch, to hit with a fist
 $verb to punch someone, to hit someone with the fist
 =插:chhap
 $verb to care (about something)
+=潲:siâu
+$noun $vulgar semen
 =插潲:chhap-siâu
 $verb $vulgar to heed, to pay attention to (usually in the negative)
 =莫起插潲:mái khí chhap-siâu
@@ -1579,6 +1609,12 @@ $verb to confiscate
 $verb to grab
 =摧:chhùi
 $adj destroyed, wrecked, damaged
+=必要:pi-iàu
+$advb must, necessary, essential
+opp. 無必要
+=無必要:bô-pi-iàu
+$advb not a must, not necessary, not essential
+opp. 必要
 =摩哆必:mô͘-tó͘-pit
 $noun motorcycle, motorbike
 =摺:chih
@@ -1610,6 +1646,8 @@ $verb to squeeze one's way in, to cram in
 $verb to erase
 =擦拭:chhat-chhit
 $verb to wipe, to clean, to wipe clean
+=擦丸:chhat-oân
+$noun bath bomb
 =擺:pái
 $noun $time time (frequency)
 $explain
@@ -1820,6 +1858,8 @@ $noun bride
 $noun bridal chamber
 $explain
 In Chinese tradition, it is a special room for newlyweds that is symbolically arranged to represent happiness, harmony, and good fortune in married life.
+=新娘車:sin-niô͘-chhia
+$noun wedding car, bridal car
 =有:ū
 $verb to have
 =有佇:ū-tī
@@ -1991,7 +2031,7 @@ $adj naughty, mischievous
 $adj embarrased, ashamed
 $adj shy
 $adj [also as a saying] sorry, pardon me
-=歹命:pháiⁿ-miâ
+=歹命:pháiⁿ-miā
 $adj have an unlucky fate, unlucky life
 $adj (of life) bad, struggling
 =歹囝:pháiⁿ-kiáⁿ
@@ -2008,6 +2048,11 @@ $verb to die
 $verb to unalive
 =死活:sí-oa̍h
 $noun life and death
+=死爸:sí-bē
+$advb $vulgar very, rather, quite
+$etyTEO si2 bê6
+$explain
+Mostly used in Singapore. This is very rarely said in Medan.
 =毋:m̄
 $advb no
 $advb not
@@ -2125,13 +2170,16 @@ $verb to launder money
 $surname Ang, Hong
 =活:oa̍h
 $adj alive
+=活動:oa̍h-tāng
+$adj (of a person) confident, assertive
+$adj (of a person) fast-moving, agile, quick (in skill)
 =流:lâu
 $verb to flow
 =流汗:làu-kōaⁿ
 $verb to sweat
 =流涎:lâu-nōa
 $verb to drool
-=流眼油:làu-ba̍k-iû
+=流目油:làu ba̍k-iû
 $verb to cry, to be in tears
 =流血:lâu-hoeh
 $verb to bleed
@@ -2316,7 +2364,7 @@ $verb to not have empty seats to sit on
 $verb to not have space available to store (something), to lack sufficient space to store (something)
 =無信用:bô-sìn-iōng
 $verb to be dishonest, to be insincere, to be biased
-=無像:bô-siâng
+=無像:bô-siāng
 $verb to be different, to be unequal
 =無力:bô-la̍t
 $verb to be weak, to have insufficient strength
@@ -2361,7 +2409,7 @@ $verb to be raw, to be unripe
 $verb (of the business) to not do well
 =無用:bô-iòng
 $verb to be useless, to have no use
-=無聲:bô-sia
+=無聲:bô-siaⁿ
 $verb to be silent, to have no sound
 $verb to lose one's voice
 =無變:bô-piàn
@@ -2567,6 +2615,10 @@ $noun life expenses
 $verb to stain (cloth, clothes, etc)
 =用:iòng
 $verb to use, to utilise
+=甲:ka/kah/kak/kap
+$noun nails (of fingers and toes)
+$noun (purely as a phonetic character)
+$see 指甲
 =甲了:ka-liáu
 $adj all, whole, totally, complete, everything
 =留:làu
@@ -2602,7 +2654,7 @@ $adj excessively greedy
 $adj ache, sore, numb
 =瘦:sán
 $adj slim, slender
-=暴:hoat
+=發:hoat
 $verb (of plants) to grow, to sprout, to germinate
 $noun wealth, prosperity
 =發:kiàⁿ
@@ -2692,26 +2744,29 @@ $advb really, truly, very, quite
 $see 正
 =正:chiàⁿ
 $adj true, real
-$advb really, truly, very, quite
+$advb (of an adjective) really, truly, overly, excessively, far too
 $explain
-Slightly more emphatic than 真.
+Slightly more emphatic than 真 and 太.
 $see 真
+$see 太
 =真正:chin-chiàⁿ
 $advb genuinely, truly, really, very
 =真真:chīn-chīn
 $adj true, real
 =眠床:mîn-chhn̂g
 $noun bed
-=眼睛:ba̍k-chiu
+=目:ba̍k
+$noun $body eye
+=目睭:ba̍k-chiu
 $noun $body eyes
-=眼睛屎:ba̍k-chiu-sái
+=目睭屎:ba̍k-chiu-sái
 $noun $body eye wax
-=眼睛毛:ba̍k-chiu-mô͘
+=目睭毛:ba̍k-chiu-mô͘
 $noun $body eyelashes
 $noun $body eyebrow
-=眼睛霧霧:ba̍k-chiu-bū-bū
+=目睭霧霧:ba̍k-chiu bū-bū
 $noun $body blurry vision
-=眼鏡:ba̍k-kiàⁿ
+=目鏡:ba̍k-kiàⁿ
 $noun glasses
 =睬:chhái
 $verb to pay attention to (someone), to notice (someone)
@@ -2818,7 +2873,8 @@ $noun $body nerves
 =筋無直:kin bô ti̍t
 $phrase (of a person) to have bad mood
 =箇來:kó-lâi
-$noun here, this place, this region, this location, this spot
+$noun here, over here, this spot, this
+$express Come here!
 =算盤:sǹg-pôaⁿ
 $noun abacus (calculating frame)
 =箸:tū
@@ -2994,8 +3050,9 @@ $verb to sit an examination, to take test, to have an exam
 $noun $body ear
 =耳仔屎:hīⁿ-ia-sái
 $noun $body ear wax
-=聲:sia
+=聲:siaⁿ
 $noun sound
+$noun voice
 =聽:thiaⁿ
 $verb to listen
 $verb to hear
@@ -3289,7 +3346,7 @@ $noun $food cayenne pepper, chili
 $noun salary, wage
 =藍:lâm
 $noun $colour blue
-=藍天:lâm-thi
+=藍天:lâm-thiⁿ
 $noun clear sky
 =藍色:lâm-sek
 $noun $colour blue
@@ -3351,13 +3408,16 @@ $adj $figur (of a person) quick-tempered, short-tempered, irascible, easily get 
 =行:kiâⁿ
 $verb to walk
 $verb (of something) to move forward
-=行來行去:kiâ-lâi kiâ-khì
+=行來行去:kiâⁿ-lâi kiâⁿ-khì
 $phrase walk about
 =行行:kiáⁿ-kiáⁿ
 $verb to travel
 $verb to walk around
 =行路:kiâⁿ-lō͘
 $verb to walk
+=行愛人:kiâⁿ-ái-lâng
+$verb to go on a date
+$verb to have a lover (boyfriend or girlfriend)
 =街路:kē-lō͘/kēⁿ-lō͘
 $noun street
 =街路邊:kē-lō͘-pi/kēⁿ-lō͘-pi
@@ -3416,6 +3476,11 @@ $noun $fruit watermelon
 $adj important, significant, major
 =見笑:kiàn-siàu
 $verb to be ashamed, to be embarrassed, to be shy
+=規:kui
+$adj whole, entire
+$explain
+Obsolete on its own.
+$see 甲了
 =規日:kui-ji̍t
 $advb $time all day long, the whole day
 =唚:chim
@@ -3432,6 +3497,8 @@ $explain
 Often associated with Feng Shui practices and is believed to bring positive energy, good luck, and prosperity.
 =解:gâi
 $adj effective, workinh
+=計算:kek-sùiⁿ/kek-sǹg
+$verb to nitpick numbers to pay less, being slightly stingy
 =計較:kia̍t-kàu
 $verb to consider excessively, to overthink, to overcalculate
 =討:thó
@@ -3450,10 +3517,14 @@ $verb to recognise, to identify, to make out, to know
 $advb indeed, truly, really, very
 =調羹:thâu-kiong
 $noun spoon
-=請:chhiáⁿ
+=招:chio
 $verb to invite
+$verb to enlist, to recruit, to enroll
+=請:chhiáⁿ
+$verb to invite to come over
 $verb to treat/pay for (someone)
 $verb to hire (someone) for a job
+$verb please, kindly
 =論去:lūn-khì
 $verb to leave (an argument) alone
 $verb to let (someone) be
@@ -3549,7 +3620,7 @@ $verb to stick on, to paste to (sticker, paper, etc)
 $noun filthy language, impolite language, bad words
 =賣:bē
 $verb to sell
-=賤:phi
+=偏:phiⁿ
 $adj inexpensive, cheap, low-priced
 =賺:choán
 $verb to make a profit
@@ -3563,9 +3634,11 @@ $phrase run about
 =走路:cháu-lō͘
 $verb (of an organisation) to divert from its normal operation
 =起:khí
-$verb to get up, to stand up
-$verb to go up, to move up, to rise, to ascend
+$verb to stand up
+$verb to move up, to rise, to go up, to ascend
 $verb to build, to construct, to erect (a building)
+$verb to get on, to board (a plane, a car, etc.)
+$prepo at, in, to be located
 =起來:khí-lâi
 $advb (after a verb) [indicate beginning and continuation of the action]
 $verb to get up, to get out of bed
@@ -3600,7 +3673,7 @@ $noun gambling addict, a person who loves to gamble
 =跤:kha
 $noun $body leg
 $noun $body feet
-=跤指甲:kha-chéng-kah
+=跤掌甲:kha-chéng-kah
 $noun $body toenails
 =跤球:kha-kiû
 $noun football
@@ -3608,6 +3681,10 @@ $noun football
 $noun $body leg pain
 =跤跔間:kha-ku-keng
 $noun prison, jail
+=跤腿:kha-thúi
+$noun $body leg
+=跤甲:kha-kah
+$noun $body toenail
 =路:lō͘
 $noun road
 =跳:thiàu
@@ -3646,6 +3723,7 @@ $adj better than nothing, acceptable despite being poor, passable
 $advb (after a number) greater than, exceeding, in addition to a stated amount
 $explain
 兩羅較加 more than 2kg
+二點較加 after 2 o'clock
 $opp 較小
 =較小:khah-sè
 $advb (after a number) less than, below, not reaching a stated amount or limit
@@ -3718,10 +3796,6 @@ $verb to become aged, to wear from age
 $verb to cross the road
 =遠:hùi
 $adj far, distant
-=遮:chia
-$advb overly, excessively, (of an adjective) far too
-$explain
-More emphatic than 太
 =選:kéng
 $verb to choose
 =邀貨店:io-hòe-tiàm
@@ -3776,6 +3850,8 @@ $noun money paper (which is according to Chinese tradition)
 $noun gold necklace
 =筆:pit
 $noun pen, pencil, writing brush
+=筆畫:pit-oāh
+$noun stroke (in writing a Chinese character)
 =鉛筆:iân-pit
 $noun pencil
 =銀行:gîn-hâng
@@ -3807,9 +3883,10 @@ $noun hardware store
 $noun iron door, steel gate
 =長:tn̂g
 $adj long
-=長名:tn̂g-miâ
+=長命:tn̂g-miā
 $adj (of a person) long-lived, longevity, elderly, very aged
-=長名雨:tn̂g-miâ-hō͘
+$verb to live a long life
+=長名雨:tn̂g-miā-hō͘
 $noun persistent rain, constant rain, prolonged rainfall
 =長大:téng-tōa
 $verb to grow up, to reach maturity
@@ -3916,7 +3993,7 @@ $noun umbrella
 $verb to stop raining
 =雨水:hō͘-chhúi
 $noun rainwater
-=雨天:hō͘-thi
+=雨天:hō͘-thiⁿ
 $noun rain (weather)
 =雪文:sap-bûn
 $noun soap
@@ -3969,6 +4046,9 @@ $noun $food vegetables, green vegetables
 $noun $food uncooked vegetables, raw vegetables
 =青面:chheⁿ-bīn
 $adj emotional, temperamental
+=青盲:chheⁿ-mêⁿ
+$adj blind
+$verb to be blind
 =靜:chèⁿ
 $adj empty (of a place)
 $adj deserted
@@ -4052,6 +4132,7 @@ $verb to man a shop/store, to be present in a shop/store
 $verb to eat healthily, to choose food carefully
 =風:hong
 $noun wind, breeze
+$noun mood (of a person)
 =風扇:hong-sìⁿ/hong-sih
 $noun fan
 =風景:hong-kéng
@@ -4201,6 +4282,8 @@ $noun $animal abalone
 $adj (of seafood) fresh
 =鰇魚:jiû-hû
 $noun $animal squid
+=龜:ku
+$noun $animal turtle, tortoise
 =鱉龜:pih-ku
 $noun $animal sea turtle
 =鳢魚:lê-hû
@@ -4257,11 +4340,12 @@ $noun $colour yellow
 $noun $food blackpepper
 =點:tiám
 $num decimal point (.)
+$noun $time o'clock
 $class a little, a bit
 $class a dot
 =點心:tiàm-sim
 $noun breakfast
-=點聲:tiám-sia
+=點聲:tiám-siaⁿ
 $noun $time time (point of time)
 =點鐘:tiám-cheng
 $noun $time hour
@@ -4431,6 +4515,9 @@ $num zero (0)
 $explain
 Used in reciting a number e.g. phone numbers.
 $see 零
+=空歁:khong-khám
+$adj foolish, stupid
+$adj crazy
 =零:lêng
 $num zero (0)
 $explain
@@ -4580,3 +4667,31 @@ $noun fortune, luck, fate
 $noun good luck, good fortune
 =歹運:pháiⁿ-ūn
 $noun bad luck, unlucky, bad fortune
+=屜:thoah
+$noun drawer
+=桌屜:toh-thoah
+$noun table drawer
+=唷:iôⁿ/iòⁿ
+$auxi [a particle at the end of a question to make a query] is it?
+$auxi [a particle at the end of a sentence to express surprise] really
+=姣:hiâu
+$adj $vulgar (of a woman) lewd, flirtatious
+$adj (of a person) easily attracted to the opposite gender
+$adj inclined to show interest, affection, or flirtation
+=噏:ngap
+$verb to babble, to prattle, to talk nonsense
+$etyYUE ngap1
+=音:im
+$noun sound, voice, tone
+$noun (of music) pitch, note
+$noun (phonetics) pronunciation, syllable
+=歕:pûn
+$verb to blow
+=歕風:pûn-hong
+$verb to blow air
+=簡單:kán-tan
+$adj simple, uncomplicated, easy
+=枝:ki
+$noun branch, twig
+=珠:chu
+$noun pearl

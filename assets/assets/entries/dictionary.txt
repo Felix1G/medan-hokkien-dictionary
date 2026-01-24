@@ -354,7 +354,9 @@ $verb to steal, to pilfer
 $adj same, equal
 =價錢:kè-chîⁿ
 $noun price
-=優秀:iû-siù
+=秀:siù
+$adj beautiful, elegant, graceful
+=優秀:iu-siù
 $adj elegant, demeanour
 $adj soft, gentle
 =兄弟:hiaⁿ-tī
@@ -997,8 +999,11 @@ $noun guests
 =害死:hài-sí
 $verb to harm
 $verb to threaten
-=家:ke
+=區:khu
+$noun residence, dwelling
 $noun neighbourhood
+=家:ke
+$noun family, household
 =家婆:ke-pô
 $verb to be overly curious, to be nosy, to be overly interested in other people's matters, kaypoh, kepo
 =家己:ka-kī
@@ -1090,40 +1095,42 @@ $explain
 Similar usage to 樓 but broader, such as:
 三層厝 3-storey house (Here, 樓 cannot be used)
 $see 樓
-=屬/相/肖:sioⁿ
+=相:sio
+$advb mutually, reciprocally, towards each other, one another
+=相:sioⁿ
 $noun zodiac
 $verb to be born in the year of one of the twelve animals
-=十二生屬:cha̍p-jī-seⁿ-sioⁿ
+=十二生相:cha̍p-jī-seⁿ-sioⁿ
 $noun The 12 Chinese Zodiacs
-=屬鼠:sioⁿ-chhú
+=相鼠:sioⁿ-chhú
 $noun mouse zodiac
-=屬鳥鼠:sioⁿ-niáu-chhú
+=相鳥鼠:sioⁿ-niáu-chhú
 $noun mouse zodiac
-=屬牛:sioⁿ-gû
+=相牛:sioⁿ-gû
 $noun ox zodiac
-=屬老虎:sioⁿ-làu-hó͘
+=相老虎:sioⁿ-làu-hó͘
 $noun tiger zodiac
-=屬兔:sioⁿ-thò͘
+=相兔:sioⁿ-thò͘
 $noun rabbit zodiac
-=屬白兔:sioⁿ-pe̍ⁿh-thò͘
+=相白兔:sioⁿ-pe̍ⁿh-thò͘
 $noun rabbit zodiac
-=屬龍:sioⁿ-lêng
+=相龍:sioⁿ-lêng
 $noun dragon zodiac
-=屬蛇:sioⁿ-chôa
+=相蛇:sioⁿ-chôa
 $noun snake zodiac
-=屬馬:sioⁿ-béⁿ
+=相馬:sioⁿ-béⁿ
 $noun horse zodiac
-=屬羊:sioⁿ-iôⁿ
+=相羊:sioⁿ-iôⁿ
 $noun goat zodiac
-=屬猴:sioⁿ-kâu
+=相猴:sioⁿ-kâu
 $noun monkey zodiac
-=屬老猴:sioⁿ-làu-kâu
+=相老猴:sioⁿ-làu-kâu
 $noun monkey zodiac
-=屬雞:sioⁿ-ke
+=相雞:sioⁿ-ke
 $noun rooster zodiac
-=屬狗:sioⁿ-káu
+=相狗:sioⁿ-káu
 $noun dog zodiac
-=屬豬:sioⁿ-tu
+=相豬:sioⁿ-tu
 $noun pig zodiac
 =山:soaⁿ
 $noun mountain
@@ -1375,6 +1382,8 @@ $noun watch
 $adj having a habitually overactive pair of hands which often touch and play with things at inappropriate times, and accidentally break them or otherwise cause trouble
 =才:chài
 $adj talented, capable
+=才:chiàⁿ
+$advb [preceded by an expression of reason or condition] not unless, not until, then and only then, for no other reason
 =扛:kng
 $verb to carry (something)
 =扣:khàu
@@ -1436,6 +1445,8 @@ $verb to give or receive an injection
 $verb (of a door, etc) to open widely
 =拍手:phah-chhiú
 $verb to clap hands
+=拍拼:phah-piàⁿ
+$verb to work diligently, to strive, to work hard
 =躇:thû
 $verb to procrastinate, to delay
 $verb to move slowly, to dawdle, to dillydally
@@ -2716,10 +2727,15 @@ $noun $fruit pomegranate
 $adj broken
 $adj punctured
 $adj teared
-=破病:phò͘-pēⁿ
-$verb to be sick
-=破病鷄:phò͘-pēⁿ-ke
-$noun a person who is often sick
+=破病:phòa-pēⁿ
+$verb to fall ill, to catch a disease, to contract an illness
+=破病鷄:phòa-pēⁿ-ke
+$noun a person who is often sick (mainly from pathogenic diseases)
+=著病:tio̍h-pēⁿ
+$verb to develop a disease
+$explain
+This is mainly used for non-pathogenic diseases, such as diabetes, etc. 破病 is the more general term.
+$see 破病
 =硩:teⁿh
 $verb to press (button, switch, etc)
 $verb to sit on (on something)
@@ -3299,7 +3315,7 @@ $noun $animal worm
 $noun $animal cockroach
 =蚊:báng
 $noun $animal mosquito
-=蚵:ô
+=蚵/蠔:ô
 $noun $animal oyster
 =蚶:ham
 $noun $animal clam
@@ -3688,7 +3704,8 @@ $verb to exercise (sports)
 =過:kòe
 $advb [indicates an action has been done]
 $verb to pass
-$verb to cross
+$verb to pass (an examination)
+$verb to cross (roads, rivers, etc.)
 $verb to go (over the limit)
 =過頭:kòe-thâu
 $verb to have passed and missed
@@ -3757,6 +3774,8 @@ $noun $fruit kumquat
 $noun money paper (which is according to Chinese tradition)
 =金鏈:kim-liàn
 $noun gold necklace
+=筆:pit
+$noun pen, pencil, writing brush
 =鉛筆:iân-pit
 $noun pencil
 =銀行:gîn-hâng
@@ -3825,21 +3844,24 @@ $verb to pay expenses
 $class [classifier for house, family]
 $noun chamber
 $noun room
-=関:koan
+=關:koan
 $verb to close
-$see 闔
+$see 崁
 =閣有:koh-ū
 $conj there still remain(s), there is or are, in addition
-=闔:khàm
+=崁:khàm
 $verb to close, to shut (in folding, shutting smth)
 $explain
-闔門 khàm mûiⁿ
-=闔家:hap-ke
-$noun $honor entire family, whole family
-=闔店:khàm-tiàm
+崁門 to close the door
+=崁店:khàm-tiàm
 $verb to close up shop, to shut up shop
-=闔熄:khàm-sit
+=崁熄:khàm-sit
 $verb to turn off (the lights, etc)
+=闔:ha̍p
+$noun all of, whole of, entire (family)
+$see 闔家
+=闔家:ha̍p-ke
+$noun $honor entire family, whole family
 =關係:koan-hēⁿ
 $noun relationship (between some things), connection
 =阻:chah
@@ -4088,6 +4110,8 @@ $see 圓
 $noun $food cooked rice
 =飯食較濟，話匱講:pūiⁿ chia̍h khah-chè, ōa kiám kóng
 $idiom to talk less, say more, to reduce pointless talk, to cut the unnecessary talk, to stick to the point
+=飯核:png-hu̍t
+$noun rice grain
 =飲:lim
 $verb to drink
 $verb drinks (noun)
@@ -4190,6 +4214,8 @@ $noun (literally) bird teeth
 $adj $figur smooth talker, silver tongue, polite, friendly, amiable
 =鳥鼠:niáu-chhú
 $noun $animal mouse, rat
+=鳥屎:chiáu-sái
+$noun bird poop
 =鴉片:a-phiàn
 $noun opium
 =鴨:ah
@@ -4280,6 +4306,8 @@ $adj $figur courage, guts, balls
 =扶𡳞脬:phô͘-lām-pha
 $verb $vulgar to brownnose, to suck up, to lick someone's balls, to kiss someone's ass
 $verb $figur to do good for others mainly to gain praise or boost one’s reputation
+=𡳞核:lān-hu̍t
+$noun $vulgar testes
 =𢼌:pa
 $verb to slap
 =𢼌人:pa-lâng
@@ -4394,7 +4422,7 @@ $adj difficult to chew (especially due to hardness)
 $verb to pity, to feel pity for
 $verb to sympathise with, to feel sorry for
 =核:hu̍t
-$class [classifier for a hand-size portion of a food e.g. durian seeds]
+$class seed, pit, kernel, core, nut, grain (e.g. durian seeds, rice grain)
 =好彩:hó-chhái
 $advb luckily, fortunately
 $express luckily, fortunately, fortuitously (avoiding a bad outcome purely by chance, despite risk or lack of control)
@@ -4512,8 +4540,6 @@ $adj $vulgar (of a person’s wrongdoing) forgiven too often or tolerated for to
 $adj $vulgar having too much leeway, being allowed to get away with too many things
 =閒:êng
 $noun leisure, free time, spare time
-=鳥屎:chiáu-sái
-$noun bird poop
 =稅:sòe
 $verb to rent
 =稅厝:sòe-chhù
@@ -4543,17 +4569,9 @@ $etyIDN taksi
 $verb $vulgar to fuck
 =臭膣屄:chhàu chi-bai
 $adj $vulgar smelly vagina
-=𡳞核:lān-hu̍t
-$noun $vulgar testes
-=飯核:png-hu̍t
-$noun rice grain
 =拼:piàⁿ
 $verb to be ready to risk one's life, to go all out, to disregard
 $verb to work hard 
-=打拼:phah-piàⁿ
-$verb to work diligently, to strive, to work hard
-=才:chiàⁿ
-$advb [preceded by an expression of reason or condition] not unless, not until, then and only then, for no other reason
 =稻草人:tiū-chháu-lâng
 $noun scarecrow
 =運:ūn

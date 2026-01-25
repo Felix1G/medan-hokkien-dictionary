@@ -39,6 +39,7 @@ enum Category {
   figurative("\$figur", "#FIGURATIVE", semantic: true),
   derogatory("\$derago", "#DEROGATORY", semantic: true),
   honourific("\$honor", "#HONOURIFIC", semantic: true),
+  finance("\$finance", "#FINANCE", semantic: true),
 
   explanation("\$explain", "#EXPLANATION"),
 

@@ -10,7 +10,7 @@ import 'package:medan_hokkien_dictionary/util.dart';
 List<Entry> kEntries = List.empty(growable: true);
 List<EntryWidgets> kEntriesWidget = List.empty(growable: true);
 HashMap<String, List<int>> kEntriesCharacter = HashMap();
-const kEntriesAmount = 1988;
+const kEntriesAmount = 2005;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -135,7 +135,7 @@ class _LoadingPageState extends State<LoadingPage> {
     }
 
     if (kDebugMode) {
-      final polyphonics = "一倒分吹彎種曾葉變開黃霧臭下莫才發落相"; // these characters are allowed to have their polyphonics (多音字) e.g. surname
+      final polyphonics = "一倒分吹彎種曾葉變開黃霧臭下莫才發落相插"; // these characters are allowed to have their polyphonics (多音字) e.g. surname
       final polyphonicsList = List.empty(growable: true);
       for (final char in polyphonics.characters) {
         polyphonicsList.add(char);

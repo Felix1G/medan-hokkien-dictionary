@@ -349,11 +349,15 @@ $verb to dirty, to make something filthy
 =停喘:thêng-chhoán
 $verb to rest
 $verb to have a break
-=偷掠:thâu-lia̍h
+=偷:thau
+$verb to steal, to snatch
+=偷掠:thau-lia̍h
 $verb to kidnap
-=偷攑:thâu-giâⁿ
+=偷攑:thau-giâⁿ
 $verb to steal, to pilfer
-=像:siāng
+=偷看:thau-khòaⁿ
+$verb to peek, to peep secretly, to steel a glance
+=像:siāng/siâng
 $verb to be the same as, to resemble like
 $adj same, equal
 =價錢:kè-chîⁿ
@@ -485,6 +489,8 @@ $explain
 $verb to slaughter (an animal)
 =利:lāi
 $adj sharp, edged
+=利息:lī-sek
+$noun $finance interest (on mortgages or savings)
 =别:pa̍k
 $adj [used to indicate the other or the rest]
 =别人:pa̍k-lâng
@@ -619,8 +625,9 @@ $advb additionally, another
 $adj separate, apart, not together with the others
 =硞門:khok-mûiⁿ/khok-mn̂g
 $verb to knock the door
-=只:chiah
-$class [classifier for animals]
+=隻:chiah
+$adj single, one only
+$class [for birds, certain animals, and one of a pair]
 =叫:kiō
 $verb to greet, to call
 $verb to ask someone to do something
@@ -1267,7 +1274,7 @@ $noun $time the day after tomorrow
 $noun $time next year
 =後生:hāu-seⁿ
 $adj young, youthful
-=得:thān
+=得:than
 $verb to receive, to obtain, to acquire, to get
 =德國:tek-kok
 $noun $loc Germany
@@ -1441,6 +1448,8 @@ $verb to brush
 $verb to meet, to encounter
 =拄著:tú-tio̍h
 $verb to have met, to meet (someone)
+=拄得:tú-than
+$verb to have met, to meet (someone)
 =拆:thia̍h
 $verb to peel off
 $verb to tear away
@@ -1511,19 +1520,19 @@ $verb to have brought money (e.g. for shopping, etc.)
 $verb to bring along or take along (someone) to somewhere
 $verb to lead, to guide (someone)
 =𤆬轉:chhōa-túi
-$verb to bring (someone) home
+$verb to bring someone home
 $explain
-𤆬伊回 To bring him/her home
+𤆬伊轉 To bring him/her home
 =𤆬某:chhōa-bó͘
 $verb to have a wife
 =𤆬路:chhōa-lō͘
 $verb to guide through a path or road
-=按呢:an-neⁿ
+=按呢:án-neⁿ
 $advb very, rather, quite
 $advb extremely
 $pron like this
 $pron this way
-=按呢款:an-neⁿ khoán
+=按呢款:án-neⁿ khoán
 $phrase like this way/type/pattern (usually while showing or pointing to an example)
 =按怎:án-chóa
 $pron how
@@ -1589,6 +1598,11 @@ $noun $vulgar semen
 $verb $vulgar to heed, to pay attention to (usually in the negative)
 =莫起插潲:mái khí chhap-siâu
 $express Do not care about (someone), Do not respond to (someone)
+=插:chhah
+$verb to stick into, to insert, to poke, to pierce
+=插入:chhah-ji̍p
+$verb to insert, to stick in
+$verb (of a car) to pull in
 =揕:tìm
 $verb to throw, to toss, to hurl, to fling
 =換:ōa
@@ -1611,10 +1625,10 @@ $verb to grab
 $adj destroyed, wrecked, damaged
 =必要:pi-iàu
 $advb must, necessary, essential
-opp. 無必要
+$opp 無必要
 =無必要:bô-pi-iàu
 $advb not a must, not necessary, not essential
-opp. 必要
+$opp 必要
 =摩哆必:mô͘-tó͘-pit
 $noun motorcycle, motorbike
 =摺:chih
@@ -1712,7 +1726,7 @@ $verb to count
 =料:liāu
 $noun $food meal
 $noun $food (of food) ingredients
-=料理:liāu-lí
+=料理:liāu-lí/liō͘-lí
 $verb to handle, to manage, to arrange
 =斬:chám
 $verb to amputate
@@ -2175,17 +2189,17 @@ $adj (of a person) confident, assertive
 $adj (of a person) fast-moving, agile, quick (in skill)
 =流:lâu
 $verb to flow
-=流汗:làu-kōaⁿ
+=流汗:lâu-kōaⁿ
 $verb to sweat
 =流涎:lâu-nōa
 $verb to drool
-=流目油:làu ba̍k-iû
+=流目油:lâu ba̍k-iû
 $verb to cry, to be in tears
 =流血:lâu-hoeh
 $verb to bleed
 =流鼻:lâu-phīⁿ
 $noun $body runny nose
-=流鼻空血:lâu-phīⁿ-khang-hoeh
+=流鼻空血:lâu phīⁿ-khang-hoeh
 $noun $body nose bleed
 =海:hái
 $noun sea
@@ -2613,6 +2627,8 @@ $verb to be infested with worms
 $noun life expenses
 =生跡:seⁿ-jâi
 $verb to stain (cloth, clothes, etc)
+=生鉎:seⁿ-san
+$verb to rust, to get rusty, to corrode, to oxidise
 =用:iòng
 $verb to use, to utilise
 =甲:ka/kah/kak/kap
@@ -2783,7 +2799,7 @@ $adj broken
 $adj punctured
 $adj teared
 =破病:phòa-pēⁿ
-$verb to fall ill, to catch a disease, to contract an illness
+$verb to fall ill, to catch a disease, to contract an illness, to become sick
 =破病鷄:phòa-pēⁿ-ke
 $noun a person who is often sick (mainly from pathogenic diseases)
 =著病:tio̍h-pēⁿ
@@ -2791,6 +2807,8 @@ $verb to develop a disease
 $explain
 This is mainly used for non-pathogenic diseases, such as diabetes, etc. 破病 is the more general term.
 $see 破病
+=著燒:tio̍h-sio
+$verb to catch on fire, to be ablaze, to be burning
 =硩:teⁿh
 $verb to press (button, switch, etc)
 $verb to sit on (on something)
@@ -2875,6 +2893,7 @@ $phrase (of a person) to have bad mood
 =箇來:kó-lâi
 $noun here, over here, this spot, this
 $express Come here!
+$opp 過去
 =算盤:sǹg-pôaⁿ
 $noun abacus (calculating frame)
 =箸:tū
@@ -3660,6 +3679,9 @@ $verb to be promoted to the grade
 $verb to go mad, to go crazy
 =起童:khí-tâng
 $verb (religion) to be possessed by spiritual entities and start dancing and prophesying (of a spirit medium)
+=起過去:khí-kòe-khì
+$noun there, over there, that spot
+$express Over there!
 =趣味:chhù-bī
 $adj cute, adorable
 =跋:poàk/poa̍h
@@ -3794,6 +3816,9 @@ $verb to pass the expiration date
 $verb to become aged, to wear from age
 =過路:kòe-lō͘
 $verb to cross the road
+=過去:kòe-khì
+$noun there, over there, that spot
+$opp 箇來
 =遠:hùi
 $adj far, distant
 =選:kéng
@@ -4502,6 +4527,10 @@ $noun $drink sodapop, carbonated drinks
 =𠕇:tēng
 $adj hard, solid
 $adj difficult to chew (especially due to hardness)
+$opp 軟
+=軟:núi
+$adj soft, flexible, pliable
+opp. 𠕇
 =較羨:khah-siān
 $verb to pity, to feel pity for
 $verb to sympathise with, to feel sorry for
@@ -4518,6 +4547,9 @@ $see 零
 =空歁:khong-khám
 $adj foolish, stupid
 $adj crazy
+=空位:khang-ūi
+$noun vacancy, room (for someone)
+$noun unoccupied seat, vacant seat
 =零:lêng
 $num zero (0)
 $explain
@@ -4695,3 +4727,15 @@ $adj simple, uncomplicated, easy
 $noun branch, twig
 =珠:chu
 $noun pearl
+=掩:iám
+$verb to peek, to peep secretly, to steel a glance
+=逃覕:tô͘-bit/tô͘-bih
+$verb to hide, to conceal, to hide away
+=服祀:ho̍k-sāi
+$verb to worship or serve a deity, to perform acts of devotion or ritual service to a god
+=鉎:san
+$noun rust
+$noun corrosion
+=雙:sang
+$adj two, twin, both, dual
+$class [for shoes, socks, chopsticks, etc.] pair

@@ -4,7 +4,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:medan_hokkien_dictionary/entry.dart';
-import 'package:medan_hokkien_dictionary/main.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
 
 enum Category {

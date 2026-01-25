@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:medan_hokkien_dictionary/entry.dart';
-import 'package:medan_hokkien_dictionary/fulllist.dart';
 import 'package:medan_hokkien_dictionary/main.dart';
 import 'package:medan_hokkien_dictionary/style.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
@@ -468,11 +467,9 @@ class _DictionaryPageState extends State<DictionaryPage> {
                         // ALL ENTRIES PAGE
                         TextButton(
                           onPressed: () {
-                            Navigator.of(context).push(
-                              MaterialPageRoute(
-                                builder: (_) => FullListPage(),
-                              ),
-                            );
+                            setState(() {
+                              kPageIndexNotif.value = 1; // go to full list page
+                            });
                           },
                           style: TextButton.styleFrom(
                             shadowColor: Colors.transparent,
@@ -638,6 +635,99 @@ class ToggleLangIcon extends StatelessWidget {
           ),
         ),
       )
+    );
+  }
+}
+
+class FullListPage extends StatefulWidget {
+  const FullListPage({super.key});
+
+  @override
+  // ignore: no_logic_in_create_state
+  State<FullListPage> createState() => _FullListPageState();
+}
+
+class _FullListPageState extends State<FullListPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: kBackgroundColor,
+      body: Column(
+        children: [
+          // TOP THIN DARKER RED LINE
+          Container(
+            height: 3.5,
+            width: double.infinity,
+            decoration: BoxDecoration(
+              color: Colors.red.shade900,
+            ),
+          ),
+
+          // TOP BAR
+          Container(
+            height: 60.0,
+            width: double.infinity,
+            color: Colors.red,
+            padding: const EdgeInsets.symmetric(horizontal: 10.0),
+            child: Row(
+              children: [
+                // BACK BUTTON
+                IconButton(
+                  icon: const Icon(Icons.arrow_back, color: Colors.white),
+                  onPressed: () {
+                    setState(() {
+                      kPageIndexNotif.value = 0; // back to dictionary page
+                    });
+                  },
+                ),
+
+                const SizedBox(width: 8),
+
+                // ENTRY NUMBER
+                Expanded(child: Text(
+                  'Entries List',
+                  style: kUITextStyle.copyWith(
+                    color: Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                  ),
+                  textAlign: TextAlign.center,
+                )),
+
+                const SizedBox(width: 48),
+              ],
+            ),
+          ),
+          
+          // LIST OF ENTRIES
+          Expanded(child: ListView.builder(
+            key: const PageStorageKey('full_entries_list'),
+            //controller: _scrollController,
+            physics: ClampingScrollPhysics(),
+            itemCount: kEntries.length,
+            addAutomaticKeepAlives: false,
+            addRepaintBoundaries: true,
+            itemBuilder: (context, index) {
+              final entryData = EntryData(index: index);
+              return RepaintBoundary(child: Row(
+                children: [
+                  SizedBox(
+                    width: 70.0,
+                    child: Text(
+                      "#$index",
+                      style: kUITextStyle,
+                      textAlign: TextAlign.center
+                    )
+                  ),
+
+                  const SizedBox(width: 10.0),
+
+                  Expanded(child: respondingCondenseEntryWidget(context, entryData))
+                ]
+              ));
+            },
+          ))
+        ])
     );
   }
 }

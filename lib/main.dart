@@ -3,14 +3,15 @@ import 'dart:collection';
 import 'package:flutter/foundation.dart' hide Category;
 import 'package:flutter/material.dart';
 import 'package:medan_hokkien_dictionary/dictionary.dart';
-import 'package:medan_hokkien_dictionary/page.dart' deferred as heavy;
 import 'package:medan_hokkien_dictionary/style.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
+import 'package:medan_hokkien_dictionary/page.dart' deferred as heavy;
 
 List<Entry> kEntries = List.empty(growable: true);
 List<EntryWidgets> kEntriesWidget = List.empty(growable: true);
 HashMap<String, List<int>> kEntriesCharacter = HashMap();
-const kEntriesAmount = 2005;
+const kEntriesAmount = 2035;
+final ValueNotifier<int> kPageIndexNotif = ValueNotifier<int>(0);
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -48,8 +49,13 @@ class LoadingPage extends StatefulWidget {
 }
 
 class _LoadingPageState extends State<LoadingPage> {
+  bool changePage = false;
+
   double progress = 0.0;
   String progressText = "Initialising..."; // shown under the progress percentage
+
+  late final StatefulWidget dictPage;
+  late final StatefulWidget fullListPage;
 
   void getAllEntries() async {
     // split the dictionary text by lines
@@ -135,7 +141,7 @@ class _LoadingPageState extends State<LoadingPage> {
     }
 
     if (kDebugMode) {
-      final polyphonics = "一倒分吹彎種曾葉變開黃霧臭下莫才發落相插"; // these characters are allowed to have their polyphonics (多音字) e.g. surname
+      final polyphonics = "一倒分吹彎種曾葉變開黃霧臭下莫才發落相插空膽"; // these characters are allowed to have their polyphonics (多音字) e.g. surname
       final polyphonicsList = List.empty(growable: true);
       for (final char in polyphonics.characters) {
         polyphonicsList.add(char);
@@ -163,15 +169,11 @@ class _LoadingPageState extends State<LoadingPage> {
         kEntriesWidget.add(EntryWidgets(context, EntryData(index: idx)));
       }
 
-      Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (_) => heavy.DictionaryPage(title: 'Dictionary Page')),
-      );
+      dictPage = heavy.DictionaryPage(title: 'Dictionary Page');
+      fullListPage = heavy.FullListPage();
+      
+      changePage = true;
     });
-
-    //kEntriesWidget.add(EntryWidgets(entry, context));
-    Navigator.of(context).pushReplacement(
-      MaterialPageRoute(builder: (_) => heavy.DictionaryPage(title: 'Dictionary Page')),
-    );
   }
 
   @override
@@ -188,35 +190,48 @@ class _LoadingPageState extends State<LoadingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: kBackgroundColor,
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            // PROGRESS BAR
-            SizedBox(width: 0.6 * MediaQuery.of(context).size.width, child:
-              LinearProgressIndicator(
-                value: progress,
-                minHeight: 50.0,
-                borderRadius: BorderRadius.all(Radius.circular(20)),
-                color: Colors.red,
-                backgroundColor: const Color.fromARGB(255, 76, 18, 14),
+      body: changePage ?
+        ValueListenableBuilder<int>(
+          valueListenable: kPageIndexNotif,
+            builder: (context, index, _) {
+              return IndexedStack(
+                index: index,
+                children: [
+                  dictPage,
+                  fullListPage
+                ]
+              );
+            }
+         ) :
+        Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              // PROGRESS BAR
+              SizedBox(width: 0.6 * MediaQuery.of(context).size.width, child:
+                LinearProgressIndicator(
+                  value: progress,
+                  minHeight: 50.0,
+                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                  color: Colors.red,
+                  backgroundColor: const Color.fromARGB(255, 76, 18, 14),
+                ),
               ),
-            ),
 
-            const SizedBox(height: 50),
+              const SizedBox(height: 50),
 
-            // INFORMATION TEXTS
-            Text(
-              'Loading Dictionary: ${(progress * 100).toStringAsFixed(1)}%',
-              style: kUITextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)
-            ),
-            const SizedBox(height: 50),
-            Text(
-              progressText, style: kUITextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)
-            ),
-          ],
-        ),
-      )
+              // INFORMATION TEXTS
+              Text(
+                'Loading Dictionary: ${(progress * 100).toStringAsFixed(1)}%',
+                style: kUITextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)
+              ),
+              const SizedBox(height: 50),
+              Text(
+                progressText, style: kUITextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)
+              ),
+            ],
+          ),
+        )
     );
   }
 }

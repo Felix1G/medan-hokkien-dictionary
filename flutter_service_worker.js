@@ -5,10 +5,10 @@ const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"assets/AssetManifest.bin": "d4f9b85d771a30e9682f50af51b2d7ed",
 "assets/AssetManifest.bin.json": "7ad8411bf2a25db0a94d2f14ea70d632",
-"assets/assets/entries/dictionary.txt": "26db81ccc0637b18e3aaeb35b46239aa",
-"assets/assets/fonts/CJK/font1.subset.ttf": "89bc9001f3c00ea00a3ae97225b174ae",
+"assets/assets/entries/dictionary.txt": "4530051d5fa8f94d563c6a336a7f996b",
+"assets/assets/fonts/CJK/font1.subset.ttf": "7b87e771aada239252f7465f992b9197",
 "assets/assets/fonts/CJK/font2.subset.ttf": "0c36ac9d3e627d423ddc9618070faf1d",
-"assets/assets/fonts/CJK/font3.subset.ttf": "eec367760646ff8a54bb08af28587ea0",
+"assets/assets/fonts/CJK/font3.subset.ttf": "8cd68f73f5a5d0f3a3654be2e9a20ee3",
 "assets/assets/fonts/CJK/font4.subset.ttf": "3d8b87df876c180d26370dddb86c5c2c",
 "assets/assets/fonts/Montserrat-ExtraBold.otf": "2bd71f20a86651553aae5d1e7d3383eb",
 "assets/assets/fonts/NotoSans-Bold.ttf": "28c191ce33ca36e0f75106491846de68",
@@ -35,7 +35,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "d4f9b85d771a30e9682f50af51b2d7ed
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "8cf61c957d2fa90298519477a5d3cc3c",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "ef2659b271fbb75f551fa108999714af",
+"flutter_bootstrap.js": "66262e4df8dd22a07fa5bb87a5c14a20",
 "google98fed6f4c4774f97.html": "fa05acbc3313cc71092c6eac884c033d",
 "icons/Icon-192.png": "f5397dc07f4738cf91eb949ec8539bf7",
 "icons/Icon-512.png": "de522f2b811ac6e2c92d554b60e84ecf",
@@ -43,8 +43,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "d4f9b85d771a30e9682f50af51b2d7ed
 "icons/Icon-maskable-512.png": "de522f2b811ac6e2c92d554b60e84ecf",
 "index.html": "71a971a45f3b919e050169244cd52cff",
 "/": "71a971a45f3b919e050169244cd52cff",
-"main.dart.js": "8402c65c4b564f92c8f659cff2ee1579",
-"main.dart.js_1.part.js": "55c161dc2284191be1604baab7ac3e98",
+"main.dart.js": "ec66d19b42bb67a527d6a84cc7421411",
+"main.dart.js_1.part.js": "418b9f72a884acd43a749429676ab70f",
 "manifest.json": "4d3148d366357f9dcab9a66bfd1404d8",
 "poj/chart.png": "07935de04dc545ea0721530556bc8760",
 "poj/mid.png": "ec55d1d63d2a82abd156fdaabd06e8c0",
@@ -55,7 +55,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "d4f9b85d771a30e9682f50af51b2d7ed
 "poj/tone5.png": "f1e210705732a40d5970361e412a5544",
 "poj/tone7.png": "564208d3763f3cb722f3ab10c6e7b2ab",
 "poj/tone8.png": "cd0dd6f2a096facc3c421f820c2db9e3",
-"poj.html": "909c3a255e72869409599cdce56baaad",
+"poj.html": "3cee15053137c677d07c8a880327655e",
 "version.json": "e8baeff41bdb85f708c33f50956867e7"};
 // The application shell files that are downloaded before a service worker can
 // start.

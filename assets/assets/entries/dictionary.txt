@@ -67,7 +67,7 @@ $num one (1)
 $advb (to do an action) for a while, quickly
 =一日風兩日雨:cēʳ-ji̍t hong nō͘-ji̍t hō͘
 $idiom today and tomorrow can be different
-=一羅匱兩盎:cēʳ-lô kiám nō͘-ón
+=一羅減兩盎:cēʳ-lô kiám nō͘-ón
 $idiom (of a person, euphemistically) insane, stupid, absurd
 =七:chhit
 $num seven (7)
@@ -115,7 +115,7 @@ $noun $time last year
 $noun $time that time, last time
 =上日:téng-ji̍t
 $noun $time yesterday
-=下:hèⁿ
+=下:hèⁿ/heⁿk
 $verb to put down (something)
 =下:ē
 $adj down, below, under, lower part
@@ -184,6 +184,7 @@ $verb to complain, to protest
 $auxi [at the end of the sentence to express uncertainty, slight questioning]
 =了:liáu
 $adj finished, emptied
+$advb [used after a verb to indicate the action has been done]
 $auxi [at the end of the sentence to indicate completion of action]
 =了鐳:liáu-lui
 $verb to waste money
@@ -216,6 +217,7 @@ $verb to jumble up, to mix up (something inside a container like a bowl)
 $noun chair
 =人:lâng
 $noun man, person
+$pron someone, someone else
 =人不爽:lâng-bô-sóng
 $verb to not feel well, to be sick
 =人客:lâng-kheⁿh/lâng-kheh
@@ -384,7 +386,7 @@ $advb do not need to
 $advb [used as negation]
 =兔:thò͘
 $noun $animal rabbit, hare, bunny
-=入/進:ji̍p
+=入:ji̍p
 $verb to enter, to get in
 =內:lāi
 $adj inside, interior, internal, inner 
@@ -553,9 +555,10 @@ $verb to be comprehensive, complete, all-round
 $noun packaging, wrapping
 =包頭:pau-thâu
 $noun headscarf, veil, hijab
-=匱:kiám
+=減:kiám
 $verb to lack, to be deficient
 $verb to reduce, to decrease, to become less
+$verb (arithmetic) to subtract
 =十:cha̍p
 $num ten (10)
 =十一十二:cha̍p-it cha̍p-jī
@@ -603,6 +606,10 @@ $noun house
 $noun roof, housetop
 =厝瓦:chhù-hiā
 $noun roof tiles
+=厝的人:chhù-ê-lâng
+$noun family
+=厝內人:chhù-lāi-lâng
+$noun family
 =厲害:lī-hāi
 $adj (of a person) shrewd, sharp
 =去:khì
@@ -802,6 +809,7 @@ $noun $family child
 $noun $family son
 =囝婿:kiáⁿ-sài
 $noun $family son-in-law
+$noun $family bridegroom
 =囡仔:gín-á
 $noun child
 =囡仔房:gín-ná-pāng
@@ -856,7 +864,7 @@ $adj damaged, broken
 $noun outside, exterior
 =夠:kàu
 $adj enough
-=夠額:káu-gia̍k
+=夠額:kàu-gia̍k
 $adj extraordinary, exceptional, remarkable, awesome
 =大:tōa
 $adj big, large
@@ -995,8 +1003,6 @@ $noun $family mother, mum
 $noun $family mother, mum (colloquial)
 =嬸婆:chím-pô
 $noun $family grandfather's little brother's wife
-=孔:khang
-$noun hole
 =字:jī
 $noun word
 $noun (Chinese) character
@@ -1012,9 +1018,9 @@ $noun student
 =孽:gia̍t
 $adj (usually of a child) naughty, mischievous, playful
 =宜:gam
-$adj suitable
-$adj fitting
-$adj appropriate
+$adj suitable, fitting, appropriate
+=合:ha̍h
+$adj suitable, fitting 
 =客人:kheh-lâng
 $noun guests
 =害死:hài-sí
@@ -1025,6 +1031,9 @@ $noun residence, dwelling
 $noun neighbourhood
 =家:ke
 $noun family, household
+=家口:ke-kháu
+$noun family members (as a whole)
+$noun number of people in a family
 =家婆:ke-pô
 $verb to be overly curious, to be nosy, to be overly interested in other people's matters, kaypoh, kepo
 =家己:ka-kī
@@ -1099,7 +1108,7 @@ $noun needle-like object, pin
 $noun hand (of a clock)
 =尻川:khà-chhng
 $noun $body buttocks
-=尻川孔:khà-chhng-khang
+=尻川空:khà-chhng-khang
 $noun $body anus
 =尾:bóe
 $noun $body tail
@@ -1234,6 +1243,9 @@ $see 幾濟
 $pron $time what time
 =拜幾:pài-kúi
 $pron $time what day? (as in Monday, Tuesday, etc.)
+=𫢗時:tiāng-sî
+$pron $time when
+$etyTEO tiang1 si5
 =底時:tī-sî
 $pron $time when
 =店:tiàm
@@ -1318,11 +1330,13 @@ $explain
 This often extends to spoiling the child, especially with 太惜.
 $see 太
 =想:siò͘
-$verb to think
+$verb to think, to ponder
 =想法:siò͘-hoat
 $noun way of thinking
 $noun thinking process
 $noun mindset
+=想長長:siò͘-tn̂g-tn̂g
+$verb to think far into the future, to plan long-term
 =愈:jú
 $advb more and more, increasingly
 $explain
@@ -1342,6 +1356,15 @@ $noun girlfriend, boyfriend
 $noun sweetheart, lover
 =愛笑:ái-chhiò
 $adj (of a person) unable to hold back a smile and burst into laughter
+=感:kám
+$verb to move (someone), to affect, to touch, to arouse
+$verb to feel, to perceive
+$verb to feel grateeful, to thank
+$see 感謝
+$noun feeling, emotion, sensation
+=感覺:kám-kak
+$verb to feel, to sense, to have a feeling that
+$noun feeling, emotion
 =感謝:kám-siā
 $verb thank
 =慘:chhám
@@ -1566,7 +1589,7 @@ $verb to massage (the legs)
 $verb to massage (the body)
 =捒:sak
 $verb to push with force
-=捒進:sak-ji̍p
+=捒入:sak-ji̍p
 $verb to push with force (into something)
 =捽:sut
 $verb to whip
@@ -1747,6 +1770,10 @@ $adj new, latest
 $noun $loc Singapore
 =新料:sin-liāu
 $noun $food fresh ingredients
+=新年大進步:sin-nî tōa chìm-pō͘
+$phrase (literally) may the new years bring greater improvements
+$explain
+Used during Chinese New Year to wish someone significant improvement or advancement in the coming year, such as progress in studies, career, personal growth, or life in general.
 =斷:tùi
 $adj snapped, fractured
 =方便:hong-piān
@@ -1867,7 +1894,7 @@ $noun face of the moon
 $noun $family parents of one's wife or husband
 $noun elderly lady
 =新娘:sin-niô͘
-$noun bride
+$noun $family bride
 =新娘房:sin-niô͘-pâng
 $noun bridal chamber
 $explain
@@ -1905,6 +1932,8 @@ $verb (of business) to have sales
 $verb to have free time
 =有風:ū-hong
 $verb to be lucky, to have good fortune
+=有膽:ū-táⁿ
+$adj brave, courageous, having the guts
 =朋友:pêng-iú
 $noun friend
 =木瓜:bo̍k-koa
@@ -2175,7 +2204,7 @@ $verb to wash hands
 $verb to brush one's teeth
 =洗衣機:sé-saⁿ-ki
 $noun washing machine
-=洗身軀:sé-sìn-ku
+=洗身軀:sé-sin-ku
 $verb to shower
 $verb to take a bath
 =洗鐳:sé-lui
@@ -2275,6 +2304,9 @@ $noun $food Lo Mie noodles
 =滿:móa
 $adj (of liquid) full, filled
 $adj overflow
+=滿意:móa-ì
+$verb to be satisfied, to be pleased (with something)
+$adj satisfied, pleased
 =漆:cha̍t
 $verb to paint
 $noun paint
@@ -2367,6 +2399,9 @@ $verb to suffocate (someone) to death
 =無:bô
 $verb to not have
 $verb do not have
+$auxi [used in the middle of two same adjectives to serve as a question marker]
+$explain
+As an auxiliary: 大無大？is it big?
 =無代誌:bô tāi-chì
 $express no problem
 =無佇:bô-tī
@@ -2448,6 +2483,8 @@ $verb to be forgetful, to be scatterbrained, to be absent-minded
 $verb to be unlucky, to have bad fortune
 =無鮮:bô-chhiⁿ
 $verb (of seafood) to be stale, to not be fresh
+=無膽:bô-táⁿ
+$adj fearful, scared, nervous
 =煎:chian
 $verb to fry, to deep-fry
 =煎雞:chian-ke
@@ -2578,10 +2615,16 @@ $noun king
 $surname Ong, Ang
 =骨力:kut-la̍t
 $adj hardworking
+=摽:pio
+$verb to play, to amuse oneself freely
 =玩:lí
 $verb to play
 =玩歌:lí-koa
 $verb to play music
+=玩迌:lí-thô
+$verb to play, to amuse oneself freely
+=𨑨迌:thit-thô
+$verb to play, to amuse oneself freely
 =玻璃:po-lê
 $noun glass (material)
 =班:pan
@@ -2604,6 +2647,9 @@ $adj sweet
 $noun $disease diabetes
 =生:seⁿ
 $verb to give birth
+$noun surname
+=生囝:seⁿ-kiáⁿ
+$verb to give birth to a child
 =生活:seⁿ-oa̍h
 $noun life
 $noun livelihood
@@ -3170,10 +3216,12 @@ $verb (of noodles) to become soaky
 =膵:chhiok
 $noun $body pancreas
 =膽:táⁿ
+$noun $figur bravery, courage, guts
+=膽:tám
 $noun $body gall bladder
-=膽固醇:tam-ku̍t-sûn
+=膽固醇:tám-ku̍t-sûn
 $noun cholesterol
-=膽固醇高:tam-ku̍t-sûn kôan
+=膽固醇高:tám-ku̍t-sûn kôan
 $phrase high cholesterol
 =臟痛藥:chí-thiàⁿ-io̍h
 $noun $food paracetamol
@@ -3196,6 +3244,8 @@ $verb to smell like urine, to have a urinous odour
 $verb to stink from sweat
 =臭酸:chhàu-sui
 $verb (of food) to spoil, to go bad
+=臺:tâi
+$noun stage, platform
 =臺灣:tâi-oân
 $noun $loc Taiwan
 =舀:ió͘
@@ -3324,7 +3374,8 @@ $surname Yap
 =葉:hio̍h
 $noun leaf
 =著:tio̍h
-$advb [used after a verb to denote the action has been done]
+$advb [unless a set compound, used after a verb to denote the action has been done]
+$verb [unless a set compound, used before a verb to indicate the passive voice i.e. the action was done by someone else] 
 $verb to be affected by
 $adj correct, right, true
 =啟:toh
@@ -3463,7 +3514,7 @@ $noun blanket
 $noun dress
 =補:pó͘
 $verb to nourish
-=補身軀:pó͘-sìn-ku
+=補身軀:pó͘-sin-ku
 $verb to nourish the body
 =補習:pó͘-si̍p
 $verb to take supplementary classes (after school or work)
@@ -3682,6 +3733,8 @@ $verb (religion) to be possessed by spiritual entities and start dancing and pro
 =起過去:khí-kòe-khì
 $noun there, over there, that spot
 $express Over there!
+=起紅:khí-âng
+$verb to resume wearing red clothing after the end of a mourning period according to Chinese tradition
 =趣味:chhù-bī
 $adj cute, adorable
 =跋:poàk/poa̍h
@@ -3721,11 +3774,16 @@ $verb to ride a bicycle
 =躉:bú
 $verb buy wholesale, buy all the items
 $verb panic-buying
-=身軀:sìn-ku
+=身:sin
+$noun body (anatomy)
+=身軀:sin-ku
 $noun body, a person's body
-=身邊:sìn-pi
+=身邊:sin-pi
 $noun at one's side, the side next to one's body
 $noun (to have smth.) on one
+=身體:sin-thé/sin-teh
+$noun body (of a human or animal)
+$noun health; physique; fitness
 =車:chhia
 $noun car
 =車夫:chhia-hu
@@ -3796,9 +3854,11 @@ $pron this, this one
 $noun almanac, ephemerism
 =通知:thong-ti
 $verb to notify, to notice, to inform
-=進風:ji̍p-hong
+=入風:ji̍p-hong
 $noun $disease common cold
 $etyIDN masuk angin
+=入息:ji̍p-sek
+$verb (of a business) to earn profits, to make money
 =運動:in-tong
 $verb to exercise (sports)
 =過:kòe
@@ -3913,7 +3973,7 @@ $adj (of a person) long-lived, longevity, elderly, very aged
 $verb to live a long life
 =長名雨:tn̂g-miā-hō͘
 $noun persistent rain, constant rain, prolonged rainfall
-=長大:téng-tōa
+=長大:tng-tōa
 $verb to grow up, to reach maturity
 =長形:tn̂g-hêng
 $noun long object (noun)
@@ -4038,9 +4098,13 @@ $noun electric appliances
 $noun shop that sells electrical appliances
 =電視:tiān-sé
 $noun television
-$noun tV
+$noun TV
 =電話:tiān-ōa
 $noun telephone
+=電話號:tiān-ōa hō
+$noun phone number, telephone number
+=電話號碼:tiān-ōa hō-bé
+$noun phone number, telephone number
 =硞:khok
 $noun rock, stone
 $noun the sound of knocking something hard (such as when a stone is struck)
@@ -4125,6 +4189,7 @@ $adj (of a person) slow, sluggish
 $noun luggage, baggage
 =頭:thâu
 $noun $body head
+$noun head (of an organisation, group, etc.), leader, chief
 =頭前:thâu-chêng
 $noun in front of, ahead, the front
 $noun outside the house (front side)
@@ -4214,7 +4279,7 @@ $verb to eat tangyuan or tanguan
 $see 圓
 =飯:pūiⁿ/pn̄g
 $noun $food cooked rice
-=飯食較濟，話匱講:pūiⁿ chia̍h khah-chè, ōa kiám kóng
+=飯食較濟，話減講:pūiⁿ chia̍h khah-chè, ōa kiám kóng
 $idiom to talk less, say more, to reduce pointless talk, to cut the unnecessary talk, to stick to the point
 =飯核:png-hu̍t
 $noun rice grain
@@ -4336,6 +4401,10 @@ $adj salty
 $adj stingy
 =鹹菜:kiâm-chài
 $noun $food pickled mustard greens (A type of salted vegetables)
+=鹹糕粿:kiâm-ko-kóe
+$noun a type of kue talam from Pontianak, a city in Borneo/Kalimantan island with a major Chinese population.
+$explain
+Kue talam is an Indonesian kue or traditional steamed snack made of a rice flour, coconut milk and other ingredients in a mold pan called talam which means "tray" in Indonesian.
 =鹽:iâm
 $noun $food table salt
 =鹽水:iâm-chúi
@@ -4445,8 +4514,6 @@ $verb to braise, to stew, to heat up by steeping in hot water
 =𤺪:siān
 $adj bored, finding something monotonous
 $adj becoming ill
-=𨑨迌:thit-thô
-$verb to play
 =𩚨:khiū
 $adj (of food) soft and pliable, chewy
 =𩚨𩚨:khiū-khiū
@@ -4539,6 +4606,8 @@ $class seed, pit, kernel, core, nut, grain (e.g. durian seeds, rice grain)
 =好彩:hó-chhái
 $advb luckily, fortunately
 $express luckily, fortunately, fortuitously (avoiding a bad outcome purely by chance, despite risk or lack of control)
+=空:khang
+$noun hole, cavity
 =空/〇:khòng
 $num zero (0)
 $explain
@@ -4739,3 +4808,18 @@ $noun corrosion
 =雙:sang
 $adj two, twin, both, dual
 $class [for shoes, socks, chopsticks, etc.] pair
+=差:choah
+$num to differ by
+$explain
+差兩分鐘 differ by 2 minutes
+=罩:ta
+$verb to cover (an expense)
+=進步:chìm-pō͘
+$verb to progress, to improve
+=刁持:thiau-tî
+$advb deliberately, on purpose
+=接受:chiap-siū
+$verb to accept (treatment, gift, punishment, etc.)
+$verb to take (criticism)
+=健康:kiān-khong
+$adj healthy, fit

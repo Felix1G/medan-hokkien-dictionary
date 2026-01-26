@@ -22,6 +22,7 @@ enum Category {
   idiom("\$idiom", "#IDIOM"),
   surname("\$surname", "#SURNAME"),
 
+  proper("\$proper", "#PROPER", semantic: true),
   food("\$food", "#FOOD", semantic: true),
   fruit("\$fruit", "#FRUIT", semantic: true),
   drink("\$drink", "#DRINKS", semantic: true),

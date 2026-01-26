@@ -32,8 +32,8 @@ $adj drowsy, dizzy, confused
 $verb to kick
 =:kàu-kùn
 $adj fragrant, flower-smelling
-=澀:siap
-$adj (of meat) tasteless, bland, flavourless
+=:kín
+$advb [placed after a verb to indicate the action as present continuous tense i.e. the action is being done]
 =:chhau
 $noun tips, suggestions
 =:thà-má
@@ -53,13 +53,15 @@ $etyMSA puki
 =:kēʳ-tia̍h
 $noun $body armpit
 $etyIMA ketiak
+=澀:siap
+$adj (of meat) tasteless, bland, flavourless
 =㧣:tu
 $verb to push
 =㧣㧣車:tu-tu-chhia
 $noun wheelchair
 =䆀:bái
 $adj (of a person) ugly, bad
-=一:cēʳ
+=一:chēʳ
 $num one (1) (bef. noun/classifier)
 =一:chi̍t/it
 $num one (1)
@@ -215,9 +217,13 @@ $verb to explain, to brief, to make clear, to tell about
 $verb to jumble up, to mix up (something inside a container like a bowl)
 =交椅:kau-í
 $noun chair
-=人:lâng
+=人:lâng/nâng
 $noun man, person
 $pron someone, someone else
+$explain
+The pronunciation lâng is more often used. However, very rarely, people may use nâng.
+=人做:lâng-chò
+$adj man-made
 =人不爽:lâng-bô-sóng
 $verb to not feel well, to be sick
 =人客:lâng-kheⁿh/lâng-kheh
@@ -327,6 +333,8 @@ $verb to become a person
 $verb to build a personality
 =做壞:chò-pháiⁿ
 $verb to break, to be damaged
+=做好:chò-hó
+$verb to finish doing (something)
 =做好事:chò-hó-sū
 $verb to do good deeds
 =做家婆，無薪水:chò ke-pô, bô sin-lô
@@ -468,6 +476,12 @@ $verb to distribute, to allot
 =分:hun
 $noun mark, point, score
 $noun percent
+$explain
+The system for percent is as such:
+八分 80% (counting in 10-percents)
+三十八分 38% (the same as English)
+五個分 5% (個 is used for 1-percents)
+$see 個
 =分數:hun-sò͘
 $noun grade
 $noun mark, point, score
@@ -641,6 +655,8 @@ $verb to ask someone to do something
 $verb to order (food, etc)
 =叫菜:kiō-chhài
 $verb to order a meal (e.g. at a restaurant)
+=叫做:kiō-chò
+$verb is called as, referred to as
 =叮:teng
 $verb (of insects) to sting, to bite
 =合艾:hap-chái
@@ -724,8 +740,17 @@ $auxi [at the end of the sentence to express disbelief]
 $verb to bite, to snap at, to gnaw
 =咯:lo
 $auxi [at the end of the sentence to indicate obviousness]
-=哋:tēʳ
-$auxi [placed before the verb to emphasise action with obviousness, similar to "of course", "definitely", or "surely"]
+=就:tēʳ/tiō
+$advb [used before the verb for emphasis] exactly, precisely, just
+$conj then
+$explain
+The use of then in an 'if' statement (or more specifically after a suppositional clause):
+我做好就會共汝講 I'll tell you when I'm finished
+$see 我
+$see 做好
+$see 會
+$see 汝
+$see 共...講
 =哥哥:ko-ko
 $noun $family elder brother
 =哪裡:tá-lo̍͘h
@@ -750,6 +775,8 @@ $auxi [at the end of an order, warning, etc.]
 $auxi [sometimes when enumerating items]
 =問:mūiⁿ/mn̄g
 $verb to ask
+=問一聲:mūiⁿ-chēʳ-siaⁿ/mn̄g-chēʳ-siaⁿ
+$verb to ask a bit, to ask for once
 =啦:la
 $auxi [at the end of the sentence to indicate exclamation]
 =喂:óe
@@ -778,6 +805,8 @@ $auxi [at the end of the sentence to express obviousness]
 $explain
 As conjunction,
 (before/cause action) 嘛 (after/effect action)
+=嘛是:mā-sī
+$advb (before a verb) also, too
 =噴:phùn
 $verb to spurt, to gush, to jet out
 $explain
@@ -810,7 +839,7 @@ $noun $family son
 =囝婿:kiáⁿ-sài
 $noun $family son-in-law
 $noun $family bridegroom
-=囡仔:gín-á
+=囡仔:gín-ná
 $noun child
 =囡仔房:gín-ná-pāng
 $noun children's bedroom
@@ -846,6 +875,8 @@ $noun land, field
 $noun hell, underworld, inferno
 =地址:tē-chí
 $noun address (such as a home or business), location
+=地球:tē-kiû
+$noun Earth
 =買地:bé-tē
 $verb to buy land (as property)
 =坐:chē
@@ -862,6 +893,11 @@ $noun wall
 $adj damaged, broken
 =外口:bōa-kháu
 $noun outside, exterior
+=外國:gōa-kok
+$noun foreign country
+$adj foreign (outside of a country)
+=外國人:gōa-kok-lâng
+$noun foreigner
 =夠:kàu
 $adj enough
 =夠額:kàu-gia̍k
@@ -914,7 +950,12 @@ $phrase going on a shopping spree, large-scale purchasing, extensive shopping
 $adj (of a building) big, large
 =大食:tōa-chia̍h
 $verb to eat a lot
-$verb mukbang
+$verb feast, mukbang
+=大漢:tōa-hàn
+$verb (of a child or teenager) to grow up, to mature
+$adj (of a child or teenager) grown-up, mature
+=大主大意:tōa-chú tōa-ì
+$idiom taking an action without authorization
 =天:thiⁿ
 $noun sky
 =天低低:thiⁿ kēⁿ-kēⁿ
@@ -922,7 +963,8 @@ $idiom God knows (used to tell someone lying that their words or the truth is al
 =天公:thiⁿ-kong
 $noun Supreme Deity, Lord of Heaven, Ruler of Heaven, Jade Emperor (according to Chinese folk religion and Taoism)
 =天公爐:thiⁿ-kong-lô/thiⁿ-kong-lô͘
-$noun altar (used to pray for 天公)
+$noun altar (for praying to 天公)
+$see 天公
 =天時:thiⁿ-sî
 $noun weather, climate
 =太:thái
@@ -984,12 +1026,14 @@ $noun $family grandmother's brother's wife
 $noun $family grandfather's elder brother's wife
 =姊:chí
 $noun $family elder sister
+=阿姊:a-chí
+$noun [general address for a woman]
 =姊姊:chí-chí
 $noun $family elder sister
 =姑婆:ko͘-pô
 $noun $family grandfather's sister
 =姨姨:î-î
-$pron [used to call someone the same age or slightly older] Miss, mrs
+$pron [used to address someone the same age or slightly older] Miss, Mrs
 =姨婆:î-pô
 $noun $family grandmother's sister
 =婆婆:pô͘-pô͘
@@ -1019,6 +1063,8 @@ $noun student
 $adj (usually of a child) naughty, mischievous, playful
 =宜:gam
 $adj suitable, fitting, appropriate
+=宜宜:gam-gam
+$advb suitable, fitting, appropriate
 =合:ha̍h
 $adj suitable, fitting 
 =客人:kheh-lâng
@@ -1046,6 +1092,9 @@ $etyENG miss
 $verb to write
 =寫字:siá-jī
 $verb to write (by hand)
+=寫冊:siá-chheⁿh
+$verb (literally) to write a book
+$noun author
 =寬:khoa̍h
 $adj wide, spacious
 =寶貝:pàu-péi
@@ -1066,6 +1115,11 @@ $verb $honor to be sorry, to apologise
 =導郎:tō͘-long
 $verb to help, to assist
 $advb please
+$explain
+As an adverb, it is used in the beginning of a sentence before a verb to ask for a favor.
+導郎攑桌布 Please get the napkin. / Can you get the napkin?
+$see 攑
+$see 桌布
 $etyIMA tolong
 =小:sè
 $adj small, tiny
@@ -1190,9 +1244,13 @@ $noun $lang Batak language (spoken by Batak people)
 =工:kang
 $noun work
 $noun labour
+=工作:kang-chok
+$noun work (employment)
+$noun job (position)
 =工人:kang-lâng
 $noun employee
 $noun worker
+$noun servant
 =工廠:kang-chhióng
 $noun factory, plant, mill
 =巴刹:pa-sat
@@ -1241,6 +1299,16 @@ Primarily used in Penang, rarely in Medan.
 $see 幾濟
 =幾點:kúi-tiám
 $pron $time what time
+=幾仔:kúi-ná
+$num some, a few
+$explain
+Used before a classifier:
+幾仔個 some
+幾仔日 a few days
+幾仔擺 a few times
+$see 個
+$see 日
+$see 擺
 =拜幾:pài-kúi
 $pron $time what day? (as in Monday, Tuesday, etc.)
 =𫢗時:tiāng-sî
@@ -1254,6 +1322,8 @@ $noun shop, store
 $noun degree (Celcius)
 =庵:am
 $noun temple
+=廟:bīo
+$noun shrine (closer to Confucianism than Buddhism)
 =張:tio͘/tioⁿ
 $surname Teo, Tio, Zhang
 $class sheet (of paper, of tissue, etc.)
@@ -1290,6 +1360,10 @@ $adj young, youthful
 $verb to receive, to obtain, to acquire, to get
 =德國:tek-kok
 $noun $loc Germany
+=德話:tek-ōa
+$noun $lang German
+=德文:tek-bûn
+$noun $lang German
 =心:sim
 $noun heart, mind, intention, feeling
 =心臟:sim-chōng
@@ -1370,6 +1444,8 @@ $verb thank
 =慘:chhám
 $adj cruel, miserable, wretched
 $express [used in extremely bad situations e.g. one is just robbed] oh no!
+=慘了:chhám-liáu
+$express Oh no!
 =慢:bān
 $adj slow, low speed
 =慢慢:bān-bān
@@ -1473,6 +1549,8 @@ $verb to meet, to encounter
 $verb to have met, to meet (someone)
 =拄得:tú-than
 $verb to have met, to meet (someone)
+=拄面:tú-bīn
+$verb to meet up, to assemble
 =拆:thia̍h
 $verb to peel off
 $verb to tear away
@@ -1503,6 +1581,8 @@ $verb (of a door, etc) to open widely
 $verb to clap hands
 =拍拼:phah-piàⁿ
 $verb to work diligently, to strive, to work hard
+=拍火機:phah-hóe-ki
+$noun fire extinguisher
 =躇:thû
 $verb to procrastinate, to delay
 $verb to move slowly, to dawdle, to dillydally
@@ -1527,12 +1607,22 @@ $verb to pay someone a visit on Chinese New Year's Day
 $verb to pray
 =拜神:pài-sîn
 $verb to pray to a god/deity
+=拜神桌:pài-sîn-toh
+$noun altar, praying altar (in general)
+=拜佛:pài-hu̍t
+$noun Buddhists
+=拜耶穌:pài Iâ-so͘
+$noun Christians
+=拜耶穌的人:pài Iâ-so͘ ê lâng
+$noun Christians
 =括定:koa̍h-tiā
 $verb to arrange (an event, a schedule, a plan)
 =拭:chhit
 $verb to wipe (clean)
 =拾:khioh
-$verb to pack up, to gather, to collect, to tidy up
+$verb to pack up
+$verb to gather, to collect
+$verb to tidy up
 =掌甲:chéng-kah
 $noun $body nails
 =紮:cha̍h
@@ -1546,8 +1636,6 @@ $verb to lead, to guide (someone)
 $verb to bring someone home
 $explain
 𤆬伊轉 To bring him/her home
-=𤆬某:chhōa-bó͘
-$verb to have a wife
 =𤆬路:chhōa-lō͘
 $verb to guide through a path or road
 =按呢:án-neⁿ
@@ -1679,6 +1767,7 @@ $verb to adjust, to align, to arrange by shifting things around
 $verb to squeeze into, to force fit (in a storage)
 $verb to crowd together tightly
 $verb to squeeze one's way in, to cram in
+$verb to squeeze in food into one's stomach
 =擦:chhat
 $verb to erase
 =擦拭:chhat-chhit
@@ -1740,12 +1829,24 @@ $noun government
 $noun story, tale
 =教:kà
 $verb to teach, to educate
+=教:kàu
+$noun religion
 =敲:khā
 $verb to call (someone) by phone
 =敲電話:khā-tiān-ōa
 $verb to make a phone call
 =算:sùiⁿ/sǹg
 $verb to count
+=算百:sǹg-pah
+$num hundreds
+$explain
+算百人 hundreds of people
+$see 人
+=算千:sǹg-chheng
+$num thousands
+$explain
+算千人 thousands of people
+$see 人
 =料:liāu
 $noun $food meal
 $noun $food (of food) ingredients
@@ -1817,6 +1918,7 @@ $noun $time tomorrow
 $noun $time next year
 =明生:bêng-seng
 $noun star (person)
+$noun celebrity
 =明白:bêng-pe̍ⁿh
 $verb to understand
 =易:êng
@@ -1865,6 +1967,12 @@ $noun $family great grandmother
 $verb can, to be able to, to be capable of
 =會使:ē-sái
 $verb to be allowed to
+=會使了:ē-sái liáu
+$phrase [used at the end of a sentence] only, is alright, is enough
+$explain
+訂咖啡會使了 ordering coffee is enough.
+$see 訂
+$see 咖啡
 =會是恬:ē-sī-tiām
 $verb to stay put, to not be boisterous, to not be busybody
 =會曉:ē-hiáu
@@ -1938,9 +2046,9 @@ $adj brave, courageous, having the guts
 $noun friend
 =木瓜:bo̍k-koa
 $noun $fruit papaya
-=未:bòe
+=未:bōe
 $auxi [at the end of the sentence to indicate if the action has or has not been done]
-=未熟:bòe-se̍k
+=未熟:bōe-se̍k
 $adj not yet ripe
 =本:pún
 $class [classifier for books]
@@ -1949,17 +2057,25 @@ $adj local, native
 $adj national, in the country
 $explain
 As in a national product, national anthem, etc.
+=本地人:pún-tē-lâng
+$noun locals
+$noun local ethnic
 =条:tiâu
 $class [classifier for lothing]
 =杯:poe
 $noun cups, glass
+$noun moon blocks
 $class [classifier for cups or glass]
+$explain
+Moon blocks are wooden divination tools originating from China, which are used in pairs and thrown to seek divine guidance in the form of a yes or no question.
 =枕頭:chín-thâu
 $noun pillow
 =林:lîm
 $surname Lim, Lin
 =果子:kóe-chí
-$noun $fruit fruit
+$noun fruit
+=果子汁:kóe-chí chap
+$noun $drink fruit juice
 =某:bó͘
 $noun $family wife
 =柑:kam
@@ -1967,7 +2083,7 @@ $noun $fruit tangerine
 $noun $fruit orange fruit
 =柑色:kam-sek
 $noun $colour orange (colour)
-=柔:jûn
+=柔:jūn
 $adj (of a food) tender, flexible, soft
 =柚:iū
 $noun $fruit pomelo
@@ -2028,6 +2144,8 @@ $noun above, on top, at a higher position
 $see 樓頂
 =樹叢:chhiū-châng
 $noun tree
+=樹叢皮:chhiū-châng-phôe
+$noun bark (of a tree)
 =橋:kiô
 $noun bridge
 =機:ki
@@ -2046,6 +2164,9 @@ $verb to be in debt
 $verb to owe
 $explain
 我帳你三個。。。 I owe you three ...
+=欠用:khiàm-iòng
+$verb need, require
+$noun necessities, needs
 =款:khoán
 $noun attitude
 $noun type (of person)
@@ -2061,11 +2182,6 @@ $noun song
 $adj happy, glad, delightful
 =止:thè
 $verb to stop, to cease
-=正手:chhiàⁿ-chhiú
-$noun $body right hand
-$noun right hand side
-=正經:chéng-keng
-$advb properly, appropriately, correctly
 =歹:pháiⁿ
 $adj evil, bad, wicked
 =歹勢:pháiⁿ-sí
@@ -2148,6 +2264,8 @@ $noun $colour pink
 $noun water bottle
 =水龍車:chúi-lêng-chhia
 $noun fire truck
+=水雞:chúi-ke
+$noun $animal frog
 =汆鍋:sang-o
 $noun hotpot
 $noun steamboat
@@ -2194,8 +2312,14 @@ $verb to brew tea, to make tea
 $verb to accuse
 =注意:chù-i
 $verb to pay attention
-=泰國:tái-kok
+=泰國:thái-kok
 $noun $loc Thailand
+=泰國話:thái-kok-ōa
+$noun $lang Thai kanguage
+=泰國文:thái-kok-bûn
+$noun $lang Thai kanguage
+=泰國人:thái-kok-lâng
+$noun Thai person
 =洗:sé
 $verb to wash
 =洗手:sé-chhiú
@@ -2297,6 +2421,9 @@ $noun $drink soup
 $advb fluent, skilled at a certain skill (that involves some type of "flow")
 $explain
 講語準 fluent, the "flow" is ability to speak
+=準準:chún-chún
+$adj precise, exact
+$advb precisely, exactly, correctly
 =準備:chún-pī
 $verb to get ready, to prepare
 =滷麵:ló͘-mī
@@ -2360,6 +2487,12 @@ $verb to go on fire, to be ablaze, to be burning
 $noun train
 =火車站:hóe-chhia-chām
 $noun train station
+=火烌:hóe-hu
+$noun fire ash, ash, stove ash
+=火烌色:hóe-hu-sek
+$noun $colour grey
+=火花:hóe-hoa
+$noun fireworks
 =炒:chhá
 $verb to fry, to stir-fry
 =燒:sio
@@ -2503,6 +2636,9 @@ A method of cook by immersing in boiling water.
 $verb to worry, to be anxious about
 =煮:chú
 $verb to cook
+=煮食:chú-chia̍h
+$verb (literally) to cook food
+$noun chef
 =炊:chhoe
 $verb to steam (food)
 =炊魚:chhoe-hû
@@ -2562,8 +2698,10 @@ $noun toothbrush
 $noun toothpaste
 =牙風:gê-hong
 $noun breath from the mouth
+=膏:ko͘
+$noun grease, fat, oil
 =膏:ko
-$noun paste; cream; ointment; poultice
+$noun paste, cream, ointment, poultice
 =膏藥:ko-io̍h
 $noun (traditional Chinese medicine) herbal plaster; medicated patch; poultice
 =膩:neʳk
@@ -2600,6 +2738,9 @@ $verb to hold hands
 $verb to drive a car
 =牽車才:khan-chhia chài
 $phrase to be capable of driving a car
+=牽飛機:khan-poe-ki
+$verb (literally) to drive (fly) a plane
+$noun pilot
 =狗:káu
 $noun $animal dog
 =狗则吠:káu tòe pūi
@@ -2631,7 +2772,9 @@ $noun glass (material)
 $noun class
 =球:kiû
 $noun ball
-=瓜子:kòa-chí
+=籽:chí
+$noun seeds
+=瓜籽:kòa-chí
 $noun $food sunflower seeds
 $etyIDN kuaci
 =敢:ká
@@ -2682,7 +2825,9 @@ $noun nails (of fingers and toes)
 $noun (purely as a phonetic character)
 $see 指甲
 =甲了:ka-liáu
-$adj all, whole, totally, complete, everything
+$adj entire, whole, total, complete
+$advb entirely, completely, totally
+$noun all, everything
 =留:làu
 $verb to leave behind some (food) for later, to save (food) for later
 $verb (of food) to last, to stay fresh (for a certain amount of time)
@@ -2694,8 +2839,15 @@ $noun pribumi
 =番仔話:hoā-ná-ōa
 $noun $lang Indonesian
 $noun $lang Malay
+=圖:tô͘
+$noun map
+$noun chart, diagram
+$noun illustration
 =畫:oāh
 $verb to draw, to paint
+=畫圖:oāh-tô͘
+$verb (literally) to draw a map or diagram
+$noun architect
 =當今:tong-kim
 $noun $time now, at present, current
 =當時:tang-sî
@@ -2775,8 +2927,13 @@ $adj (of a person) rigid thinking, overly logical
 $adj straight
 =相信:siong-sìn
 $verb to trust, to believe (someone)
+=戰:chiàn
+$verb to go into war, to fight a battle
+$noun battle, war, fight
+=拍戰:phah-chiàn
+$verb to go into war, to fight a battle
 =相戰:sio-chiàn
-$verb (of a nation) to go into war, to declare war
+$verb to go into war, to declare war
 =相拍:sio-phah
 $verb to fight each other
 =相挵:sio-lòng
@@ -2801,9 +2958,6 @@ $verb $figur to overthink, to overanalyse, to overcalculate
 $verb to be sincere, to be heartfelt, to be genuine
 =看𣍐起:khòaⁿ-bē-khí
 $verb to underestimate (someone), to belittle, to disparage
-=真:chin
-$advb really, truly, very, quite
-$see 正
 =正:chiàⁿ
 $adj true, real
 $advb (of an adjective) really, truly, overly, excessively, far too
@@ -2811,6 +2965,16 @@ $explain
 Slightly more emphatic than 真 and 太.
 $see 真
 $see 太
+=正手:chhiàⁿ-chhiú
+$noun $body right hand
+$noun right hand side
+=正經:chéng-keng
+$advb properly, appropriately, correctly
+=正少:chiàⁿ-chio
+$advb rarely, seldom
+=真:chin
+$advb really, truly, very, quite
+$see 正
 =真正:chin-chiàⁿ
 $advb genuinely, truly, really, very
 =真真:chīn-chīn
@@ -2838,6 +3002,8 @@ $verb to know
 $adj (of length) short
 =短褲:té-khò͘
 $noun undergarment, underwear
+=石:chio̍h
+$noun rock, stone
 =石榴:siā-liû
 $noun $fruit pomegranate
 =破:phòa
@@ -2894,14 +3060,14 @@ $noun $time Sunday
 $noun $time week
 $explain
 两禮拜 2 weeks
+=戴:tì
+$verb to put on, to wear (glasses, some things that are "attached" to the body)
 =穿:chhēng
 $verb to wear
 =窄:eh
 $adj narrow, cramped
 =窗子:thang-á
 $noun window
-=站著:khiā-kín
-$verb to be standing
 =站:khiā
 $verb to stand
 =站起來:khiā-khí-lâi
@@ -3091,8 +3257,8 @@ $verb to take a photo
 =老:làu
 $adj old
 =老人:làu-lâng
+$noun (literally) old person
 $noun $family parents
-$noun old person
 $etyIDN (for parents) orang tua (literally old person)
 =老君:ló-kun/lú-kun
 $noun doctor
@@ -3299,15 +3465,15 @@ $adj cruel, brutal, atrocious, barbaric
 $conj if, supposing, in the event of
 =苦:khó͘
 $adj bitter
-=英國:eng-kok
+=英國:eng-kok/ing-kok
 $noun $loc England
-=英國話:eng-kok-ōa
+=英國話:eng-kok-ōa/ing-kok-ōa
 $noun $lang British English
 =茄:kiô
 $noun $colour purple
 =茄色:kiô-sek
 $noun $colour purple
-=茶:têⁿ
+=茶:têⁿ/tê
 $noun $drink tea
 =茶甌:têⁿ-au
 $noun teacup
@@ -3341,6 +3507,8 @@ $noun $food vegetable
 $noun $food cowpeas, black-eyed peas
 =菜頭:chhài-thâu
 $noun $food carrot
+=紅菜頭:âng-chhài-thâu
+$noun $food carrot
 =菜館:chhài-koán
 $noun restaurant
 =菠薐:poe-lêng
@@ -3367,6 +3535,10 @@ $noun $body to have diarrhoea
 $verb to go down a mountain/highlands
 =落雨:lo̍͘h-hō͘
 $verb to rain
+=落童:lo̍h-tâng
+$verb (religion) to be possessed by spiritual entities and start dancing and prophesying (of a spirit medium)
+=落大雨:lo̍͘h-tōa-hō͘
+$verb to rain heavily
 =落雨點:lo̍͘h-hō͘-tiám
 $verb to drizzle
 =葉:ia̍p
@@ -3590,11 +3762,15 @@ $noun spoon
 =招:chio
 $verb to invite
 $verb to enlist, to recruit, to enroll
+=招貨:chio-hòe/chio-hòi
+$noun salesperson
 =請:chhiáⁿ
 $verb to invite to come over
 $verb to treat/pay for (someone)
 $verb to hire (someone) for a job
 $verb please, kindly
+=請問:chhiáⁿ-mūiⁿ
+$express excuse me
 =論去:lūn-khì
 $verb to leave (an argument) alone
 $verb to let (someone) be
@@ -3611,6 +3787,7 @@ $phrase to talk to you about (something)
 $express anyway, wait a minute
 =講故:kóng-kò͘
 $verb to converse, to chat, to be part of a conversation
+$noun conversation
 =講話:kóng-ōa
 $verb to talk
 =講賊話:kóng-chhat-ōa
@@ -3622,7 +3799,7 @@ $verb to know (someone)
 =譚呆:tam-tai
 $adj (habitually) lazy, sluggish, dazed, dull
 =警察:kéng-chhat
-$noun police
+$noun police, policeman
 =警察厝:kéng-chhat-chhù
 $noun police station
 =讀:tha̍k
@@ -3636,6 +3813,8 @@ $adj to have changed, to have become different
 $verb to change, to become different
 $verb to change into, to become
 $verb to transform, to change, to alter
+=變做:pián-chò
+$verb to change into, to become
 =豆:tāu
 $noun $food beans
 $noun pod-bearing plant or its seeds, bean, pea
@@ -3668,7 +3847,7 @@ $noun money and goods, property, belongings
 $adj lazy, idle
 =貧惰骨:pîn-tōaⁿ-kut
 $noun lazy person
-=貨:hòe
+=貨:hòe/hòi
 $noun goods, products, commodity
 =貪:tham
 $adj greedy
@@ -3737,8 +3916,11 @@ $express Over there!
 $verb to resume wearing red clothing after the end of a mourning period according to Chinese tradition
 =趣味:chhù-bī
 $adj cute, adorable
-=跋:poàk/poa̍h
+=跋:poa̍h
+$verb to toss, to throw (dice, moon blocks, etc.)
 $verb to gamble, to bet
+=跋杯:poa̍h-poe
+$verb to toss moon blocks
 =跋倒:poa̍h-tó
 $verb to fall
 =跋繳:poa̍h-kiáu
@@ -3748,6 +3930,8 @@ $noun gambling addict, a person who loves to gamble
 =跤:kha
 $noun $body leg
 $noun $body feet
+=跤頭:kha-thâu
+$noun $body knee
 =跤掌甲:kha-chéng-kah
 $noun $body toenails
 =跤球:kha-kiû
@@ -3787,7 +3971,7 @@ $noun health, physique, fitness
 =車:chhia
 $noun car
 =車夫:chhia-hu
-$noun driver
+$noun driver, chauffer
 =車站:chhia-chām
 $noun ground transport station, bus station, bus stop
 =軍隊:kun-tūi
@@ -3820,6 +4004,7 @@ $verb (of an object's quality) to perform below standard
 =轆:lû
 $verb to run (something) down, to roll over (something)
 $verb to run a tool or pointed object with steady pressure on a surface (e.g. one's face)
+$verb to polish (a surface)
 =轉:túi
 $verb to return home, to go home
 =轉來:túi-lâi
@@ -3838,12 +4023,18 @@ $verb to deliver
 $verb to give as a gift
 =送日:sàng-ji̍t
 $noun a traditional Chinese wedding engagement or betrothal rite (practiced by Chinese Indonesians involving the exchange of gifts)
+=送食:sàng-chia̍h
+$verb (literally) to deliver food
+$noun delivery drivers, delivery poeple, a person who delivers food
 =逐:ta̍k
 $pron each, every, per
 =逐擺:ta̍k-pái
+$advb each, every
 $advb [used before a verb to indicate the every instance of the action done] Every time, each time
+$see 逐逐
 =逐逐:ta̍k-ta̍k
-$advb (of noun or adj) each, every
+$advb (of noun or adjective) each, every
+$see 逐擺
 =逐逐日:ta̍k-ta̍k-ji̍t
 $advb $time every day
 =這爿:chéʳ-peng
@@ -3879,11 +4070,13 @@ $verb to cross the road
 =過去:kòe-khì
 $noun there, over there, that spot
 $opp 箇來
+=過身:kóe-sin
+$verb to die, to pass away, to pass over
 =遠:hùi
 $adj far, distant
 =選:kéng
 $verb to choose
-=邀貨店:io-hòe-tiàm
+=邀貨店:io-hòe-tiàm/io-hòi-tiàm
 $noun small grocery store, mama shop, mom-and-pop store, neighbourhood store, toko kelontong (Indonesian)
 =邊:pi
 $noun side, margin, edge, brim, rim
@@ -3898,6 +4091,8 @@ $surname Tee, Theng
 $noun $drink alcoholic beverage
 $noun $drink beer
 $noun $drink wine
+=酒店:chiú-tiàm
+$noun bar, beer store, pub
 =酱:chiô
 $noun $food sauce
 =酸:sui/sng
@@ -4029,9 +4224,9 @@ $noun relationship (between some things), connection
 =阻:chah
 $verb to obstruct, to block, to impede, to hinder
 =阿叔:a-chek
-$pron [used to call someone older than one] Mister
+$pron [used to address someone older than one] mister
 =阿哥:a-ko
-$pron [used to call someone the same age as one or slightly older] Sir, mister
+$pron [used to address someone the same age as one or slightly older] sir, mister
 =阿妗:a-kīm
 $noun $family mother's brother's wife
 =阿姆:a-ḿ
@@ -4039,7 +4234,7 @@ $noun $family father's elder brother's wife
 =阿姑:a-ko͘
 $noun $family father's sister
 =阿姨:a-î
-$pron [used to call someone older than one] Mrs
+$pron [used to address someone older than one] Mrs
 $noun $family mother's sister
 =阿嬸:a-chím
 $noun $family father's younger brother's wife
@@ -4047,6 +4242,8 @@ $noun $family father's younger brother's wife
 $noun $family father's elder brother
 =阿舅:a-kū
 $noun $family mother's brother
+=阿未:a-bōe
+$advb [to indicate the action has not been done] have not
 =陳:tân
 $surname Tan, Tang
 =隔壁:keh-piah
@@ -4057,7 +4254,7 @@ $verb to do as one pleases
 $adj rapid, fast (in speed)
 =雜菜:cha̍p-chhài
 $noun $food capcai, mixed vegetables dish
-=雜貨店:cha̍p-hòe-tiàm
+=雜貨店:cha̍p-hòe-tiàm/cha̍p-hòi-tiàm
 $noun grocery store, basic goods store, toko sembako (Indonesian)
 =雞:ke
 $noun $animal chicken, rooster
@@ -4202,11 +4399,13 @@ $adj stressed (from a non-delightful event)
 =頭毛:thâu-mô͘
 $noun $body hair
 =頭毛油:thâu-mô͘-iû
-$noun hair oil
+$noun hair gel
 =頭痛:thâu-thiàⁿ
 $noun $body headache
 =頭茅苟:thâu-môi-ko
 $noun wild grass
+=頭一擺:thâu chēʳ-pái
+$advb (used before a verb) for the first time
 =頷頸:ām-kún
 $noun $body neck
 =願:giàn
@@ -4220,6 +4419,12 @@ $verb to care for, to take care, to look after, to protect
 $verb to man a shop/store, to be present in a shop/store
 =顧食:kō͘-chia̍h
 $verb to eat healthily, to choose food carefully
+=顧老人:kō͘-làu-lâng
+$verb to care for the elderly
+$noun caregiver (for the elderly)
+=顧囡仔:kō͘-gín-á
+$verb to care for children
+$noun caregiver (for children)
 =風:hong
 $noun wind, breeze
 $noun mood (of a person)
@@ -4236,6 +4441,8 @@ A Chinese system of geomancy about the ideal topography, geography, and spatial 
 $noun bicycle
 =風濕:hong-sip
 $noun $disease rheumatism; rheumatological disease (painful disorder of muscles, tendons, joints, bones and nerves)
+=風俗:hong-sio̍h
+$noun customs, tradition, practice
 =飛:poe
 $verb to fly
 =飛去:poe-khì
@@ -4311,6 +4518,12 @@ $see 枵
 $noun incense, joss stick
 =香港:hiang-káng
 $noun $loc Hong Kong
+=香港話:hiang-káng-ōa
+$noun $lang Cantonese
+=廣府:kóng-hú
+$noun $lang Cantonese
+=廣府話:kóng-hú-ōa
+$noun $lang Cantonese
 =香燭:hio͘-chek
 $noun incense, joss stick
 =香燭店:hio͘-chek-tiàm
@@ -4341,7 +4554,7 @@ $noun $body bone
 $noun $body body ache
 =排骨:pâi-kut
 $noun $food ribs, spareribs
-=骨灰:kut-hu
+=骨烌:kut-hu
 $noun ashes (human remains after cremation)
 =骯髒:lah-sam
 $adj dirty, filthy
@@ -4555,7 +4768,7 @@ $verb to perform simple calculations (such as addition, subtraction, multiplicat
 $express looking at the greater picture, after all, as a whole
 =臘腸:la̍p-chhiông
 $noun $food Chinese sausage, lap cheong
-=英文:eng-bûn
+=英文:eng-bûn/ing-bûn
 $noun $lang English
 =衝:chhiong
 $verb to dash ahead, to charge, to rush
@@ -4628,6 +4841,8 @@ $see 空
 $noun $time weekday
 =拜六禮拜:pài-la̍k lé-pài
 $noun $time weekend
+=拜節:pài-chia
+$noun $event Chinese New Year
 =半暝:pòaⁿ-mêⁿ
 $noun $time midnight
 =今暝:kin-mêⁿ
@@ -4658,7 +4873,12 @@ $verb to queue up, to line up
 =滑:ku̍t
 $adj slippery, slick
 =折:chi̍h
-$verb to break off; to snap; to pluck off
+$verb to break off, to snap, to pluck off
+=佛:hu̍t
+$noun $proper Buddha, The Enlightened One
+=佛教:Hu̍t-kàu
+$noun Buddhism
+$noun Teachings of Buddha (Dharma)
 =四面佛:sì-bīn-hu̍t
 $noun (buddhism) Phra Phrom (Thai representation of the Hindu god Brahma)
 =甘講:kam-kóng
@@ -4672,8 +4892,8 @@ $verb to urge, to press, to hurry
 =蹛:tòa
 $verb to live, to reside (somewhere)
 $verb to stay (at a location overnight in a hospital, hotel, etc.)
-=釋迦牟尼:seʳ-chià-mû-nî
-$noun (Buddhism) Śākyamuni, Gautama Buddha
+=釋迦牟尼:Seʳ-chià-mû-nî
+$noun $proper (Buddhism) Śākyamuni, Gautama Buddha
 $etySAN शाक्यमुनि (Śākyamuni, “sage of the Śākyas”)
 =為:ūi
 $prepo for
@@ -4681,6 +4901,10 @@ $prepo because of
 $prepo for the sake of
 =為了:ūi-liáu
 $prepo for, due to, because of
+$see 因為
+=因為:in-ūi
+$prepo because, since, as
+$see 為了
 =芫荽:ian-sui
 $noun $food coriander
 =吊:tiàu
@@ -4718,9 +4942,15 @@ $verb to chant or recite (sacred texts, sutras, etc.)
 =經:keng
 $noun sacred texts or books
 $noun something regarded as principal, doctrinal or classical
+=經理:keng-lí
+$noun manager, handler, director
+=經驗:keng-giām
+$noun experience
 =念經:liām-keng
 $verb (Buddhism) to chant or recite sutras
 $verb $figur to keep harping on, to speak or sing in a repetitive and monotone manner
+=讀經:tha̍k-keng
+$verb (Buddhism) to read and chant the sutras
 =貧惰款:pîn-tōaⁿ-khoán
 $noun laziness
 =有勢:ū-sè
@@ -4812,6 +5042,8 @@ $class [for shoes, socks, chopsticks, etc.] pair
 $num to differ by
 $explain
 差兩分鐘 differ by 2 minutes
+=差不多:chha-put-to
+$advb almost, nearly
 =罩:ta
 $verb to cover (an expense)
 =進步:chìm-pō͘
@@ -4823,3 +5055,63 @@ $verb to accept (treatment, gift, punishment, etc.)
 $verb to take (criticism)
 =健康:kiān-khong
 $adj healthy, fit
+=汁:chap
+$noun $drink juice
+=校長:khāuⁿ-tióⁿ
+$noun principal (of a school), headteacher 
+=總統:chóng-thóng
+$noun president (of a republic)
+=法國:hoat-kok
+$noun $loc France
+=法話:hoat-ōa
+$noun $lang French
+=法文:hoat-bûn
+$noun $lang French
+=失敗:sit-pāi
+$verb to fail, to come to nothing, to fall through
+=成功:sêng-kong
+$verb to succeed, to achieve success, to be successful
+=象:chhiūⁿ
+$noun $animal elephant
+=耶穌:Iâ-so͘
+$noun $proper Jesus
+=和尚:hôe-siōⁿ
+$noun Buddhist monk
+=童:tâng
+$noun spirit (ghost)
+=童乩:tâng-ki
+$noun spirit medium
+=羅馬字:lô-má-jī
+$noun the Latin alphabet, roman letters
+$noun romanisaiton
+=表:pió
+$noun list, table
+=蝨:sat
+$noun louse
+$noun $figur parasite
+=根:kin
+$noun (botany) root
+=灶跤:chàu-kha
+$noun kitchen
+=角:kak
+$noun horn, antler
+$noun corner, angle
+=爪:chiáu
+$noun claw (of animal, bird), talon, paw, nail
+=烌:hu
+$noun ash
+=抑是:á-sī
+$conj or
+=娶某:chhōa-bó͘
+$verb to have a wife, to take a wife, to marry a wife
+=全:choân
+$adj complete
+$adj whole, entire, full, total
+$advb entirely, completely
+$see 甲了
+=但是:tān-sī
+$conj but
+=哇:óa
+$express wow, dear me
+=哎呀:ai-ia
+$express aiya; alas; ah; oh; ugh; ouch (expressing surprise, annoyance, pain, frustration, sarcasm, etc.)

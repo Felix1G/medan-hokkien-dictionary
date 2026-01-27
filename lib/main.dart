@@ -10,7 +10,7 @@ import 'package:medan_hokkien_dictionary/page.dart' deferred as heavy;
 List<Entry> kEntries = List.empty(growable: true);
 List<EntryWidgets> kEntriesWidget = List.empty(growable: true);
 HashMap<String, List<int>> kEntriesCharacter = HashMap();
-const kEntriesAmount = 2185;
+const kEntriesAmount = 2214;
 final ValueNotifier<int> kPageIndexNotif = ValueNotifier<int>(0);
 
 void main() {

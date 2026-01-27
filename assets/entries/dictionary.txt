@@ -67,10 +67,19 @@ $num one (1) (bef. noun/classifier)
 $num one (1)
 =一下:chēʳ-èⁿ
 $advb (to do an action) for a while, quickly
-=一日風兩日雨:cēʳ-ji̍t hong nō͘-ji̍t hō͘
+=一日風兩日雨:chēʳ-ji̍t hong nō͘-ji̍t hō͘
 $idiom today and tomorrow can be different
-=一羅減兩盎:cēʳ-lô kiám nō͘-ón
+=一羅減兩盎:chēʳ-lô kiám nō͘-ón
 $idiom (of a person, euphemistically) insane, stupid, absurd
+=一步擺:chēʳ-pō͘-pái
+$advb $time for once, rarely
+$explain
+伊一步擺来 He rarely comes/For once, he comes
+=一過:chēʳ-kòe
+$advb [used at the end of a sentence to modify the verb] very, rather, extremely
+$explain
+Use 按呢 for the general 'very' i.e. before the verb.
+$see 按呢
 =七:chhit
 $num seven (7)
 =七十:chhiap
@@ -127,7 +136,7 @@ $noun $time afternoon
 $noun below
 $noun under
 $noun underneath
-=下面:ē-té
+=下底:ē-té
 $noun below
 $noun under
 $noun underneath
@@ -318,6 +327,8 @@ More polite and softer than 閃
 $see 閃
 =假:kéⁿ
 $adj fake, false
+=假假:kéⁿ-kéⁿ
+$advb pretending to, fake
 =假勥:kéⁿ-khiàng
 $adj to be a smartass, to overestimate one's cleverness and act unwisely
 =做:chò
@@ -496,7 +507,7 @@ $verb to slice, to cut into slices
 =则:tòe
 $verb to follow
 $verb to imitate
-$verb to join
+$verb to join, to attend
 =初:chhe
 $noun $time day, date (in the lunar calendar)
 $explain
@@ -652,7 +663,7 @@ $adj separate, apart, not together with the others
 $verb to knock the door
 =隻:chiah
 $adj single, one only
-$class [for birds, certain animals, and one of a pair]
+$class [for birds, certain animals]
 =叫:kiō
 $verb to greet, to call
 $verb to ask someone to do something
@@ -819,11 +830,11 @@ $advb (before a verb) also, too
 $verb to spurt, to gush, to jet out
 $explain
 油噴起手 iû phùn khí chhiúⁿ Oil had spurted at my hand (e.g. from cooking)
-=嚨喉:nâ-âu/nâ-ôa/nâ-ô͘
+=嚨喉:nâ-âu
 $noun $body throat
-=嚨喉乾:nâ-âu-ta/nâ-ôa-ta
+=嚨喉乾:nâ-âu-ta
 $noun $body dry throat
-=嚨喉痛:nâ-âu-thiàⁿ/nâ-ôa-thiàⁿ/nâ-ô͘-thiàⁿ
+=嚨喉痛:nâ-âu-thiàⁿ
 $noun $body sore throat
 =嚴:giâm
 $adj strict, fierce
@@ -881,6 +892,8 @@ $noun mud
 $noun dust (in general)
 =塗跤:thô͘-kha
 $noun floor
+=塗跤布:thô͘-kha-pò͘
+$noun floor mat
 =地:tē
 $noun land, field
 =地獄:tē-ga̍k
@@ -970,6 +983,8 @@ $adj (of a child or teenager) grown-up, mature
 $idiom taking an action without authorization
 =大老牛:tōa-làu-gû
 $idiom (of a person) grown-up but still acting immature
+=大肥:tō͘-pûi
+$adj extremely fat, obese, very overweight
 =天:thiⁿ
 $noun sky
 =天低低:thiⁿ kēⁿ-kēⁿ
@@ -1030,7 +1045,7 @@ $adj yummy
 $adj (of drinks) delicious
 $adj yummy
 =好麗:háu-lián
-$adj ostentatious, flashy, flaunting, flexing
+$adj ostentatious, flashy, flaunting, flexing, braggart
 =好風:hó-hong
 $verb to have good mood
 $noun good mood
@@ -1081,8 +1096,15 @@ $adj suitable, fitting, appropriate
 $advb suitable, fitting, appropriate
 =合:ha̍h
 $adj suitable, fitting 
+=客:kheh
+$noun guest, visitor
+$noun customer, client, consumer
+$noun Hakka (a Chinese ethnic group)
+=客話:kheh-ōa
+$noun Hakka language
 =客人:kheh-lâng
-$noun guests
+$noun guests, visitors
+$noun Hakkanese (a person of Hakka descent)
 =害死:hài-sí
 $verb to harm
 $verb to threaten
@@ -1096,6 +1118,9 @@ $noun family members (as a whole)
 $noun number of people in a family
 =家婆:ke-pô
 $verb to be overly curious, to be nosy, to be overly interested in other people's matters, kaypoh, kepo
+=家婆精:ke-pô-chhiang
+$noun person who is overly curious, nosy
+$see 家婆
 =家己:ka-kī
 $advb self
 $advb oneself
@@ -1180,6 +1205,8 @@ $noun $body buttocks
 $noun $body anus
 =尾:bóe
 $noun $body tail
+$adj end, last, final
+$class [classifier for fish, snakes, shrimps, etc.]
 =尿:jō
 $noun urine
 =尿酸:ngiau-soân
@@ -1292,6 +1319,10 @@ $advb often, frequently (in general)
 $noun common cold
 =年:nî
 $noun $time year
+=年頭:nî-thâu
+$time start of the year, beginning of the year
+=年尾:nî-bóe
+$time end of the year
 =幻夢:hoak-bāng
 $verb to dream
 $verb to hallucinate
@@ -1332,6 +1363,8 @@ $pron $time what day? (as in Monday, Tuesday, etc.)
 =𫢗時:tiāng-sî
 $pron $time when
 $etyTEO tiang1 si5
+=底:té
+$noun bottom, underneath, underside
 =底時:tī-sî
 $pron $time when
 =店:tiàm
@@ -1347,9 +1380,11 @@ $surname Teo, Tio, Zhang
 $class sheet (of paper, of tissue, etc.)
 =强:ióng
 $adj strong, powerful
-=彎:oai
+=歪:oai
+$adj slanted, inclined, titled
 $adj curved, arched, bent, crooked
-=彎彎:oai-oai
+=歪歪:oai-oai
+$adj slanted, inclined, titled
 $adj curved, arched, bent, crooked
 =彎:oan
 $verb to turn (left or right)
@@ -1396,6 +1431,9 @@ $verb to feel guilty
 $verb to feel something is wrong
 =心花花:sim-hoa-hoa
 $phrase to be happy, to be glad, cheerful
+=心痛:sim-thiàⁿ
+$adj dissapointed, let down, disheartened
+$noun heartbreak
 =快:khoài
 $adj quick, fast
 =怎麼:chóa-mih/chóa-meh
@@ -1480,12 +1518,12 @@ $verb to refute, to talk back (to someone who is angry at one)
 $adj stupid, foolish, unintelligent
 =戇呆:gōng-tai
 $noun idiot, fool, stupid person
-=我:góa
+=我:óa
 $pron i, me
-=我人:góa-lâng
+=我人:óa-lâng
 $pron we
 $pron us
-=我老唉:wa-lâu-e
+=我老唉:óa-lâu-e
 $phrase exclamation of shock, walao
 =戲:hì
 $noun movie, film
@@ -1773,13 +1811,16 @@ $verb to fold the paper
 $verb to cultivate, to plant, to grow
 =種:chéng
 $noun clan, ethnic group, ethnicity, race
+=摻:chham
+$verb to mix
+$verb to combine
 =摻種:chham-chéng
 $adj (of a person) to be bred with another race
 $adj (of plants) to be cross-bred with another plant, hybrid
-=摻:chham
-$verb to mix
-$verb to mix in and be with (a group)
-$verb to combine
+=參:chham
+$verb to mix in and be with (a group), to join, to take part
+=參詳:chham-siông
+$verb to discuss, to exchange views or opinions, to talk over
 =撥:bôa
 $verb to withdraw (from the ATM or bank)
 =撥鐳:bôa-lui
@@ -1815,6 +1856,8 @@ gē is the short form from fast speech.
 $noun fork
 =攬:lám
 $verb to hug
+=攬枕:lám-chím
+$noun bolster pillow
 =收:siu
 $verb to store
 $verb to keep
@@ -2021,6 +2064,10 @@ $explain
 $noun moonlight
 =月面:goe̍h-bīn
 $noun face of the moon
+=月頭:goe̍h-thâu
+$time start of the month, beginning of the month
+=月尾:goe̍h-bóe
+$time end of the month
 =娘:niô͘
 $noun $family parents of one's wife or husband
 $noun elderly lady
@@ -2091,8 +2138,10 @@ $noun moon blocks
 $class [classifier for cups or glass]
 $explain
 Moon blocks are wooden divination tools originating from China, which are used in pairs and thrown to seek divine guidance in the form of a yes or no question.
-=枕頭:chín-thâu
+=枕:chím
 $noun pillow
+=枕頭:chím-thâu
+$noun pillow (for the head)
 =林:lîm
 $surname Lim, Lin
 =果子:kóe-chí
@@ -2452,7 +2501,8 @@ $explain
 $adj precise, exact
 $advb precisely, exactly, correctly
 =準備:chún-pī
-$verb to get ready, to prepare
+$verb to get ready
+$verb to prepare
 =滷麵:ló͘-mī
 $noun $food Lo Mie noodles
 =滿:móa
@@ -2471,6 +2521,12 @@ $verb to leak
 $verb (food) to become stale or soft
 =漿:ki̍t
 $adj (of soup, paste etc) thick
+=潮州:tiô-chiu
+$noun Teochew (a Chinese ethnic group)
+=潮州話:tiô-chiu-ōa
+$noun Teochew language
+=潮州人:tiô-chiu-lâng
+$noun A person of Teochew descent
 =潮州粿:tiô-chiu-kóe
 $noun $food red peach cakes
 =澳洲:au-chiu
@@ -2658,6 +2714,9 @@ $express not a problem, it's fine, never mind about that
 $idiom (of a person) useless
 =無康頭:bô-khang-thâu
 $idiom (of a person) offering a favour that annoys the one being asked for
+=無腦:bô-náu
+$adj (literally) brainless, having no brain
+$adj $figur stupid, foolish, incompetent
 =煎:chian
 $verb to fry, to deep-fry
 =煎雞:chian-ke
@@ -2868,7 +2927,7 @@ $verb to rust, to get rusty, to corrode, to oxidise
 $verb to use, to utilise
 =甲:ka/kah/kak/kap
 $noun nails (of fingers and toes)
-$noun (purely as a phonetic character)
+$auxi (a phonetic character)
 $see 指甲
 =甲了:ka-liáu
 $adj entire, whole, total, complete
@@ -3074,7 +3133,7 @@ $verb to sit on (on something)
 =硬:ngēⁿ
 $adj hard, firm, stiff, strong
 =硬硬:ngēⁿ-ngēⁿ
-$advb always, persist in, firmly, unyieldingly
+$advb forcefully, relentlessly, doggedly, tenaciously
 =碗:óa
 $noun bowl
 =磽:khiau
@@ -3130,13 +3189,16 @@ $verb to laugh
 $adj (of a person) often smiles, likes to smile
 =第:tē
 $num [affix before numerals to form ordinal numbers]
-$advb [in front of an adjective or a verb] most; -est
+$advb [in front of an adjective] most; -est
 $explain
 第一 first
 第二 second
 第三 third
 =第少:tē-chio
 $advb at (the) least
+=第尾:tē-bóe
+$noun end, finale, last
+$adj the end, the last
 =等:tán
 $advb $time later, in a while
 $verb to wait
@@ -3319,6 +3381,7 @@ $noun $animal monkey
 =老虎:làu-hó͘
 $noun $animal tiger
 =老蛇:làu-chôa
+$adj (of a person) manipulative
 $noun liar, fibber, someone who likes to lie
 =考冊:khóⁿ-chheⁿh
 $verb to sit an examination, to take test, to have an exam
@@ -3393,7 +3456,7 @@ $noun $body stomach
 $noun $body feverish feeling
 =胃痛:ūi-thiàⁿ
 $noun $body gastritis, stomach inflammation
-=胖:pûi
+=肥:pûi
 $adj fat, overweight
 =胡椒:hô͘-chio
 $noun $food pepper, blackpepper
@@ -3420,10 +3483,15 @@ $noun $body stomachache
 $noun $food ketchup, sauce
 =膣屄:chi-bai
 $noun $vulgar vagina
-=膨:phòng
+=膨:phong
 $adj swollen, inflated
 $verb to swell, to inflate, to expand
 $verb (of noodles) to become soaky
+=膨鼠:phong-chhú
+$noun $animal squirrel
+=杜排:tu-pái
+$noun $animal squirrel
+$etyIDN tupai
 =膵:chhiok
 $noun $body pancreas
 =膽:táⁿ
@@ -3493,7 +3561,7 @@ $noun colour
 $noun flower
 =花水:hoa-chhúi
 $noun flowers in water (used primarily for blessings)
-=花無一百日紅:hoa bô cēʳ-pah-ji̍t âng
+=花無一百日紅:hoa bô chēʳ-pah-ji̍t âng
 $idiom even beautiful things, people, or situations can fade, decline, or come to an end
 $idiom nothing beautiful lasts forever.
 =花螺:hoa-lê
@@ -3843,6 +3911,9 @@ $verb to talk
 $verb to say bad words, to curse (bad words)
 =講騙話:kóng-phiàn-ōa
 $verb to tell a lie
+=講笑:kóng-chhiò
+$verb to tell a joke
+$noun joke
 =識:bat
 $verb to know (someone)
 =譚呆:tam-tai
@@ -4278,6 +4349,9 @@ $noun $honor entire family, whole family
 $noun relationship (between some things), connection
 =阻:chah
 $verb to obstruct, to block, to impede, to hinder
+=阿:a
+$auxi [prefix used in front of one's surname or last character of a given name to express friendliness or familiarity]
+$auxi (a phonetic character)
 =阿叔:a-chek
 $pron [used to address someone older than one] Mr, Mister
 =阿哥:a-ko
@@ -4720,6 +4794,7 @@ $noun $food blackpepper
 =點:tiám
 $num decimal point (.)
 $noun $time o'clock
+$verb to light (an incense or joss stick)
 $class a little, a bit
 $class a dot
 =點心:tiàm-sim
@@ -4811,10 +4886,6 @@ $verb to go down/climb down (stairs, ladders, mountains, etc)
 $verb to go up/climb up (stairs, ladders, mountains, etc)
 =𬦰起𬦰落:pêⁿh-khí pêⁿh-lo̍h
 $phrase to climb up and down (especially stairs)
-=一步擺:cēʳ-pō͘-pái
-$advb $time for once, rarely
-$explain
-伊一步擺来 He rarely comes/For once, he comes
 =功夫:kang-hu
 $noun $time time (to do something)
 $noun skill, expertise
@@ -5103,7 +5174,7 @@ $noun branch, twig
 $noun pearl
 =掩:iám
 $verb to peek, to peep secretly, to steel a glance
-=逃覕:tô͘-bit/tô͘-bih
+=逃覕:thô͘-bit/thô͘-bih
 $verb to hide, to conceal, to hide away
 =服祀:ho̍k-sāi
 $verb to worship or serve a deity, to perform acts of devotion or ritual service to a god
@@ -5229,3 +5300,10 @@ $explain
 This is a famous Chinese tounge twister.
 $see 國家
 $see 國歌
+=跍:khû
+$verb to squat
+$verb to kneel, to prostrate
+=慷慨:khóng-khài
+$adj generous, beneficent
+=倇:oan
+$prepo at, in, to be located on, to (a place)

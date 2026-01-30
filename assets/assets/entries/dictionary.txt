@@ -72,9 +72,12 @@ $idiom today and tomorrow can be different
 =一羅減兩盎:chēʳ-lô kiám nō͘-ón
 $idiom (of a person, euphemistically) insane, stupid, absurd
 =一步擺:chēʳ-pō͘-pái
-$advb $time for once, rarely
+$advb $time for once, rarely, once in a while
 $explain
-伊一步擺来 He rarely comes/For once, he comes
+伊就一步擺來 He/She only comes once in a while.
+$see 伊
+$see 就
+$see 來
 =一過:chēʳ-kòe
 $advb [used at the end of a sentence to modify the verb] very, rather, extremely
 $explain
@@ -114,18 +117,6 @@ $noun $food pork belly
 $idiom style of an arrogant person, behave arrogantly
 =三角:saⁿ-kak
 $noun triangle
-=上:téng
-$adj upper, uppermost, top (general, relative position)
-$noun top, above, upper part
-$see 頂
-=上個月:téng-ko-goe̍h
-$noun $time last month
-=上年:téng-nî
-$noun $time last year
-=上擺:téng-pái
-$noun $time that time, last time
-=上日:téng-ji̍t
-$noun $time yesterday
 =下:hèⁿ/heⁿk
 $verb to put down (something)
 =下:ē
@@ -417,7 +408,7 @@ $noun inside, interior
 $num two (2) (bef. noun/classifier)
 $explain
 The pronunciation "nō͘" is more commonly used.
-=八:peh
+=八:peh/poeh
 $num eight (8)
 =八月半:peh-goe̍h-pòaⁿ
 $noun $event Mooncake Festival (15th day of the 8th month in the lunar calendar)
@@ -460,6 +451,10 @@ $noun cold (or cool) air
 $noun air conditioning (AC)
 =冷天:léng-thiⁿ
 $noun cold weather, cold climate
+=冷嗽:léng-sàu
+$noun (literally) cold cough
+$explain
+A cough caused by a cold or respiratory infection, typically accompanied by mucus and other cold symptoms.
 =凊彩:chhìn-chhái
 $verb to let the decision be made by someone else, up to (someone), anything, whatever
 =凊彩啦:chhìn-chhái la
@@ -956,7 +951,7 @@ $noun ocean, large sea
 =大炮:tōa-phàu
 $verb to make things up, to be dramatic, to be a bit over the top
 =大班:tōa-pan
-$adj (Of a class in education) large, big, many students
+$adj (of a class in education) large, big, many students
 $adj (of something) luxurious, fancy, expensive
 $adj (of someone) affluent, rich, lavish
 =大盤:tōa-pôaⁿ
@@ -1443,7 +1438,7 @@ $pron what are you doing
 $pron why (and how)
 =怕公:peⁿk-kong
 $noun $family grandfather's elder brother
-=怪𡳞:koai-lān
+=怪𡳞:koài-lān
 $noun $vulgar (strange dick) arrogant
 $adj $vulgar abnormal, weird, fucked up
 =恬:tiām
@@ -1469,6 +1464,8 @@ $noun thinking process
 $noun mindset
 =想長長:siò͘-tn̂g-tn̂g
 $verb to think far into the future, to plan long-term
+=想必:sio-pí
+$verb to presume, to assume, to think
 =愈:jú
 $advb more and more, increasingly
 $explain
@@ -1943,6 +1940,8 @@ $noun $food fresh ingredients
 $phrase (literally) may the new years bring greater improvements
 $explain
 Used during Chinese New Year to wish someone significant improvement or advancement in the coming year, such as progress in studies, career, personal growth, or life in general.
+=新光:sin-kong
+$noun $food cassava
 =斷:tùi
 $adj snapped, fractured
 =方便:hong-piān
@@ -1970,6 +1969,16 @@ $noun $time yesterday
 $noun $time morning
 =早慢:chá-bān
 $adj sooner or later, eventually
+=早...日:cha-...-ji̍t
+$time the last ... days
+$explain
+早三日 the last 3 days
+$see ...日早
+=...日早:...-ji̍t-cha
+$time the last ... days
+$explain
+三日早 the last 3 days
+$see 早...日
 =旺:ōng
 $noun prosperity
 $noun flourish
@@ -2177,7 +2186,7 @@ $noun wood, log, timber
 $adj (of a person) dull, ignorant, lifeless
 =桌:toh
 $noun table
-=桌上:toh-téng
+=桌頂:toh-téng
 $noun on the table
 $noun table top
 =桌布:toh-pò͘
@@ -2763,6 +2772,11 @@ $verb to simmer, to stew (vegetables, etc.) in water
 $adj hot (weather)
 =熱天:joa̍h-thiⁿ
 $noun sunny weather
+=熱嗽:joa̍h-sàu
+$noun (literally) hot cough 
+$explain
+A cough with a burning sensation in the throat or chest often due to inflammation, acid reflux, etc.
+$see 腹內熱
 =燈籠:teng-lông
 $noun Chinese paper lantern
 =燒賣:sio-māi
@@ -3066,6 +3080,9 @@ $verb $figur to overthink, to overanalyse, to overcalculate
 $verb to be sincere, to be heartfelt, to be genuine
 =看𣍐起:khòaⁿ-bē-khí
 $verb to underestimate (someone), to belittle, to disparage
+=看行前:khòa hâng-chêng
+$verb to predict the future, to look ahead
+$verb to consider the future (e.g. while planning for something)
 =正:chiàⁿ
 $adj true, real
 $advb (of an adjective) really, truly, overly, excessively, far too
@@ -3263,7 +3280,7 @@ $adj (psychology) mind, mental state
 $noun $food cake
 =糊塗:hô͘-tô͘
 $adj bewildered, confused, muddled, muddle-headed
-=糕條:kóe-tiâu
+=粿條:kóe-tiâu
 $noun $food kwetiau noodles
 =糖:thn̂g
 $noun $food sugar
@@ -3476,8 +3493,10 @@ $noun $body intestines
 =腹內:pak-lāi
 $noun $food edible innards, internal organs (Intestines, Liver, Stomach, Kidney, Lungs)
 =腹內熱:pak-lāi-joa̍h
-$verb to feel unwell
-$etyIDN panas dalam
+$verb to fall sick, to feel unwell
+$explain
+Particularly accompanied with inflammation or a 'hot' sensation from pain. In Feng Shui, it is said that this is caused by an 'imbalance' of eating 'hot' and 'cold' food.
+$see 風水
 =腹肚:pak-tó͘
 $noun $body stomach
 =腹肚痛:pak-tó͘-thiàⁿ
@@ -3513,7 +3532,7 @@ $phrase high cholesterol
 $noun $food paracetamol
 =臥:nòa
 $verb to lie down and rest
-=自私:chīr-sir
+=自私:chir-sīr
 $adj selfish
 =臭:chhàu
 $verb to smell like
@@ -3585,6 +3604,8 @@ $adj cruel, brutal, atrocious, barbaric
 $conj if, supposing, in the event of
 =苦:khó͘
 $adj bitter
+=苦力:ku-lí
+$noun labour, hard work
 =英國:eng-kok/ing-kok
 $noun $loc England
 =英國話:eng-kok-ōa/ing-kok-ōa
@@ -3782,6 +3803,8 @@ $verb to walk
 =行愛人:kiâⁿ-ái-lâng
 $verb to go on a date
 $verb to have a lover (boyfriend or girlfriend)
+=行前:hâng-chêng
+$noun $time future, what lies ahead, how events will unfold
 =街路:kē-lō͘/kēⁿ-lō͘
 $noun street
 =街路邊:kē-lō͘-pi/kēⁿ-lō͘-pi
@@ -3904,7 +3927,7 @@ $verb to be clumsy, to be careless
 $etyYUE leon6 zeon6
 =講:kóng
 $verb to say, to speak, to talk
-=講共汝講:kóng-kā-lí-kóng
+=公共儞講:kóng-kā-lí-kóng
 $phrase to talk to you about (something)
 $express anyway, wait a minute
 =講故:kóng-kò͘
@@ -3958,6 +3981,8 @@ $noun $food dried tofu skin, yuba
 $noun $food bean sprouts
 =豆醬:tau-chóⁿ
 $noun $food tauco, taucu, tauchu (A type of fermented yellow soy bean paste)
+=豆乾:tāu-koaⁿ
+$noun $food dried tofu
 =綠豆:le̍k-tāu
 $noun $food mung bean
 =豬:tu
@@ -4203,7 +4228,7 @@ $opp 箇來
 $verb to die, to pass away, to pass over
 =遠:hùi
 $adj far, distant
-=選:kéng
+=揀:kéng
 $verb to choose
 =邀貨店:io-hòe-tiàm/io-hòi-tiàm
 $noun small grocery store, mama shop, mom-and-pop store, neighbourhood store, toko kelontong (Indonesian)
@@ -4405,6 +4430,8 @@ $noun $food chicken rice
 $noun $food chicken rice
 =雞共鴨:ke kah ah
 $idiom to have a language barrier, unable to understand each other due to language differences
+=雞毛筅:ke-mô͘-chhéng
+$noun feather duster
 =雨:hō͘
 $noun rain, drizzle
 $noun a downward fall of water droplets (in general)
@@ -4505,12 +4532,25 @@ $noun fireworks
 =響:hiáng
 $verb to ring, to make a sound, to emit a sound
 =頂:téng
+$adj upper, uppermost, top (general, relative position)
 $adj the very top, peak, summit, pinnacle
-$noun the very top, summit, top, apex, crown
-$explain
-Stronger emphasis on the absolute top than 上.
-$see 上
+$noun top, above, upper part
+$noun the very top, summit, apex, crown
 $class [used for vehicles]
+=頂個月:téng-ko-goe̍h
+$noun $time last month
+=頂年:téng-nî
+$noun $time last year
+=頂擺:téng-pái
+$noun $time that time, last time
+$explain
+我頂擺去戲臺看戲 That time, I went to the cinema to watch a movie.
+$see 我
+$see 去
+$see 戲臺
+$see 看戲
+=頂日:téng-ji̍t
+$noun $time yesterday
 =頂真:téng-chin
 $adj careful, focused, serious, conscientious
 =項:hāng
@@ -5333,3 +5373,27 @@ $noun a word, language (as in someone's words)
 $explain
 予我一句話 Give me a word
 $see 予
+=奇怪:kî-koài
+$adj weird, odd, strange, surprising, unexpected
+=窿溝:long-kau
+$noun sewer, sewerage
+=嗽:sàu
+$verb to cough
+$noun cough
+=爾:niā
+$auxi [final sentence particle] only, merely
+=前:chêng
+$noun front, forepart
+$noun $time future, time ahead
+=主公:chú-kong
+$noun His excellency, Your excellency
+=作媒人:choh-m̂-lâng
+$noun matchmaker, mediator
+=荔枝:lē-chi
+$noun $fruit lychee
+=潤餅:lūn-piáⁿ
+$noun $food lumpya (a type of egg roll consisting of ground meat and spices and vegetables)
+=枋廊:pang-lóng
+$noun timber factory
+=廚工:tû-kang
+$noun craftsman, artisan

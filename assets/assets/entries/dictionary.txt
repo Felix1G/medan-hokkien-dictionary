@@ -19,6 +19,8 @@ Notes:
 =:chhèⁿ-tiâu
 $verb to be able to withstand, to be able to handle
 $verb to be capable of, to be competent of
+=:ngâ-chn̄g
+$adj (of a person) restless, fidgetly, cannot sit still
 =:chiá
 $adj (of taste) plain, bland
 =:jû
@@ -1036,7 +1038,7 @@ $noun rich person, wealthy person
 =好食:hó-chia̍h
 $adj (of food) delicious
 $adj yummy
-=好飲:hó-lim
+=好啉:hó-lim
 $adj (of drinks) delicious
 $adj yummy
 =好麗:háu-lián
@@ -2287,7 +2289,7 @@ $noun $derago hooligan, troublemaker, rascal, scoundrel
 $adj ugly, hideous
 =歹食:pháiⁿ-chia̍h
 $adj (of food) distasteful, unappetising, unpalatable, not delicious
-=歹飲:pháiⁿ-lim
+=歹啉:pháiⁿ-lim
 $adj (of drinks) distasteful, unappetising, unpalatable, not delicious
 =死:sí
 $verb to die
@@ -4432,6 +4434,10 @@ $noun $food chicken rice
 $idiom to have a language barrier, unable to understand each other due to language differences
 =雞毛筅:ke-mô͘-chhéng
 $noun feather duster
+=雞液:ke-e̍k
+$noun $drink concentrated chicken extract, chicken essence
+$explain
+A common drink in Chinese culture for energy, recovery, or health.
 =雨:hō͘
 $noun rain, drizzle
 $noun a downward fall of water droplets (in general)
@@ -4680,9 +4686,13 @@ $noun $food cooked rice
 $idiom to talk less, say more, to reduce pointless talk, to cut the unnecessary talk, to stick to the point
 =飯核:png-hu̍t
 $noun rice grain
-=飲:lim
+=啉:lim
 $verb to drink
 $verb drinks (noun)
+=飲勝:iám-sèng/iám-sè
+$express cheers!, bottoms up!
+$explain
+Often used while clinking glasses of drinks.
 =飼:chhī
 $verb to feed
 $verb to raise (a child)
@@ -5397,3 +5407,11 @@ $noun $food lumpya (a type of egg roll consisting of ground meat and spices and 
 $noun timber factory
 =廚工:tû-kang
 $noun craftsman, artisan
+=讓:niō͘
+$verb (driving) to yield, to give way
+$verb to yield, to concede
+=漉漉:lok-lok
+$noun lok lok (A type of Malaysian street food of cooked and raw food on skewers which are dipped into sauce or a boiling soup.)
+=液:e̍k
+$noun liquid, fluid, extract
+$noun sap, juice, extract

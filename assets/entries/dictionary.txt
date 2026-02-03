@@ -704,11 +704,11 @@ $verb to swallow one's saliva
 $verb (of a dog) to bark
 =吳:gô͘
 $surname Go, Goh, Ng
-=吸:suh
+=嗍:suh
 $verb to suck, to suck in
-=吸煙機:suh-hun-ki
+=嗍煙機:suh-hun-ki
 $verb to smoke (a cigarette)
-=吸風:suh-hong
+=嗍風:suh-hong
 $noun cupping therapy
 =吹:choi
 $noun (slang) [friendly term of address for a male] Bro, dude
@@ -1466,7 +1466,7 @@ $noun thinking process
 $noun mindset
 =想長長:siò͘-tn̂g-tn̂g
 $verb to think far into the future, to plan long-term
-=想必:sio-pí
+=想必:sio-pi
 $verb to presume, to assume, to think
 =愈:jú
 $advb more and more, increasingly
@@ -1734,6 +1734,8 @@ $verb to massage
 $verb to massage (the legs)
 =捏骨:tēⁿ-kut
 $verb to massage (the body)
+=捏𡳞脬:tēⁿ lām-pha
+$verb $vulgar to squeeze one's balls
 =捒:sak
 $verb to push with force
 =捒入:sak-ji̍p
@@ -1752,6 +1754,7 @@ $verb to catch, to capture, to arrest
 $verb to fetch
 =揉:jô
 $verb to apply by rubbing in a circle (commonly ointment, medicine, etc)
+$verb to rub (with the hand or finger)
 =揍:bok
 $verb to smash, to punch
 =揍人:bok-lâng
@@ -1796,6 +1799,9 @@ $verb to confiscate
 $verb to grab
 =摧:chhùi
 $adj destroyed, wrecked, damaged
+=必:pi
+$advb certainly, surely, necessarily
+$advb must, have to
 =必要:pi-iàu
 $advb must, necessary, essential
 $opp 無必要
@@ -2337,6 +2343,8 @@ $noun a traditional Chinese sport known as kenchi or jiàn zi.
 =氣:khì
 $noun air
 $noun gas
+=氣死:khì-sí
+$adj upset, angry, worked up, emotionally affected
 =水:chúi
 $noun water
 =水山:chúi-soaⁿ
@@ -3142,13 +3150,6 @@ $adj teared
 $verb to fall ill, to catch a disease, to contract an illness, to become sick
 =破病鷄:phòa-pēⁿ-ke
 $noun a person who is often sick (mainly from pathogenic diseases)
-=著病:tio̍h-pēⁿ
-$verb to develop a disease
-$explain
-This is mainly used for non-pathogenic diseases, such as diabetes, etc. 破病 is the more general term.
-$see 破病
-=著燒:tio̍h-sio
-$verb to catch on fire, to be ablaze, to be burning
 =硩:teⁿh
 $verb to press (button, switch, etc)
 $verb to sit on (on something)
@@ -3697,11 +3698,17 @@ $verb to be affected by
 $adj correct, right, true
 =啟:toh
 $adj turned on, lighted, activated
+=著病:tio̍h-pēⁿ
+$verb to develop a disease
+$explain
+This is mainly used for non-pathogenic diseases, such as diabetes, etc. 破病 is the more general term.
+$see 破病
+=著燒:tio̍h-sio
+$verb to catch on fire, to be ablaze, to be burning
+=著差驚:tio̍h-chhe-kiaⁿ
+$verb to be surprised, to be startled, to be shocked
 =著哽:tio̍h-kéⁿ
 $verb to choke (on food or fluid)
-=著嚇驚:tio̍h-chheⁿ-kiaⁿ
-$verb to be alarmed
-$verb to be surprised
 =著火:toh-hóe
 $verb to turn on the lights, (of electricity) to be on after a blackout
 =著電:toh-tiān
@@ -3981,7 +3988,7 @@ $noun $food tofu skin
 $noun $food dried tofu skin, yuba
 =豆芽:tāu-gê
 $noun $food bean sprouts
-=豆醬:tau-chóⁿ
+=豆醬:tāu-chóⁿ
 $noun $food tauco, taucu, tauchu (A type of fermented yellow soy bean paste)
 =豆乾:tāu-koaⁿ
 $noun $food dried tofu
@@ -4051,8 +4058,6 @@ $verb to increase the price, to make more expensive
 $verb to build a house, to construct a house
 =起山:khí-soaⁿ
 $verb to go up/climb up a mountain/highlands
-=起死:khí-sí
-$adj upset, angry, worked up, emotionally affected
 =起沯:khí-châng
 $adj upset, angry, worked up, emotionally affected
 =起班:khí-pan
@@ -5034,6 +5039,8 @@ $adj crazy
 =空位:khang-ūi
 $noun vacancy, room (for someone)
 $noun unoccupied seat, vacant seat
+=空頭:khang-thâu
+$noun opportunity to do business, opportunity for a job
 =零:lêng
 $num zero (0)
 $explain
@@ -5383,6 +5390,9 @@ $noun a word, language (as in someone's words)
 $explain
 予我一句話 Give me a word
 $see 予
+=一峇爾:chēʳ-bā-nia
+$advb after a short interval, shortly, in due course, not immediately but within a reasonable time
+$express wait for a while.
 =奇怪:kî-koài
 $adj weird, odd, strange, surprising, unexpected
 =窿溝:long-kau
@@ -5390,7 +5400,7 @@ $noun sewer, sewerage
 =嗽:sàu
 $verb to cough
 $noun cough
-=爾:niā
+=爾:niā/nia
 $auxi [final sentence particle] only, merely
 =前:chêng
 $noun front, forepart
@@ -5415,3 +5425,9 @@ $noun lok lok (A type of Malaysian street food of cooked and raw food on skewers
 =液:e̍k
 $noun liquid, fluid, extract
 $noun sap, juice, extract
+=㧫:jû
+$verb to mop, to wipe
+=㧫身:jû-sin
+$verb to freshen up oneself, to clean up oneself
+=嚇:há
+$verb to scare, to frighten

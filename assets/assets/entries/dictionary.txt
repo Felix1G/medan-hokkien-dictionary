@@ -23,6 +23,8 @@ $verb to be capable of, to be competent of
 $adj (of a person) restless, fidgetly, cannot sit still
 =:chiá
 $adj (of taste) plain, bland
+=:sa-sî
+$noun $drink carbonated drinks
 =:jû
 $verb to mop (the floor)
 =:gâ-tái
@@ -3784,6 +3786,10 @@ $noun $animal prawn
 $noun $food small shrimp
 =蝦麵:hêⁿ-mī
 $noun $food prawn noodles
+=蝦脆:hêⁿ-chî
+$noun $food prawn crackers, shrimp rempeyek, crispy small shrimp fritters
+$explain
+Traditional Indonesian-Javanese deep-fried, savory, and crispy snack made from rice flour batter, aromatics, and shrimp.
 =螺:lê
 $noun $animal snailfish, snails
 =蟳:chîm
@@ -3992,6 +3998,12 @@ $noun $food bean sprouts
 $noun $food tauco, taucu, tauchu (A type of fermented yellow soy bean paste)
 =豆乾:tāu-koaⁿ
 $noun $food dried tofu
+=豆乾蝦脆:tāu-koaⁿ-hêⁿ-chî
+$noun $food tofu with shrimp, crispy shrimp crackers with fried tofu
+$explain
+Chinese-Peranakan dish originated from Binjai, North Sumatra, Indonesia.
+$see 豆乾
+$see 蝦脆
 =綠豆:le̍k-tāu
 $noun $food mung bean
 =豬:tu
@@ -5431,3 +5443,16 @@ $verb to mop, to wipe
 $verb to freshen up oneself, to clean up oneself
 =嚇:há
 $verb to scare, to frighten
+=照:chiò
+$verb to shine upon, to illuminate
+=兜看:tau-khòaⁿ
+$verb to keep an eye on (something), to watch over, to look after
+=鬥:tàu
+$verb (in a compound) to contend, to compete with (each other)
+=鬥擠:tàu-chi
+$verb to crowd together, to squeeze in
+=斗:táu
+$noun $time time (frequency), an instance or occurrence
+$explain
+第一斗 first time
+兩斗 2 times/2 instances

@@ -350,7 +350,7 @@ $verb to snap
 $verb to break with a quick force
 =做燒:chò-sio
 $verb to warm (something) up, to make (something) hotter, (of food) to warm up
-=做生意:chò-seng-lí
+=做生理:chò-seng-lí
 $verb to do business, to run the business
 =做生日:chò-seⁿ-ji̍t
 $verb to throw a birthday party
@@ -583,6 +583,8 @@ $noun headscarf, veil, hijab
 $verb to lack, to be deficient
 $verb to reduce, to decrease, to become less
 $verb (arithmetic) to subtract
+=減少:kiám-chió
+$verb to reduce, to decrease, to cut, to minimize
 =十:cha̍p
 $num ten (10)
 =十一十二:cha̍p-it cha̍p-jī
@@ -680,7 +682,10 @@ $noun $derago Indians
 $etyMSA keling
 $etySAN कलिङ्ग (kaliṅga)
 $explain
-Kalinga is an ancient kingdom in India. 
+Kalinga is an ancient kingdom in India.
+=烏青:o͘-chheⁿ
+$noun $colour dark blue, blue-black
+$noun bruise, blood stasis, haematoma, thrombosis, blood clot, extravasated blood
 =烏種人:o͘-chéng-lâng
 $noun a person with dark skin, a Black person
 $explain
@@ -893,6 +898,8 @@ $noun dust (in general)
 $noun floor
 =塗跤布:thô͘-kha-pò͘
 $noun floor mat
+=塗物羔:thô͘-mōi-ko
+$noun wild grass
 =地:tē
 $noun land, field
 =地獄:tē-ga̍k
@@ -984,6 +991,8 @@ $idiom taking an action without authorization
 $idiom (of a person) grown-up but still acting immature
 =大肥:tō͘-pûi
 $adj extremely fat, obese, very overweight
+=大部分:tōa-pō͘-hūn
+$noun the majority, most, the greater part, the bulk
 =天:thiⁿ
 $noun sky
 =天低低:thiⁿ kēⁿ-kēⁿ
@@ -1006,10 +1015,12 @@ $verb to have finished, to have completed, to be done
 $advb [succeeds a verb to indicate completion]
 $explain
 做好了 finished doing something
-=好勢:hó-sè
+=好世:hó-sè
 $verb to have finished, to have completed, to be done
 $adj perfect, excellent
 $adj (of a person's life) successful
+=好勢:hó-sì
+$advb (to do something) correctly, properly, appropriately
 =好命:hó-miā
 $verb have a lucky fate, blessed with good fortune
 $verb (of life) good, great
@@ -1436,8 +1447,8 @@ $noun heartbreak
 =快:khoài
 $adj quick, fast
 =怎麼:chóa-mih/chóa-meh
-$pron what is one doing
-$pron what are you doing
+$express what are you doing?
+$pron why, what for
 =怎麼事:chóa-mih-sū/chóa-meh-sū
 $pron why (and how)
 =怕公:peⁿk-kong
@@ -1585,11 +1596,11 @@ $verb to go on a discount, to be on sale
 $verb to hold, to grasp, to take in the hand
 =扲銷:gīm-siau
 $verb to handle the sales
-=找:chhōe
+=尋:chhōe
 $verb to find, to search
-=找工:chhōe-kang
+=尋工:chhōe-kang
 $verb to find a job, to search for a job
-=找面:chhōe-bīn
+=尋面:chhōe-bīn
 $verb to brown-nose, to butter someone up, to ingratiate oneself with superiors or those with power for personal gain
 $verb like a promotion or attention
 =抱:phō
@@ -2006,7 +2017,7 @@ $noun $time next year
 =明生:bêng-seng
 $noun star (person)
 $noun celebrity
-=明白:bêng-pe̍ⁿh
+=明白:bêng-pe̍h
 $verb to understand
 =易:êng
 $adj easy, uncomplicated
@@ -2331,6 +2342,7 @@ $conj [used as comparison]
 =毛:mô͘
 $noun fur
 $noun hair
+$noun feather
 =巾:kin
 $noun a square item of cloth
 =毛巾:mô͘-kin
@@ -2380,9 +2392,8 @@ $noun river
 $noun river bank, riverside
 =江珧柱:káng-liàu-chû
 $noun $food conpoy (dried scallops)
-=沁:sī
+=豉:sī
 $adj to sting (on the wound, sensitive area, etc)
-$etyJPN character borrowed from 沁みる
 =沖:chhiâng
 $verb to splash
 =沖水:chhiâng-chúi
@@ -2698,7 +2709,7 @@ $verb to not pay attention
 $verb to be unclear, to be vague, to be confusing
 =無熟:bô-se̍k
 $verb to be raw, to be unripe
-=無生意:bô-seng-lí
+=無生理:bô-seng-lí
 $verb (of the business) to not do well
 =無用:bô-iòng
 $verb to be useless, to have no use
@@ -2805,7 +2816,7 @@ $verb to scald, to hit (something) with hot or boiling water
 $verb to explode, to blow up, to detonate
 =爛:nōa
 $adj soft, mushy
-=爬:pê
+=爬:pêⁿ
 $verb to crawl
 =怕:peⁿk
 $noun $family father
@@ -2930,9 +2941,9 @@ $verb to give birth to a child
 =生活:seⁿ-oa̍h
 $noun life
 $noun livelihood
-=生意:seng-lí
+=生理:seng-lí
 $noun business
-=生意興隆:seng-lí heng-liông
+=生理興隆:seng-lí heng-liông
 $phrase thriving and prosperous business
 =生日:seⁿ-ji̍t
 $noun birthday
@@ -3106,7 +3117,7 @@ $see 太
 $noun $body right hand
 $noun right hand side
 =正經:chéng-keng
-$advb properly, appropriately, correctly
+$advb (the time at which an action is done) properly, appropriately, correctly
 =正少:chiàⁿ-chio
 $advb rarely, seldom
 =真:chin
@@ -3219,6 +3230,12 @@ $explain
 第一 first
 第二 second
 第三 third
+=第...名:tē ... miâ
+$noun place (in ranking)
+$explain
+第一名 1st place
+第二名 2nd place
+第三名 3rd place
 =第少:tē-chio
 $advb at (the) least
 =第尾:tē-bóe
@@ -4085,6 +4102,8 @@ $express Over there!
 $verb to resume wearing red clothing after the end of a mourning period according to Chinese tradition
 =起風:khí-hong
 $verb to become windy
+=起性地:khí-sèng-tē
+$verb to lose one's temper, to throw a tantrum, to get into a huff
 =趣味:chhù-bī
 $adj cute, adorable
 =跋:poa̍h
@@ -4154,8 +4173,6 @@ $advb more
 $advb even more
 =較去:khah-khì
 $adj further out
-=較拙:khah-choah
-$adj better than nothing, acceptable despite being poor, passable
 =較加:khah-keⁿ
 $advb (after a number) greater than, exceeding, in addition to a stated amount
 $explain
@@ -4167,6 +4184,8 @@ $advb (after a number) less than, below, not reaching a stated amount or limit
 $explain
 兩羅較小 less than 2kg
 $opp 較加
+=較絶:khah-choa̍h
+$advb fortunately, with relief that a worse outcome was avoided, it could have been worse
 =載:chài
 $verb to transport someone (by vehicle)
 =輕:khin
@@ -4285,7 +4304,7 @@ $verb to wake up, to get up
 =醒起來:chhéⁿ-khí-lâi
 $verb to wake up, to get up
 =醬清:chiò-chheng/choh-chheng
-$noun $food (Light) soy sauce
+$noun $food (light) soy sauce
 =重:tàng
 $adj heavy, weighty
 =金:kim
@@ -4478,6 +4497,7 @@ $noun $food wonton noodles
 $surname Lui, Lei
 =電:tiān
 $noun electricity
+$verb to electrocute, to shock (by electricity)
 =電機:tiān-ki
 $noun electric appliances
 =電火:tiān-hóe
@@ -4607,8 +4627,6 @@ $noun $body hair
 $noun hair gel
 =頭痛:thâu-thiàⁿ
 $noun $body headache
-=頭茅苟:thâu-môi-ko
-$noun wild grass
 =頭一擺:thâu chēʳ-pái
 $advb (used before a verb) for the first time
 =頷頸:ām-kún
@@ -4947,19 +4965,20 @@ $verb to not have enough time; to be too late
 =𤆤:tīm
 $verb to braise, to stew, to heat up by steeping in hot water
 =𤺪:siān
-$adj bored, finding something monotonous
+$adj borrowed
+$adj tired
 $adj becoming ill
 =𩚨:khiū
 $adj (of food) soft and pliable, chewy
 =𩚨𩚨:khiū-khiū
 $adj (of food) soft and pliable, chewy
-=𬦰:pêⁿh
+=𬦰:peⁿh
 $verb to climb
-=𬦰落:pêⁿh-lo̍h
+=𬦰落:peⁿh-lo̍h
 $verb to go down/climb down (stairs, ladders, mountains, etc)
-=𬦰起:pêⁿh-khí
+=𬦰起:peⁿh-khí
 $verb to go up/climb up (stairs, ladders, mountains, etc)
-=𬦰起𬦰落:pêⁿh-khí pêⁿh-lo̍h
+=𬦰起𬦰落:peⁿh-khí peⁿh-lo̍h
 $phrase to climb up and down (especially stairs)
 =功夫:kang-hu
 $noun $time time (to do something)
@@ -5323,7 +5342,7 @@ $noun corner, angle
 $noun claw (of animal, bird), talon, paw, nail
 =烌:hu
 $noun ash
-=抑是:á-sī
+=亞是:á-sī
 $conj or
 =娶某:chhōa-bó͘
 $verb to have a wife, to take a wife, to marry a wife
@@ -5456,3 +5475,30 @@ $noun $time time (frequency), an instance or occurrence
 $explain
 第一斗 first time
 兩斗 2 times/2 instances
+=擥爛:lám-nōa
+$adj (of a person) extremely slovenly, unkempt, or disheveled in physical appearance (ugly, hideous)
+=絶:choa̍h
+$adj superb, peerless, matchless
+=扒:pêⁿ
+$verb to scratch (one's skin)
+=形:hêng
+$noun form, shape, appearance
+=翻形:hoan-hêng
+$verb to undergo a sudden, negative transformation in status or appearance
+=性地:sèng-tē
+$noun temperament, temper, disposition
+=平常:pêng-siông
+$adj ordinary, normal, common, not rare, usual
+$explain
+平常 has a nuance of the fact that something happens often, therefore it is normal.
+$see 普通
+=平常日:pêng-siông-ji̍t
+$noun $time weekdays
+=軀:ku
+$noun body
+=須:su
+$class [classifier for sets of clothing]
+=傷:siōⁿ
+$advb too, way too, excessively
+=硤:kiap
+$noun metallic, chelated taste

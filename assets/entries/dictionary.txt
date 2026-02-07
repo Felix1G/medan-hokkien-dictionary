@@ -121,6 +121,8 @@ $noun $food pork belly
 $idiom style of an arrogant person, behave arrogantly
 =三角:saⁿ-kak
 $noun triangle
+=三牲:sam-seng
+$noun gangster
 =下:hèⁿ/heⁿk
 $verb to put down (something)
 =下:ē
@@ -2246,6 +2248,8 @@ $noun downstairs
 $noun upstairs
 $noun above, on top, at a higher position
 $see 樓頂
+=頭垂:thâu-sûi
+$noun ponytail
 =樹叢:chhiū-châng
 $noun tree
 =樹叢皮:chhiū-châng-phôe
@@ -2517,7 +2521,7 @@ $explain
 $adj (of liquid) clear, unmixed
 =清楚:chheng-chhó
 $adj clear, distinct, understandable
-=清草:chin-cháu
+=清草:chin-cháu/chhin-chháu
 $noun $food grass jelly
 =游水:hiû-chúi
 $verb to swim
@@ -5085,6 +5089,8 @@ $noun $time weekend
 $noun $event Chinese New Year
 =半暝:pòaⁿ-mêⁿ
 $noun $time midnight
+=半疔:pòaⁿ-teng
+$adj half-crazy, half-insane
 =今暝:kin-mêⁿ
 $noun $time tonight, this evening
 =最近:chòe-kìn/chùi-kìn
@@ -5502,3 +5508,12 @@ $class [classifier for sets of clothing]
 $advb too, way too, excessively
 =硤:kiap
 $noun metallic, chelated taste
+=疒:chhông
+$verb to be ill
+$explain
+Obsolete on its own.
+$see 疒著
+=疒著:chhông-tio̍h
+$verb to contract (a disease or illness)
+=呸:phúi
+$verb to spit

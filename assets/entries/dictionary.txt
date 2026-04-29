@@ -406,7 +406,7 @@ $noun $animal rabbit, hare, bunny
 $verb to enter, to get in
 =內:lāi
 $adj inside, interior, internal, inner 
-=內衣:néh-i
+=內衣:neh-i
 $noun bra
 =內面:lāi-bīn
 $noun inside, interior
@@ -606,6 +606,8 @@ $etyIDN miliar
 $num thousand
 $explain
 三千 saⁿ chheng 3000
+=千地尺:chheng tē-chhioh
+$noun kilometre
 =半:pòaⁿ
 $num half
 =半死:pòaⁿ-sí
@@ -703,6 +705,8 @@ $adj (of products) having a good brand name
 $etyYUE ming4 paai4
 =名聲:miâ-siaⁿ
 $noun fame, reputation, name
+=名字:mîa-jī
+$noun name
 =向:hiáng
 $verb to face, to look (in a direction), to turn towards
 =吞:thun
@@ -778,7 +782,7 @@ $see 共...講
 $noun $family elder brother
 =哪裡:tá-lo̍͘h
 $pron where
-=唐儂:tê-nâng
+=唐儂:tê-nâng/têng-nâng/têng-lâng
 $noun a person from Chinese origin or ethnicity
 =唐儂人:tê-nâng-lâng
 $noun a person from Chinese origin or ethnicity
@@ -900,7 +904,7 @@ $noun dust (in general)
 $noun floor
 =塗跤布:thô͘-kha-pò͘
 $noun floor mat
-=塗物羔:thô͘-mōi-ko
+=塗糜羔:thô͘-mōi-ko
 $noun wild grass
 =地:tē
 $noun land, field
@@ -910,6 +914,8 @@ $noun hell, underworld, inferno
 $noun address (such as a home or business), location
 =地球:tē-kiû
 $noun Earth
+=地尺:tē-chhioh
+$noun metre
 =買地:bé-tē
 $verb to buy land (as property)
 =坐:chē
@@ -1675,6 +1681,7 @@ $explain
 =拜年:pài-nî
 $verb to exchange (Chinese) New Year's greetings
 $verb to pay someone a visit on Chinese New Year's Day
+$see 拜正
 =拜拜:pài-pài
 $verb to pray
 =拜神:pài-sîn
@@ -2619,11 +2626,11 @@ $noun fireworks
 $verb to fry, to stir-fry
 =燒:sio
 $adj hot (of an object)
-=炒燒:chhá-sio
+=叉燒:chhá-sio
 $verb to roast
 =燒肉:sio-bah
 $noun $food roasted pork
-=炒燒肉:chhá-sio-bah
+=叉燒肉:chhá-sio-bah
 $noun $food roasted pork
 =炒菜:chhá-chhài
 $noun $food cook a meal
@@ -2992,9 +2999,9 @@ $noun $lang Malay
 $noun map
 $noun chart, diagram
 $noun illustration
-=畫:oāh
+=畫:oah
 $verb to draw, to paint
-=畫圖:oāh-tô͘
+=畫圖:oah-tô͘
 $verb (literally) to draw a map or diagram
 $noun architect
 =當今:tong-kim
@@ -3110,6 +3117,9 @@ $verb to underestimate (someone), to belittle, to disparage
 =看行前:khòa hâng-chêng
 $verb to predict the future, to look ahead
 $verb to consider the future (e.g. while planning for something)
+$noun $time ago, time before
+$explain
+兩年前 2 years ago
 =正:chiàⁿ
 $adj true, real
 $advb (of an adjective) really, truly, overly, excessively, far too
@@ -3573,8 +3583,10 @@ $adj smelly
 $verb to smell like urine, to have a urinous odour
 =臭汗酸:chhàu-kōaⁿ-sui/chhàu-kōaⁿ-sng
 $verb to stink from sweat
-=臭酸:chhàu-sui
+=臭酸:chhàu-sui/chhàu-sng
 $verb (of food) to spoil, to go bad
+=臭耳人:chháu-hīⁿ-lâng
+$noun deaf person
 =臺:tâi
 $noun stage, platform
 =臺灣:tâi-oân
@@ -4138,6 +4150,12 @@ $noun prison, jail
 $noun $body leg
 =跤甲:kha-kah
 $noun $body toenail
+=跤底:kha-té
+$noun $body toe
+=跤囝:kha-kiáⁿ
+$noun employee
+$noun worker (working under oneself)
+$noun branch of a business
 =路:lō͘
 $noun road
 =路牌:lō͘-pâi
@@ -4326,8 +4344,10 @@ $noun money paper (which is according to Chinese tradition)
 $noun gold necklace
 =筆:pit
 $noun pen, pencil, writing brush
-=筆畫:pit-oāh
+=筆畫:pit-oah
 $noun stroke (in writing a Chinese character)
+=筆擦:pit-chhat
+$noun eraser
 =鉛筆:iân-pit
 $noun pencil
 =銀行:gîn-hâng
@@ -4792,7 +4812,7 @@ $noun $body bone
 =骨頭痛:kut-thâu-thiàⁿ
 $noun $body body ache
 =排骨:pâi-kut
-$noun $food ribs, spareribs
+$noun $food ribs, spareribs, pork ribs
 =骨烌:kut-hu
 $noun ashes (human remains after cremation)
 =骯髒:lah-sam
@@ -5014,10 +5034,6 @@ $noun $food Chinese sausage, lap cheong
 $noun $lang English
 =衝:chhiong
 $verb to dash ahead, to charge, to rush
-=跤囝:kha-kiáⁿ
-$noun employee
-$noun worker (working under oneself)
-$noun branch of a business
 =遛皮:luh-phôe
 $verb (of a surface or outer layer) to detach, peel away, or be cast off
 $verb to shed skin, to peel off a layer of skin (especially in an injury)
@@ -5061,6 +5077,8 @@ $class seed, pit, kernel, core, nut, grain (e.g. durian seeds, rice grain)
 =好彩:hó-chhái
 $advb luckily, fortunately
 $express luckily, fortunately, fortuitously (avoiding a bad outcome purely by chance, despite risk or lack of control)
+=好膽:hó-táⁿ
+$adj brave, courageous
 =空:khang
 $noun hole, cavity
 =空/〇:khòng
@@ -5444,6 +5462,8 @@ $noun front, forepart
 $noun $time future, time ahead
 =主公:chú-kong
 $noun His excellency, Your excellency
+=主動:chú-tōng
+$adj initiative, proactive, self-starting
 =作媒人:choh-m̂-lâng
 $noun matchmaker, mediator
 =荔枝:lē-chi
@@ -5517,3 +5537,26 @@ $see 疒著
 $verb to contract (a disease or illness)
 =呸:phúi
 $verb to spit
+=尺:chhioh
+$noun ruler (stationery)
+=口:kháu
+$noun household
+=窩:o
+$noun nest
+$noun thing or place resembling a nest
+=掅:chhéng
+$verb to break apart
+=拜正:pài-chiaⁿ
+$verb to exchange (Chinese) New Year's greetings
+$see 拜年
+=找:chāu
+$noun change (of money)
+$verb to give change
+=找鐳:chāu-lui
+$verb to give change
+=䋎:thīⁿ
+$verb to sew, to stitch
+=䋎衫:thīⁿ-saⁿ
+$verb to tailor, to sew clothes, to mend clothes
+=芒加:nang-kā
+$noun $fruit jackfruit

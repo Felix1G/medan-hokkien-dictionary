@@ -265,7 +265,7 @@ $pron what is the problem, what's up, what is the matter
 $pron why
 =何物人:haⁿ-m-ang
 $pron who
-=併併:pêⁿ-pêⁿ
+=平平:pêⁿ-pêⁿ
 $advb together, in company
 =侄子/侄女:sun-á
 $noun $family nephew, niece
@@ -360,7 +360,7 @@ $verb to throw a birthday party
 $verb to break, to puncture, to tear
 =做啟:chò-toh
 $verb to turn on, to light, to activate
-=做骯髒:chò-lah-sam
+=做垃儳:chò-la-sâm
 $verb to dirty, to make something filthy
 =做摧:chò-chhùi
 $verb to destroy, to demolish, to tear down
@@ -1225,6 +1225,8 @@ $noun $body anus
 $noun $body tail
 $adj end, last, final
 $class [classifier for fish, snakes, shrimps, etc.]
+=尾蝶:bé-ia̍h
+$noun $animal butterfly
 =尿:jō
 $noun urine
 =尿酸:ngiau-soân
@@ -2326,11 +2328,8 @@ $verb to die
 $verb to unalive
 =死活:sí-oa̍h
 $noun life and death
-=死爸:sí-bē
-$advb $vulgar very, rather, quite
-$etyTEO si2 bê6
-$explain
-Mostly used in Singapore. This is very rarely said in Medan.
+=死板:sí-pán
+$adj (of a person) rigid, inflexible
 =毋:m̄
 $advb no
 $advb not
@@ -2762,6 +2761,8 @@ $idiom (of a person) offering a favour that annoys the one being asked for
 =無腦:bô-náu
 $adj (literally) brainless, having no brain
 $adj $figur stupid, foolish, incompetent
+=無款:bô-khoán
+$adj (of a person) plain, formless, completely lacking style.
 =煎:chian
 $verb to fry, to deep-fry
 =煎雞:chian-ke
@@ -3382,6 +3383,8 @@ $verb to marry, marriage
 =緊:ân
 $adj tight
 $advb tightly, strongly
+=緣:iân
+$noun destiny, fate
 =緣投:iân-tâu
 $adj handsome
 =緩:lēng
@@ -3562,7 +3565,7 @@ $idiom (of a person) brave
 $noun $body gall bladder
 =膽固醇:tám-ku̍t-sûn
 $noun cholesterol
-=膽固醇高:tám-ku̍t-sûn kôan
+=膽固醇懸:tám-ku̍t-sûn kôan
 $phrase high cholesterol
 =臟痛藥:chí-thiàⁿ-io̍h
 $noun $food paracetamol
@@ -3615,7 +3618,7 @@ $noun sampan (flat-bottomed Chinese wooden boat propelled by two oars)
 =船:chûn
 $noun boat
 $noun ship
-=艱苦:khàng-khó͘
+=艱苦:khan-khó͘
 $adj hard, difficult, arduous, tough
 =色:sek
 $noun colour
@@ -3835,7 +3838,7 @@ $noun $animal flower crab
 $noun candle
 =血:hoeh
 $noun $body blood
-=血高:hoeh-koân
+=血懸:hoeh-koân
 $noun $disease hypertension, high blood pressure
 $adj $figur (of a person) quick-tempered, short-tempered, irascible, easily get mad
 =行:kiâⁿ
@@ -4160,6 +4163,8 @@ $noun branch of a business
 $noun road
 =路牌:lō͘-pâi
 $noun road sign, billboard
+=路用:lō͘-iōng
+$noun usefulness, use
 =跳:thiàu
 $verb to jump, to hop
 =跳舞:thiàu-bú
@@ -4815,13 +4820,15 @@ $noun $body body ache
 $noun $food ribs, spareribs, pork ribs
 =骨烌:kut-hu
 $noun ashes (human remains after cremation)
-=骯髒:lah-sam
+=垃儳:lah-sâm
 $adj dirty, filthy
 =骹腿:kha-thûi
 $noun $body ankle
-=高:koân
+=懸:koân
 $adj high
 $adj tall
+$adj of high level
+$adj (of marks) very high
 =高麗菜:ko-lê-chhài
 $noun $food cabbage
 $explain
@@ -5222,6 +5229,10 @@ $noun laziness
 =有勢:ū-sè
 $adj $vulgar (of a person’s wrongdoing) forgiven too often or tolerated for too long; insufficiently punished, resulting in spoiled or unchecked behaviour.
 $adj $vulgar having too much leeway, being allowed to get away with too many things
+=有緣:ū-iân
+$adj handsome
+=有款:ū-khoán
+$adj (of a person) stylish
 =閒:êng
 $noun leisure, free time, spare time
 =稅:sòe
@@ -5560,3 +5571,16 @@ $verb to sew, to stitch
 $verb to tailor, to sew clothes, to mend clothes
 =芒加:nang-kā
 $noun $fruit jackfruit
+=互:hō͘
+$auxi [passive marker]
+$explain
+Example sentence: 我互伊罵
+=札:chat
+$verb to chope (a seat)
+=囉嗦:lo-so
+$adj sloppy, unkempt, disheveled
+=儳飽:sâm-pá
+$noun rubbish, trash
+$etyIDN sampah
+=板:pán
+$noun plank, board

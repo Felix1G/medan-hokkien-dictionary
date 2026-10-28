@@ -580,441 +580,114 @@
             <td><img src="poj/tone8.png" alt="Tone Chart" width="100" height="100"></td>
             <td>Higher mid flat tone, short vowel</td>
         </tr>
-        <tr>
-            <td>mid</td>
-            <td>(no marking)</td>
-            <td><img src="poj/mid.png" alt="Tone Chart" width="100" height="100"></td>
-            <td>Exclusively for tone sandhi.</td>
-        </tr>
         </table>
         Tone 6 used to exist historically but has long since merged with either tone 7 or tone 2.
 
         <p>
             It is important to note that Hokkien has extensive tone sandhi
-            (tone changes depending on what tone is before or after the word).
-            Therefore, tones should not be pronounced exactly in words or sentences.
-            <br/><br/>
-            For example: 'chheⁿh4-pau1' (schoolbag)
+            (tone changes depending on what tone is before the word). Only a character at the end
+            of a phrase or expression retains its dictionary (original) tone.
+            The tone sandhi can be mapped as a cycle as shown below:
             <br/>
-            Since the 1st tone is AFTER the 4th tone, look at the list. (highlighted with '*')
+            <div style="font-family: system-ui, -apple-system, sans-serif; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px; max-width: 460px; margin: auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);">
+                <div style="text-align: center; margin-bottom: 20px;">
+                    <h3 style="margin: 0 0 4px 0; color: #0f172a; font-size: 1.15rem; font-weight: 600;">Hokkien Tone Sandhi Cycle</h3>
+                </div>
+
+                <svg viewBox="0 0 400 280" style="width: 100%; height: auto; overflow: visible;">
+                    <defs>
+                    <marker id="arrow" viewBox="0 0 10 10" refX="20" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                        <path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+                    </marker>
+                    <marker id="arrow-primary" viewBox="0 0 10 10" refX="20" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                        <path d="M 0 1 L 10 5 L 0 9 z" fill="#3b82f6" />
+                    </marker>
+                    </defs>
+
+                    <style>
+                    .node-circle { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 2px; transition: all 0.2s; }
+                    .node-group:hover .node-circle { fill: #eff6ff; stroke: #3b82f6; }
+                    .node-text { font-weight: 700; font-size: 16px; fill: #1e293b; text-anchor: middle; dominant-baseline: central; }
+                    .edge { stroke: #cbd5e1; stroke-width: 2; fill: none; }
+                    .edge-main { stroke: #3b82f6; stroke-width: 2.5; fill: none; }
+                    </style>
+
+                    <!-- Cycle Connections -->
+                    <!-- 5 -> 7 -->
+                    <path d="M 298 73 Q 275 140 216 182" class="edge-main" marker-end="url(#arrow-primary)" />
+
+                    <!-- 7 -> 3 -->
+                    <path d="M 200 175 L 200 150" class="edge-main" marker-end="url(#arrow-primary)" />
+
+                    <!-- 3 -> 1 -->
+                    <path d="M 200 110 L 200 85" class="edge-main" marker-end="url(#arrow-primary)" />
+
+                    <!-- 1 -> 7 (Main Outer Loop) -->
+                    <path d="M 218 57 Q 275 60 275 130 Q 275 195 220 195" class="edge-main" marker-end="url(#arrow-primary)" />
+
+                    <!-- 2 -> 1 -->
+                    <path d="M 108 60 L 180 64" class="edge" marker-end="url(#arrow)" />
+
+                    <!-- Entering Tones (4 <-> 8) -->
+                    <path d="M 158 242 L 242 242" class="edge" marker-end="url(#arrow)" />
+                    <path d="M 242 254 L 158 254" class="edge" marker-end="url(#arrow)" />
+
+                    <!-- Nodes -->
+                    <!-- Tone 1 -->
+                    <g class="node-group" transform="translate(200, 65)">
+                    <circle r="20" class="node-circle" />
+                    <text class="node-text">1</text>
+                    </g>
+
+                    <!-- Tone 3 -->
+                    <g class="node-group" transform="translate(200, 130)">
+                    <circle r="20" class="node-circle" />
+                    <text class="node-text">3</text>
+                    </g>
+
+                    <!-- Tone 7 -->
+                    <g class="node-group" transform="translate(200, 195)">
+                    <circle r="20" class="node-circle" />
+                    <text class="node-text">7</text>
+                    </g>
+
+                    <!-- Tone 2 -->
+                    <g class="node-group" transform="translate(90, 60)">
+                    <circle r="18" class="node-circle" />
+                    <text class="node-text" style="font-size: 14px;">2</text>
+                    </g>
+
+                    <!-- Tone 5 -->
+                    <g class="node-group" transform="translate(310, 60)">
+                    <circle r="18" class="node-circle" />
+                    <text class="node-text" style="font-size: 14px;">5</text>
+                    </g>
+
+                    <!-- Tone 4 -->
+                    <g class="node-group" transform="translate(140, 248)">
+                    <circle r="18" class="node-circle" style="stroke: #f59e0b; fill: #fffbeb;" />
+                    <text class="node-text" style="font-size: 14px; fill: #b45309;">4</text>
+                    </g>
+
+                    <!-- Tone 8 -->
+                    <g class="node-group" transform="translate(260, 248)">
+                    <circle r="18" class="node-circle" style="stroke: #f59e0b; fill: #fffbeb;" />
+                    <text class="node-text" style="font-size: 14px; fill: #b45309;">8</text>
+                    </g>
+                </svg>
+            </div>
+
             <br/>
-            Change the 4th tone to the 1st tone. (high tone)
-            <br/><br/>
-            Since the 4th tone is BEFORE the 1st tone, look at the list. (highlighted with '**')
+            For example: 介紹 'kài-siāu' (to recommend)
             <br/>
-            Change the 1st tone to the mid tone.
-            <br/><br/>
-            Therefore 'chheⁿh' has a high tone and 'pau' has a mid tone <b>when pronounced</b>.
-            <br/><br/>
-            Below are the lists of the sophisticated Medan Hokkien tone sandhi:
+            The word 介 is not the last word and has the 3rd tone. From the map above, the 3rd tone points to the 1st tone.
             <br/>
-            (A dash '-' means no change to the tone in action.)
+            Change the 3rd tone to the 1st tone.
+            <br/>
+            Since the word 紹 is the last word, it retains its tone (7th tone).
+            <br/>
+            Therefore, the word is read like "kai siāu" ('kai' has a high-flat tone.).
         </p>
-        <table>
-            <tr>
-                <th>Changed Tone</th>
-                <th>Tone Before</th>
-                <th>Tone In Action</th>
-                <th>Tone After</th>
-                <th>Changed Tone</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>1</td>
-                <th>1</th>
-                <td>1</td>
-                <th>7</th>
-            </tr>
-            <tr>
-                <th>mid</th>
-                <td>2</td>
-                <th>1</th>
-                <td>2</td>
-                <th>7</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>3</td>
-                <th>1</th>
-                <td>3</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>mid **</th>
-                <td>4</td>
-                <th>1</th>
-                <td>4</td>
-                <th>mid</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>5</td>
-                <th>1</th>
-                <td>5</td>
-                <th>7</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>7</td>
-                <th>1</th>
-                <td>7</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>8</td>
-                <th>1</th>
-                <td>8</td>
-                <th>7</th>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Changed Tone</th>
-                <th>Tone Before</th>
-                <th>Tone In Action</th>
-                <th>Tone After</th>
-                <th>Changed Tone</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>1</td>
-                <th>2</th>
-                <td>1</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>2</td>
-                <th>2</th>
-                <td>2</td>
-                <th>mid</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>3</td>
-                <th>2</th>
-                <td>3</td>
-                <th>1</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>4</td>
-                <th>2</th>
-                <td>4</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>5</td>
-                <th>2</th>
-                <td>5</td>
-                <th>mid</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>7</td>
-                <th>2</th>
-                <td>7</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>8</td>
-                <th>2</th>
-                <td>8</td>
-                <th>1</th>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Changed Tone</th>
-                <th>Tone Before</th>
-                <th>Tone In Action</th>
-                <th>Tone After</th>
-                <th>Changed Tone</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>1</td>
-                <th>3</th>
-                <td>1</td>
-                <th>2</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>2</td>
-                <th>3</th>
-                <td>2</td>
-                <th>1</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>3</td>
-                <th>3</th>
-                <td>3</td>
-                <th>mid</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>4</td>
-                <th>3</th>
-                <td>4</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>5</td>
-                <th>3</th>
-                <td>5</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>7</td>
-                <th>3</th>
-                <td>7</td>
-                <th>1</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>8</td>
-                <th>3</th>
-                <td>8</td>
-                <th>-</th>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Changed Tone</th>
-                <th>Tone Before</th>
-                <th>Tone In Action</th>
-                <th>Tone After</th>
-                <th>Changed Tone</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>1</td>
-                <th>4</th>
-                <td>1</td>
-                <th>1 *</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>2</td>
-                <th>4</th>
-                <td>2</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>3</td>
-                <th>4</th>
-                <td>3</td>
-                <th>mid</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>4</td>
-                <th>4</th>
-                <td>4</td>
-                <th>8</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>5</td>
-                <th>4</th>
-                <td>5</td>
-                <th>1</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>7</td>
-                <th>4</th>
-                <td>7</td>
-                <th>1</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>8</td>
-                <th>4</th>
-                <td>8</td>
-                <th>1</th>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Changed Tone</th>
-                <th>Tone Before</th>
-                <th>Tone In Action</th>
-                <th>Tone After</th>
-                <th>Changed Tone</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>1</td>
-                <th>5</th>
-                <td>1</td>
-                <th>7</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>2</td>
-                <th>5</th>
-                <td>2</td>
-                <th>7</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>3</td>
-                <th>5</th>
-                <td>3</td>
-                <th>7</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>4</td>
-                <th>5</th>
-                <td>4</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>5</td>
-                <th>5</th>
-                <td>5</td>
-                <th>7</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>7</td>
-                <th>5</th>
-                <td>7</td>
-                <th>7</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>8</td>
-                <th>5</th>
-                <td>8</td>
-                <th>-</th>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Changed Tone</th>
-                <th>Tone Before</th>
-                <th>Tone In Action</th>
-                <th>Tone After</th>
-                <th>Changed Tone</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>1</td>
-                <th>7</th>
-                <td>1</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>2</td>
-                <th>7</th>
-                <td>2</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>3</td>
-                <th>7</th>
-                <td>3</td>
-                <th>mid</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>4</td>
-                <th>7</th>
-                <td>4</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>5</td>
-                <th>7</th>
-                <td>5</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>7</td>
-                <th>7</th>
-                <td>7</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>8</td>
-                <th>7</th>
-                <td>8</td>
-                <th>-</th>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Changed Tone</th>
-                <th>Tone Before</th>
-                <th>Tone In Action</th>
-                <th>Tone After</th>
-                <th>Changed Tone</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>1</td>
-                <th>8</th>
-                <td>1</td>
-                <th>4</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>2</td>
-                <th>8</th>
-                <td>2</td>
-                <th>4</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>3</td>
-                <th>8</th>
-                <td>3</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>4</td>
-                <th>8</th>
-                <td>4</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>5</td>
-                <th>8</th>
-                <td>5</td>
-                <th>4</th>
-            </tr>
-            <tr>
-                <th>-</th>
-                <td>7</td>
-                <th>8</th>
-                <td>7</td>
-                <th>-</th>
-            </tr>
-            <tr>
-                <th>mid, short</th>
-                <td>8</td>
-                <th>8</th>
-                <td>8</td>
-                <th>4</th>
-            </tr>
-        </table>
+        
     </div>
 </body>

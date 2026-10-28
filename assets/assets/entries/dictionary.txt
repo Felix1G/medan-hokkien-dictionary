@@ -4,7 +4,7 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
 
 Date: 1-23-2026
-Revision: 7
+Revision: 8
 
 Notes:
 1. Order of definitions will be the same.
@@ -212,7 +212,7 @@ $num two (2)
 $num twenty (20)
 $explain
 Only used for 21-29. Twenty (20) is still pronounced jī cha̍p.
-=五:gō
+=五:gō͘
 $num five (5)
 =交代:kau-tài/ko͘-tài
 $verb to ask (someone to do something), to order
@@ -364,6 +364,8 @@ $verb to turn on, to light, to activate
 $verb to dirty, to make something filthy
 =做摧:chò-chhùi
 $verb to destroy, to demolish, to tear down
+=做一擺:chò-chēʳ-pái
+$advb while I'm/you're at it, might as well
 =停喘:thêng-chhoán
 $verb to rest
 $verb to have a break
@@ -425,12 +427,12 @@ $verb to share with each other, to distribute widely
 $noun $family ancestors, forefathers, forebears
 =六:la̍k
 $num six (6)
-=共:kah
+=佮:kah
 $conj and
 $conj [indicate relationship]
 $conj [express comparison] as, from
 $conj [express accompaniment or association] with
-=共...講:kah-...-kóng
+=佮...講:kah-...-kóng
 $verb to tell, to inform (someone)
 $explain
 Fill the blanks (...) with a pronoun
@@ -445,6 +447,8 @@ $noun bookstore
 =冬粉:tang-hún
 $noun $food glass noodles
 $noun $food mung bean noodles
+=冬瓜:tang-koa
+$noun $fruit winter melon
 =冷:léng
 $adj cool, cold
 $explain
@@ -505,10 +509,12 @@ $explain
 五十九個分鐘 59 minutes
 =切:chhiat
 $verb to slice, to cut into slices
-=则:tòe
+=綴:tòe
 $verb to follow
 $verb to imitate
 $verb to join, to attend
+=綴牢:tòe-tiâu
+$verb to follow closely
 =初:chhe
 $noun $time day, date (in the lunar calendar)
 $explain
@@ -772,12 +778,12 @@ $advb [used before the verb for emphasis] exactly, precisely, just
 $conj then
 $explain
 The use of then in an 'if' statement (or more specifically after a suppositional clause):
-我做好就會共汝講 I'll tell you when I'm finished
+我做好就會佮汝講 I'll tell you when I'm finished
 $see 我
 $see 做好
 $see 會
 $see 汝
-$see 共...講
+$see 佮...講
 =哥哥:ko-ko
 $noun $family elder brother
 =哪裡:tá-lo̍͘h
@@ -916,6 +922,8 @@ $noun address (such as a home or business), location
 $noun Earth
 =地尺:tē-chhioh
 $noun metre
+=地動:tē-tāng
+$noun earthquake
 =買地:bé-tē
 $verb to buy land (as property)
 =坐:chē
@@ -995,7 +1003,7 @@ $verb (of a child or teenager) to grow up, to mature
 $adj (of a child or teenager) grown-up, mature
 =大主大意:tōa-chú tōa-ì
 $idiom taking an action without authorization
-=大老牛:tōa-làu-gû
+=大老牛:tōa-lāu-gû
 $idiom (of a person) grown-up but still acting immature
 =大肥:tō͘-pûi
 $adj extremely fat, obese, very overweight
@@ -1040,7 +1048,7 @@ $adj good value for money, good quality or product relative to the high price
 $idiom being kind but unappreciated, kindness unrewarded
 =好料:hó-liāu
 $adj (of food) delicious, yummy
-=好朋:hó-pêng
+=好朋:hó-peng
 $noun good friend
 $noun best friend
 =好看:hó-khòaⁿ
@@ -1123,6 +1131,8 @@ $noun Hakka language
 =客人:kheh-lâng
 $noun guests, visitors
 $noun Hakkanese (a person of Hakka descent)
+=客廳:kheh-thiaⁿ
+$noun living room, sitting room
 =害死:hài-sí
 $verb to harm
 $verb to threaten
@@ -1178,37 +1188,37 @@ As an adverb, it is used in the beginning of a sentence before a verb to ask for
 $see 攑
 $see 桌布
 $etyIMA tolong
-=小:sè
+=細:sè
 $adj small, tiny
-=小件:sè-ki
+=細件:sè-ki
 $adj (of certain countable objects) small, tiny
-=小個:sè-kâi
+=細個:sè-kâi
 $adj small, tiny
-=小只:sè-chiah
+=細只:sè-chiah
 $adj (of animals) small, tiny
-=小坨:sè-tè
+=細坨:sè-tè
 $adj (of meat) small portion, tiny portion
+=細尾:sè-bóe
+$adj (of fish) small, tiny
+$verb to be careful
+=細班:sè-pan
+$adj (of a class in education) small, little students
+=細盤:sè-pôaⁿ
+$adj (of a dish) small, little, few
+=細粒:sè-lia̍p
+$adj (of grains, granules, pellets) small
+=細聲:sè-siaⁿ
+$adj in a low voice, quietly
+$adj (to speak) in whispers
+=細間:sè-keng
+$adj (of a building) small, tiny
 =小妹:sió-mōe
 $noun $family little sister
-=小尾:sè-bóe
-$adj (of fish) small, tiny
 =小弟:sió-tī
 $noun $family little brother
 =小影:siáu-éng/sió͘-éng
 $noun photo, photograph
 =小心:sio-sim
-$verb to be careful
-=小班:sè-pan
-$adj (of a class in education) small, little students
-=小盤:sè-pôaⁿ
-$adj (of a dish) small, little, few
-=小粒:sè-lia̍p
-$adj (of grains, granules, pellets) small
-=小聲:sè-siaⁿ
-$adj in a low voice, quietly
-$adj (to speak) in whispers
-=小間:sè-keng
-$adj (of a building) small, tiny
 =少:chio
 $adj few, little
 =尖:chiam
@@ -1257,7 +1267,7 @@ $noun mouse zodiac
 $noun mouse zodiac
 =相牛:sioⁿ-gû
 $noun ox zodiac
-=相老虎:sioⁿ-làu-hó͘
+=相老虎:sioⁿ-lāu-hó͘
 $noun tiger zodiac
 =相兔:sioⁿ-thò͘
 $noun rabbit zodiac
@@ -1273,7 +1283,7 @@ $noun horse zodiac
 $noun goat zodiac
 =相猴:sioⁿ-kâu
 $noun monkey zodiac
-=相老猴:sioⁿ-làu-kâu
+=相老猴:sioⁿ-lāu-kâu
 $noun monkey zodiac
 =相雞:sioⁿ-ke
 $noun rooster zodiac
@@ -1481,16 +1491,19 @@ $verb to care tenderly (for a child)
 $explain
 This often extends to spoiling the child, especially with 太惜.
 $see 太
-=想:siò͘
+=想:siōⁿ
 $verb to think, to ponder
-=想法:siò͘-hoat
+=想法:siōⁿ-hoat
 $noun way of thinking
 $noun thinking process
 $noun mindset
-=想長長:siò͘-tn̂g-tn̂g
+=想長長:siōⁿ-tn̂g-tn̂g
 $verb to think far into the future, to plan long-term
-=想必:sio-pi
+=想必:siōⁿ-pi
 $verb to presume, to assume, to think
+=想講:siōⁿ-kóng
+$verb to mistakenly believe; to be under the impression; to have thought that; to assume
+$verb to think (that); to believe (that); to be of the opinion (that); to hold the view (that)
 =愈:jú
 $advb more and more, increasingly
 $explain
@@ -1536,6 +1549,8 @@ $verb to be accustomed to, to be in the habit of
 $verb to reply, to respond, to answer
 =應話:ìn-ōa
 $verb to refute, to talk back (to someone who is angry at one)
+=應酬:èng-siû
+$verb to support, to root for, to back
 =戇:gōng
 $adj stupid, foolish, unintelligent
 =戇呆:gōng-tai
@@ -1545,7 +1560,7 @@ $pron i, me
 =我人:óa-lâng
 $pron we
 $pron us
-=我老唉:óa-lâu-e
+=我老唉:óa-lāu-e
 $phrase exclamation of shock, walao
 =戲:hì
 $noun movie, film
@@ -1774,6 +1789,9 @@ $verb to clean with a broom, to sweep clean
 $verb to sweep the floor
 =掠:lia̍h
 $verb to catch, to capture, to arrest
+=掠工:lia̍h-kang
+$noun hassle, slog, drag
+$adj much of a hassle, laborious, strenuous, arduous
 =接:chiap
 $verb to fetch
 =揉:jô
@@ -2066,6 +2084,8 @@ $see 暗暝
 $noun $time nighttime
 =曬:phi
 $verb to dry in the sun
+=曬衫:phi-saⁿ
+$verb to hang-dry clothes
 =曾:chan
 $surname Zeng, Chan
 =曾:pat
@@ -2155,7 +2175,9 @@ $verb to have free time
 $verb to be lucky, to have good fortune
 =有膽:ū-táⁿ
 $adj brave, courageous, having the guts
-=朋友:pêng-iú
+=朋:peng
+$noun friend
+=朋友:peng-iú
 $noun friend
 =木瓜:bo̍k-koa
 $noun $fruit papaya
@@ -2173,6 +2195,8 @@ As in a national product, national anthem, etc.
 =本地人:pún-tē-lâng
 $noun locals
 $noun local ethnic
+=本事:pún-sū
+$noun skill, ability
 =条:tiâu
 $class [classifier for lothing]
 =杯:poe
@@ -2594,6 +2618,8 @@ $verb to be careful
 $adj very many, a lot of, numerous
 =真正濟:chin-chiàⁿ-chèⁿ
 $adj very many, a lot of, numerous
+=真仔:chin-ná
+$advb very, really, extremely
 =灇:châng
 $verb to shower, to bathe
 =灇水:châng-chúi
@@ -2693,7 +2719,7 @@ $verb to not be enough
 $adj not enough
 =無夠濟:bô-kàu-chè
 $adj not enough (of the amount of items)
-=無大無小:bô-tōa bô-sè
+=無大無細:bô-tōa bô-sè
 $phrase impolite, rude, disrespectful, insolent
 =無客:bô-kheh
 $verb to have no customers, (of business) to be in a bad/unfavourable situation
@@ -2899,12 +2925,14 @@ $verb (literally) to drive (fly) a plane
 $noun pilot
 =狗:káu
 $noun $animal dog
-=狗则吠:káu tòe pūi
+=狗綴吠:káu tòe pūi
 $idiom to follow someone endlessly
 =狗囝:káu-kiáⁿ
 $noun $animal puppy
 =狗蟻:káu-hiā
 $noun $animal ants
+=狗精:káu-cheng
+$noun $vulgar son of a bitch
 =獅:sai
 $noun $animal lion
 =王:ông
@@ -3028,8 +3056,6 @@ $adj slim, slender
 =發:hoat
 $verb (of plants) to grow, to sprout, to germinate
 $noun wealth, prosperity
-=發:kiàⁿ
-$verb to send
 =發燒:hoat-sio
 $noun $disease fever
 =發粿:hoat-kóe
@@ -3062,7 +3088,7 @@ $explain
 一百 cēr pah
 =百千:pah-chheng
 $num hundred thousand
-=的:ê
+=的/兮:ê
 $conj [indicates possession]
 =皮:phôe
 $noun skin
@@ -3089,6 +3115,8 @@ $verb to go into war, to fight a battle
 $noun battle, war, fight
 =拍戰:phah-chiàn
 $verb to go into war, to fight a battle
+=拍衫:phah-saⁿ
+$verb to flat dry clothes
 =相戰:sio-chiàn
 $verb to go into war, to declare war
 =相拍:sio-phah
@@ -3223,6 +3251,7 @@ $verb to put on, to wear (glasses, some things that are "attached" to the body)
 $verb to wear
 =窄:eh
 $adj narrow, cramped
+$adj (of room, pants, etc.) tight
 =窗子:thang-á
 $noun window
 =站:khiā
@@ -3420,9 +3449,9 @@ $verb to take (a photo), to capture (a photo)
 $noun camera
 =翕小影:hip-siáu-éng/hip-sió͘-éng
 $verb to take a photo
-=老:làu
+=老:lāu
 $adj old
-=老人:làu-lâng
+=老人:lāu-lâng
 $noun (literally) old person
 $noun $family parents
 $etyIDN (for parents) orang tua (literally old person)
@@ -3431,17 +3460,19 @@ $noun doctor
 $etyIMA dukun
 =老君厝:ló-kun-chhù/lú-kun-chhù
 $noun hospital
-=老師:làu-seʳ
+=老師:lāu-seʳ
 $noun teacher
-=老怕:làu-peⁿk
+=老怕:lāu-peⁿk
 $noun $family father
-=老猴:làu-kâu
+=老猴:lāu-kâu
 $noun $animal monkey
-=老虎:làu-hó͘
+=老虎:lāu-hó͘
 $noun $animal tiger
-=老蛇:làu-chôa
+=老蛇:lāu-chôa
 $adj (of a person) manipulative
 $noun liar, fibber, someone who likes to lie
+=老鳥:lāu-chiáu
+$noun expert, veteran, old hand
 =考冊:khóⁿ-chheⁿh
 $verb to sit an examination, to take test, to have an exam
 =耳仔:hīⁿ-iá
@@ -3927,6 +3958,8 @@ $verb to kiss
 $adj close, intimate, dear
 =親情:chhin-chiâⁿ
 $noun $family relative, family member
+=親情五十:chhin-chiâⁿ-gō͘-cha̍p
+$noun family member
 =觀音:koan-im
 $noun (Buddhism) Guanyin
 =觀音竹:koan-im-tek
@@ -3978,7 +4011,7 @@ $verb to be clumsy, to be careless
 $etyYUE leon6 zeon6
 =講:kóng
 $verb to say, to speak, to talk
-=公共儞講:kóng-kā-lí-kóng
+=公佮儞講:kóng-kā-lí-kóng
 $phrase to talk to you about (something)
 $express anyway, wait a minute
 =講故:kóng-kò͘
@@ -4205,14 +4238,16 @@ $advb (after a number) greater than, exceeding, in addition to a stated amount
 $explain
 兩羅較加 more than 2kg
 二點較加 after 2 o'clock
-$opp 較小
-=較小:khah-sè
+$opp 較細
+=較細:khah-sè
 $advb (after a number) less than, below, not reaching a stated amount or limit
 $explain
-兩羅較小 less than 2kg
+兩羅較細 less than 2kg
 $opp 較加
 =較絶:khah-choa̍h
 $advb fortunately, with relief that a worse outcome was avoided, it could have been worse
+=較猛:khām-mée
+$advb quickly, without delay
 =載:chài
 $verb to transport someone (by vehicle)
 =輕:khin
@@ -4273,6 +4308,7 @@ $verb (of a business) to earn profits, to make money
 $verb to exercise (sports)
 =過:kòe
 $advb [indicates an action has been done]
+$advb [at the end of a sentence to indicate repeating action or doing something over again]
 $verb to pass
 $verb to pass (an examination)
 $verb to cross (roads, rivers, etc.)
@@ -4495,7 +4531,7 @@ $noun $animal chick
 $noun $food chicken rice
 =雞飯:ke-pūiⁿ/ke-pn̄g
 $noun $food chicken rice
-=雞共鴨:ke kah ah
+=雞佮鴨:ke kah ah
 $idiom to have a language barrier, unable to understand each other due to language differences
 =雞毛筅:ke-mô͘-chhéng
 $noun feather duster
@@ -4658,6 +4694,8 @@ $noun hair gel
 $noun $body headache
 =頭一擺:thâu chēʳ-pái
 $advb (used before a verb) for the first time
+=頭殻:thâu-khak
+$noun $body head
 =頷頸:ām-kún
 $noun $body neck
 =願:giàn
@@ -4671,7 +4709,7 @@ $verb to care for, to take care, to look after, to protect
 $verb to man a shop/store, to be present in a shop/store
 =顧食:kō͘-chia̍h
 $verb to eat healthily, to choose food carefully
-=顧老人:kō͘-làu-lâng
+=顧老人:kō͘-lāu-lâng
 $verb to care for the elderly
 $noun caregiver (for the elderly)
 =顧囡仔:kō͘-gín-á
@@ -4822,6 +4860,8 @@ $noun $food ribs, spareribs, pork ribs
 $noun ashes (human remains after cremation)
 =垃儳:lah-sâm
 $adj dirty, filthy
+=垃圾:lah-sap
+$adj dirty, unhygienic
 =骹腿:kha-thûi
 $noun $body ankle
 =懸:koân
@@ -4884,6 +4924,8 @@ $noun $food pickled mustard greens (A type of salted vegetables)
 $noun a type of kue talam from Pontianak, a city in Borneo/Kalimantan island with a major Chinese population.
 $explain
 Kue talam is an Indonesian kue or traditional steamed snack made of a rice flour, coconut milk and other ingredients in a mold pan called talam which means "tray" in Indonesian.
+=鹹魚:kiâm-hû
+$noun $food salted fish
 =鹽:iâm
 $noun $food table salt
 =鹽水:iâm-chúi
@@ -5262,6 +5304,7 @@ $noun taxi
 $etyIDN taksi
 =姦:kàn
 $verb $vulgar to fuck
+$verb to scold
 =臭膣屄:chhàu chi-bai
 $adj $vulgar smelly vagina
 =拼:piàⁿ
@@ -5584,3 +5627,27 @@ $noun rubbish, trash
 $etyIDN sampah
 =板:pán
 $noun plank, board
+=寄:kiàⁿ
+$verb to send (stuff, messages, etc.)
+=箍:khoo
+$noun $class [Classifier for money e.g. dollar, buck, peso, ringgit, yen]
+$see 盾
+=盾:tún
+$noun $class [Classifier for rupiah and dong]
+$see 箍
+=宿舍:sok-sià
+$noun dormitory
+=僑生:kiâu-seng
+$noun overseas-born Chinese
+=惡:o͘k/o͘h
+$adj ferocious, cruel, hostile, fierce, over-strict
+$adj evil, wicked, foul
+=情理:chêng-lí
+$noun reason, sense
+$adj make sense, reasonable
+=漩:soān
+$verb to piss, to pee (as in directing the stream)
+=漩尿:soān-jō
+$verb to piss, to pee (as in directing the stream)
+=蕹菜:èng-chhài
+$noun $food water spinach
